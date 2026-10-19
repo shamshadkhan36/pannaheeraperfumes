@@ -12,12 +12,21 @@ define('ADMIN_USER_FILE', __DIR__ . '/../data/admin_user.json');
 define('UPLOAD_DIR', __DIR__ . '/../assets/images/uploads/');
 define('PRODUCTS_JS_FILE', __DIR__ . '/../assets/js/products-data.js');
 
+function getActiveDataFilePath() {
+    $tmpFile = sys_get_temp_dir() . '/panna_site_data.json';
+    if (file_exists($tmpFile)) {
+        return $tmpFile;
+    }
+    return DATA_FILE;
+}
+
 /**
  * Load all site data (Banner, Categories, Products, Settings)
  */
 function loadSiteData() {
-    if (file_exists(DATA_FILE)) {
-        $content = file_get_contents(DATA_FILE);
+    $targetFile = getActiveDataFilePath();
+    if (file_exists($targetFile)) {
+        $content = file_get_contents($targetFile);
         $data = json_decode($content, true);
         if (is_array($data) && isset($data['products']) && isset($data['categories'])) {
             return $data;
@@ -34,18 +43,28 @@ function loadSiteData() {
  * Save site data & automatically sync products-data.js
  */
 function saveSiteData($data) {
-    if (!is_dir(dirname(DATA_FILE))) {
-        mkdir(dirname(DATA_FILE), 0777, true);
+    $json = json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
+    
+    // Attempt writing to standard project file first
+    $written = false;
+    if (is_writable(dirname(DATA_FILE)) || is_writable(DATA_FILE)) {
+        if (!is_dir(dirname(DATA_FILE))) {
+            @mkdir(dirname(DATA_FILE), 0777, true);
+        }
+        $written = @file_put_contents(DATA_FILE, $json) !== false;
     }
     
-    $json = json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
-    file_put_contents(DATA_FILE, $json);
+    // If running in a read-only serverless environment (e.g. Vercel), save to temp
+    if (!$written) {
+        $tmpFile = sys_get_temp_dir() . '/panna_site_data.json';
+        @file_put_contents($tmpFile, $json);
+    }
 
-    // Sync client-side JavaScript products file
-    if (isset($data['products'])) {
+    // Sync client-side JavaScript products file if writable
+    if (isset($data['products']) && (is_writable(dirname(PRODUCTS_JS_FILE)) || is_writable(PRODUCTS_JS_FILE))) {
         $jsContent = "/**\n * Panna Heera Perfumery - Auto-Generated Product Catalog\n */\nconst PRODUCTS_DATA = " . 
             json_encode(array_values($data['products']), JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) . ";\n";
-        file_put_contents(PRODUCTS_JS_FILE, $jsContent);
+        @file_put_contents(PRODUCTS_JS_FILE, $jsContent);
     }
 
     return true;
@@ -86,7 +105,11 @@ function handleImageUpload($fileInputName) {
  */
 function startAdminSession() {
     if (session_status() === PHP_SESSION_NONE) {
-        session_start();
+        $savePath = session_save_path();
+        if (empty($savePath) || !is_writable($savePath)) {
+            @session_save_path(sys_get_temp_dir());
+        }
+        @session_start();
     }
 }
 
@@ -104,15 +127,19 @@ function requireAdminAuth() {
 }
 
 function getAdminUser() {
-    if (!file_exists(ADMIN_USER_FILE)) {
-        $defaultAdmin = [
-            'username' => 'admin',
-            'password' => password_hash('admin123', PASSWORD_DEFAULT)
-        ];
-        file_put_contents(ADMIN_USER_FILE, json_encode($defaultAdmin, JSON_PRETTY_PRINT));
-        return $defaultAdmin;
+    $tmpAdmin = sys_get_temp_dir() . '/panna_admin_user.json';
+    if (file_exists($tmpAdmin)) {
+        $user = json_decode(file_get_contents($tmpAdmin), true);
+        if (is_array($user)) return $user;
     }
-    return json_decode(file_get_contents(ADMIN_USER_FILE), true);
+    if (file_exists(ADMIN_USER_FILE)) {
+        $user = json_decode(file_get_contents(ADMIN_USER_FILE), true);
+        if (is_array($user)) return $user;
+    }
+    return [
+        'username' => 'admin',
+        'password' => password_hash('admin123', PASSWORD_DEFAULT)
+    ];
 }
 
 function loginAdmin($username, $password) {
