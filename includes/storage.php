@@ -3,14 +3,19 @@
  * Panna Heera Perfumery - Data Storage & Admin Engine
  */
 
+if (defined('STORAGE_LOADED')) {
+    return;
+}
+define('STORAGE_LOADED', true);
+
 if (!defined('APP_INIT')) {
     define('APP_INIT', true);
 }
 
-define('DATA_FILE', __DIR__ . '/../data/site_data.json');
-define('ADMIN_USER_FILE', __DIR__ . '/../data/admin_user.json');
-define('UPLOAD_DIR', __DIR__ . '/../assets/images/uploads/');
-define('PRODUCTS_JS_FILE', __DIR__ . '/../assets/js/products-data.js');
+if (!defined('DATA_FILE')) define('DATA_FILE', __DIR__ . '/../data/site_data.json');
+if (!defined('ADMIN_USER_FILE')) define('ADMIN_USER_FILE', __DIR__ . '/../data/admin_user.json');
+if (!defined('UPLOAD_DIR')) define('UPLOAD_DIR', __DIR__ . '/../assets/images/uploads/');
+if (!defined('PRODUCTS_JS_FILE')) define('PRODUCTS_JS_FILE', __DIR__ . '/../assets/js/products-data.js');
 
 function getActiveDataFilePath() {
     $tmpFile = sys_get_temp_dir() . '/panna_site_data.json';

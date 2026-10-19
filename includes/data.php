@@ -18,25 +18,29 @@ $banner = $siteData['banner'] ?? [];
 /**
  * Find product by ID
  */
-function getProductById($id) {
-    global $products;
-    foreach ($products as $product) {
-        if ($product['id'] === $id) {
-            return $product;
+if (!function_exists('getProductById')) {
+    function getProductById($id) {
+        global $products;
+        foreach ($products as $product) {
+            if ($product['id'] === $id) {
+                return $product;
+            }
         }
+        return null;
     }
-    return null;
 }
 
 /**
  * Filter products by category
  */
-function getProductsByCategory($categoryId) {
-    global $products;
-    if (empty($categoryId) || $categoryId === 'all') {
-        return $products;
+if (!function_exists('getProductsByCategory')) {
+    function getProductsByCategory($categoryId) {
+        global $products;
+        if (empty($categoryId) || $categoryId === 'all') {
+            return $products;
+        }
+        return array_filter($products, function($p) use ($categoryId) {
+            return $p['category'] === $categoryId;
+        });
     }
-    return array_filter($products, function($p) use ($categoryId) {
-        return $p['category'] === $categoryId;
-    });
 }
