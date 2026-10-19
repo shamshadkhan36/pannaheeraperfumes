@@ -26,41 +26,30 @@ $marqueeCount = count($siteData['banner']['marquee_items'] ?? []);
   </div>
 </div>
 
-<!-- Promotional Offer Campaign Banner (If Active or Inactive) -->
+<!-- Hero Banner Status Card -->
 <?php 
-$offerActive = !empty($siteData['banner']['offer_active']);
-$offerHeadline = $siteData['banner']['offer_headline'] ?? 'Special Wholesale Offer';
-$offerCode = $siteData['banner']['offer_coupon_code'] ?? '';
-$offerDiscount = $siteData['banner']['offer_discount_text'] ?? 'Special Offer';
-$heroMode = $siteData['banner']['hero_mode'] ?? 'offer';
+$currentImage = !empty($siteData['banner']['image']) ? $siteData['banner']['image'] : (!empty($siteData['banner']['background_image']) ? $siteData['banner']['background_image'] : 'assets/images/hero-perfume-bg.jpg');
+$bannerDisplayStyle = $siteData['banner']['display_style'] ?? 'image_only';
 ?>
-<div class="mb-8 p-4 rounded-2xl border <?php echo $offerActive ? 'bg-amber-50/70 border-amber-200' : 'bg-neutral-50 border-neutral-200'; ?> flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+<div class="mb-8 p-4 rounded-2xl border bg-white border-neutral-200 shadow-sm flex flex-col sm:flex-row sm:items-center justify-between gap-4">
   <div class="flex items-center gap-3">
-    <div class="w-10 h-10 rounded-xl <?php echo $offerActive ? 'bg-amber-500 text-white' : 'bg-neutral-200 text-neutral-500'; ?> flex items-center justify-center font-bold text-lg flex-shrink-0">
-      🎁
-    </div>
+    <img src="../<?php echo htmlspecialchars($currentImage); ?>" class="w-14 h-10 object-cover rounded-lg border border-neutral-200 flex-shrink-0 shadow-sm">
     <div>
       <div class="flex items-center gap-2">
-        <span class="text-xs font-bold text-neutral-900">Homepage Hero Offer Banner</span>
-        <?php if ($offerActive): ?>
-          <span class="px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-500 text-white uppercase tracking-wider">Active: <?php echo htmlspecialchars($offerDiscount); ?></span>
-          <span class="text-[11px] text-amber-800 font-mono font-bold">Code: <?php echo htmlspecialchars($offerCode ?: 'NONE'); ?></span>
-        <?php else: ?>
-          <span class="px-2 py-0.5 rounded-full text-[10px] font-bold bg-neutral-200 text-neutral-600 uppercase tracking-wider">Paused</span>
-        <?php endif; ?>
+        <span class="text-xs font-bold text-neutral-900">Hero Banner</span>
+        <span class="px-2 py-0.5 rounded-full text-[10px] font-bold bg-emerald-100 text-emerald-800 uppercase tracking-wider">
+          <?php echo $bannerDisplayStyle === 'image_only' ? 'Simple Banner Image' : 'Banner With Text'; ?>
+        </span>
       </div>
-      <p class="text-xs text-neutral-600 mt-0.5">
-        <?php if ($offerActive): ?>
-          "<?php echo htmlspecialchars($offerHeadline); ?>" is currently live on your storefront (Display Mode: <strong><?php echo ucfirst($heroMode); ?></strong>).
-        <?php else: ?>
-          Hero offer banner is currently paused. Activate it to display seasonal discounts, countdown timer, and WhatsApp quotes.
-        <?php endif; ?>
+      <p class="text-xs text-neutral-500 mt-0.5">
+        Currently displaying: <span class="font-mono text-neutral-800 font-semibold"><?php echo htmlspecialchars(basename($currentImage)); ?></span>. You can change this image and its click link anytime.
       </p>
     </div>
   </div>
   <div class="flex items-center gap-2 flex-shrink-0">
-    <a href="banner.php" class="bg-white hover:bg-neutral-100 text-neutral-900 border border-neutral-300 text-xs font-bold px-4 py-2 rounded-full transition shadow-sm">
-      Configure Offers &rarr;
+    <a href="banner.php" class="bg-neutral-900 hover:bg-black text-white text-xs font-bold px-4 py-2.5 rounded-full transition shadow-sm inline-flex items-center gap-1.5">
+      <span>Edit Hero Banner</span>
+      <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
     </a>
   </div>
 </div>
@@ -95,9 +84,9 @@ $heroMode = $siteData['banner']['hero_mode'] ?? 'offer';
   <!-- Stat 3: Hero Banner -->
   <div class="bg-white p-5 rounded-2xl border border-neutral-200 shadow-sm flex items-center justify-between">
     <div>
-      <span class="text-xs font-semibold text-neutral-400 uppercase tracking-wider block mb-1">Hero Banner Mode</span>
-      <span class="text-sm font-bold text-neutral-900 block capitalize"><?php echo htmlspecialchars($heroMode); ?> <?php echo $offerActive ? '• Offer Live' : ''; ?></span>
-      <a href="banner.php" class="text-xs text-gold font-bold hover:underline block mt-1">Edit banner &rarr;</a>
+      <span class="text-xs font-semibold text-neutral-400 uppercase tracking-wider block mb-1">Hero Banner</span>
+      <span class="text-sm font-bold text-neutral-900 block truncate max-w-[150px]"><?php echo htmlspecialchars(basename($currentImage)); ?></span>
+      <a href="banner.php" class="text-xs text-gold font-bold hover:underline block mt-1">Change image &rarr;</a>
     </div>
     <div class="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center text-xl font-bold">
       🖼️

@@ -573,9 +573,21 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* ======================================================== */
-/* HERO OFFER BANNER, COUNTDOWN & CAROUSEL STYLES           */
-/* ======================================================== */
+/* Simple Clean Hero Banner Image */
+.hero-banner-simple {
+  position: relative;
+  width: 100%;
+  background-color: #111111;
+  display: block;
+}
+
+.hero-banner-simple img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 580px;
+  object-fit: cover;
+}
 .hero-offer-banner {
   background-color: #120e0b;
   position: relative;

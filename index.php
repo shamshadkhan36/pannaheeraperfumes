@@ -6,42 +6,10 @@ require_once __DIR__ . '/includes/data.php';
 $pageTitle = 'Home';
 include_once __DIR__ . '/includes/header.php';
 
-$heroMode = $banner['hero_mode'] ?? 'offer';
-$offerActive = !empty($banner['offer_active']);
-
-$heroImage = !empty($banner['background_image']) ? $banner['background_image'] : 'assets/images/hero-perfume-bg.jpg';
-$offerBgImage = !empty($banner['offer_background_image']) ? $banner['offer_background_image'] : $heroImage;
-$offerFeaturedImage = !empty($banner['offer_featured_image']) ? $banner['offer_featured_image'] : 'assets/images/products/100ml-victor.jpg';
-
-$offerBadge = $banner['offer_badge'] ?? '🔥 SPECIAL FESTIVE OFFER • FLAT 25% OFF';
-$offerDiscount = $banner['offer_discount_text'] ?? 'FLAT 25% OFF';
-$offerHeadline = $banner['offer_headline'] ?? 'Special Wholesale Offer on Bulk Perfume Bottles & Luxury Caps';
-$offerSubheadline = $banner['offer_subheadline'] ?? 'Avail an exclusive 25% discount on bulk orders of 100+ flacons. Complimentary UV silk screen printing and custom discovery sample kits included this season.';
-$offerCoupon = $banner['offer_coupon_code'] ?? 'PANNA25';
-$offerCountdownEnabled = !empty($banner['offer_countdown_enabled']);
-$offerEndDate = $banner['offer_end_date'] ?? date('Y-m-d H:i:s', strtotime('+14 days'));
-$offerCountdownLabel = $banner['offer_countdown_label'] ?? 'Special Offer Expires In:';
-
-$offerPerks = $banner['offer_perks'] ?? [
-    'Complimentary Custom UV Silk Printing on 100+ pcs',
-    'Zero Mould Setup Fees on Bulk Orders',
-    'Free Perfume Discovery Sample Kit with Every Inquiry',
-    'Fast 48-Hour Dispatch Across India'
-];
-
-$offerWhatsAppMsg = "Hi Panna Heera Perfumes, I would like to claim the " . $offerDiscount . (!empty($offerCoupon) ? " with Promo Code: " . $offerCoupon : "") . " for custom bottles and packaging.";
-$offerBtn1Link = !empty($banner['offer_button1_link']) ? $banner['offer_button1_link'] : getWhatsAppLink($offerWhatsAppMsg);
-$offerBtn1Text = $banner['offer_button1_text'] ?? 'Claim Offer on WhatsApp';
-$offerBtn2Text = $banner['offer_button2_text'] ?? 'Explore Offer Catalog';
-$offerBtn2Link = $banner['offer_button2_link'] ?? '#products-section';
-
-$offerCardEnabled = isset($banner['offer_card_enabled']) ? !empty($banner['offer_card_enabled']) : true;
-$offerCardTitle = $banner['offer_card_title'] ?? '100 ML Victor Flacon + Zamac Cap Set';
-$offerCardSubtitle = $banner['offer_card_subtitle'] ?? 'Architectural Square Glass & Magnetic Cap';
-$offerCardPrice = $banner['offer_card_price'] ?? '63.75';
-$offerCardOrigPrice = $banner['offer_card_original_price'] ?? '85.00';
-$offerCardMoq = $banner['offer_card_moq'] ?? '50 pcs';
-$offerCardBadge = $banner['offer_card_badge'] ?? 'SAVE 25%';
+$heroImage = !empty($banner['image']) ? $banner['image'] : (!empty($banner['background_image']) ? $banner['background_image'] : 'assets/images/hero-perfume-bg.jpg');
+$bannerLink = !empty($banner['link']) ? $banner['link'] : getWhatsAppLink('Hello Panna Heera Perfumery! I am interested in your perfume bottles and special offers.');
+$bannerAlt = !empty($banner['alt']) ? $banner['alt'] : 'Panna Heera Perfumery Offers';
+$displayStyle = $banner['display_style'] ?? 'image_only';
 
 $marqueeItems = !empty($banner['marquee_items']) ? $banner['marquee_items'] : [
     'Scalable Supply',
@@ -57,50 +25,57 @@ $marqueeItems = !empty($banner['marquee_items']) ? $banner['marquee_items'] : [
 ?>
 
 <!-- ============================================ -->
-<!-- 1. HERO SHOWCASE & OFFER BANNER SECTION      -->
+<!-- 1. HERO BANNER IMAGE (SIMPLE & CLEAN)        -->
 <!-- ============================================ -->
-<?php if ($heroMode === 'carousel' && $offerActive): ?>
+<?php if ($displayStyle === 'with_text'): ?>
 
-  <!-- HERO CAROUSEL MODE (Rotates between Showcase and Offers) -->
-  <div class="hero-carousel-container relative">
-    <div class="hero-carousel-track">
-      
-      <!-- Slide 1: Special Offer Banner -->
-      <div class="hero-carousel-slide">
-        <?php include __DIR__ . '/includes/hero-offer-slide.php'; ?>
+  <section class="hero-banner relative flex items-center" style="background-image: url('<?php echo htmlspecialchars($heroImage); ?>');">
+    <div class="hero-overlay"></div>
+    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 w-full">
+      <div class="max-w-xl text-white">
+        <h1 class="text-3xl sm:text-5xl font-extrabold tracking-tight text-white leading-tight font-serif">
+          <?php echo htmlspecialchars($banner['headline'] ?? 'Exquisite Glass Bottles & Designer Closures'); ?>
+        </h1>
+        <p class="mt-3 sm:mt-4 text-sm sm:text-base text-neutral-200 leading-relaxed font-normal">
+          <?php echo htmlspecialchars($banner['subheadline'] ?? 'Empowering prestige perfume brands with luxury super-flint glass bottles, heavy Zamac magnetic caps, and high-atomization fine mist pumps.'); ?>
+        </p>
+        <div class="mt-6 flex flex-wrap gap-4">
+          <a href="<?php echo htmlspecialchars($bannerLink); ?>" target="_blank" class="bg-[#25D366] hover:bg-[#20ba5a] text-white px-7 py-3 rounded-full text-sm font-bold tracking-wide transition shadow-lg inline-flex items-center gap-2">
+            <span><?php echo htmlspecialchars($banner['button_text'] ?? 'Quick WhatsApp Quote'); ?></span>
+          </a>
+        </div>
       </div>
-
-      <!-- Slide 2: Classic Brand Showcase -->
-      <div class="hero-carousel-slide">
-        <?php include __DIR__ . '/includes/hero-standard-slide.php'; ?>
-      </div>
-
     </div>
-
-    <!-- Carousel Nav Arrows -->
-    <button type="button" class="carousel-nav-btn prev" aria-label="Previous Slide">
-      <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M15 19l-7-7 7-7"/></svg>
-    </button>
-    <button type="button" class="carousel-nav-btn next" aria-label="Next Slide">
-      <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg>
-    </button>
-
-    <!-- Carousel Indicator Dots -->
-    <div class="carousel-indicators">
-      <div class="carousel-indicator-dot active" data-slide="0"></div>
-      <div class="carousel-indicator-dot" data-slide="1"></div>
-    </div>
-  </div>
-
-<?php elseif ($heroMode === 'offer' || ($offerActive && $heroMode !== 'standard')): ?>
-
-  <!-- HERO OFFER BANNER ONLY (Primary Campaign Mode) -->
-  <?php include __DIR__ . '/includes/hero-offer-slide.php'; ?>
+  </section>
 
 <?php else: ?>
 
-  <!-- STANDARD BRAND SHOWCASE -->
-  <?php include __DIR__ . '/includes/hero-standard-slide.php'; ?>
+  <!-- Clean Full-Width Hero Banner Image -->
+  <section class="hero-banner-simple relative w-full overflow-hidden bg-neutral-900 border-b border-neutral-100">
+    <?php if (!empty($bannerLink)): ?>
+      <a href="<?php echo htmlspecialchars($bannerLink); ?>" target="_blank" class="block w-full group relative transition" title="<?php echo htmlspecialchars($bannerAlt); ?>">
+        <img 
+          src="<?php echo htmlspecialchars($heroImage); ?>" 
+          alt="<?php echo htmlspecialchars($bannerAlt); ?>" 
+          class="w-full h-auto max-h-[580px] object-cover sm:object-contain md:object-cover mx-auto transition-transform duration-500 group-hover:scale-[1.01]"
+        >
+        <!-- Click hint badge on desktop hover -->
+        <div class="absolute bottom-4 right-4 bg-black/75 backdrop-blur-md text-white text-xs font-semibold px-4 py-2 rounded-full border border-white/20 opacity-0 group-hover:opacity-100 transition-opacity duration-200 shadow-xl flex items-center gap-2 hidden sm:flex">
+          <span class="w-2 h-2 rounded-full bg-[#25D366]"></span>
+          <span>Click to Inquire on WhatsApp</span>
+          <svg class="w-3.5 h-3.5 text-gold" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+        </div>
+      </a>
+    <?php else: ?>
+      <div class="w-full">
+        <img 
+          src="<?php echo htmlspecialchars($heroImage); ?>" 
+          alt="<?php echo htmlspecialchars($bannerAlt); ?>" 
+          class="w-full h-auto max-h-[580px] object-cover sm:object-contain md:object-cover mx-auto"
+        >
+      </div>
+    <?php endif; ?>
+  </section>
 
 <?php endif; ?>
 
