@@ -108,23 +108,31 @@ $marqueeItems = !empty($banner['marquee_items']) ? $banner['marquee_items'] : [
         Shop By Categories
       </h2>
       <p class="mt-2 text-sm text-neutral-500 max-w-xl mx-auto">
-        Explore our curated collection of complete bottles, caps, pumps, fragrance compounds, and luxury box packaging.
+        Explore our curated collection of 1,040 pure alcohol-free French, Oriental, Arabic and botanical fragrance compounds.
       </p>
     </div>
 
     <!-- Categories Grid (Matches Screenshot 2) -->
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-      <?php foreach ($categories as $cat): ?>
-        <a href="products.php?category=<?php echo urlencode($cat['id']); ?>" class="category-card group">
+      <?php foreach ($categories as $cat): 
+        $catUrl = 'products.php?category=' . urlencode($cat['id']);
+      ?>
+        <a href="<?php echo $catUrl; ?>" class="category-card group relative">
           <div class="category-image-wrap shadow-sm group-hover:shadow-md transition">
             <img 
               src="<?php echo htmlspecialchars($cat['image']); ?>" 
               alt="<?php echo htmlspecialchars($cat['title']); ?>" 
               loading="lazy"
             >
+            <?php if (!empty($cat['badge'])): ?>
+              <span class="absolute top-3 right-3 bg-neutral-900/85 backdrop-blur-sm text-gold px-2.5 py-1 rounded-full text-[10px] font-bold tracking-wider uppercase border border-gold/30">
+                <?php echo htmlspecialchars($cat['badge']); ?>
+              </span>
+            <?php endif; ?>
           </div>
-          <h3 class="category-title">
-            <?php echo htmlspecialchars($cat['title']); ?>
+          <h3 class="category-title flex items-center justify-between">
+            <span><?php echo htmlspecialchars($cat['title']); ?></span>
+            <span class="text-[10px] font-mono text-gold bg-neutral-900 px-2 py-0.5 rounded-full font-bold"><?php echo $cat['count']; ?> Oils</span>
           </h3>
         </a>
       <?php endforeach; ?>
@@ -134,28 +142,31 @@ $marqueeItems = !empty($banner['marquee_items']) ? $banner['marquee_items'] : [
 </section>
 
 <!-- ============================================ -->
-<!-- 4. SHOP ALL PRODUCTS (SCREENSHOT 3)          -->
+<!-- 4. FEATURED FRAGRANCE COMPOUNDS              -->
 <!-- ============================================ -->
 <section id="products-section" class="py-16 sm:py-20 bg-[#fafafa] border-t border-neutral-100">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     
     <!-- Section Header -->
     <div class="text-center mb-10">
+      <span class="text-xs font-bold uppercase tracking-widest text-gold block mb-1">Pure Alcohol-Free Concentrates</span>
       <h2 class="text-3xl sm:text-4xl font-extrabold text-neutral-900 tracking-tight">
-        Shop All Products
+        Featured Fragrance Compounds
       </h2>
-      <p class="mt-2 text-sm text-neutral-500">
-        Engineered glass flacons, precision fine mist dispensers, and luxury caps ready for instant B2B quotation.
+      <p class="mt-2 text-sm text-neutral-500 max-w-2xl mx-auto">
+        Top requested French, Oriental, and Niche perfume oils available in 1 KG wholesale aluminum flacons, 100 GM production lots, and 25 GM trial packs.
       </p>
     </div>
 
+    <?php 
+    $featuredProducts = array_slice($products, 0, 16); 
+    ?>
     <!-- Category Filter Tabs -->
     <div class="flex flex-wrap items-center justify-center gap-2 mb-10">
       <button class="filter-tab-btn active px-4 py-1.5 rounded-full text-xs font-semibold bg-neutral-900 text-white transition" data-filter="all">
-        All Products (<?php echo count($products); ?>)
+        All Spotlight (<?php echo count($featuredProducts); ?>)
       </button>
       <?php 
-      // Show up to 4 top category filter tabs
       $topFilters = array_slice($categories, 0, 4);
       foreach ($topFilters as $tf): 
       ?>
@@ -165,9 +176,9 @@ $marqueeItems = !empty($banner['marquee_items']) ? $banner['marquee_items'] : [
       <?php endforeach; ?>
     </div>
 
-    <!-- 4-Column Product Grid (Matches Screenshot 3) -->
+    <!-- 4-Column Product Grid -->
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-      <?php foreach ($products as $prod): ?>
+      <?php foreach ($featuredProducts as $prod): ?>
         <div class="product-card group" data-category="<?php echo htmlspecialchars($prod['category']); ?>">
           
           <!-- Badge -->
@@ -194,10 +205,10 @@ $marqueeItems = !empty($banner['marquee_items']) ? $banner['marquee_items'] : [
           <!-- Meta (Price & MOQ) -->
           <div class="product-meta">
             <span class="product-price">
-              <?php echo formatPrice($prod['price']); ?>
+              From <?php echo formatPrice($prod['price']); ?>
             </span>
             <span class="product-moq">
-              MOQ: <?php echo $prod['moq']; ?> pcs
+              MOQ: <?php echo htmlspecialchars($prod['moq_label'] ?? '25 GM'); ?>
             </span>
           </div>
 
@@ -210,11 +221,18 @@ $marqueeItems = !empty($banner['marquee_items']) ? $banner['marquee_items'] : [
             <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/>
             </svg>
-            <span>Select options</span>
+            <span>Select Pack Size</span>
           </button>
 
         </div>
       <?php endforeach; ?>
+    </div>
+
+    <!-- Explore All 1040 CTA Button -->
+    <div class="mt-12 text-center">
+      <a href="fragrances.php" class="inline-flex items-center gap-2 bg-neutral-900 hover:bg-black text-white px-8 py-4 rounded-full text-xs uppercase tracking-wider font-bold transition shadow-lg">
+        <span>Explore All 1,040 Fragrance Oils in Rate List &rarr;</span>
+      </a>
     </div>
 
   </div>
@@ -227,36 +245,37 @@ $marqueeItems = !empty($banner['marquee_items']) ? $banner['marquee_items'] : [
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
       <div>
-        <span class="text-xs font-bold uppercase tracking-widest text-gold block mb-2">Turnkey Private Label Services</span>
+        <span class="text-xs font-bold uppercase tracking-widest text-gold block mb-2">Direct Wholesale Manufacturer</span>
         <h2 class="text-2xl sm:text-4xl font-extrabold font-serif leading-tight">
-          Launching a New Fragrance Brand? We Supply Everything.
+          Sourcing Pure Fragrance Oils For Your Label?
         </h2>
         <p class="mt-4 text-sm text-neutral-300 leading-relaxed">
-          From custom mold fabrication with your signature embossed logo to electroplated magnetic caps, French fine mist crimp sprayers, and luxury rigid box packaging — Panna Heera Perfumery is your single-source manufacturing partner.
+          Panna Heera Perfumery manufactures and stocks over 1,040 alcohol-free fragrance compounds. Whether blending high-end Eau de Parfum sprays or producing traditional attars, our high-diffusive concentrates deliver peerless longevity and projection.
         </p>
         
         <div class="mt-6 grid grid-cols-2 sm:grid-cols-3 gap-4 text-xs">
           <div class="p-3 bg-neutral-900 rounded-lg border border-neutral-800">
-            <span class="text-gold font-bold text-base block mb-1">01. Moulding</span>
-            <span class="text-neutral-400">Custom 3D CAD & private glass moulds</span>
+            <span class="text-gold font-bold text-base block mb-1">1,040+ Oils</span>
+            <span class="text-neutral-400">Designer, Oriental, Niche & Florals</span>
           </div>
           <div class="p-3 bg-neutral-900 rounded-lg border border-neutral-800">
-            <span class="text-gold font-bold text-base block mb-1">02. Printing</span>
-            <span class="text-neutral-400">Hot stamping, UV screen & frosted coats</span>
+            <span class="text-gold font-bold text-base block mb-1">0% Alcohol</span>
+            <span class="text-neutral-400">100% pure undiluted extrait</span>
           </div>
           <div class="p-3 bg-neutral-900 rounded-lg border border-neutral-800">
-            <span class="text-gold font-bold text-base block mb-1">03. Assembly</span>
-            <span class="text-neutral-400">Pumps, collars, caps tested leak-proof</span>
+            <span class="text-gold font-bold text-base block mb-1">Fast Shipping</span>
+            <span class="text-neutral-400">Pan-India courier in 24-48 hrs</span>
           </div>
         </div>
 
         <div class="mt-8 flex flex-wrap gap-4">
-          <a href="<?php echo getWhatsAppLink('Hi Panna Heera Perfumery, I want to discuss custom bottle branding and private label manufacturing.'); ?>" target="_blank" class="bg-[#25D366] hover:bg-[#20ba5a] text-white px-6 py-3 rounded-full text-xs sm:text-sm font-bold tracking-wide transition inline-flex items-center gap-2">
+          <a href="<?php echo getWhatsAppLink('Hi Panna Heera Perfumery, I want to discuss a bulk wholesale order from your 1,040 Fragrance Oil price list.'); ?>" target="_blank" class="bg-[#25D366] hover:bg-[#20ba5a] text-white px-6 py-3 rounded-full text-xs sm:text-sm font-bold tracking-wide transition inline-flex items-center gap-2">
             <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.971.53 1.954.815 2.796.815 3.183 0 5.768-2.586 5.768-5.766.001-3.182-2.584-5.767-5.768-5.767zm0 10.368c-.768 0-1.636-.242-2.316-.645l-.166-.098-1.579.414.421-1.539-.108-.172c-.443-.708-.677-1.488-.677-2.562 0-2.538 2.066-4.604 4.605-4.604 2.539 0 4.604 2.066 4.604 4.605 0 2.538-2.065 4.601-4.605 4.601z"/></svg>
-            Speak With Packaging Specialist
+            Speak With Fragrance Consultant
           </a>
-          <a href="contact.php" class="bg-neutral-800 hover:bg-neutral-700 text-white px-6 py-3 rounded-full text-xs sm:text-sm font-bold tracking-wide transition">
-            Request Sample Kit
+          <a href="assets/docs/panna-heera-price-list.pdf" download class="bg-neutral-800 hover:bg-neutral-700 text-white px-6 py-3 rounded-full text-xs sm:text-sm font-bold tracking-wide transition inline-flex items-center gap-2">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
+            Download Official PDF Rate List
           </a>
         </div>
       </div>
@@ -264,29 +283,29 @@ $marqueeItems = !empty($banner['marquee_items']) ? $banner['marquee_items'] : [
       <div class="relative">
         <div class="p-6 bg-neutral-900 border border-neutral-800 rounded-2xl">
           <div class="flex items-center justify-between border-b border-neutral-800 pb-4 mb-4">
-            <span class="text-xs font-bold uppercase tracking-wider text-neutral-400">B2B Wholesale Advantages</span>
-            <span class="text-xs text-gold">✦ Verified Manufacturer</span>
+            <span class="text-xs font-bold uppercase tracking-wider text-neutral-400">Wholesale Fragrance Tiers</span>
+            <span class="text-xs text-gold">✦ Pan-India Supply</span>
           </div>
           <ul class="space-y-3.5 text-xs text-neutral-300">
             <li class="flex items-start gap-2.5">
               <span class="text-[#25D366] font-bold">✓</span>
-              <span><strong>Low MOQ Starter Tiers:</strong> Test market response with pilot batches starting at only 50-100 pcs.</span>
+              <span><strong>25 GM Trial Samples:</strong> Test scent profiles, customer demand, and performance with minimal outlay.</span>
             </li>
             <li class="flex items-start gap-2.5">
               <span class="text-[#25D366] font-bold">✓</span>
-              <span><strong>Optical Grade Super Flint Glass:</strong> Heavy weight bottom, crystal clear transparency with zero green tint.</span>
+              <span><strong>100 GM Intermediate Packs:</strong> Ideal for boutique fragrance batches and attar bottle filling.</span>
             </li>
             <li class="flex items-start gap-2.5">
               <span class="text-[#25D366] font-bold">✓</span>
-              <span><strong>Exact Neck Standards:</strong> Universal FEA 15mm crimp and 18/415 screw finishes compatible with global accessories.</span>
+              <span><strong>1 KG Wholesale Aluminum Flacons:</strong> Heavy volume discount pricing for commercial manufacturers and perfume houses.</span>
             </li>
             <li class="flex items-start gap-2.5">
               <span class="text-[#25D366] font-bold">✓</span>
-              <span><strong>Leak & Alcohol Resistance Tested:</strong> Every pump and valve tested against aggressive fragrance alcohol compounds.</span>
+              <span><strong>100% Alcohol-Free Pure Extrait:</strong> No solvents or alcohol dilution. Guaranteed long projection.</span>
             </li>
             <li class="flex items-start gap-2.5">
               <span class="text-[#25D366] font-bold">✓</span>
-              <span><strong>Pan-India & Global Freight:</strong> Secure palletized master cartons for transit with zero breakage guarantee.</span>
+              <span><strong>Express Air & Road Cargo:</strong> Secure packaging with zero leakage guarantee pan-India.</span>
             </li>
           </ul>
         </div>

@@ -59,7 +59,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Image Upload
     $uploadedImage = handleImageUpload('product_image_file');
-    $existingImage = isset($_POST['existing_image']) ? $_POST['existing_image'] : 'assets/images/products/100ml-victor.jpg';
+    $existingImage = isset($_POST['existing_image']) ? $_POST['existing_image'] : 'assets/images/categories/fragrance-oils.jpg';
     $finalImage = $uploadedImage ? $uploadedImage : $existingImage;
 
     // Build Product Object
@@ -139,7 +139,7 @@ $specsString = implode("\n", $product['specs'] ?? []);
             type="text" 
             name="title" 
             required 
-            placeholder="e.g. 100 ML VICTOR PERFUME GLASS BOTTLE" 
+            placeholder="e.g. TOM FORD - TOBACCO VANILLE" 
             value="<?php echo htmlspecialchars($product['title'] ?? ''); ?>" 
             class="w-full px-3.5 py-2.5 text-xs rounded-lg border border-neutral-300 focus:outline-none focus:border-neutral-900 font-bold"
           >
@@ -151,7 +151,7 @@ $specsString = implode("\n", $product['specs'] ?? []);
             <input 
               type="text" 
               name="short_title" 
-              placeholder="e.g. 100 ML Victor Glass Bottle" 
+              placeholder="e.g. Tobacco Vanille" 
               value="<?php echo htmlspecialchars($product['short_title'] ?? ''); ?>" 
               class="w-full px-3.5 py-2.5 text-xs rounded-lg border border-neutral-300 focus:outline-none focus:border-neutral-900"
             >
@@ -161,7 +161,7 @@ $specsString = implode("\n", $product['specs'] ?? []);
             <input 
               type="text" 
               name="id" 
-              placeholder="e.g. 100ml-victor" 
+              placeholder="e.g. oil-1050" 
               value="<?php echo htmlspecialchars($product['id'] ?? ''); ?>" 
               <?php echo $isEdit ? 'readonly class="w-full px-3.5 py-2.5 text-xs rounded-lg border border-neutral-200 bg-neutral-100 text-neutral-500 font-mono"' : 'class="w-full px-3.5 py-2.5 text-xs rounded-lg border border-neutral-300 focus:outline-none focus:border-neutral-900 font-mono"'; ?>
             >
@@ -288,7 +288,7 @@ $specsString = implode("\n", $product['specs'] ?? []);
         <div class="w-full aspect-square bg-neutral-50 rounded-xl border border-neutral-200 p-3 flex items-center justify-center overflow-hidden">
           <img 
             id="productImgPreview" 
-            src="../<?php echo htmlspecialchars($product['image'] ?? 'assets/images/products/100ml-victor.jpg'); ?>" 
+            src="../<?php echo htmlspecialchars($product['image'] ?? 'assets/images/categories/fragrance-oils.jpg'); ?>" 
             alt="Preview" 
             class="max-w-full max-h-full object-contain"
           >

@@ -520,43 +520,73 @@ function initSearchModal() {
   function renderSearchResults(query) {
     if (!searchResults) return;
 
-    const filtered = PRODUCTS_DATA.filter(p => {
-      if (!query) return true;
-      return p.title.toLowerCase().includes(query) ||
-             p.category_title.toLowerCase().includes(query) ||
-             (p.capacity && p.capacity.toLowerCase().includes(query)) ||
-             (p.neck_size && p.neck_size.toLowerCase().includes(query));
-    });
-
-    if (filtered.length === 0) {
+    if (!query) {
       searchResults.innerHTML = `
-        <div class="py-8 text-center text-neutral-400 text-sm">
-          No perfume packaging found matching "${query}". Try searching "100ml", "Victor", "Tester", "Cap", or "Pump".
+        <div class="py-8 text-center text-neutral-400 text-xs">
+          Type to search 1,040 fragrance oils by scent name, brand house, or #S.No (e.g. "Aventus", "Aqua Di Gio", "Oud", "Armani")...
         </div>
       `;
       return;
     }
 
-    searchResults.innerHTML = filtered.map(p => `
-      <div class="flex items-center justify-between p-3 hover:bg-neutral-50 rounded-lg transition border-b border-neutral-100 last:border-b-0">
-        <div class="flex items-center gap-3">
-          <div class="w-12 h-12 bg-white rounded border border-neutral-200 overflow-hidden flex-shrink-0 flex items-center justify-center p-1">
-            <img src="${p.image}" alt="${p.title}" class="max-w-full max-h-full object-contain">
-          </div>
-          <div>
-            <h4 class="text-xs font-bold uppercase text-neutral-900 line-clamp-1">${p.title}</h4>
-            <div class="flex items-center gap-2 text-xs text-neutral-500 mt-0.5">
-              <span>${p.category_title}</span>
-              <span>•</span>
-              <span class="font-semibold text-neutral-800">${CURRENCY_SYM}${p.price}</span>
+    const matched = PRODUCTS_DATA.filter(p => {
+      return p.title.toLowerCase().includes(query) ||
+             (p.brand && p.brand.toLowerCase().includes(query)) ||
+             (p.short_title && p.short_title.toLowerCase().includes(query)) ||
+             (p.category_title && p.category_title.toLowerCase().includes(query)) ||
+             (p.sno && p.sno.toString() === query);
+    }).slice(0, 15);
+
+    if (matched.length === 0) {
+      searchResults.innerHTML = `
+        <div class="py-8 text-center text-neutral-400 text-sm">
+          No fragrance oils found matching "${query}". Try searching "Aventus", "Oud", "Rose", "Armani", or "Tom Ford".
+        </div>
+      `;
+      return;
+    }
+
+    let html = `
+      <div class="px-3 py-1.5 bg-neutral-100 text-[10px] font-bold uppercase tracking-wider text-neutral-600 rounded mb-2 flex items-center justify-between">
+        <span>Fragrance Compounds (${matched.length} of 1,040)</span>
+        <a href="fragrances.php" class="text-amber-800 hover:underline lowercase font-semibold">Open full rate book &rarr;</a>
+      </div>
+    `;
+
+    html += matched.map(p => {
+      const waText = encodeURIComponent(`Hello Panna Heera Perfumery, I want to inquire about fragrance oil: ${p.title} (#${p.sno || ''})`);
+      const waUrl = `https://wa.me/919876543210?text=${waText}`;
+
+      return `
+        <div class="flex items-center justify-between p-3 hover:bg-neutral-50 rounded-xl transition border-b border-neutral-100 last:border-b-0">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-lg bg-neutral-900 text-white font-mono font-bold text-xs flex items-center justify-center flex-shrink-0">
+              #${p.sno || ''}
+            </div>
+            <div>
+              <h4 class="text-xs font-bold text-neutral-900">${p.short_title || p.title}</h4>
+              <div class="flex items-center gap-2 text-[11px] text-neutral-500 mt-0.5">
+                <span class="font-medium text-neutral-700">${p.brand || ''}</span>
+                <span>•</span>
+                <span>${p.category_title || ''}</span>
+                <span>•</span>
+                <span>From <strong class="text-neutral-900 font-mono whitespace-nowrap">₹${p.price}</strong></span>
+              </div>
             </div>
           </div>
+          <div class="flex items-center gap-1.5 flex-shrink-0">
+            <a href="${waUrl}" target="_blank" class="bg-[#25D366] hover:bg-[#20ba5a] text-white text-[11px] font-bold px-3 py-1.5 rounded-lg transition inline-flex items-center gap-1">
+              WhatsApp
+            </a>
+            <button onclick="selectProductFromSearch('${p.id}')" class="bg-neutral-900 text-white hover:bg-black text-[11px] font-semibold px-2.5 py-1.5 rounded-lg transition">
+              Packs
+            </button>
+          </div>
         </div>
-        <button onclick="selectProductFromSearch('${p.id}')" class="bg-neutral-900 text-white hover:bg-black text-xs font-medium px-3 py-1.5 rounded-full transition flex-shrink-0">
-          Select options
-        </button>
-      </div>
-    `).join('');
+      `;
+    }).join('');
+
+    searchResults.innerHTML = html;
   }
 }
 

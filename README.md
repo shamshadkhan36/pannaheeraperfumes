@@ -1,36 +1,42 @@
-# Panna Heera Perfumes - Luxury Perfumery & Packaging Website
+# Panna Heera Perfumes - Haute Fragrance Compounds & Wholesale Price List Website
 
-A responsive, high-converting luxury website layout built in **PHP** for **Panna Heera Perfumes**, featuring the client's official brand logo and a dedicated **Admin Control Panel**.
+A responsive, high-converting luxury website built in **PHP** for **Panna Heera Perfumes**, exclusively featuring the complete **1,040 Fragrance Oils Catalog** extracted from the official **Panna Heera Price List (June 2026)**, along with a dedicated **Admin Control Panel**.
 
 ---
 
 ## 🌟 Key Features
 
-1. **Official Client Logo Integration**:
+1. **Official Client Logo & Branding**:
    - Integrated the gold monogram and floral emblem (`logo.jpeg`) into:
      - The sticky navigation header
      - The luxury dark footer
      - Browser favicon
      - The Admin login screen and sidebar
 2. **Hero Showcase & Ticker**:
-   - Full-width hero with perfume bottles and designer caps on an artisan wooden backdrop.
-   - Smooth continuous infinite marquee ticker (*✦ Scalable Supply ✦ Competitive Pricing ✦ Industry Trusted...*).
-3. **"Shop By Categories"**:
-   - 6 luxury cards with hover zoom and clean typography:
-     - *Perfume Spray For Your Brand*
-     - *Bottles, Caps & Pumps*
-     - *Caps and Pumps*
-     - *Fragrance Oils*
-     - *Aroma Chemicals*
-     - *Box & Packaging*
-4. **"Shop All Products" 4-Column Grid**:
-   - Technical blueprint diagrams (Height, Width, Neck, Volume)
-   - 10ml testers, 100ml Cyrill, 100ml Victor with schematics, 20ml Saab, and luxury caps
-   - "Select options" black pill action buttons
-5. **Interactive E-Commerce & WhatsApp Ordering**:
-   - Product Options Modal (capacities, cap colors, neck types, wholesale tiers)
+   - Full-width hero banner highlighting pure, 100% alcohol-free perfume oils.
+   - Smooth continuous infinite marquee ticker (*✦ 100% Alcohol-Free Pure Compounds ✦ 1,040 Fragrance Varieties ✦ Extrait Strength...*).
+3. **Olfactory Categories**:
+   - 5 structured fragrance categories:
+     - *French & Designer Inspirations* (662 Varieties)
+     - *Oriental & Arabic Attars* (257 Varieties)
+     - *Niche Luxury Extrait* (91 Varieties)
+     - *Fruits & Gourmand Fragrances* (20 Varieties)
+     - *Floral & Botanical Fragrances* (10 Varieties)
+     - **Total: 1,040 Pure Fragrance Varieties**
+4. **1,040+ Fragrance Oils Wholesale Directory (`fragrances.php`)**:
+   - Complete digital B2B rate list extracted from the official **Panna Heera Price List (June 2026)**.
+   - Filter by **140+ Luxury Houses** (Armani, Tom Ford, Creed, Dior, Ajmal, Lattafa, Rasasi, Xerjoff, Zara, etc.).
+   - Olfactory Family filter pills: *Designer Fragrances*, *Oriental & Arabic*, *Niche Luxury*, *Fruits*, and *Floral*.
+   - Live tiered wholesale pricing across **1 KG**, **100 GM**, and **25 GM** packs.
+   - Instant 1-click **"Order on WhatsApp"** pre-formatted with exact perfume name and size.
+   - Direct 1-click **"Download PDF Price List"** button linking to `assets/docs/panna-heera-price-list.pdf`.
+   - Dual view modes: Tabular Rate List View & Luxury Product Cards View with instant client-side search.
+5. **Featured Fragrance Spotlight Grid**:
+   - 24 iconic bestselling perfume oils featured directly on the homepage and catalog with pack size modal selector.
+6. **Interactive E-Commerce & WhatsApp Ordering**:
+   - Pack Size Modal (25 GM Trial, 100 GM Production Pack, 1 KG Wholesale Flacon)
    - Slide-out Cart Drawer with instant "Send Order on WhatsApp" button
-   - Live Spotlight Search modal
+   - Live Spotlight Search modal indexing all 1,040 fragrance oils
    - Floating WhatsApp button with pulse animation
 
 ---

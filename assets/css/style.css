@@ -305,6 +305,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1.125rem;
   font-weight: 700;
   color: #111111;
+  white-space: nowrap;
 }
 
 .product-moq {
@@ -718,4 +719,53 @@ h1, h2, h3, h4, h5, h6 {
     display: none;
   }
 }
+
+/* Pagination Styles */
+.page-num-btn {
+  min-width: 2.25rem;
+  height: 2.25rem;
+  padding: 0 0.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  border: 1px solid #e5e7eb;
+  background: #ffffff;
+  color: #374151;
+  transition: all 0.15s ease;
+  text-decoration: none;
+}
+.page-num-btn:hover {
+  background: #f3f4f6;
+  border-color: #d1d5db;
+  color: #111827;
+}
+.page-num-btn.active {
+  background: #171717;
+  color: #ffffff;
+  border-color: #171717;
+}
+.page-nav-btn {
+  height: 2.25rem;
+  padding: 0 0.85rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  border: 1px solid #e5e7eb;
+  background: #f9fafb;
+  color: #374151;
+  transition: all 0.15s ease;
+  text-decoration: none;
+}
+.page-nav-btn:hover {
+  background: #f3f4f6;
+  border-color: #d1d5db;
+  color: #111827;
+}
+
 

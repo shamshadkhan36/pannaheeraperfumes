@@ -48,6 +48,9 @@ if (is_file($targetFile)) {
 
     // Execute PHP scripts
     if ($ext === 'php') {
+        if (!headers_sent()) {
+            header('Content-Type: text/html; charset=UTF-8');
+        }
         $_SERVER['SCRIPT_FILENAME'] = $targetFile;
         $_SERVER['SCRIPT_NAME'] = '/' . $target;
         $_SERVER['PHP_SELF'] = '/' . $target;

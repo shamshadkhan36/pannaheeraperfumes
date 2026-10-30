@@ -43,7 +43,7 @@
             </div>
           </div>
           <p class="text-xs sm:text-sm text-neutral-400 max-w-sm leading-relaxed">
-            Your premier destination for high-end perfumery packaging. We specialize in super flint glass bottles, precision crimp pumps, heavy Zamac magnetic caps, and bespoke branding solutions for luxury fragrance houses worldwide.
+            Your trusted wholesale manufacturer and distributor of pure, 100% alcohol-free fragrance oils and fine perfumery compounds. Stocking over 1,040 varieties in 1 KG, 100 GM, and 25 GM wholesale packs with pan-India dispatch.
           </p>
           <div class="pt-2 flex items-center space-x-3">
             <a href="<?php echo getWhatsAppLink(); ?>" target="_blank" class="w-9 h-9 rounded-full bg-neutral-800 hover:bg-[#25D366] text-white flex items-center justify-center transition">
@@ -62,8 +62,15 @@
         <div>
           <h4 class="text-xs font-bold uppercase tracking-widest text-white mb-4">Top Categories</h4>
           <ul class="space-y-2.5 text-xs">
-            <?php foreach (array_slice($categories, 0, 6) as $c): ?>
-              <li><a href="products.php?category=<?php echo urlencode($c['id']); ?>" class="hover:text-gold transition"><?php echo htmlspecialchars($c['title']); ?></a></li>
+            <?php foreach (array_slice($categories, 0, 6) as $c): 
+              $fUrl = 'products.php?category=' . urlencode($c['id']);
+            ?>
+              <li>
+                <a href="<?php echo $fUrl; ?>" class="hover:text-gold transition flex items-center justify-between">
+                  <span><?php echo htmlspecialchars($c['title']); ?></span>
+                  <span class="text-[10px] text-neutral-400 font-bold font-mono"><?php echo $c['count']; ?></span>
+                </a>
+              </li>
             <?php endforeach; ?>
           </ul>
         </div>
@@ -72,11 +79,12 @@
         <div>
           <h4 class="text-xs font-bold uppercase tracking-widest text-white mb-4">B2B Solutions</h4>
           <ul class="space-y-2.5 text-xs">
-            <li><a href="about.php#custom-moulds" class="hover:text-gold transition">Custom Bottle Moulding</a></li>
-            <li><a href="about.php#manufacturing" class="hover:text-gold transition">Silk Screen & Hot Stamping</a></li>
-            <li><a href="products.php" class="hover:text-gold transition">Wholesale Sample Kits</a></li>
-            <li><a href="contact.php" class="hover:text-gold transition">Bulk Quantity Pricing</a></li>
-            <li><a href="contact.php" class="hover:text-gold transition">Pan-India & Export Logistics</a></li>
+            <li><a href="fragrances.php" class="text-amber-400 font-bold hover:underline">Fragrance Oils (1,040 Catalog)</a></li>
+            <li><a href="assets/docs/panna-heera-price-list.pdf" download class="hover:text-gold transition">Download PDF Rate List</a></li>
+            <li><a href="about.php" class="hover:text-gold transition">Our Scent Heritage</a></li>
+            <li><a href="about.php#capabilities" class="hover:text-gold transition">100% Pure & Alcohol-Free</a></li>
+            <li><a href="contact.php" class="hover:text-gold transition">25 GM Trial Samples</a></li>
+            <li><a href="contact.php" class="hover:text-gold transition">1 KG Wholesale Lots</a></li>
             <li><a href="admin/index.php" class="hover:text-gold transition">Admin Panel Portal</a></li>
           </ul>
         </div>
@@ -109,13 +117,21 @@
 
       </div>
 
+      <!-- Legal Trademark & Benchmark Disclaimer (Protects against any IP/Copyright/Trademark issues) -->
+      <div class="pt-8 pb-4 text-[11px] text-neutral-500 border-t border-neutral-800/80 space-y-2">
+        <p class="font-bold text-neutral-400 uppercase tracking-wider text-[10px]">Legal Notice & Olfactory Benchmark Disclaimer:</p>
+        <p class="leading-relaxed text-neutral-400">
+          All brand names, trademarks, trade names, and registered logos referenced across this website and catalog belong strictly to their respective registered trademark owners. Panna Heera Perfumery is an independent manufacturer and distributor of proprietary, 100% alcohol-free concentrated fragrance oils and compounds. References to designer houses, commercial perfumes, and celebrity scents are made strictly for descriptive and comparative purposes to guide B2B clients and perfumers regarding scent profiles, olfactory families, and aromatic character. Panna Heera Perfumery has no association, authorization, sponsorship, or endorsement from any of the trademark holders.
+        </p>
+      </div>
+
       <!-- Bottom Disclaimer & Copyright -->
-      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-neutral-500">
-        <p>&copy; <?php echo date('Y'); ?> <?php echo SITE_NAME; ?>. All rights reserved.</p>
+      <div class="pt-4 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-neutral-500 border-t border-neutral-800/50">
+        <p>&copy; <?php echo date('Y'); ?> <?php echo SITE_NAME; ?>. All rights reserved. 100% Proprietary Formulations.</p>
         <div class="flex items-center space-x-6 text-[11px]">
-          <span>✦ ISO 9001:2015 Certified Supply</span>
-          <span>✦ 100% Super Flint Glass</span>
-          <span>✦ Secure B2B Dispatch</span>
+          <span>✦ 100% Alcohol-Free Pure Extrait</span>
+          <span>✦ IFRA Compliant Formulations</span>
+          <span>✦ Secure Pan-India Dispatch</span>
         </div>
       </div>
 
@@ -124,6 +140,7 @@
 
   <!-- Scripts -->
   <script src="assets/js/products-data.js"></script>
+  <script src="assets/js/fragrance-data.js"></script>
   <script src="assets/js/main.js"></script>
 </body>
 </html>

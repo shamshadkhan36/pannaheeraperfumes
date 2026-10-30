@@ -32,7 +32,7 @@
         </svg>
       </div>
       <h4 class="font-bold text-neutral-800 mb-1">Your inquiry list is empty</h4>
-      <p class="text-xs text-neutral-500 max-w-xs mx-auto mb-5">Browse our luxury perfume bottles, designer caps, and fine mist sprayers to request a bulk quote.</p>
+      <p class="text-xs text-neutral-500 max-w-xs mx-auto mb-5">Browse our 1,040 pure fragrance compounds and wholesale perfume oils to request a bulk quote.</p>
       <a href="products.php" class="inline-block bg-black text-white text-xs font-semibold px-5 py-2.5 rounded-full hover:bg-neutral-800 transition">
         Browse Catalog
       </a>
@@ -92,7 +92,7 @@
     <input 
       type="text" 
       id="searchInputField" 
-      placeholder="Search glass bottles, caps, pumps, 10ml, 100ml, Victor, Cyrill..." 
+      placeholder="Search 1,040 fragrance oils by name, house (e.g. Aventus, Aqua Di Gio, Tom Ford, Oud, Rose)..." 
       class="w-full text-sm outline-none text-neutral-800 placeholder-neutral-400 font-medium py-1"
       autocomplete="off"
     >

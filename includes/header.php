@@ -122,19 +122,30 @@ $currentPage = basename($_SERVER['PHP_SELF'], '.php');
               <div class="px-4 py-2 border-b border-neutral-100">
                 <span class="text-[11px] font-bold uppercase tracking-wider text-neutral-400">Featured Categories</span>
               </div>
-              <?php foreach ($categories as $cat): ?>
-                <a href="products.php?category=<?php echo urlencode($cat['id']); ?>" class="flex items-center px-4 py-2.5 text-sm text-neutral-700 hover:bg-neutral-50 hover:text-gold transition">
-                  <span class="w-2 h-2 rounded-full bg-neutral-300 mr-3 group-hover:bg-gold"></span>
-                  <?php echo htmlspecialchars($cat['title']); ?>
+              <?php foreach ($categories as $cat): 
+                $cUrl = 'products.php?category=' . urlencode($cat['id']);
+              ?>
+                <a href="<?php echo $cUrl; ?>" class="flex items-center justify-between px-4 py-2.5 text-sm text-neutral-700 hover:bg-neutral-50 hover:text-gold transition">
+                  <div class="flex items-center truncate mr-2">
+                    <span class="w-2 h-2 rounded-full bg-neutral-300 mr-2.5 flex-shrink-0 group-hover:bg-gold"></span>
+                    <span class="truncate"><?php echo htmlspecialchars($cat['title']); ?></span>
+                  </div>
+                  <span class="text-[10px] font-mono text-neutral-400 font-bold flex-shrink-0"><?php echo $cat['count']; ?></span>
                 </a>
               <?php endforeach; ?>
               <div class="border-t border-neutral-100 mt-1 pt-1">
                 <a href="products.php" class="block px-4 py-2 text-xs font-bold text-neutral-900 hover:text-gold uppercase tracking-wider">
-                  View All Products &rarr;
+                  View All 1,040 Products &rarr;
                 </a>
               </div>
             </div>
           </div>
+
+          <!-- Fragrance Oils Rate List (1,040) -->
+          <a href="fragrances.php" class="nav-link relative <?php echo ($currentPage == 'fragrances') ? 'active' : ''; ?>">
+            <span>Fragrance Oils</span>
+            <span class="ml-1.5 px-1.5 py-0.5 rounded-full bg-amber-400 text-neutral-950 font-black text-[9px] uppercase tracking-wider shadow-sm">1,040</span>
+          </a>
 
           <!-- About Dropdown -->
           <div class="relative group">
@@ -145,9 +156,9 @@ $currentPage = basename($_SERVER['PHP_SELF'], '.php');
               </svg>
             </button>
             <div class="absolute left-0 top-full mt-2 w-52 bg-white rounded-xl shadow-xl border border-neutral-100 py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
-              <a href="about.php" class="block px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-50 hover:text-gold transition">Our Company Story</a>
-              <a href="about.php#manufacturing" class="block px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-50 hover:text-gold transition">Quality & Manufacturing</a>
-              <a href="about.php#custom-moulds" class="block px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-50 hover:text-gold transition">Custom Bottle Moulds</a>
+              <a href="about.php" class="block px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-50 hover:text-gold transition">Our Story & Heritage</a>
+              <a href="about.php#capabilities" class="block px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-50 hover:text-gold transition">Quality & Standards</a>
+              <a href="fragrances.php" class="block px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-50 hover:text-gold transition">1,040 Fragrance Rate List</a>
             </div>
           </div>
 
@@ -217,13 +228,20 @@ $currentPage = basename($_SERVER['PHP_SELF'], '.php');
       <div class="py-2">
         <span class="text-xs font-bold uppercase tracking-wider text-neutral-400 block mb-2">Our Top Categories</span>
         <div class="space-y-2 pl-3">
-          <?php foreach ($categories as $cat): ?>
-            <a href="products.php?category=<?php echo urlencode($cat['id']); ?>" class="block text-sm text-neutral-700 hover:text-gold py-1">
-              <?php echo htmlspecialchars($cat['title']); ?>
+          <?php foreach ($categories as $cat): 
+            $mcUrl = 'products.php?category=' . urlencode($cat['id']);
+          ?>
+            <a href="<?php echo $mcUrl; ?>" class="flex items-center justify-between text-sm text-neutral-700 hover:text-gold py-1">
+              <span><?php echo htmlspecialchars($cat['title']); ?></span>
+              <span class="text-[10px] font-mono text-neutral-400 font-bold"><?php echo $cat['count']; ?></span>
             </a>
           <?php endforeach; ?>
         </div>
       </div>
+      <a href="fragrances.php" class="flex items-center justify-between py-2 font-semibold text-neutral-900 border-b border-neutral-50">
+        <span>Fragrance Oils (1,040 Rate List)</span>
+        <span class="px-2 py-0.5 text-[10px] font-bold rounded-full bg-amber-400 text-neutral-950 font-mono">1,040</span>
+      </a>
       <a href="products.php" class="block py-2 font-semibold text-neutral-900 border-b border-neutral-50">All Products Catalog</a>
       <a href="about.php" class="block py-2 font-semibold text-neutral-900 border-b border-neutral-50">About Us</a>
       <a href="contact.php" class="block py-2 font-semibold text-neutral-900 border-b border-neutral-50">Contact Us</a>

@@ -3,17 +3,18 @@ define('APP_INIT', true);
 require_once __DIR__ . '/config.php';
 require_once __DIR__ . '/includes/data.php';
 
-$pageTitle = 'About Us';
+$pageTitle = 'About Us | Panna Heera Perfumery';
+$currentPage = 'about';
 include_once __DIR__ . '/includes/header.php';
 ?>
 
 <!-- Page Header -->
 <div class="bg-neutral-900 text-white py-14 border-b border-neutral-800">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-    <span class="text-gold text-xs font-bold tracking-widest uppercase block mb-2">Our Heritage & Expertise</span>
-    <h1 class="text-3xl sm:text-5xl font-extrabold font-serif">Artisans of Luxury Perfumery Packaging</h1>
+    <span class="text-gold text-xs font-bold tracking-widest uppercase block mb-2">Our Heritage & Olfactory Mastery</span>
+    <h1 class="text-3xl sm:text-5xl font-extrabold font-serif">Master Formulators of Pure Fragrance Oils</h1>
     <p class="mt-4 text-neutral-300 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed">
-      At Panna Heera Perfumery, we believe a fragrance's journey begins long before the first spray. The weight of the glass, the magnetic snap of the cap, and the velvet mist of the atomiser define prestige.
+      At Panna Heera Perfumery, we are dedicated to the pure art of fragrance. We manufacture and supply over 1,040 pure, alcohol-free fragrance compounds and perfume oils for perfume brands, attar houses, and artisans worldwide.
     </p>
   </div>
 </div>
@@ -25,101 +26,104 @@ include_once __DIR__ . '/includes/header.php';
       <div class="space-y-6">
         <span class="text-xs font-bold uppercase tracking-widest text-gold">The Panna Heera Standard</span>
         <h2 class="text-2xl sm:text-3xl font-extrabold text-neutral-900 leading-tight">
-          Pioneering Glass Excellence & Custom Closures for Brand Visionaries
+          Supplying 1,040+ Pure Fragrance Compounds to Prestige Labels & Creators
         </h2>
         <p class="text-sm text-neutral-600 leading-relaxed">
-          Founded with a commitment to uncompromised glasscraft, Panna Heera Perfumery serves independent niche houses, national retail brands, and luxury private label ventures. We bridge the gap between world-class European packaging aesthetics and responsive local supply chains.
+          Founded on principles of uncompromised scent fidelity and pure olfactory craftsmanship, Panna Heera Perfumery has established itself as one of India's foremost wholesale sources of fine fragrance oils.
         </p>
         <p class="text-sm text-neutral-600 leading-relaxed">
-          Whether you are launching your debut 50-piece capsule collection or scaling up to 500,000 unit production runs, our team coordinates glass blow tooling, electroplated Zamac alloy casting, leak-proof pump crimping, and rigid gift box manufacturing.
+          Our library spans 1,040 curated formulations: from European designer benchmarks and ultra-exclusive niche extraits to traditional Arabic mukhallats, aged Oud accords, juicy tropical fruits, and sacred Indian floral absolutes. Every single oil is 100% alcohol-free, delivering exceptional longevity, diffusive projection, and consistent batch-to-batch excellence.
         </p>
         <div class="pt-4 flex flex-wrap gap-4">
-          <a href="<?php echo getWhatsAppLink('Hi Panna Heera, I want to discuss a custom packaging project for my brand.'); ?>" target="_blank" class="bg-black text-white hover:bg-neutral-800 px-6 py-3 rounded-full text-xs font-bold tracking-wide transition">
-            Speak With Our Creative Director
+          <a href="fragrances.php" class="bg-black text-white hover:bg-neutral-800 px-6 py-3 rounded-full text-xs font-bold tracking-wide transition shadow-md">
+            Explore 1,040 Fragrance Rate List
+          </a>
+          <a href="assets/docs/panna-heera-price-list.pdf" download class="border border-neutral-300 hover:border-black text-neutral-900 px-6 py-3 rounded-full text-xs font-bold tracking-wide transition">
+            Download PDF Rate List
           </a>
         </div>
       </div>
 
       <div class="grid grid-cols-2 gap-4">
         <div class="p-6 bg-neutral-50 rounded-2xl border border-neutral-100 space-y-2">
-          <span class="text-3xl font-extrabold text-neutral-900">500+</span>
-          <h4 class="text-xs font-bold uppercase tracking-wider text-neutral-700">Fragrance Brands Served</h4>
-          <p class="text-xs text-neutral-500">From boutique niche attar houses to pan-India luxury brands.</p>
+          <span class="text-3xl font-extrabold text-neutral-900">1,040+</span>
+          <h4 class="text-xs font-bold uppercase tracking-wider text-neutral-700">Fragrance Formulations</h4>
+          <p class="text-xs text-neutral-500">Exhaustive catalog covering every major olfactory family.</p>
         </div>
         <div class="p-6 bg-neutral-50 rounded-2xl border border-neutral-100 space-y-2">
-          <span class="text-3xl font-extrabold text-gold">99.8%</span>
-          <h4 class="text-xs font-bold uppercase tracking-wider text-neutral-700">Zero-Leakage Rate</h4>
-          <p class="text-xs text-neutral-500">Rigorous vacuum & pressure testing on all pump crimps.</p>
+          <span class="text-3xl font-extrabold text-gold">0%</span>
+          <h4 class="text-xs font-bold uppercase tracking-wider text-neutral-700">Alcohol Dilution</h4>
+          <p class="text-xs text-neutral-500">100% pure, concentrated extrait fragrance oils.</p>
         </div>
         <div class="p-6 bg-neutral-50 rounded-2xl border border-neutral-100 space-y-2">
-          <span class="text-3xl font-extrabold text-gold">100%</span>
-          <h4 class="text-xs font-bold uppercase tracking-wider text-neutral-700">Super Flint Glass</h4>
-          <p class="text-xs text-neutral-500">High optical brilliance, thick crystal bases, no greenish tint.</p>
+          <span class="text-3xl font-extrabold text-gold">25 GM</span>
+          <h4 class="text-xs font-bold uppercase tracking-wider text-neutral-700">Low Trial MOQ</h4>
+          <p class="text-xs text-neutral-500">Sample and test market response with zero inventory risk.</p>
         </div>
         <div class="p-6 bg-neutral-50 rounded-2xl border border-neutral-100 space-y-2">
-          <span class="text-3xl font-extrabold text-neutral-900">18 Days</span>
-          <h4 class="text-xs font-bold uppercase tracking-wider text-neutral-700">Rapid Mold Prototyping</h4>
-          <p class="text-xs text-neutral-500">CAD concept to functional sample bottle in record turnaround.</p>
+          <span class="text-3xl font-extrabold text-neutral-900">24-48h</span>
+          <h4 class="text-xs font-bold uppercase tracking-wider text-neutral-700">Dispatch Turnaround</h4>
+          <p class="text-xs text-neutral-500">Fast pan-India courier delivery with airtight packaging.</p>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Manufacturing & Custom Moulds Anchors -->
-<section id="manufacturing" class="py-16 bg-[#fafafa] border-t border-neutral-200">
+<!-- Wholesale Strengths & Capabilities -->
+<section id="capabilities" class="py-16 bg-[#fafafa] border-t border-neutral-200">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center mb-12">
-      <span class="text-xs font-bold uppercase tracking-widest text-gold block mb-1">Capabilities & Services</span>
-      <h2 class="text-2xl sm:text-3xl font-extrabold text-neutral-900">End-to-End Packaging Engineering</h2>
+      <span class="text-xs font-bold uppercase tracking-widest text-gold block mb-1">Our Core Pillars</span>
+      <h2 class="text-2xl sm:text-3xl font-extrabold text-neutral-900">Why Fragrance Brands Choose Panna Heera</h2>
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-      <!-- 1. Custom Moulds -->
-      <div id="custom-moulds" class="bg-white p-6 rounded-2xl border border-neutral-200 shadow-sm space-y-3">
-        <div class="w-12 h-12 rounded-xl bg-neutral-100 flex items-center justify-center text-xl text-neutral-900 font-bold">
+      <!-- 1. Pure Concentrates -->
+      <div class="bg-white p-6 rounded-2xl border border-neutral-200 shadow-sm space-y-3">
+        <div class="w-12 h-12 rounded-xl bg-neutral-100 flex items-center justify-center text-xl text-neutral-900 font-bold font-mono">
           01
         </div>
-        <h3 class="text-base font-bold text-neutral-900">Custom Bottle Moulding</h3>
+        <h3 class="text-base font-bold text-neutral-900">100% Pure & Alcohol-Free</h3>
         <p class="text-xs text-neutral-600 leading-relaxed">
-          Create signature bottle profiles proprietary to your label. We provide 3D CAD modeling, 3D printed resin mockups, sample pilot moulds, and automated multi-cavity IS machine production.
+          Every compound is formulated at maximum active concentration without volatile solvent cut. Suitable for direct roll-on application as attar or for blending with perfumer's ethanol into retail spray collections.
         </p>
         <ul class="text-xs text-neutral-500 space-y-1.5 pt-2">
-          <li>✓ Debossed & embossed base branding</li>
-          <li>✓ Asymmetrical & geometric shapes</li>
-          <li>✓ FEA 15mm crimp and 18/415 screw finishes</li>
+          <li>✓ No DIP, DEP, or alcohol thinning</li>
+          <li>✓ High tenacity base note fixatives</li>
+          <li>✓ Skin-safe & IFRA aligned ingredients</li>
         </ul>
       </div>
 
-      <!-- 2. Surface Decoration -->
+      <!-- 2. Library Depth -->
       <div class="bg-white p-6 rounded-2xl border border-neutral-200 shadow-sm space-y-3">
-        <div class="w-12 h-12 rounded-xl bg-neutral-100 flex items-center justify-center text-xl text-gold font-bold">
+        <div class="w-12 h-12 rounded-xl bg-neutral-100 flex items-center justify-center text-xl text-gold font-bold font-mono">
           02
         </div>
-        <h3 class="text-base font-bold text-neutral-900">Surface Finishing & Printing</h3>
+        <h3 class="text-base font-bold text-neutral-900">1,040+ Curated Scent Profiles</h3>
         <p class="text-xs text-neutral-600 leading-relaxed">
-          Transform clear glass into exquisite tactile works of art with multi-pass screen printing, genuine gold foil hot stamping, gradient frosted coatings, and soft-touch rubberized lacquers.
+          From best-selling mainstream European designer perfumes to ultra-luxurious private blends, traditional Middle Eastern Ouds, fruits, and pure Indian florales (Mogra, Ratrani, Jasmin).
         </p>
         <ul class="text-xs text-neutral-500 space-y-1.5 pt-2">
-          <li>✓ 24K real gold & silver hot stamping</li>
-          <li>✓ Matte, glossy, and iridescent color spraying</li>
-          <li>✓ Alcohol & scratch-proof UV cured inks</li>
+          <li>✓ 790+ Designer inspirations</li>
+          <li>✓ 180+ Oriental & Gulf attars</li>
+          <li>✓ 50+ Niche luxury extraits</li>
         </ul>
       </div>
 
-      <!-- 3. Turnkey Assembly & QC -->
+      <!-- 3. Wholesale Tiers -->
       <div class="bg-white p-6 rounded-2xl border border-neutral-200 shadow-sm space-y-3">
-        <div class="w-12 h-12 rounded-xl bg-neutral-100 flex items-center justify-center text-xl text-neutral-900 font-bold">
+        <div class="w-12 h-12 rounded-xl bg-neutral-100 flex items-center justify-center text-xl text-neutral-900 font-bold font-mono">
           03
         </div>
-        <h3 class="text-base font-bold text-neutral-900">Caps, Pumps & Assembly</h3>
+        <h3 class="text-base font-bold text-neutral-900">Flexible B2B Wholesale Packs</h3>
         <p class="text-xs text-neutral-600 leading-relaxed">
-          Complete sets tested for zero capillary leakage. Magnetic Zamac caps, laser engraved collars, and customized dip tubes cut to exact millimetric depths to ensure every drop is atomized.
+          Order exactly what you need. Test emerging trends with 25 GM trial bottles, produce capsule runs with 100 GM packs, or scale up with factory-sealed 1 KG aluminum canisters and 25 KG drums.
         </p>
         <ul class="text-xs text-neutral-500 space-y-1.5 pt-2">
-          <li>✓ High dose fine mist sprayers (0.12ml)</li>
-          <li>✓ Neodymium magnetic closures with solid snap</li>
-          <li>✓ Rigid presentation boxes & EVA foam inserts</li>
+          <li>✓ 25 GM low-risk trial MOQ</li>
+          <li>✓ 100 GM intermediate blending lots</li>
+          <li>✓ 1 KG wholesale aluminum canisters</li>
         </ul>
       </div>
     </div>
@@ -127,5 +131,6 @@ include_once __DIR__ . '/includes/header.php';
 </section>
 
 <?php
+include_once __DIR__ . '/includes/modals.php';
 include_once __DIR__ . '/includes/footer.php';
 ?>

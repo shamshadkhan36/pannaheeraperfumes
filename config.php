@@ -12,11 +12,16 @@ if (!defined('APP_INIT')) {
     define('APP_INIT', true);
 }
 
+// Ensure UTF-8 Content-Type header is always dispatched
+if (!headers_sent()) {
+    header('Content-Type: text/html; charset=UTF-8');
+}
+
 // Brand & Company Information
 if (!defined('SITE_NAME')) define('SITE_NAME', 'PANNA HEERA PERFUMERY');
 if (!defined('BRAND_FIRST_NAME')) define('BRAND_FIRST_NAME', 'PANNA HEERA');
 if (!defined('BRAND_LAST_NAME')) define('BRAND_LAST_NAME', 'PERFUMERY');
-if (!defined('SITE_TAGLINE')) define('SITE_TAGLINE', 'Premium Glass Bottles, Designer Caps, Fine Mist Pumps & Fragrance Solutions');
+if (!defined('SITE_TAGLINE')) define('SITE_TAGLINE', 'Haute Fragrance Compounds, Pure Perfume Oils & Wholesale Attars');
 
 // Contact & Social Details
 if (!defined('PHONE_NUMBER')) define('PHONE_NUMBER', '+91 98765 43210');
@@ -39,7 +44,7 @@ if (!function_exists('getWhatsAppLink')) {
         if (!empty($customText)) {
             return $base . '?text=' . urlencode($customText);
         }
-        return $base . '?text=' . urlencode('Hello Panna Heera Perfumery! I am interested in your perfume bottles and packaging solutions.');
+        return $base . '?text=' . urlencode('Hello Panna Heera Perfumery! I am interested in your wholesale fragrance compounds and pure perfume oils.');
     }
 }
 
@@ -47,8 +52,11 @@ if (!function_exists('getWhatsAppLink')) {
  * Helper to format price
  */
 if (!function_exists('formatPrice')) {
-    function formatPrice($amount) {
-        return CURRENCY_SYMBOL . ' ' . number_format($amount, 2);
+    function formatPrice($amount, $decimals = null) {
+        if ($decimals === null) {
+            $decimals = (floor((float)$amount) == (float)$amount) ? 0 : 2;
+        }
+        return CURRENCY_SYMBOL . number_format((float)$amount, $decimals);
     }
 }
 

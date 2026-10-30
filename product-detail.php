@@ -3,7 +3,7 @@ define('APP_INIT', true);
 require_once __DIR__ . '/config.php';
 require_once __DIR__ . '/includes/data.php';
 
-$productId = isset($_GET['id']) ? trim($_GET['id']) : '100ml-victor';
+$productId = isset($_GET['id']) ? trim($_GET['id']) : 'oil-1';
 $product = getProductById($productId);
 
 if (!$product) {
@@ -48,7 +48,7 @@ include_once __DIR__ . '/includes/header.php';
         <div class="bg-neutral-50 rounded-2xl border border-neutral-200 p-6">
           <div class="flex items-center gap-2 mb-4">
             <svg class="w-5 h-5 text-gold" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h7"/></svg>
-            <h3 class="font-bold text-xs uppercase tracking-widest text-neutral-800">Engineered Technical Tolerances</h3>
+            <h3 class="font-bold text-xs uppercase tracking-widest text-neutral-800">Formulation & Wholesale Specifications</h3>
           </div>
           <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 text-xs">
             <?php foreach ($product['dimensions'] as $key => $val): ?>
@@ -74,15 +74,15 @@ include_once __DIR__ . '/includes/header.php';
       <!-- Pricing & MOQ Tag -->
       <div class="flex items-center gap-4 py-3 border-y border-neutral-200">
         <div>
-          <span class="text-xs text-neutral-500 block">Wholesale Base Price</span>
+          <span class="text-xs text-neutral-500 block">Trial Rate (From)</span>
           <span class="text-2xl sm:text-3xl font-extrabold text-neutral-900"><?php echo formatPrice($product['price']); ?></span>
-          <span class="text-xs text-neutral-500 font-normal">/ piece</span>
+          <span class="text-xs text-neutral-500 font-normal">/ 25 GM trial</span>
         </div>
         <div class="h-8 w-px bg-neutral-200"></div>
         <div>
           <span class="text-xs text-neutral-500 block">Minimum Order</span>
           <span class="text-sm font-bold text-amber-700 bg-amber-50 px-2.5 py-1 rounded border border-amber-200 inline-block mt-0.5">
-            <?php echo $product['moq']; ?> pieces MOQ
+            <?php echo htmlspecialchars($product['moq_label'] ?? ($product['moq'] . ' GM')); ?> MOQ
           </span>
         </div>
       </div>
@@ -90,6 +90,11 @@ include_once __DIR__ . '/includes/header.php';
       <p class="text-xs text-neutral-600 leading-relaxed">
         <?php echo htmlspecialchars($product['description']); ?>
       </p>
+
+      <!-- Benchmark Notice -->
+      <div class="p-2.5 rounded-xl bg-neutral-50 border border-neutral-200/80 text-[10px] text-neutral-500 leading-relaxed">
+        <strong class="text-neutral-700">* Benchmark Reference:</strong> Trademark names mentioned are descriptive olfactory benchmarks to indicate scent notes and olfactory family. Panna Heera Perfumery produces proprietary compound formulations with 0% alcohol dilution and is not affiliated with the trademark holders.
+      </div>
 
       <!-- Specifications Checklist -->
       <div class="space-y-2 pt-2">
@@ -135,7 +140,7 @@ include_once __DIR__ . '/includes/header.php';
           </button>
 
           <?php 
-          $waDetailMsg = "Hi Panna Heera Perfumery, I am interested in inquiring for:\nProduct: {$product['title']}\nBase Price: " . formatPrice($product['price']) . "\nMOQ: {$product['moq']} pcs\nPlease share formal quotation and stock status.";
+          $waDetailMsg = "Hi Panna Heera Perfumery, I am interested in ordering fragrance oil:\nCompound: {$product['title']}\nBase Rate: " . formatPrice($product['price']) . "\nAvailable in 25 GM / 100 GM / 1 KG wholesale packs.\nPlease share delivery timeline and payment details.";
           ?>
           <a 
             href="<?php echo getWhatsAppLink($waDetailMsg); ?>" 
@@ -148,8 +153,9 @@ include_once __DIR__ . '/includes/header.php';
         </div>
 
         <div class="p-3 bg-neutral-50 rounded-lg text-[11px] text-neutral-500 space-y-1">
-          <p>✦ Custom silk screen printing & hot stamping available from 500 pcs.</p>
-          <p>✦ Standard lead time: 3-5 business days for in-stock dispatches.</p>
+          <p>✦ 100% pure alcohol-free fragrance concentrate compound.</p>
+          <p>✦ Available in 25 GM trial packs, 100 GM lots, and 1 KG bulk aluminum flacons.</p>
+          <p>✦ Pan-India air & surface dispatch within 24-48 business hours.</p>
         </div>
       </div>
     </div>
@@ -177,10 +183,10 @@ include_once __DIR__ . '/includes/header.php';
           <h3 class="product-title"><?php echo htmlspecialchars($rProd['title']); ?></h3>
           <div class="product-meta">
             <span class="product-price"><?php echo formatPrice($rProd['price']); ?></span>
-            <span class="product-moq">MOQ: <?php echo $rProd['moq']; ?> pcs</span>
+            <span class="product-moq">MOQ: <?php echo htmlspecialchars($rProd['moq_label'] ?? '25 GM'); ?></span>
           </div>
           <a href="product-detail.php?id=<?php echo urlencode($rProd['id']); ?>" class="btn-select-options">
-            <span>View Specifications</span>
+            <span>View Compound & Pricing</span>
           </a>
         </div>
       <?php endforeach; ?>
