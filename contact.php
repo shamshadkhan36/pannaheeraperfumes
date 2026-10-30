@@ -107,11 +107,11 @@ include_once __DIR__ . '/includes/header.php';
       <div class="p-6 bg-gradient-to-br from-neutral-900 to-neutral-800 text-white rounded-2xl shadow-md">
         <h3 class="font-bold text-sm text-white mb-2">Need Oil Samples Urgently?</h3>
         <p class="text-xs text-neutral-300 mb-4 leading-relaxed">
-          Order a curated discovery sample kit of our pure 100% alcohol-free fragrance oils in 25 GM trial bottles dispatched within 24 hours pan-India.
+          Order our pure 100% alcohol-free fragrance oils in 100 GM production bottles dispatched within 24 hours pan-India.
         </p>
-        <a href="<?php echo getWhatsAppLink('Hi Panna Heera Perfumery, I would like to order a 25 GM sample pack of fragrance oils.'); ?>" target="_blank" class="bg-[#25D366] hover:bg-[#20ba5a] text-white py-2.5 px-5 rounded-full text-xs font-bold inline-flex items-center gap-2 transition">
+        <a href="<?php echo getWhatsAppLink('Hi Panna Heera Perfumery, I would like to order 100 GM production packs of fragrance oils.'); ?>" target="_blank" class="bg-[#25D366] hover:bg-[#20ba5a] text-white py-2.5 px-5 rounded-full text-xs font-bold inline-flex items-center gap-2 transition">
           <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.971.53 1.954.815 2.796.815 3.183 0 5.768-2.586 5.768-5.766.001-3.182-2.584-5.767-5.768-5.767zm0 10.368c-.768 0-1.636-.242-2.316-.645l-.166-.098-1.579.414.421-1.539-.108-.172c-.443-.708-.677-1.488-.677-2.562 0-2.538 2.066-4.604 4.605-4.604 2.539 0 4.604 2.066 4.604 4.605 0 2.538-2.065 4.601-4.605 4.601z"/></svg>
-          Order 25g Samples on WhatsApp
+          Order 100g Packs on WhatsApp
         </a>
       </div>
     </div>
@@ -165,19 +165,18 @@ include_once __DIR__ . '/includes/header.php';
             <div>
               <label class="block text-xs font-semibold uppercase tracking-wider text-neutral-700 mb-1">Product of Interest</label>
               <select name="interest" class="w-full px-3.5 py-2.5 text-xs rounded-lg border border-neutral-300 focus:outline-none focus:border-neutral-900 bg-white">
-                <option value="French & Designer Fragrance Oils">French & Designer Fragrance Oils (1 KG / 100g / 25g)</option>
-                <option value="Oriental & Arabic Attars">Oriental & Arabic Attars (1 KG / 100g / 25g)</option>
-                <option value="Niche Luxury Extrait Compounds">Niche Luxury Extrait Compounds (1 KG / 100g / 25g)</option>
-                <option value="Pure Oud & Mukhallat Blends">Pure Oud & Mukhallat Blends (1 KG / 100g / 25g)</option>
-                <option value="Fruits & Gourmand Fragrances">Fruits & Gourmand Fragrances (1 KG / 100g / 25g)</option>
-                <option value="Floral & Botanical Fragrances">Floral & Botanical Fragrances (1 KG / 100g / 25g)</option>
+                <option value="French & Designer Fragrance Oils">French & Designer Fragrance Oils (1 KG / 100g)</option>
+                <option value="Oriental & Arabic Attars">Oriental & Arabic Attars (1 KG / 100g)</option>
+                <option value="Niche Luxury Extrait Compounds">Niche Luxury Extrait Compounds (1 KG / 100g)</option>
+                <option value="Pure Oud & Mukhallat Blends">Pure Oud & Mukhallat Blends (1 KG / 100g)</option>
+                <option value="Fruits & Gourmand Fragrances">Fruits & Gourmand Fragrances (1 KG / 100g)</option>
+                <option value="Floral & Botanical Fragrances">Floral & Botanical Fragrances (1 KG / 100g)</option>
                 <option value="Mixed Variety Wholesale Order">Mixed Variety Wholesale Order (From PDF List)</option>
               </select>
             </div>
             <div>
               <label class="block text-xs font-semibold uppercase tracking-wider text-neutral-700 mb-1">Anticipated Quantity</label>
               <select name="quantity" class="w-full px-3.5 py-2.5 text-xs rounded-lg border border-neutral-300 focus:outline-none focus:border-neutral-900 bg-white">
-                <option value="Trial Pack (25 GM x Multiple Variants)">Trial Pack (25 GM x Multiple Variants)</option>
                 <option value="Production Lot (100 GM - 500 GM)">Production Lot (100 GM - 500 GM)</option>
                 <option value="Wholesale Flacons (1 KG - 5 KG)">Wholesale Flacons (1 KG - 5 KG)</option>
                 <option value="Commercial Drum Bulk (10 KG - 25 KG+)">Commercial Drum Bulk (10 KG - 25 KG+)</option>
@@ -187,7 +186,7 @@ include_once __DIR__ . '/includes/header.php';
 
           <div>
             <label class="block text-xs font-semibold uppercase tracking-wider text-neutral-700 mb-1">Project Details / Requirements</label>
-            <textarea name="message" rows="4" placeholder="Specify fragrance oil names, S.No numbers from the 1,040 rate list, pack sizes (1 KG / 100g / 25g), and your delivery city..." class="w-full px-3.5 py-2.5 text-xs rounded-lg border border-neutral-300 focus:outline-none focus:border-neutral-900"></textarea>
+            <textarea name="message" rows="4" placeholder="Specify fragrance oil names, S.No numbers from the 1,040 rate list, pack sizes (1 KG / 100g), and your delivery city..." class="w-full px-3.5 py-2.5 text-xs rounded-lg border border-neutral-300 focus:outline-none focus:border-neutral-900"></textarea>
           </div>
 
           <button type="submit" class="w-full bg-neutral-900 hover:bg-black text-white py-3.5 rounded-full text-xs font-bold tracking-wider uppercase transition shadow-md">
@@ -211,7 +210,7 @@ include_once __DIR__ . '/includes/header.php';
       <div class="p-5 bg-neutral-50 rounded-xl border border-neutral-200">
         <h3 class="font-bold text-neutral-900 mb-1.5 text-sm">What is the Minimum Order Quantity (MOQ)?</h3>
         <p class="text-neutral-600 leading-relaxed">
-          Our minimum trial pack is only 25 GM per fragrance oil variety. This allows fragrance entrepreneurs, indie perfumers, and attar retailers to sample scent quality and projection with minimal investment before purchasing 100 GM production lots or 1 KG wholesale aluminum flacons.
+          Our minimum wholesale order is 100 GM per fragrance oil variety. This provides an accessible threshold for fragrance brands, indie perfumers, and attar retailers to manufacture boutique batches before scaling up to 1 KG wholesale aluminum flacons.
         </p>
       </div>
 
@@ -225,7 +224,7 @@ include_once __DIR__ . '/includes/header.php';
       <div class="p-5 bg-neutral-50 rounded-xl border border-neutral-200">
         <h3 class="font-bold text-neutral-900 mb-1.5 text-sm">What are the available packaging sizes?</h3>
         <p class="text-neutral-600 leading-relaxed">
-          We supply our fragrance oils in three standardized B2B tiers: 25 GM trial sample bottles, 100 GM intermediate blending packs, and 1 KG sealed aluminum wholesale containers. Commercial drums (10 KG - 25 KG) are available upon custom request.
+          We supply our fragrance oils in standardized B2B tiers: 100 GM intermediate blending packs and 1 KG sealed aluminum wholesale containers. Commercial drums (10 KG - 25 KG) are available upon custom request.
         </p>
       </div>
 

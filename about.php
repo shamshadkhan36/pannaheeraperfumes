@@ -56,9 +56,9 @@ include_once __DIR__ . '/includes/header.php';
           <p class="text-xs text-neutral-500">100% pure, concentrated extrait fragrance oils.</p>
         </div>
         <div class="p-6 bg-neutral-50 rounded-2xl border border-neutral-100 space-y-2">
-          <span class="text-3xl font-extrabold text-gold">25 GM</span>
-          <h4 class="text-xs font-bold uppercase tracking-wider text-neutral-700">Low Trial MOQ</h4>
-          <p class="text-xs text-neutral-500">Sample and test market response with zero inventory risk.</p>
+          <span class="text-3xl font-extrabold text-gold">100 GM</span>
+          <h4 class="text-xs font-bold uppercase tracking-wider text-neutral-700">Minimum Order (MOQ)</h4>
+          <p class="text-xs text-neutral-500">Accessible wholesale entry threshold for indie labels and brands.</p>
         </div>
         <div class="p-6 bg-neutral-50 rounded-2xl border border-neutral-100 space-y-2">
           <span class="text-3xl font-extrabold text-neutral-900">24-48h</span>
@@ -118,12 +118,12 @@ include_once __DIR__ . '/includes/header.php';
         </div>
         <h3 class="text-base font-bold text-neutral-900">Flexible B2B Wholesale Packs</h3>
         <p class="text-xs text-neutral-600 leading-relaxed">
-          Order exactly what you need. Test emerging trends with 25 GM trial bottles, produce capsule runs with 100 GM packs, or scale up with factory-sealed 1 KG aluminum canisters and 25 KG drums.
+          Order exactly what you need. Produce capsule runs with 100 GM packs, or scale up with factory-sealed 1 KG aluminum canisters and 25 KG drums.
         </p>
         <ul class="text-xs text-neutral-500 space-y-1.5 pt-2">
-          <li>✓ 25 GM low-risk trial MOQ</li>
-          <li>✓ 100 GM intermediate blending lots</li>
+          <li>✓ 100 GM flexible wholesale MOQ</li>
           <li>✓ 1 KG wholesale aluminum canisters</li>
+          <li>✓ 25 KG bulk manufacturing drums</li>
         </ul>
       </div>
     </div>

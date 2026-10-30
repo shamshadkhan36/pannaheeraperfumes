@@ -74,9 +74,9 @@ include_once __DIR__ . '/includes/header.php';
       <!-- Pricing & MOQ Tag -->
       <div class="flex items-center gap-4 py-3 border-y border-neutral-200">
         <div>
-          <span class="text-xs text-neutral-500 block">Trial Rate (From)</span>
+          <span class="text-xs text-neutral-500 block">Wholesale Rate (From)</span>
           <span class="text-2xl sm:text-3xl font-extrabold text-neutral-900"><?php echo formatPrice($product['price']); ?></span>
-          <span class="text-xs text-neutral-500 font-normal">/ 25 GM trial</span>
+          <span class="text-xs text-neutral-500 font-normal">/ 100 GM pack</span>
         </div>
         <div class="h-8 w-px bg-neutral-200"></div>
         <div>
@@ -140,7 +140,7 @@ include_once __DIR__ . '/includes/header.php';
           </button>
 
           <?php 
-          $waDetailMsg = "Hi Panna Heera Perfumery, I am interested in ordering fragrance oil:\nCompound: {$product['title']}\nBase Rate: " . formatPrice($product['price']) . "\nAvailable in 25 GM / 100 GM / 1 KG wholesale packs.\nPlease share delivery timeline and payment details.";
+          $waDetailMsg = "Hi Panna Heera Perfumery, I am interested in ordering fragrance oil:\nCompound: {$product['title']}\nBase Rate: " . formatPrice($product['price']) . "\nAvailable in 100 GM lots and 1 KG wholesale flacons.\nPlease share delivery timeline and payment details.";
           ?>
           <a 
             href="<?php echo getWhatsAppLink($waDetailMsg); ?>" 
@@ -154,7 +154,7 @@ include_once __DIR__ . '/includes/header.php';
 
         <div class="p-3 bg-neutral-50 rounded-lg text-[11px] text-neutral-500 space-y-1">
           <p>✦ 100% pure alcohol-free fragrance concentrate compound.</p>
-          <p>✦ Available in 25 GM trial packs, 100 GM lots, and 1 KG bulk aluminum flacons.</p>
+          <p>✦ Available in 100 GM lots and 1 KG bulk aluminum flacons.</p>
           <p>✦ Pan-India air & surface dispatch within 24-48 business hours.</p>
         </div>
       </div>
@@ -183,7 +183,7 @@ include_once __DIR__ . '/includes/header.php';
           <h3 class="product-title"><?php echo htmlspecialchars($rProd['title']); ?></h3>
           <div class="product-meta">
             <span class="product-price"><?php echo formatPrice($rProd['price']); ?></span>
-            <span class="product-moq">MOQ: <?php echo htmlspecialchars($rProd['moq_label'] ?? '25 GM'); ?></span>
+            <span class="product-moq">MOQ: <?php echo htmlspecialchars($rProd['moq_label'] ?? '100 GM'); ?></span>
           </div>
           <a href="product-detail.php?id=<?php echo urlencode($rProd['id']); ?>" class="btn-select-options">
             <span>View Compound & Pricing</span>

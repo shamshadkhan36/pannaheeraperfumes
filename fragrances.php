@@ -44,7 +44,7 @@ include_once __DIR__ . '/includes/header.php';
           Haute Fragrance Compounds & Oils
         </h1>
         <p class="text-neutral-400 text-xs sm:text-sm leading-relaxed max-w-2xl">
-          Direct wholesale supplier of ultra-concentrated French, Oriental, Arabic, and Artisanal fragrance oils. Available in wholesale lots of <strong class="text-white">1 KG</strong>, <strong class="text-white">100 GM</strong>, and <strong class="text-white">25 GM</strong> trial packs.
+          Direct wholesale supplier of ultra-concentrated French, Oriental, Arabic, and Artisanal fragrance oils. Available in wholesale lots of <strong class="text-white">1 KG</strong> and <strong class="text-white">100 GM</strong> production packs.
         </p>
       </div>
 
@@ -97,7 +97,7 @@ include_once __DIR__ . '/includes/header.php';
           <option value="name_asc">Name: A to Z</option>
           <option value="price_1kg_asc">1 KG Price: Low to High</option>
           <option value="price_1kg_desc">1 KG Price: High to Low</option>
-          <option value="price_25g_asc">25 GM Trial: Low to High</option>
+          <option value="price_100g_asc">100 GM Pack: Low to High</option>
         </select>
 
         <!-- Per Page Select -->
@@ -173,7 +173,6 @@ include_once __DIR__ . '/includes/header.php';
             <th class="py-3.5 px-4 font-bold">Fragrance Compound Name</th>
             <th class="py-3.5 px-4 font-bold">House / Brand</th>
             <th class="py-3.5 px-4 font-bold">Category</th>
-            <th class="py-3.5 px-4 font-bold text-right">25 GM Pack</th>
             <th class="py-3.5 px-4 font-bold text-right">100 GM Pack</th>
             <th class="py-3.5 px-4 font-bold text-right text-amber-300">1 KG Wholesale</th>
             <th class="py-3.5 px-4 font-bold text-center">Quick WhatsApp Order</th>
@@ -227,7 +226,7 @@ include_once __DIR__ . '/includes/header.php';
       </div>
       <div class="space-y-1">
         <strong class="text-neutral-900 block font-semibold">3. Tier Pricing & Dispatch</strong>
-        <p class="leading-relaxed">Minimum trial order per variant is 25 GM. Bulk 1 KG aluminum flacons feature special wholesale volume discounts. Orders ship pan-India with secure couriers.</p>
+        <p class="leading-relaxed">Minimum wholesale order per variant is 100 GM. Bulk 1 KG aluminum flacons feature special wholesale volume discounts. Orders ship pan-India with secure couriers.</p>
       </div>
     </div>
   </div>
@@ -394,7 +393,7 @@ include_once __DIR__ . '/includes/header.php';
         if (sortMode === 'name_asc') return a.full_name.localeCompare(b.full_name);
         if (sortMode === 'price_1kg_asc') return a.price_1kg - b.price_1kg;
         if (sortMode === 'price_1kg_desc') return b.price_1kg - a.price_1kg;
-        if (sortMode === 'price_25g_asc') return a.price_25gm - b.price_25gm;
+        if (sortMode === 'price_100g_asc') return a.price_100gm - b.price_100gm;
         return 0;
       });
     }
@@ -461,9 +460,6 @@ include_once __DIR__ . '/includes/header.php';
             <td class="py-3 px-4 text-neutral-500 text-[11px]">
               ${item.family}
             </td>
-            <td class="py-3 px-4 text-right font-mono font-semibold text-neutral-700">
-              ₹${item.price_25gm.toLocaleString('en-IN')}
-            </td>
             <td class="py-3 px-4 text-right font-mono font-semibold text-neutral-800">
               ₹${item.price_100gm.toLocaleString('en-IN')}
             </td>
@@ -471,7 +467,7 @@ include_once __DIR__ . '/includes/header.php';
               ₹${item.price_1kg.toLocaleString('en-IN')}
             </td>
             <td class="py-3 px-4 text-center">
-              <div class="inline-flex items-center gap-1">
+              <div class="inline-flex items-center gap-1.5">
                 <a 
                   href="${buildWhatsAppLink(item, '1 KG', item.price_1kg)}" 
                   target="_blank" 
@@ -485,17 +481,9 @@ include_once __DIR__ . '/includes/header.php';
                   href="${buildWhatsAppLink(item, '100 GM', item.price_100gm)}" 
                   target="_blank" 
                   title="Order 100 GM on WhatsApp"
-                  class="bg-neutral-900 hover:bg-black text-white px-2 py-1.5 rounded-lg text-[10px] font-semibold transition"
+                  class="bg-neutral-900 hover:bg-black text-white px-2.5 py-1.5 rounded-lg text-[10px] font-semibold transition"
                 >
-                  100g
-                </a>
-                <a 
-                  href="${buildWhatsAppLink(item, '25 GM', item.price_25gm)}" 
-                  target="_blank" 
-                  title="Order 25 GM Sample on WhatsApp"
-                  class="bg-neutral-100 hover:bg-neutral-200 text-neutral-800 px-2 py-1.5 rounded-lg text-[10px] font-semibold transition border border-neutral-200"
-                >
-                  25g
+                  Order 100g
                 </a>
               </div>
             </td>
@@ -507,7 +495,6 @@ include_once __DIR__ . '/includes/header.php';
       cardsContainer.innerHTML = pageItems.map(item => {
         const order1kgUrl = buildWhatsAppLink(item, '1 KG Wholesale', item.price_1kg);
         const order100gUrl = buildWhatsAppLink(item, '100 GM Pack', item.price_100gm);
-        const order25gUrl = buildWhatsAppLink(item, '25 GM Trial', item.price_25gm);
 
         return `
         <div class="product-card group bg-white rounded-2xl border border-neutral-200/80 shadow-sm hover:shadow-xl hover:border-neutral-300 transition-all duration-300 overflow-hidden flex flex-col justify-between hover:-translate-y-1">
@@ -559,26 +546,22 @@ include_once __DIR__ . '/includes/header.php';
                   In Stock
                 </span>
                 <span>•</span>
-                <span>MOQ: 25 GM</span>
+                <span>MOQ: 100 GM</span>
               </div>
             </div>
           </div>
 
-          <!-- Bottom: 3-Tier Wholesale Rates & Quick Order -->
+          <!-- Bottom: 2-Tier Wholesale Rates & Quick Order -->
           <div class="p-4 pt-0 space-y-3">
-            <!-- 3 Pricing Boxes -->
-            <div class="grid grid-cols-3 gap-1.5 text-center bg-neutral-50 p-2 rounded-xl border border-neutral-200/80">
-              <a href="${order25gUrl}" target="_blank" title="Order 25 GM Trial Pack on WhatsApp" class="hover:bg-white p-1 rounded-lg transition group/p">
-                <span class="text-neutral-400 block text-[9px] font-bold uppercase tracking-wider group-hover/p:text-neutral-700">25 GM</span>
-                <strong class="text-neutral-800 font-mono block text-xs font-bold whitespace-nowrap">₹${item.price_25gm.toLocaleString('en-IN')}</strong>
+            <!-- 2 Pricing Boxes -->
+            <div class="grid grid-cols-2 gap-2 text-center bg-neutral-50 p-2 rounded-xl border border-neutral-200/80">
+              <a href="${order100gUrl}" target="_blank" title="Order 100 GM Pack on WhatsApp" class="hover:bg-white p-1.5 rounded-lg transition group/p">
+                <span class="text-neutral-400 block text-[10px] font-bold uppercase tracking-wider group-hover/p:text-neutral-700">100 GM</span>
+                <strong class="text-neutral-800 font-mono block text-sm font-bold whitespace-nowrap">₹${item.price_100gm.toLocaleString('en-IN')}</strong>
               </a>
-              <a href="${order100gUrl}" target="_blank" title="Order 100 GM Pack on WhatsApp" class="hover:bg-white p-1 rounded-lg transition group/p">
-                <span class="text-neutral-400 block text-[9px] font-bold uppercase tracking-wider group-hover/p:text-neutral-700">100 GM</span>
-                <strong class="text-neutral-800 font-mono block text-xs font-bold whitespace-nowrap">₹${item.price_100gm.toLocaleString('en-IN')}</strong>
-              </a>
-              <a href="${order1kgUrl}" target="_blank" title="Order 1 KG Bulk Flacon on WhatsApp" class="bg-amber-100/70 hover:bg-amber-200/70 p-1 rounded-lg border border-amber-300/60 transition group/p">
-                <span class="text-amber-800 block text-[9px] font-black uppercase tracking-wider">1 KG Bulk</span>
-                <strong class="text-amber-950 font-mono block text-xs font-black whitespace-nowrap">₹${item.price_1kg.toLocaleString('en-IN')}</strong>
+              <a href="${order1kgUrl}" target="_blank" title="Order 1 KG Bulk Flacon on WhatsApp" class="bg-amber-100/70 hover:bg-amber-200/70 p-1.5 rounded-lg border border-amber-300/60 transition group/p">
+                <span class="text-amber-800 block text-[10px] font-black uppercase tracking-wider">1 KG Bulk</span>
+                <strong class="text-amber-950 font-mono block text-sm font-black whitespace-nowrap">₹${item.price_1kg.toLocaleString('en-IN')}</strong>
               </a>
             </div>
 
@@ -593,12 +576,12 @@ include_once __DIR__ . '/includes/header.php';
                 <span>WhatsApp Order</span>
               </a>
               <a 
-                href="${order25gUrl}" 
+                href="${order100gUrl}" 
                 target="_blank" 
-                title="Order 25 GM Sample Pack"
-                class="bg-neutral-100 hover:bg-neutral-200 text-neutral-800 text-[11px] font-bold py-2.5 px-2.5 rounded-xl transition border border-neutral-200"
+                title="Order 100 GM Pack on WhatsApp"
+                class="bg-neutral-100 hover:bg-neutral-200 text-neutral-800 text-[11px] font-bold py-2.5 px-3 rounded-xl transition border border-neutral-200"
               >
-                25g Trial
+                100g Lot
               </a>
             </div>
           </div>

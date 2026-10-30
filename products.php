@@ -78,7 +78,7 @@ include_once __DIR__ . '/includes/header.php';
           <?php echo $activeCategoryObj ? htmlspecialchars($activeCategoryObj['title']) : 'Complete Fragrance Compounds Catalog'; ?>
         </h1>
         <p class="text-xs sm:text-sm text-neutral-400 mt-1.5 max-w-2xl leading-relaxed">
-          <?php echo $activeCategoryObj ? htmlspecialchars($activeCategoryObj['subtitle']) : 'Explore pure undiluted French, Oriental, Arabic and botanical fragrance oils in 25 GM trial, 100 GM pack, and 1 KG bulk wholesale flacons.'; ?>
+          <?php echo $activeCategoryObj ? htmlspecialchars($activeCategoryObj['subtitle']) : 'Explore pure undiluted French, Oriental, Arabic and botanical fragrance oils in 100 GM production packs and 1 KG bulk wholesale flacons.'; ?>
         </p>
       </div>
 
@@ -112,7 +112,7 @@ include_once __DIR__ . '/includes/header.php';
       </div>
       <div class="space-y-1">
         <strong class="text-neutral-900 block font-semibold">3. Tier Pricing & Pan-India Dispatch</strong>
-        <p class="leading-relaxed">Minimum trial order is 25 GM. Bulk 1 KG aluminum flacons feature special wholesale volume discounts. Orders ship pan-India with secure couriers.</p>
+        <p class="leading-relaxed">Minimum wholesale order is 100 GM. Bulk 1 KG aluminum flacons feature special wholesale volume discounts. Orders ship pan-India with secure couriers.</p>
       </div>
     </div>
   </div>
@@ -178,7 +178,7 @@ include_once __DIR__ . '/includes/header.php';
             <h3 class="text-xs font-bold uppercase tracking-wider text-neutral-900">Wholesale Lot Sizes</h3>
           </div>
           <p class="text-[11px] text-neutral-500 leading-relaxed">
-            Supplied in <strong>25 GM</strong> trial packs, <strong>100 GM</strong> production bottles, and <strong>1 KG</strong> sealed aluminum flacons with volume discounts.
+            Supplied in <strong>100 GM</strong> production bottles and <strong>1 KG</strong> sealed aluminum flacons with volume discounts.
           </p>
           <a href="<?php echo getWhatsAppLink('Hi Panna Heera Perfumery, I want to inquire about bulk wholesale fragrance compounds.'); ?>" target="_blank" class="block text-center text-xs font-bold bg-[#25D366] hover:bg-[#20ba5a] text-white py-2.5 rounded-xl transition shadow-sm">
             Inquire Bulk Rates on WhatsApp
@@ -236,7 +236,7 @@ include_once __DIR__ . '/includes/header.php';
         <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
           <?php foreach ($pageProducts as $prod): 
             $order1kgUrl = getWhatsAppLink("Hello Panna Heera Perfumery! I would like to order fragrance oil:\n\n*Compound:* {$prod['title']} (#{$prod['sno']})\n*Category:* {$prod['category_title']}\n*Selected Weight:* 1 KG Wholesale\n*Listed Rate:* " . formatPrice($prod['price_1kg']) . "\n\nPlease share delivery timeline and payment details.");
-            $order25gUrl = getWhatsAppLink("Hello Panna Heera Perfumery! I would like to order a trial pack:\n\n*Compound:* {$prod['title']} (#{$prod['sno']})\n*Selected Weight:* 25 GM Sample\n*Listed Rate:* " . formatPrice($prod['price_25gm']) . "\n\nPlease share payment details.");
+            $order100gUrl = getWhatsAppLink("Hello Panna Heera Perfumery! I would like to order fragrance oil:\n\n*Compound:* {$prod['title']} (#{$prod['sno']})\n*Category:* {$prod['category_title']}\n*Selected Weight:* 100 GM Pack\n*Listed Rate:* " . formatPrice($prod['price_100gm']) . "\n\nPlease share payment details.");
           ?>
             <div class="product-card group bg-white rounded-2xl border border-neutral-200/80 shadow-sm hover:shadow-xl hover:border-neutral-300 transition-all duration-300 overflow-hidden flex flex-col justify-between hover:-translate-y-1">
               <div>
@@ -289,26 +289,22 @@ include_once __DIR__ . '/includes/header.php';
                       In Stock
                     </span>
                     <span>•</span>
-                    <span>MOQ: 25 GM</span>
+                    <span>MOQ: 100 GM</span>
                   </div>
                 </div>
               </div>
 
               <!-- Pricing & Action Buttons -->
               <div class="p-4 pt-0 space-y-3">
-                <!-- 3 Pricing Tiers -->
-                <div class="grid grid-cols-3 gap-1.5 text-center bg-neutral-50 p-2 rounded-xl border border-neutral-200/80">
-                  <a href="<?php echo $order25gUrl; ?>" target="_blank" title="Order 25g Sample on WhatsApp" class="hover:bg-white p-1 rounded-lg transition group/p">
-                    <span class="text-neutral-400 block text-[9px] font-bold uppercase tracking-wider group-hover/p:text-neutral-700">25 GM</span>
-                    <strong class="text-neutral-800 font-mono block text-xs font-bold whitespace-nowrap"><?php echo formatPrice($prod['price_25gm']); ?></strong>
+                <!-- 2 Pricing Tiers -->
+                <div class="grid grid-cols-2 gap-2 text-center bg-neutral-50 p-2 rounded-xl border border-neutral-200/80">
+                  <a href="<?php echo $order100gUrl; ?>" target="_blank" title="Order 100 GM on WhatsApp" class="hover:bg-white p-1.5 rounded-lg transition group/p">
+                    <span class="text-neutral-400 block text-[10px] font-bold uppercase tracking-wider group-hover/p:text-neutral-700">100 GM</span>
+                    <strong class="text-neutral-800 font-mono block text-sm font-bold whitespace-nowrap"><?php echo formatPrice($prod['price_100gm']); ?></strong>
                   </a>
-                  <div class="p-1 rounded-lg">
-                    <span class="text-neutral-400 block text-[9px] font-bold uppercase tracking-wider">100 GM</span>
-                    <strong class="text-neutral-800 font-mono block text-xs font-bold whitespace-nowrap"><?php echo formatPrice($prod['price_100gm']); ?></strong>
-                  </div>
-                  <a href="<?php echo $order1kgUrl; ?>" target="_blank" title="Order 1 KG Wholesale on WhatsApp" class="bg-amber-100/70 hover:bg-amber-200/70 p-1 rounded-lg border border-amber-300/60 transition group/p">
-                    <span class="text-amber-800 block text-[9px] font-black uppercase tracking-wider">1 KG Bulk</span>
-                    <strong class="text-amber-950 font-mono block text-xs font-black whitespace-nowrap"><?php echo formatPrice($prod['price_1kg']); ?></strong>
+                  <a href="<?php echo $order1kgUrl; ?>" target="_blank" title="Order 1 KG Wholesale on WhatsApp" class="bg-amber-100/70 hover:bg-amber-200/70 p-1.5 rounded-lg border border-amber-300/60 transition group/p">
+                    <span class="text-amber-800 block text-[10px] font-black uppercase tracking-wider">1 KG Bulk</span>
+                    <strong class="text-amber-950 font-mono block text-sm font-black whitespace-nowrap"><?php echo formatPrice($prod['price_1kg']); ?></strong>
                   </a>
                 </div>
 
@@ -409,7 +405,7 @@ include_once __DIR__ . '/includes/header.php';
       </div>
       <div class="space-y-1">
         <strong class="text-neutral-900 block font-semibold">3. Tier Pricing & Pan-India Dispatch</strong>
-        <p class="leading-relaxed">Minimum trial order is 25 GM. Bulk 1 KG aluminum flacons feature special wholesale volume discounts. Orders ship pan-India with secure couriers.</p>
+        <p class="leading-relaxed">Minimum wholesale order is 100 GM. Bulk 1 KG aluminum flacons feature special wholesale volume discounts. Orders ship pan-India with secure couriers.</p>
       </div>
     </div>
   </div>

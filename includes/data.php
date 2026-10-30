@@ -33,7 +33,6 @@ if (!function_exists('getProductById')) {
                 if ($oil['id'] === $id || $oil['sno'] == $id) {
                     $p1k = '₹' . number_format($oil['price_1kg']);
                     $p100 = '₹' . number_format($oil['price_100gm']);
-                    $p25 = '₹' . number_format($oil['price_25gm']);
                     return [
                         'id' => $oil['id'],
                         'sno' => $oil['sno'],
@@ -43,13 +42,12 @@ if (!function_exists('getProductById')) {
                         'category' => $oil['category_id'],
                         'category_title' => $oil['family'],
                         'image' => 'assets/images/categories/fragrance-oils.jpg',
-                        'price' => $oil['price_25gm'],
+                        'price' => $oil['price_100gm'],
                         'price_1kg' => $oil['price_1kg'],
                         'price_100gm' => $oil['price_100gm'],
-                        'price_25gm' => $oil['price_25gm'],
-                        'moq' => 25,
-                        'moq_label' => '25 GM',
-                        'capacity' => '25 GM - 1 KG',
+                        'moq' => 100,
+                        'moq_label' => '100 GM',
+                        'capacity' => '100 GM - 1 KG',
                         'badge' => '100% Pure Oil',
                         'in_stock' => true,
                         'description' => "Ultra-concentrated pure fragrance oil inspired by {$oil['brand']} - {$oil['fragrance_name']}. 100% alcohol-free, long-lasting formulation suitable for fine perfumery, attar creation, and bespoke fragrance blending.",
@@ -63,14 +61,12 @@ if (!function_exists('getProductById')) {
                             'Formulation' => 'Concentrated Fragrance Compound',
                             'Alcohol Content' => '0% (Alcohol-Free)',
                             '1 KG Bulk Pack' => $p1k,
-                            '100 GM Pack' => $p100,
-                            '25 GM Trial' => $p25
+                            '100 GM Pack' => $p100
                         ],
                         'options' => [
                             'Pack Size' => [
                                 "1 KG Wholesale Flacon - {$p1k}",
-                                "100 GM Production Lot - {$p100}",
-                                "25 GM Trial Pack - {$p25}"
+                                "100 GM Production Lot - {$p100}"
                             ]
                         ]
                     ];

@@ -43,7 +43,7 @@
             </div>
           </div>
           <p class="text-xs sm:text-sm text-neutral-400 max-w-sm leading-relaxed">
-            Your trusted wholesale manufacturer and distributor of pure, 100% alcohol-free fragrance oils and fine perfumery compounds. Stocking over 1,040 varieties in 1 KG, 100 GM, and 25 GM wholesale packs with pan-India dispatch.
+            Your trusted wholesale manufacturer and distributor of pure, 100% alcohol-free fragrance oils and fine perfumery compounds. Stocking over 1,040 varieties in 1 KG and 100 GM wholesale packs with pan-India dispatch.
           </p>
           <div class="pt-2 flex items-center space-x-3">
             <a href="<?php echo getWhatsAppLink(); ?>" target="_blank" class="w-9 h-9 rounded-full bg-neutral-800 hover:bg-[#25D366] text-white flex items-center justify-center transition">
@@ -83,7 +83,7 @@
             <li><a href="assets/docs/panna-heera-price-list.pdf" download class="hover:text-gold transition">Download PDF Rate List</a></li>
             <li><a href="about.php" class="hover:text-gold transition">Our Scent Heritage</a></li>
             <li><a href="about.php#capabilities" class="hover:text-gold transition">100% Pure & Alcohol-Free</a></li>
-            <li><a href="contact.php" class="hover:text-gold transition">25 GM Trial Samples</a></li>
+            <li><a href="contact.php" class="hover:text-gold transition">100 GM Production Lots</a></li>
             <li><a href="contact.php" class="hover:text-gold transition">1 KG Wholesale Lots</a></li>
             <li><a href="admin/index.php" class="hover:text-gold transition">Admin Panel Portal</a></li>
           </ul>

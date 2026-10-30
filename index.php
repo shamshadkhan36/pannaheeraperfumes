@@ -154,7 +154,7 @@ $marqueeItems = !empty($banner['marquee_items']) ? $banner['marquee_items'] : [
         Featured Fragrance Compounds
       </h2>
       <p class="mt-2 text-sm text-neutral-500 max-w-2xl mx-auto">
-        Top requested French, Oriental, and Niche perfume oils available in 1 KG wholesale aluminum flacons, 100 GM production lots, and 25 GM trial packs.
+        Top requested French, Oriental, and Niche perfume oils available in 1 KG wholesale aluminum flacons and 100 GM production lots.
       </p>
     </div>
 
@@ -208,7 +208,7 @@ $marqueeItems = !empty($banner['marquee_items']) ? $banner['marquee_items'] : [
               From <?php echo formatPrice($prod['price']); ?>
             </span>
             <span class="product-moq">
-              MOQ: <?php echo htmlspecialchars($prod['moq_label'] ?? '25 GM'); ?>
+              MOQ: <?php echo htmlspecialchars($prod['moq_label'] ?? '100 GM'); ?>
             </span>
           </div>
 
@@ -289,11 +289,7 @@ $marqueeItems = !empty($banner['marquee_items']) ? $banner['marquee_items'] : [
           <ul class="space-y-3.5 text-xs text-neutral-300">
             <li class="flex items-start gap-2.5">
               <span class="text-[#25D366] font-bold">✓</span>
-              <span><strong>25 GM Trial Samples:</strong> Test scent profiles, customer demand, and performance with minimal outlay.</span>
-            </li>
-            <li class="flex items-start gap-2.5">
-              <span class="text-[#25D366] font-bold">✓</span>
-              <span><strong>100 GM Intermediate Packs:</strong> Ideal for boutique fragrance batches and attar bottle filling.</span>
+              <span><strong>100 GM Production Lots:</strong> Low minimum order quantity ideal for boutique fragrance batches and attar bottle filling.</span>
             </li>
             <li class="flex items-start gap-2.5">
               <span class="text-[#25D366] font-bold">✓</span>
