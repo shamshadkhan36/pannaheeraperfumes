@@ -291,6 +291,43 @@ include_once __DIR__ . '/includes/header.php';
                     <span>•</span>
                     <span>MOQ: 100 GM</span>
                   </div>
+
+                  <!-- Notes Section Inside Card (if available) -->
+                  <?php 
+                  $pNotes = $prod['notes'] ?? [];
+                  $pTop = $pNotes['top'] ?? [];
+                  $pMid = $pNotes['middle'] ?? [];
+                  $pBase = $pNotes['base'] ?? [];
+                  $pDisplay = [];
+                  if (!empty($pTop)) $pDisplay[] = array_merge($pTop[0], ['tier' => 'Top', 'badge' => 'bg-emerald-50 text-emerald-800 border-emerald-200']);
+                  if (count($pTop) > 1) $pDisplay[] = array_merge($pTop[1], ['tier' => 'Top', 'badge' => 'bg-emerald-50 text-emerald-800 border-emerald-200']);
+                  if (!empty($pMid)) $pDisplay[] = array_merge($pMid[0], ['tier' => 'Heart', 'badge' => 'bg-rose-50 text-rose-800 border-rose-200']);
+                  if (!empty($pBase)) $pDisplay[] = array_merge($pBase[0], ['tier' => 'Base', 'badge' => 'bg-amber-50 text-amber-800 border-amber-200']);
+                  if (!empty($pDisplay)):
+                  ?>
+                    <div class="pt-2">
+                      <div class="bg-gradient-to-b from-neutral-50 to-white rounded-xl p-2 border border-neutral-200/90 shadow-[0_1px_3px_rgba(0,0,0,0.03)]">
+                        <div class="flex items-center justify-between text-[10px] font-bold text-neutral-600 mb-1.5 px-0.5">
+                          <span class="flex items-center gap-1 uppercase tracking-wider text-[#2c405a]">
+                            <svg class="w-3 h-3 text-gold" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg>
+                            <span>Fragrance Notes</span>
+                          </span>
+                          <a href="product-detail.php?id=<?php echo urlencode($prod['id']); ?>" class="text-gold font-bold hover:underline text-[10px] flex items-center gap-0.5">Pyramid &rarr;</a>
+                        </div>
+                        <div class="flex items-center justify-start gap-2 overflow-x-auto pb-0.5 scrollbar-none">
+                          <?php foreach ($pDisplay as $nd): ?>
+                            <a href="product-detail.php?id=<?php echo urlencode($prod['id']); ?>" class="flex-shrink-0 flex flex-col items-center w-[54px] p-1 rounded-xl bg-white border border-neutral-200 shadow-xs text-center hover:border-gold transition group/note" title="<?php echo htmlspecialchars($nd['tier'] . ' Note: ' . $nd['name']); ?>">
+                              <div class="w-9 h-9 rounded-lg bg-neutral-50 border border-neutral-100 flex items-center justify-center p-0.5 overflow-hidden">
+                                <img src="<?php echo htmlspecialchars($nd['image']); ?>" alt="<?php echo htmlspecialchars($nd['name']); ?>" class="max-w-full max-h-full object-contain group-hover/note:scale-105 transition-transform">
+                              </div>
+                              <span class="text-[9px] font-bold text-neutral-800 truncate w-full mt-1"><?php echo htmlspecialchars($nd['name']); ?></span>
+                              <span class="text-[7.5px] font-bold <?php echo $nd['badge']; ?> border px-1 py-0.2 rounded-full uppercase mt-0.5 leading-none"><?php echo $nd['tier']; ?></span>
+                            </a>
+                          <?php endforeach; ?>
+                        </div>
+                      </div>
+                    </div>
+                  <?php endif; ?>
                 </div>
               </div>
 

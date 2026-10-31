@@ -234,6 +234,20 @@ include_once __DIR__ . '/includes/header.php';
 </main>
 
 <!-- Load Fragrance Data & Logic -->
+<script>
+  window.PRODUCT_NOTES_MAP = <?php 
+    $notesMap = [];
+    foreach ($products as $p) {
+        if (!empty($p['notes']) && (!empty($p['notes']['top']) || !empty($p['notes']['middle']) || !empty($p['notes']['base']))) {
+            $notesMap[$p['id']] = $p['notes'];
+            if (!empty($p['sno'])) {
+                $notesMap['oil-' . $p['sno']] = $p['notes'];
+            }
+        }
+    }
+    echo json_encode($notesMap, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
+  ?>;
+</script>
 <script src="assets/js/fragrance-data.js"></script>
 <script>
   document.addEventListener('DOMContentLoaded', () => {
@@ -496,11 +510,54 @@ include_once __DIR__ . '/includes/header.php';
         const order1kgUrl = buildWhatsAppLink(item, '1 KG Wholesale', item.price_1kg);
         const order100gUrl = buildWhatsAppLink(item, '100 GM Pack', item.price_100gm);
 
+        const notesData = (window.PRODUCT_NOTES_MAP && (window.PRODUCT_NOTES_MAP[item.id] || window.PRODUCT_NOTES_MAP['oil-' + item.sno])) || null;
+
+        let notesHtml = '';
+        if (notesData) {
+          const topNotes = notesData.top || [];
+          const midNotes = notesData.middle || [];
+          const baseNotes = notesData.base || [];
+
+          const displayNotes = [];
+          if (topNotes.length > 0) displayNotes.push({ ...topNotes[0], tier: 'Top', tierBadge: 'bg-emerald-50 text-emerald-800 border-emerald-200' });
+          if (topNotes.length > 1) displayNotes.push({ ...topNotes[1], tier: 'Top', tierBadge: 'bg-emerald-50 text-emerald-800 border-emerald-200' });
+          if (midNotes.length > 0) displayNotes.push({ ...midNotes[0], tier: 'Heart', tierBadge: 'bg-rose-50 text-rose-800 border-rose-200' });
+          if (baseNotes.length > 0) displayNotes.push({ ...baseNotes[0], tier: 'Base', tierBadge: 'bg-amber-50 text-amber-800 border-amber-200' });
+
+          if (displayNotes.length > 0) {
+            notesHtml = `
+              <div class="px-4 pb-2">
+                <div class="bg-gradient-to-b from-neutral-50 to-white rounded-xl p-2 border border-neutral-200/90 shadow-[0_1px_3px_rgba(0,0,0,0.03)]">
+                  <div class="flex items-center justify-between text-[10px] font-bold text-neutral-600 mb-1.5 px-0.5">
+                    <span class="flex items-center gap-1 uppercase tracking-wider text-[#2c405a]">
+                      <svg class="w-3 h-3 text-gold" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg>
+                      <span>Fragrance Notes</span>
+                    </span>
+                    <a href="product-detail.php?id=${item.id}" class="text-gold font-bold hover:underline text-[10px] flex items-center gap-0.5">Pyramid &rarr;</a>
+                  </div>
+
+                  <div class="flex items-center justify-start gap-2 overflow-x-auto pb-0.5 scrollbar-none">
+                    ${displayNotes.map(n => `
+                      <a href="product-detail.php?id=${item.id}" class="flex-shrink-0 flex flex-col items-center w-[54px] p-1 rounded-xl bg-white border border-neutral-200 shadow-xs text-center hover:border-gold transition group/note" title="${n.tier} Note: ${n.name}">
+                        <div class="w-9 h-9 rounded-lg bg-neutral-50 border border-neutral-100 flex items-center justify-center p-0.5 overflow-hidden">
+                          <img src="${n.image}" alt="${n.name}" class="max-w-full max-h-full object-contain group-hover/note:scale-105 transition-transform">
+                        </div>
+                        <span class="text-[9px] font-bold text-neutral-800 truncate w-full mt-1">${n.name}</span>
+                        <span class="text-[7.5px] font-bold ${n.tierBadge} border px-1 py-0.2 rounded-full uppercase mt-0.5 leading-none">${n.tier}</span>
+                      </a>
+                    `).join('')}
+                  </div>
+                </div>
+              </div>
+            `;
+          }
+        }
+
         return `
         <div class="product-card group bg-white rounded-2xl border border-neutral-200/80 shadow-sm hover:shadow-xl hover:border-neutral-300 transition-all duration-300 overflow-hidden flex flex-col justify-between hover:-translate-y-1">
           <div>
             <!-- Product Photo & High-End Badges -->
-            <div class="relative aspect-square bg-gradient-to-br from-neutral-100 via-neutral-50 to-amber-50/40 overflow-hidden flex items-center justify-center border-b border-neutral-100">
+            <a href="product-detail.php?id=${item.id}" class="block relative aspect-square bg-gradient-to-br from-neutral-100 via-neutral-50 to-amber-50/40 overflow-hidden flex items-center justify-center border-b border-neutral-100">
               <img 
                 src="assets/images/categories/fragrance-oils.jpg" 
                 alt="${item.full_name}" 
@@ -527,7 +584,7 @@ include_once __DIR__ . '/includes/header.php';
                   0% Alcohol
                 </span>
               </div>
-            </div>
+            </a>
 
             <!-- Middle Text Content -->
             <div class="p-4 space-y-2">
@@ -537,7 +594,9 @@ include_once __DIR__ . '/includes/header.php';
               </div>
 
               <h3 class="font-extrabold text-neutral-900 text-sm leading-snug line-clamp-2 min-h-[2.5rem] group-hover:text-amber-700 transition" title="${item.fragrance_name}">
-                ${item.fragrance_name}
+                <a href="product-detail.php?id=${item.id}">
+                  ${item.fragrance_name}
+                </a>
               </h3>
 
               <div class="text-[11px] text-neutral-500 flex items-center gap-2">
@@ -549,6 +608,9 @@ include_once __DIR__ . '/includes/header.php';
                 <span>MOQ: 100 GM</span>
               </div>
             </div>
+
+            <!-- Notes Section Inside Card -->
+            ${notesHtml}
           </div>
 
           <!-- Bottom: 2-Tier Wholesale Rates & Quick Order -->
