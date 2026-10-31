@@ -1,0 +1,140 @@
+[
+  {
+    "id": "raspberry",
+    "name": "Raspberry",
+    "tier_default": "top",
+    "image": "assets/images/notes/raspberry.png"
+  },
+  {
+    "id": "black-currant",
+    "name": "Black Currant",
+    "tier_default": "top",
+    "image": "assets/images/notes/black-currant.png"
+  },
+  {
+    "id": "sour-cherry",
+    "name": "Sour Cherry",
+    "tier_default": "top",
+    "image": "assets/images/notes/sour-cherry.png"
+  },
+  {
+    "id": "rose",
+    "name": "Rose",
+    "tier_default": "middle",
+    "image": "assets/images/notes/rose.png"
+  },
+  {
+    "id": "jasmine",
+    "name": "Jasmine",
+    "tier_default": "middle",
+    "image": "assets/images/notes/jasmine.png"
+  },
+  {
+    "id": "wormwood",
+    "name": "Wormwood",
+    "tier_default": "middle",
+    "image": "assets/images/notes/wormwood.png"
+  },
+  {
+    "id": "patchouli",
+    "name": "Patchouli",
+    "tier_default": "base",
+    "image": "assets/images/notes/patchouli.png"
+  },
+  {
+    "id": "bergamot",
+    "name": "Bergamot",
+    "tier_default": "top",
+    "image": "assets/images/notes/bergamot.png"
+  },
+  {
+    "id": "lemon",
+    "name": "Lemon",
+    "tier_default": "top",
+    "image": "assets/images/notes/lemon.png"
+  },
+  {
+    "id": "orange",
+    "name": "Orange",
+    "tier_default": "top",
+    "image": "assets/images/notes/orange.png"
+  },
+  {
+    "id": "mint",
+    "name": "Mint",
+    "tier_default": "top",
+    "image": "assets/images/notes/mint.png"
+  },
+  {
+    "id": "lavender",
+    "name": "Lavender",
+    "tier_default": "middle",
+    "image": "assets/images/notes/lavender.png"
+  },
+  {
+    "id": "cinnamon",
+    "name": "Cinnamon",
+    "tier_default": "middle",
+    "image": "assets/images/notes/cinnamon.png"
+  },
+  {
+    "id": "cardamom",
+    "name": "Cardamom",
+    "tier_default": "middle",
+    "image": "assets/images/notes/cardamom.png"
+  },
+  {
+    "id": "pink-pepper",
+    "name": "Pink Pepper",
+    "tier_default": "top",
+    "image": "assets/images/notes/pink-pepper.png"
+  },
+  {
+    "id": "vanilla",
+    "name": "Vanilla",
+    "tier_default": "base",
+    "image": "assets/images/notes/vanilla.png"
+  },
+  {
+    "id": "amber",
+    "name": "Amber",
+    "tier_default": "base",
+    "image": "assets/images/notes/amber.png"
+  },
+  {
+    "id": "sandalwood",
+    "name": "Sandalwood",
+    "tier_default": "base",
+    "image": "assets/images/notes/sandalwood.png"
+  },
+  {
+    "id": "oud",
+    "name": "Oud",
+    "tier_default": "base",
+    "image": "assets/images/notes/oud.png"
+  },
+  {
+    "id": "musk",
+    "name": "Musk",
+    "tier_default": "base",
+    "image": "assets/images/notes/musk.png"
+  },
+  {
+    "id": "cedarwood",
+    "name": "Cedarwood",
+    "tier_default": "base",
+    "image": "assets/images/notes/cedarwood.png"
+  },
+  {
+    "id": "vetiver",
+    "name": "Vetiver",
+    "tier_default": "base",
+    "image": "assets/images/notes/vetiver.png"
+  },
+  {
+    "id": "leather",
+    "name": "Leather",
+    "tier_default": "base",
+    "image": "assets/images/notes/leather.png"
+  }
+]

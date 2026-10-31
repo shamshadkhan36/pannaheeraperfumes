@@ -19,6 +19,10 @@ $marqueeCount = count($siteData['banner']['marquee_items'] ?? []);
       <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 4v16m8-8H4"/></svg>
       Add Product
     </a>
+    <a href="notes.php" class="bg-neutral-800 hover:bg-neutral-900 text-white text-xs font-bold px-4 py-2.5 rounded-full inline-flex items-center gap-2 transition shadow-sm">
+      <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg>
+      Notes Library
+    </a>
     <a href="categories.php" class="bg-gold hover:bg-[#b08b42] text-white text-xs font-bold px-4 py-2.5 rounded-full inline-flex items-center gap-2 transition shadow-sm">
       <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 4v16m8-8H4"/></svg>
       Add Category

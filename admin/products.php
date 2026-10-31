@@ -85,6 +85,13 @@ $categories = $siteData['categories'] ?? [];
                       <span>•</span>
                       <span>Neck: <?php echo htmlspecialchars($p['neck_size']); ?></span>
                     <?php endif; ?>
+                    <?php 
+                    $prodNotesCount = count($p['notes']['top'] ?? []) + count($p['notes']['middle'] ?? []) + count($p['notes']['base'] ?? []);
+                    if ($prodNotesCount > 0): 
+                    ?>
+                      <span>•</span>
+                      <span class="text-amber-700 bg-amber-50 border border-amber-200 px-1.5 py-0.2 rounded font-semibold text-[10px] inline-flex items-center gap-1">🌿 <?php echo $prodNotesCount; ?> Notes</span>
+                    <?php endif; ?>
                   </div>
                 </div>
               </div>

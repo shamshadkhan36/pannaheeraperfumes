@@ -62,8 +62,35 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $existingImage = isset($_POST['existing_image']) ? $_POST['existing_image'] : 'assets/images/categories/fragrance-oils.jpg';
     $finalImage = $uploadedImage ? $uploadedImage : $existingImage;
 
-    // Build Product Object
-    $productData = [
+    // Fragrance Notes (Top, Middle, Base)
+    $notes = [
+        'top' => [],
+        'middle' => [],
+        'base' => []
+    ];
+    if (isset($_POST['notes_json'])) {
+        $decoded = json_decode($_POST['notes_json'], true);
+        if (is_array($decoded)) {
+            foreach (['top', 'middle', 'base'] as $tier) {
+                if (!empty($decoded[$tier]) && is_array($decoded[$tier])) {
+                    foreach ($decoded[$tier] as $n) {
+                        if (!empty($n['name'])) {
+                            $notes[$tier][] = [
+                                'name' => trim($n['name']),
+                                'image' => !empty($n['image']) ? trim($n['image']) : 'assets/images/notes/patchouli.png'
+                            ];
+                        }
+                    }
+                }
+            }
+        }
+    } elseif (isset($product['notes'])) {
+        $notes = $product['notes'];
+    }
+
+    // Build Product Object (preserving extra existing fields)
+    $baseProduct = $product ?? [];
+    $productData = array_merge($baseProduct, [
         'id' => $id,
         'title' => $title,
         'short_title' => !empty($shortTitle) ? $shortTitle : $title,
@@ -79,11 +106,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         'description' => $description,
         'specs' => array_values($specs),
         'dimensions' => $dimensions,
+        'notes' => $notes,
         'options' => $product['options'] ?? [
             'Finish' => ['Standard Polish', 'Matte Frosted', 'Gold Accent'],
             'Pack Size' => [$moq . ' pcs (Standard)', ($moq * 5) . ' pcs (Wholesale Carton)']
         ]
-    ];
+    ]);
 
     $products = $siteData['products'] ?? [];
     $found = false;
@@ -107,6 +135,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 
 $specsString = implode("\n", $product['specs'] ?? []);
+$notesLibrary = loadNotesLibrary();
+$currentNotes = $product['notes'] ?? ['top' => [], 'middle' => [], 'base' => []];
 ?>
 
 <div class="mb-6 flex items-center justify-between">
@@ -217,7 +247,106 @@ $specsString = implode("\n", $product['specs'] ?? []);
         </div>
       </div>
 
-      <!-- Card 2: Technical Specifications & Dimensions -->
+      <!-- Card 2: Fragrance Olfactory Notes & Pyramid (Top, Middle, Base) -->
+      <div class="bg-white p-6 rounded-2xl border border-neutral-200 shadow-sm space-y-6">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-neutral-100 pb-3">
+          <div>
+            <h3 class="text-xs font-bold uppercase tracking-wider text-neutral-900 flex items-center gap-2">
+              <svg class="w-4 h-4 text-gold" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg>
+              <span>Fragrance Notes Pyramid (Top, Middle, Base)</span>
+            </h3>
+            <p class="text-xs text-neutral-400 mt-0.5">Attach aromatic notes with icons matching the olfactory pyramid (Raspberry, Rose, Patchouli, etc.)</p>
+          </div>
+          <a href="notes.php" target="_blank" class="text-[11px] font-semibold text-gold hover:underline flex items-center gap-1 self-start sm:self-auto">
+            <span>Manage Notes Library &rarr;</span>
+          </a>
+        </div>
+
+        <!-- Hidden input storing notes as JSON -->
+        <input type="hidden" name="notes_json" id="notesJsonInput">
+
+        <!-- Tier 1: TOP NOTES -->
+        <div class="p-4 rounded-xl border border-neutral-200/90 bg-neutral-50/50 space-y-3">
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-2">
+              <span class="w-2.5 h-2.5 rounded-full bg-emerald-500"></span>
+              <span class="text-xs font-bold uppercase tracking-wider text-neutral-800">Top Notes</span>
+              <span class="text-[11px] text-neutral-400 font-normal hidden sm:inline">(Initial impression & burst)</span>
+            </div>
+            <button 
+              type="button" 
+              onclick="openAddNoteModal('top')" 
+              class="text-xs font-bold text-neutral-900 hover:text-gold border border-neutral-300 hover:border-gold bg-white px-3 py-1 rounded-full transition flex items-center gap-1.5 shadow-sm"
+            >
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 4v16m8-8H4"/></svg>
+              <span>Add Top Note</span>
+            </button>
+          </div>
+          <div id="topNotesContainer" class="flex flex-wrap items-center gap-2.5 min-h-[52px] p-2 bg-white rounded-lg border border-neutral-200/60">
+            <!-- Rendered by JS -->
+          </div>
+        </div>
+
+        <!-- Tier 2: MIDDLE NOTES -->
+        <div class="p-4 rounded-xl border border-neutral-200/90 bg-neutral-50/50 space-y-3">
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-2">
+              <span class="w-2.5 h-2.5 rounded-full bg-rose-500"></span>
+              <span class="text-xs font-bold uppercase tracking-wider text-neutral-800">Middle Notes (Heart)</span>
+              <span class="text-[11px] text-neutral-400 font-normal hidden sm:inline">(Core personality & character)</span>
+            </div>
+            <button 
+              type="button" 
+              onclick="openAddNoteModal('middle')" 
+              class="text-xs font-bold text-neutral-900 hover:text-gold border border-neutral-300 hover:border-gold bg-white px-3 py-1 rounded-full transition flex items-center gap-1.5 shadow-sm"
+            >
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 4v16m8-8H4"/></svg>
+              <span>Add Middle Note</span>
+            </button>
+          </div>
+          <div id="middleNotesContainer" class="flex flex-wrap items-center gap-2.5 min-h-[52px] p-2 bg-white rounded-lg border border-neutral-200/60">
+            <!-- Rendered by JS -->
+          </div>
+        </div>
+
+        <!-- Tier 3: BASE NOTES -->
+        <div class="p-4 rounded-xl border border-neutral-200/90 bg-neutral-50/50 space-y-3">
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-2">
+              <span class="w-2.5 h-2.5 rounded-full bg-amber-600"></span>
+              <span class="text-xs font-bold uppercase tracking-wider text-neutral-800">Base Notes (Drydown)</span>
+              <span class="text-[11px] text-neutral-400 font-normal hidden sm:inline">(Foundation & longest longevity)</span>
+            </div>
+            <button 
+              type="button" 
+              onclick="openAddNoteModal('base')" 
+              class="text-xs font-bold text-neutral-900 hover:text-gold border border-neutral-300 hover:border-gold bg-white px-3 py-1 rounded-full transition flex items-center gap-1.5 shadow-sm"
+            >
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 4v16m8-8H4"/></svg>
+              <span>Add Base Note</span>
+            </button>
+          </div>
+          <div id="baseNotesContainer" class="flex flex-wrap items-center gap-2.5 min-h-[52px] p-2 bg-white rounded-lg border border-neutral-200/60">
+            <!-- Rendered by JS -->
+          </div>
+        </div>
+
+        <!-- Live Visual Pyramid Preview -->
+        <div class="border border-neutral-200 rounded-xl p-4 bg-neutral-50">
+          <div class="flex items-center justify-between mb-3">
+            <span class="text-xs font-bold uppercase tracking-wider text-neutral-700 flex items-center gap-1.5">
+              <span>👁 Live Olfactory Pyramid Preview</span>
+            </span>
+            <span class="text-[10px] text-neutral-400">Updates live matching the customer storefront</span>
+          </div>
+
+          <div id="pyramidLivePreview" class="bg-white rounded-xl border border-neutral-200 p-5 space-y-6">
+            <!-- Live Preview content matching user's image -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3: Technical Specifications & Dimensions -->
       <div class="bg-white p-6 rounded-2xl border border-neutral-200 shadow-sm space-y-4">
         <h3 class="text-xs font-bold uppercase tracking-wider text-neutral-900 border-b border-neutral-100 pb-3">Technical Blueprints & Tolerances</h3>
         <p class="text-xs text-neutral-400">Specify millimetric dimensions displayed in the technical blueprint box.</p>
@@ -364,6 +493,121 @@ $specsString = implode("\n", $product['specs'] ?? []);
   </div>
 </form>
 
+<!-- Modal: Add Fragrance Note -->
+<div id="addNoteModal" class="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
+  <div class="bg-white rounded-2xl max-w-lg w-full p-6 shadow-2xl relative max-h-[90vh] flex flex-col">
+    <button type="button" onclick="closeAddNoteModal()" class="absolute top-4 right-4 text-neutral-400 hover:text-neutral-800">
+      <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+
+    <h3 class="text-base font-bold text-neutral-900 mb-0.5">Add Note to Olfactory Pyramid</h3>
+    <p class="text-xs text-neutral-500 mb-4">Pick an essence from the Olfactory Library or upload custom picture.</p>
+
+    <div class="space-y-4 flex-1 overflow-y-auto pr-1">
+      <div>
+        <label class="block text-xs font-semibold uppercase tracking-wider text-neutral-700 mb-1">Pyramid Tier</label>
+        <select id="modalNoteTier" class="w-full px-3 py-2 text-xs rounded-lg border border-neutral-300 focus:outline-none focus:border-neutral-900 bg-white font-medium">
+          <option value="top">Top Note (Opening / Burst)</option>
+          <option value="middle">Middle Note (Heart / Core)</option>
+          <option value="base">Base Note (Dry Down / Anchor)</option>
+        </select>
+      </div>
+
+      <div>
+        <label class="block text-xs font-semibold uppercase tracking-wider text-neutral-700 mb-1">Note Name *</label>
+        <input 
+          type="text" 
+          id="modalNoteNameInput" 
+          placeholder="e.g. Raspberry, Rose, Patchouli" 
+          class="w-full px-3 py-2 text-xs rounded-lg border border-neutral-300 focus:outline-none focus:border-neutral-900 font-bold"
+        >
+      </div>
+
+      <!-- Image Source Selection -->
+      <div>
+        <label class="block text-xs font-semibold uppercase tracking-wider text-neutral-700 mb-1">Note Icon / Picture</label>
+        
+        <div class="flex border-b border-neutral-200 text-xs mb-3">
+          <button type="button" onclick="switchNoteTab('library')" id="tabBtnLibrary" class="py-1.5 px-3 font-bold border-b-2 border-neutral-900 text-neutral-900 transition">
+            Olfactory Library
+          </button>
+          <button type="button" onclick="switchNoteTab('upload')" id="tabBtnUpload" class="py-1.5 px-3 font-medium text-neutral-500 hover:text-neutral-900 transition">
+            Upload Custom Photo
+          </button>
+          <button type="button" onclick="switchNoteTab('url')" id="tabBtnUrl" class="py-1.5 px-3 font-medium text-neutral-500 hover:text-neutral-900 transition">
+            Image URL
+          </button>
+        </div>
+
+        <!-- Selected preview chip -->
+        <div class="flex items-center gap-3 p-2.5 rounded-xl bg-neutral-50 border border-neutral-200 mb-3">
+          <div class="w-12 h-12 rounded-lg bg-white border border-neutral-200 p-1 flex items-center justify-center flex-shrink-0">
+            <img id="selectedNoteImgPreview" src="../assets/images/notes/patchouli.png" class="max-w-full max-h-full object-contain">
+          </div>
+          <div class="text-xs flex-1 min-w-0">
+            <span class="text-neutral-400 block text-[10px]">Active Icon Path:</span>
+            <span id="selectedNoteImgPath" class="font-mono text-neutral-700 truncate block text-[11px]">assets/images/notes/patchouli.png</span>
+          </div>
+        </div>
+
+        <!-- Tab 1: Library Grid -->
+        <div id="tabContentLibrary" class="space-y-2">
+          <input 
+            type="text" 
+            id="filterLibraryInput" 
+            placeholder="Search note library (raspberry, rose, patchouli, amber...)..." 
+            oninput="filterLibraryNotes()" 
+            class="w-full px-3 py-1.5 text-xs rounded-lg border border-neutral-200 focus:outline-none focus:border-neutral-900"
+          >
+          <div id="libraryGrid" class="grid grid-cols-4 sm:grid-cols-5 gap-2 max-h-48 overflow-y-auto p-1.5 border border-neutral-200 rounded-xl bg-neutral-50/50">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+
+        <!-- Tab 2: Upload Custom -->
+        <div id="tabContentUpload" class="hidden space-y-2">
+          <input 
+            type="file" 
+            id="customNoteFileInput" 
+            accept="image/*" 
+            onchange="handleCustomNoteUpload(event)"
+            class="block w-full text-xs text-neutral-500 file:mr-2 file:py-1.5 file:px-3 file:rounded-md file:border-0 file:text-xs file:font-semibold file:bg-neutral-100 file:text-neutral-700 hover:file:bg-neutral-200"
+          >
+          <p id="uploadStatusText" class="text-[11px] text-neutral-400">Square JPG, PNG, or WEBP. Uploads directly into assets/images/notes/.</p>
+        </div>
+
+        <!-- Tab 3: URL -->
+        <div id="tabContentUrl" class="hidden space-y-2">
+          <input 
+            type="text" 
+            id="customNoteUrlInput" 
+            placeholder="e.g. assets/images/notes/rose.png or https://..." 
+            oninput="handleCustomUrlChange(this.value)"
+            class="w-full px-3 py-2 text-xs rounded-lg border border-neutral-300 focus:outline-none focus:border-neutral-900"
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="pt-4 border-t border-neutral-100 flex gap-2">
+      <button 
+        type="button" 
+        onclick="confirmAddNote()" 
+        class="flex-1 bg-black hover:bg-neutral-800 text-white py-2.5 rounded-full text-xs font-bold uppercase tracking-wider transition shadow-sm"
+      >
+        Add Note to Pyramid
+      </button>
+      <button 
+        type="button" 
+        onclick="closeAddNoteModal()" 
+        class="px-4 py-2.5 rounded-full text-xs font-semibold text-neutral-600 hover:bg-neutral-100 transition"
+      >
+        Cancel
+      </button>
+    </div>
+  </div>
+</div>
+
 <script>
 function previewImg(e) {
   const file = e.target.files[0];
@@ -375,6 +619,316 @@ function previewImg(e) {
     reader.readAsDataURL(file);
   }
 }
+
+// Fragrance Notes Management
+const NOTES_LIBRARY = <?php echo json_encode($notesLibrary, JSON_UNESCAPED_SLASHES); ?>;
+let productNotes = <?php echo json_encode($currentNotes, JSON_UNESCAPED_SLASHES); ?>;
+
+if (!productNotes.top) productNotes.top = [];
+if (!productNotes.middle) productNotes.middle = [];
+if (!productNotes.base) productNotes.base = [];
+
+let currentSelectedImage = 'assets/images/notes/patchouli.png';
+let currentActiveTab = 'library';
+
+function renderNotes() {
+  const tiers = ['top', 'middle', 'base'];
+  
+  tiers.forEach(tier => {
+    const container = document.getElementById(tier + 'NotesContainer');
+    if (!container) return;
+    
+    container.innerHTML = '';
+    const notes = productNotes[tier] || [];
+
+    if (notes.length === 0) {
+      container.innerHTML = `<span class="text-xs text-neutral-400 italic py-1 px-2">No ${tier} notes added yet. Click "+ Add ${tier.charAt(0).toUpperCase() + tier.slice(1)} Note" above.</span>`;
+    } else {
+      notes.forEach((n, idx) => {
+        const chip = document.createElement('div');
+        chip.className = 'group flex items-center gap-2 bg-neutral-100 hover:bg-neutral-200/80 border border-neutral-200/80 pl-1.5 pr-2.5 py-1 rounded-xl transition';
+        chip.innerHTML = `
+          <div class="w-8 h-8 rounded-lg bg-white border border-neutral-200/80 p-0.5 flex items-center justify-center overflow-hidden flex-shrink-0">
+            <img src="../${n.image || 'assets/images/notes/patchouli.png'}" alt="${n.name}" class="max-w-full max-h-full object-contain">
+          </div>
+          <span class="text-xs font-bold text-neutral-800">${escapeHtml(n.name)}</span>
+          <button type="button" onclick="removeNote('${tier}', ${idx})" class="text-neutral-400 hover:text-red-600 ml-1 p-0.5 rounded transition" title="Remove note">
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M6 18L18 6M6 6l12 12"/></svg>
+          </button>
+        `;
+        container.appendChild(chip);
+      });
+    }
+  });
+
+  // Sync to hidden input
+  document.getElementById('notesJsonInput').value = JSON.stringify(productNotes);
+
+  // Render Live Preview
+  renderPyramidPreview();
+}
+
+function renderPyramidPreview() {
+  const preview = document.getElementById('pyramidLivePreview');
+  if (!preview) return;
+
+  const hasAnyNotes = (productNotes.top && productNotes.top.length > 0) ||
+                      (productNotes.middle && productNotes.middle.length > 0) ||
+                      (productNotes.base && productNotes.base.length > 0);
+
+  if (!hasAnyNotes) {
+    preview.innerHTML = `
+      <div class="py-8 text-center text-neutral-400 text-xs">
+        <svg class="w-8 h-8 mx-auto mb-2 text-neutral-300" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg>
+        <span>No olfactory notes assigned yet. Add notes above to see the live fragrance pyramid preview here.</span>
+      </div>
+    `;
+    return;
+  }
+
+  let html = '<div class="olfactory-pyramid max-w-md mx-auto space-y-6">';
+
+  // Top Notes
+  if (productNotes.top && productNotes.top.length > 0) {
+    html += `
+      <div class="text-center">
+        <div class="relative flex py-2 items-center">
+          <div class="flex-grow border-t border-neutral-200"></div>
+          <span class="flex-shrink mx-4 text-[11px] font-bold tracking-widest text-[#2c405a] uppercase">TOP NOTES</span>
+          <div class="flex-grow border-t border-neutral-200"></div>
+        </div>
+        <div class="flex flex-wrap items-start justify-center gap-4 mt-3">
+          ${productNotes.top.map(n => `
+            <div class="flex flex-col items-center text-center w-16 group">
+              <div class="w-14 h-14 bg-white rounded-xl border border-neutral-200 shadow-sm p-1 flex items-center justify-center">
+                <img src="../${n.image || 'assets/images/notes/patchouli.png'}" alt="${escapeHtml(n.name)}" class="max-w-full max-h-full object-contain">
+              </div>
+              <span class="mt-1.5 text-[11px] font-semibold text-slate-800 leading-tight">${escapeHtml(n.name)}</span>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    `;
+  }
+
+  // Middle Notes
+  if (productNotes.middle && productNotes.middle.length > 0) {
+    html += `
+      <div class="text-center">
+        <div class="relative flex py-2 items-center">
+          <div class="flex-grow border-t border-neutral-200"></div>
+          <span class="flex-shrink mx-4 text-[11px] font-bold tracking-widest text-[#2c405a] uppercase">MIDDLE NOTES</span>
+          <div class="flex-grow border-t border-neutral-200"></div>
+        </div>
+        <div class="flex flex-wrap items-start justify-center gap-4 mt-3">
+          ${productNotes.middle.map(n => `
+            <div class="flex flex-col items-center text-center w-16 group">
+              <div class="w-14 h-14 bg-white rounded-xl border border-neutral-200 shadow-sm p-1 flex items-center justify-center">
+                <img src="../${n.image || 'assets/images/notes/patchouli.png'}" alt="${escapeHtml(n.name)}" class="max-w-full max-h-full object-contain">
+              </div>
+              <span class="mt-1.5 text-[11px] font-semibold text-slate-800 leading-tight">${escapeHtml(n.name)}</span>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    `;
+  }
+
+  // Base Notes
+  if (productNotes.base && productNotes.base.length > 0) {
+    html += `
+      <div class="text-center">
+        <div class="relative flex py-2 items-center">
+          <div class="flex-grow border-t border-neutral-200"></div>
+          <span class="flex-shrink mx-4 text-[11px] font-bold tracking-widest text-[#2c405a] uppercase">BASE NOTES</span>
+          <div class="flex-grow border-t border-neutral-200"></div>
+        </div>
+        <div class="flex flex-wrap items-start justify-center gap-4 mt-3">
+          ${productNotes.base.map(n => `
+            <div class="flex flex-col items-center text-center w-16 group">
+              <div class="w-14 h-14 bg-white rounded-xl border border-neutral-200 shadow-sm p-1 flex items-center justify-center">
+                <img src="../${n.image || 'assets/images/notes/patchouli.png'}" alt="${escapeHtml(n.name)}" class="max-w-full max-h-full object-contain">
+              </div>
+              <span class="mt-1.5 text-[11px] font-semibold text-slate-800 leading-tight">${escapeHtml(n.name)}</span>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    `;
+  }
+
+  html += '</div>';
+  preview.innerHTML = html;
+}
+
+function removeNote(tier, idx) {
+  if (productNotes[tier]) {
+    productNotes[tier].splice(idx, 1);
+    renderNotes();
+  }
+}
+
+function openAddNoteModal(tier) {
+  document.getElementById('modalNoteTier').value = tier;
+  document.getElementById('modalNoteNameInput').value = '';
+  document.getElementById('filterLibraryInput').value = '';
+  switchNoteTab('library');
+  renderLibraryGrid(NOTES_LIBRARY);
+
+  // default to first library note matching tier if any
+  const matched = NOTES_LIBRARY.find(item => (item.tier_default || 'top') === tier) || NOTES_LIBRARY[0];
+  if (matched) {
+    selectLibraryNote(matched);
+  }
+
+  document.getElementById('addNoteModal').classList.remove('hidden');
+  document.getElementById('modalNoteNameInput').focus();
+}
+
+function closeAddNoteModal() {
+  document.getElementById('addNoteModal').classList.add('hidden');
+}
+
+function switchNoteTab(tab) {
+  currentActiveTab = tab;
+  ['library', 'upload', 'url'].forEach(t => {
+    const btn = document.getElementById('tabBtn' + t.charAt(0).toUpperCase() + t.slice(1));
+    const content = document.getElementById('tabContent' + t.charAt(0).toUpperCase() + t.slice(1));
+    if (t === tab) {
+      btn.className = 'py-1.5 px-3 font-bold border-b-2 border-neutral-900 text-neutral-900 transition';
+      content.classList.remove('hidden');
+    } else {
+      btn.className = 'py-1.5 px-3 font-medium text-neutral-500 hover:text-neutral-900 transition';
+      content.classList.add('hidden');
+    }
+  });
+}
+
+function renderLibraryGrid(items) {
+  const grid = document.getElementById('libraryGrid');
+  grid.innerHTML = '';
+  
+  if (items.length === 0) {
+    grid.innerHTML = '<span class="col-span-4 text-xs text-neutral-400 p-2">No matching notes found.</span>';
+    return;
+  }
+
+  items.forEach(item => {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'flex flex-col items-center text-center p-2 rounded-xl bg-white hover:bg-neutral-100 border border-neutral-200/80 transition hover:scale-105';
+    btn.onclick = () => selectLibraryNote(item);
+    btn.innerHTML = `
+      <div class="w-10 h-10 rounded-lg p-0.5 flex items-center justify-center">
+        <img src="../${item.image}" alt="${item.name}" class="max-w-full max-h-full object-contain">
+      </div>
+      <span class="text-[10px] font-bold text-neutral-800 truncate w-full mt-1">${escapeHtml(item.name)}</span>
+    `;
+    grid.appendChild(btn);
+  });
+}
+
+function filterLibraryNotes() {
+  const q = document.getElementById('filterLibraryInput').value.toLowerCase().trim();
+  const filtered = NOTES_LIBRARY.filter(item => item.name.toLowerCase().includes(q));
+  renderLibraryGrid(filtered);
+}
+
+function selectLibraryNote(item) {
+  document.getElementById('modalNoteNameInput').value = item.name;
+  currentSelectedImage = item.image;
+  document.getElementById('selectedNoteImgPreview').src = '../' + item.image;
+  document.getElementById('selectedNoteImgPath').textContent = item.image;
+}
+
+function handleCustomNoteUpload(e) {
+  const file = e.target.files[0];
+  if (!file) return;
+
+  const status = document.getElementById('uploadStatusText');
+  status.textContent = 'Uploading picture...';
+  status.className = 'text-[11px] text-amber-600 font-semibold';
+
+  const formData = new FormData();
+  formData.append('note_image', file);
+
+  fetch('api-notes.php?action=upload', {
+    method: 'POST',
+    body: formData
+  })
+  .then(res => res.json())
+  .then(data => {
+    if (data.success && data.url) {
+      currentSelectedImage = data.url;
+      document.getElementById('selectedNoteImgPreview').src = '../' + data.url;
+      document.getElementById('selectedNoteImgPath').textContent = data.url;
+      status.textContent = '✓ Uploaded successfully!';
+      status.className = 'text-[11px] text-emerald-600 font-semibold';
+      
+      // If name is empty, auto-fill from filename
+      const nameInput = document.getElementById('modalNoteNameInput');
+      if (!nameInput.value.trim()) {
+        const rawName = file.name.replace(/\.[^/.]+$/, '').replace(/[-_]+/g, ' ');
+        nameInput.value = rawName.charAt(0).toUpperCase() + rawName.slice(1);
+      }
+    } else {
+      status.textContent = 'Upload failed: ' + (data.error || 'Server error');
+      status.className = 'text-[11px] text-red-600';
+    }
+  })
+  .catch(err => {
+    status.textContent = 'Upload failed: ' + err.message;
+    status.className = 'text-[11px] text-red-600';
+  });
+}
+
+function handleCustomUrlChange(url) {
+  const trimmed = url.trim();
+  if (trimmed) {
+    currentSelectedImage = trimmed;
+    const previewSrc = trimmed.startsWith('http') ? trimmed : '../' + trimmed;
+    document.getElementById('selectedNoteImgPreview').src = previewSrc;
+    document.getElementById('selectedNoteImgPath').textContent = trimmed;
+  }
+}
+
+function confirmAddNote() {
+  const name = document.getElementById('modalNoteNameInput').value.trim();
+  const tier = document.getElementById('modalNoteTier').value;
+
+  if (!name) {
+    alert('Please enter a note name (e.g. Raspberry, Rose, Patchouli).');
+    document.getElementById('modalNoteNameInput').focus();
+    return;
+  }
+
+  if (!productNotes[tier]) {
+    productNotes[tier] = [];
+  }
+
+  productNotes[tier].push({
+    name: name,
+    image: currentSelectedImage || 'assets/images/notes/patchouli.png'
+  });
+
+  renderNotes();
+  closeAddNoteModal();
+}
+
+function escapeHtml(str) {
+  if (!str) return '';
+  return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+// Ensure form submission always syncs notes
+document.querySelector('form').addEventListener('submit', function() {
+  document.getElementById('notesJsonInput').value = JSON.stringify(productNotes);
+});
+
+// Initialize on page load
+document.addEventListener('DOMContentLoaded', function() {
+  renderNotes();
+});
 </script>
 
 <?php

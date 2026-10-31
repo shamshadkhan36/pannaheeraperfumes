@@ -15,6 +15,8 @@ if (!defined('APP_INIT')) {
 if (!defined('DATA_FILE')) define('DATA_FILE', __DIR__ . '/../data/site_data.json');
 if (!defined('ADMIN_USER_FILE')) define('ADMIN_USER_FILE', __DIR__ . '/../data/admin_user.json');
 if (!defined('UPLOAD_DIR')) define('UPLOAD_DIR', __DIR__ . '/../assets/images/uploads/');
+if (!defined('NOTES_DIR')) define('NOTES_DIR', __DIR__ . '/../assets/images/notes/');
+if (!defined('NOTES_LIBRARY_FILE')) define('NOTES_LIBRARY_FILE', __DIR__ . '/../data/notes_library.json');
 if (!defined('PRODUCTS_JS_FILE')) define('PRODUCTS_JS_FILE', __DIR__ . '/../assets/js/products-data.js');
 
 function getActiveDataFilePath() {
@@ -103,6 +105,61 @@ function handleImageUpload($fileInputName) {
     }
 
     return null;
+}
+
+/**
+ * Handle Note Image file upload
+ */
+function handleNoteImageUpload($fileInputName) {
+    if (!isset($_FILES[$fileInputName]) || $_FILES[$fileInputName]['error'] !== UPLOAD_ERR_OK) {
+        return null;
+    }
+
+    $file = $_FILES[$fileInputName];
+    $ext = strtolower(pathinfo($file['name'], PATHINFO_EXTENSION));
+    $allowed = ['jpg', 'jpeg', 'png', 'webp', 'svg'];
+
+    if (!in_array($ext, $allowed)) {
+        return null;
+    }
+
+    if (!is_dir(NOTES_DIR)) {
+        @mkdir(NOTES_DIR, 0777, true);
+    }
+
+    $safeName = 'note_' . time() . '_' . rand(100, 999) . '.' . $ext;
+    $targetPath = NOTES_DIR . $safeName;
+
+    if (move_uploaded_file($file['tmp_name'], $targetPath)) {
+        return 'assets/images/notes/' . $safeName;
+    }
+
+    return null;
+}
+
+/**
+ * Load Notes Library
+ */
+function loadNotesLibrary() {
+    if (file_exists(NOTES_LIBRARY_FILE)) {
+        $content = file_get_contents(NOTES_LIBRARY_FILE);
+        $data = json_decode($content, true);
+        if (is_array($data)) {
+            return $data;
+        }
+    }
+    return [];
+}
+
+/**
+ * Save Notes Library
+ */
+function saveNotesLibrary($data) {
+    $json = json_encode(array_values($data), JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
+    if (!is_dir(dirname(NOTES_LIBRARY_FILE))) {
+        @mkdir(dirname(NOTES_LIBRARY_FILE), 0777, true);
+    }
+    return @file_put_contents(NOTES_LIBRARY_FILE, $json) !== false;
 }
 
 /**

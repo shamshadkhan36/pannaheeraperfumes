@@ -96,6 +96,34 @@ include_once __DIR__ . '/includes/header.php';
         <strong class="text-neutral-700">* Benchmark Reference:</strong> Trademark names mentioned are descriptive olfactory benchmarks to indicate scent notes and olfactory family. Panna Heera Perfumery produces proprietary compound formulations with 0% alcohol dilution and is not affiliated with the trademark holders.
       </div>
 
+      <!-- Fragrance Notes Fast Summary (if present) -->
+      <?php 
+      $notes = $product['notes'] ?? [];
+      $hasNotes = !empty($notes) && (!empty($notes['top']) || !empty($notes['middle']) || !empty($notes['base']));
+      if ($hasNotes): 
+      ?>
+        <div class="p-3.5 bg-neutral-50/90 rounded-xl border border-neutral-200/90 space-y-2">
+          <div class="flex items-center justify-between">
+            <span class="text-[11px] font-bold uppercase tracking-wider text-neutral-800 flex items-center gap-1.5">
+              <svg class="w-3.5 h-3.5 text-gold" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg>
+              <span>Fragrance Notes Profile</span>
+            </span>
+            <a href="#olfactory-notes" class="text-[11px] font-bold text-gold hover:underline">View Olfactory Pyramid &darr;</a>
+          </div>
+          <div class="text-xs text-neutral-600 space-y-1">
+            <?php if (!empty($notes['top'])): ?>
+              <p><strong class="text-neutral-800">Top Notes:</strong> <?php echo htmlspecialchars(implode(', ', array_column($notes['top'], 'name'))); ?></p>
+            <?php endif; ?>
+            <?php if (!empty($notes['middle'])): ?>
+              <p><strong class="text-neutral-800">Middle Notes:</strong> <?php echo htmlspecialchars(implode(', ', array_column($notes['middle'], 'name'))); ?></p>
+            <?php endif; ?>
+            <?php if (!empty($notes['base'])): ?>
+              <p><strong class="text-neutral-800">Base Notes:</strong> <?php echo htmlspecialchars(implode(', ', array_column($notes['base'], 'name'))); ?></p>
+            <?php endif; ?>
+          </div>
+        </div>
+      <?php endif; ?>
+
       <!-- Specifications Checklist -->
       <div class="space-y-2 pt-2">
         <h4 class="text-xs font-bold uppercase tracking-wider text-neutral-800">Quality Specifications:</h4>
@@ -161,6 +189,105 @@ include_once __DIR__ . '/includes/header.php';
     </div>
 
   </div>
+
+  <!-- Olfactory Notes Pyramid Section (matching perfume formulation specifications) -->
+  <?php if ($hasNotes): ?>
+  <div id="olfactory-notes" class="mt-16 pt-12 border-t border-neutral-200 scroll-mt-20">
+    <div class="text-center max-w-xl mx-auto mb-10">
+      <span class="text-xs font-bold tracking-widest text-gold uppercase">Scent Architecture</span>
+      <h2 class="text-2xl sm:text-3xl font-black uppercase text-neutral-900 tracking-tight mt-1">Olfactory Notes Pyramid</h2>
+      <p class="text-xs text-neutral-500 mt-1.5">Harmonious progression of delicate aromatic essences from vibrant opening to enduring base.</p>
+    </div>
+
+    <div class="max-w-xl mx-auto bg-white rounded-3xl border border-neutral-200/90 p-6 sm:p-10 shadow-sm space-y-10">
+      
+      <!-- TOP NOTES -->
+      <?php if (!empty($notes['top'])): ?>
+        <div class="text-center">
+          <div class="relative flex py-2 items-center">
+            <div class="flex-grow border-t border-neutral-200"></div>
+            <span class="flex-shrink mx-4 text-xs font-bold tracking-widest text-[#2c405a] uppercase">TOP NOTES</span>
+            <div class="flex-grow border-t border-neutral-200"></div>
+          </div>
+          <div class="flex flex-wrap items-start justify-center gap-6 sm:gap-8 mt-5">
+            <?php foreach ($notes['top'] as $note): ?>
+              <div class="flex flex-col items-center text-center w-20 sm:w-24 group">
+                <div class="w-16 h-16 sm:w-20 sm:h-20 bg-white rounded-2xl border border-neutral-200/80 shadow-[0_2px_8px_rgba(0,0,0,0.04)] p-1.5 flex items-center justify-center transition-transform group-hover:scale-105 duration-200">
+                  <img 
+                    src="<?php echo htmlspecialchars($note['image']); ?>" 
+                    alt="<?php echo htmlspecialchars($note['name']); ?>" 
+                    class="max-w-full max-h-full object-contain"
+                    loading="lazy"
+                  >
+                </div>
+                <span class="mt-2.5 text-xs font-semibold text-slate-800 leading-tight">
+                  <?php echo htmlspecialchars($note['name']); ?>
+                </span>
+              </div>
+            <?php endforeach; ?>
+          </div>
+        </div>
+      <?php endif; ?>
+
+      <!-- MIDDLE NOTES -->
+      <?php if (!empty($notes['middle'])): ?>
+        <div class="text-center">
+          <div class="relative flex py-2 items-center">
+            <div class="flex-grow border-t border-neutral-200"></div>
+            <span class="flex-shrink mx-4 text-xs font-bold tracking-widest text-[#2c405a] uppercase">MIDDLE NOTES</span>
+            <div class="flex-grow border-t border-neutral-200"></div>
+          </div>
+          <div class="flex flex-wrap items-start justify-center gap-6 sm:gap-8 mt-5">
+            <?php foreach ($notes['middle'] as $note): ?>
+              <div class="flex flex-col items-center text-center w-20 sm:w-24 group">
+                <div class="w-16 h-16 sm:w-20 sm:h-20 bg-white rounded-2xl border border-neutral-200/80 shadow-[0_2px_8px_rgba(0,0,0,0.04)] p-1.5 flex items-center justify-center transition-transform group-hover:scale-105 duration-200">
+                  <img 
+                    src="<?php echo htmlspecialchars($note['image']); ?>" 
+                    alt="<?php echo htmlspecialchars($note['name']); ?>" 
+                    class="max-w-full max-h-full object-contain"
+                    loading="lazy"
+                  >
+                </div>
+                <span class="mt-2.5 text-xs font-semibold text-slate-800 leading-tight">
+                  <?php echo htmlspecialchars($note['name']); ?>
+                </span>
+              </div>
+            <?php endforeach; ?>
+          </div>
+        </div>
+      <?php endif; ?>
+
+      <!-- BASE NOTES -->
+      <?php if (!empty($notes['base'])): ?>
+        <div class="text-center">
+          <div class="relative flex py-2 items-center">
+            <div class="flex-grow border-t border-neutral-200"></div>
+            <span class="flex-shrink mx-4 text-xs font-bold tracking-widest text-[#2c405a] uppercase">BASE NOTES</span>
+            <div class="flex-grow border-t border-neutral-200"></div>
+          </div>
+          <div class="flex flex-wrap items-start justify-center gap-6 sm:gap-8 mt-5">
+            <?php foreach ($notes['base'] as $note): ?>
+              <div class="flex flex-col items-center text-center w-20 sm:w-24 group">
+                <div class="w-16 h-16 sm:w-20 sm:h-20 bg-white rounded-2xl border border-neutral-200/80 shadow-[0_2px_8px_rgba(0,0,0,0.04)] p-1.5 flex items-center justify-center transition-transform group-hover:scale-105 duration-200">
+                  <img 
+                    src="<?php echo htmlspecialchars($note['image']); ?>" 
+                    alt="<?php echo htmlspecialchars($note['name']); ?>" 
+                    class="max-w-full max-h-full object-contain"
+                    loading="lazy"
+                  >
+                </div>
+                <span class="mt-2.5 text-xs font-semibold text-slate-800 leading-tight">
+                  <?php echo htmlspecialchars($note['name']); ?>
+                </span>
+              </div>
+            <?php endforeach; ?>
+          </div>
+        </div>
+      <?php endif; ?>
+
+    </div>
+  </div>
+  <?php endif; ?>
 
   <!-- Related Products in Category -->
   <div class="mt-20 pt-12 border-t border-neutral-200">
