@@ -621,7 +621,7 @@ include_once __DIR__ . '/includes/header.php';
             <!-- Product Photo & High-End Badges -->
             <a href="product-detail.php?id=${item.id}" class="block relative aspect-square bg-gradient-to-br from-neutral-100 via-neutral-50 to-amber-50/40 overflow-hidden flex items-center justify-center border-b border-neutral-100">
               <img 
-                src="${(item.image || 'assets/images/products/' + item.id + '.webp')}?v=3.0" 
+                src="${(item.image || 'assets/images/products/' + item.id + '.webp')}?v=4.0" 
                 onerror="this.onerror=null;this.src='assets/images/categories/fragrance-oils.jpg';"
                 alt="${item.full_name}" 
                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"

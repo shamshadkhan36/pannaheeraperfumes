@@ -136,5 +136,90 @@
     "name": "Leather",
     "tier_default": "base",
     "image": "assets/images/notes/leather.png"
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "image": "assets/images/notes/apple.png"
+  },
+  {
+    "id": "cacao",
+    "name": "Cacao / Cocoa",
+    "image": "assets/images/notes/cacao.png"
+  },
+  {
+    "id": "coffee",
+    "name": "Coffee",
+    "image": "assets/images/notes/coffee.png"
+  },
+  {
+    "id": "grapefruit",
+    "name": "Grapefruit",
+    "image": "assets/images/notes/grapefruit.png"
+  },
+  {
+    "id": "incense",
+    "name": "Incense",
+    "image": "assets/images/notes/incense.png"
+  },
+  {
+    "id": "iris",
+    "name": "Iris",
+    "image": "assets/images/notes/iris.png"
+  },
+  {
+    "id": "mandarin",
+    "name": "Mandarin Orange",
+    "image": "assets/images/notes/mandarin.png"
+  },
+  {
+    "id": "neroli",
+    "name": "Neroli",
+    "image": "assets/images/notes/neroli.png"
+  },
+  {
+    "id": "oakmoss",
+    "name": "Oakmoss",
+    "image": "assets/images/notes/oakmoss.png"
+  },
+  {
+    "id": "peach",
+    "name": "Peach",
+    "image": "assets/images/notes/peach.png"
+  },
+  {
+    "id": "pineapple",
+    "name": "Pineapple",
+    "image": "assets/images/notes/pineapple.png"
+  },
+  {
+    "id": "rosemary",
+    "name": "Rosemary",
+    "image": "assets/images/notes/rosemary.png"
+  },
+  {
+    "id": "saffron",
+    "name": "Saffron",
+    "image": "assets/images/notes/saffron.png"
+  },
+  {
+    "id": "sea-notes",
+    "name": "Sea Notes",
+    "image": "assets/images/notes/sea-notes.png"
+  },
+  {
+    "id": "tobacco",
+    "name": "Tobacco Leaf",
+    "image": "assets/images/notes/tobacco.png"
+  },
+  {
+    "id": "tonka-bean",
+    "name": "Tonka Bean",
+    "image": "assets/images/notes/tonka-bean.png"
+  },
+  {
+    "id": "violet",
+    "name": "Violet",
+    "image": "assets/images/notes/violet.png"
   }
 ]
