@@ -243,7 +243,7 @@ include_once __DIR__ . '/includes/header.php';
                 <!-- Top Photo Wrapper -->
                 <div class="relative aspect-square bg-gradient-to-br from-neutral-100 via-neutral-50 to-amber-50/40 overflow-hidden flex items-center justify-center border-b border-neutral-100">
                   <img 
-                    src="<?php echo htmlspecialchars($prod['image']); ?>" 
+                    src="<?php echo htmlspecialchars($prod['image']); ?>?v=2.1" 
                     alt="<?php echo htmlspecialchars($prod['title']); ?>" 
                     class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" 
                     loading="lazy"

@@ -37,7 +37,7 @@ include_once __DIR__ . '/includes/header.php';
           <span class="product-badge top-4 left-4"><?php echo htmlspecialchars($product['badge']); ?></span>
         <?php endif; ?>
         <img 
-          src="<?php echo htmlspecialchars($product['image']); ?>" 
+          src="<?php echo htmlspecialchars($product['image']); ?>?v=2.1" 
           alt="<?php echo htmlspecialchars($product['title']); ?>" 
           class="max-w-full max-h-full object-contain"
         >
@@ -305,7 +305,7 @@ include_once __DIR__ . '/includes/header.php';
       ?>
         <div class="product-card">
           <div class="product-image-wrap">
-            <img src="<?php echo htmlspecialchars($rProd['image']); ?>" alt="<?php echo htmlspecialchars($rProd['title']); ?>" loading="lazy">
+            <img src="<?php echo htmlspecialchars($rProd['image']); ?>?v=2.1" alt="<?php echo htmlspecialchars($rProd['title']); ?>" loading="lazy">
           </div>
           <h3 class="product-title"><?php echo htmlspecialchars($rProd['title']); ?></h3>
           <div class="product-meta">
