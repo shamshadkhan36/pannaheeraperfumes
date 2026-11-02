@@ -191,7 +191,7 @@ $marqueeItems = !empty($banner['marquee_items']) ? $banner['marquee_items'] : [
           <!-- Product Image Wrap -->
           <div class="product-image-wrap">
             <img 
-              src="<?php echo htmlspecialchars($prod['image']); ?>" 
+              src="<?php echo htmlspecialchars($prod['image']); ?>?v=4.0" 
               alt="<?php echo htmlspecialchars($prod['title']); ?>" 
               loading="lazy"
             >

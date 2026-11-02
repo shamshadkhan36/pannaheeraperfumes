@@ -16,10 +16,6 @@ include_once __DIR__ . '/includes/header.php';
       <span>/</span>
       <span class="text-neutral-900 font-semibold">Fragrance Compounds (1,040 Products)</span>
     </div>
-    <a href="assets/docs/panna-heera-price-list.pdf" download class="inline-flex items-center gap-1.5 text-xs font-bold text-neutral-900 hover:text-gold transition">
-      <svg class="w-3.5 h-3.5 text-gold" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
-      Download Official PDF Rate List
-    </a>
   </div>
 </div>
 
