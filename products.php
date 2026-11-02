@@ -51,55 +51,23 @@ $currentPage = 'products';
 include_once __DIR__ . '/includes/header.php';
 ?>
 
-<!-- Catalog Header Banner -->
-<div class="bg-neutral-950 text-white py-12 border-b border-neutral-800 relative overflow-hidden">
-  <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#d4af37_1px,transparent_1px)] [background-size:16px_16px]"></div>
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-    <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
-      <div>
-        <nav class="text-xs text-neutral-400 mb-2 flex items-center gap-2">
-          <a href="index.php" class="hover:text-white transition">Home</a>
-          <span>/</span>
-          <a href="products.php" class="hover:text-white transition">Products Catalog</a>
-          <?php if ($activeCategoryObj): ?>
-            <span>/</span>
-            <span class="text-gold font-semibold"><?php echo htmlspecialchars($activeCategoryObj['title']); ?></span>
-          <?php endif; ?>
-        </nav>
-        <div class="flex items-center gap-2.5 mb-2">
-          <span class="px-2.5 py-0.5 rounded-full text-[10px] font-bold tracking-widest uppercase bg-gold/20 text-gold border border-gold/40">
-            ✦ 100% Pure Compounds
-          </span>
-          <span class="px-2.5 py-0.5 rounded-full text-[10px] font-semibold bg-white/10 text-neutral-300">
-            <?php echo number_format($totalItems); ?> Products Available
-          </span>
-        </div>
-        <h1 class="text-2xl sm:text-4xl font-black font-serif text-white tracking-tight leading-tight">
-          <?php echo $activeCategoryObj ? htmlspecialchars($activeCategoryObj['title']) : 'Complete Fragrance Compounds Catalog'; ?>
-        </h1>
-        <p class="text-xs sm:text-sm text-neutral-400 mt-1.5 max-w-2xl leading-relaxed">
-          <?php echo $activeCategoryObj ? htmlspecialchars($activeCategoryObj['subtitle']) : 'Explore pure undiluted French, Oriental, Arabic and botanical fragrance oils in 100 GM production packs and 1 KG bulk wholesale flacons.'; ?>
-        </p>
-      </div>
-
-      <div class="flex items-center gap-3 flex-wrap flex-shrink-0">
-        <a href="assets/docs/panna-heera-price-list.pdf" download class="bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-neutral-950 px-5 py-3 rounded-xl text-xs font-bold inline-flex items-center gap-2 shadow-lg transition">
-          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
-          Download PDF Price List
-        </a>
-        <a href="fragrances.php" class="bg-neutral-800 hover:bg-neutral-700 text-white px-5 py-3 rounded-xl text-xs font-bold inline-flex items-center gap-2 shadow-sm transition border border-neutral-700">
-          <span>Table & Live Directory</span>
-          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg>
-        </a>
-      </div>
+<!-- Breadcrumbs -->
+<div class="bg-neutral-100 border-b border-neutral-200 py-3 text-xs text-neutral-500">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
+    <div class="flex items-center gap-2">
+      <a href="index.php" class="hover:text-neutral-900">Home</a>
+      <span>/</span>
+      <span class="text-neutral-900 font-semibold"><?php echo $activeCategoryObj ? htmlspecialchars($activeCategoryObj['title']) : 'Products Catalog (' . number_format($totalItems) . ' Products)'; ?></span>
     </div>
   </div>
+</div>
 
-  <!-- Wholesale & Legal Benchmark Disclaimer Notice -->
-  <div class="mt-14 p-6 sm:p-8 rounded-2xl bg-neutral-50 border border-neutral-200 space-y-4">
+<!-- Wholesale & Legal Benchmark Disclaimer Notice -->
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
+  <div class="p-5 sm:p-6 rounded-2xl bg-neutral-50 border border-neutral-200 space-y-3">
     <div class="flex items-center gap-2">
       <span class="w-2 h-2 rounded-full bg-gold"></span>
-      <h3 class="text-sm font-bold uppercase tracking-wider text-neutral-900">Wholesale Compounding Terms & Legal Notice</h3>
+      <h3 class="text-xs font-bold uppercase tracking-wider text-neutral-900">Wholesale Compounding Terms & Legal Notice</h3>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-xs text-neutral-600">
       <div class="space-y-1">
