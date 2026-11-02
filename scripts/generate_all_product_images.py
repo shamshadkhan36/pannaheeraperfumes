@@ -5,168 +5,194 @@ import time
 from PIL import Image, ImageDraw, ImageFont
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-TEMPLATE_PATH = os.path.join(BASE_DIR, 'assets', 'images', 'templates', 'bottle_amber_base.jpg')
+TEMPLATES_DIR = os.path.join(BASE_DIR, 'assets', 'images', 'templates')
 OUTPUT_DIR = os.path.join(BASE_DIR, 'assets', 'images', 'products')
 SITE_DATA_PATH = os.path.join(BASE_DIR, 'data', 'site_data.json')
 FRAGRANCE_DATA_JS = os.path.join(BASE_DIR, 'assets', 'js', 'fragrance-data.js')
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# 5 Category luxury themes
-THEMES = {
-    'designer-fragrance': {
-        'label_bg': (249, 247, 242),
-        'border_primary': (195, 155, 85),     # Classic Gold
-        'border_secondary': (220, 185, 120),
-        'text_main': (25, 22, 18),
-        'text_accent': (180, 140, 70),
-        'tag': 'DESIGNER FLACON'
+# 4 Distinct Luxury Bottle Configurations
+BOTTLE_CONFIGS = {
+    'crystal_gold': {
+        'file': 'bottle_crystal_gold.jpg',
+        'label': (315, 420, 709, 700),
+        'zoom': (142, 110, 882, 850),
+        'label_bg': (255, 253, 248),
+        'border_gold': (195, 155, 85),
+        'border_sub': (225, 195, 135),
+        'text_main': (22, 18, 14),
+        'tag': 'FINE FLACON'
     },
-    'niche-luxury': {
-        'label_bg': (246, 248, 250),
-        'border_primary': (155, 170, 185),    # Platinum / Silver
-        'border_secondary': (190, 205, 220),
-        'text_main': (18, 24, 32),
-        'text_accent': (110, 130, 150),
+    'obsidian_slate': {
+        'file': 'bottle_obsidian_slate.jpg',
+        'label': (320, 420, 704, 730),
+        'zoom': (142, 100, 882, 840),
+        'label_bg': (248, 248, 250),
+        'border_gold': (160, 175, 190),
+        'border_sub': (200, 210, 220),
+        'text_main': (18, 22, 28),
         'tag': 'PRIVATE RESERVE'
     },
-    'oriental-arabic': {
-        'label_bg': (250, 245, 235),
-        'border_primary': (189, 121, 51),     # Rich Oud Amber
-        'border_secondary': (219, 151, 81),
-        'text_main': (35, 22, 12),
-        'text_accent': (170, 100, 35),
+    'arabic_oud': {
+        'file': 'bottle_arabic_oud.jpg',
+        'label': (315, 410, 709, 720),
+        'zoom': (142, 100, 882, 840),
+        'label_bg': (253, 249, 240),
+        'border_gold': (189, 121, 51),
+        'border_sub': (225, 165, 95),
+        'text_main': (32, 20, 12),
         'tag': 'ORIENTAL COMPOUND'
     },
-    'floral-botanical': {
-        'label_bg': (252, 246, 246),
-        'border_primary': (200, 125, 133),    # Rose Gold
-        'border_secondary': (225, 155, 163),
-        'text_main': (36, 18, 22),
-        'text_accent': (185, 105, 115),
-        'tag': 'BOTANICAL ESSENCE'
-    },
-    'fruits-gourmand': {
-        'label_bg': (252, 248, 240),
-        'border_primary': (212, 136, 46),     # Golden Honey / Caramel
-        'border_secondary': (235, 165, 80),
-        'text_main': (35, 24, 12),
-        'text_accent': (190, 115, 30),
-        'tag': 'GOURMAND ACCORD'
+    'amber_dropper': {
+        'file': 'bottle_amber_base.jpg',
+        'label': (310, 360, 714, 680),
+        'zoom': (142, 35, 882, 775),
+        'label_bg': (252, 250, 246),
+        'border_gold': (195, 155, 85),
+        'border_sub': (225, 195, 135),
+        'text_main': (24, 20, 16),
+        'tag': 'CONCENTRATED OIL'
     }
 }
-DEFAULT_THEME = THEMES['designer-fragrance']
 
-# Label bounding box in 1024x1024 template (Wider & tighter for big bold typography)
-LX1, LY1, LX2, LY2 = 345, 430, 675, 715
-LW = LX2 - LX1
-LH = LY2 - LY1
-CX = (LX1 + LX2) // 2
+# Pre-load all template images into memory
+LOADED_TEMPLATES = {}
+for k, cfg in BOTTLE_CONFIGS.items():
+    p = os.path.join(TEMPLATES_DIR, cfg['file'])
+    LOADED_TEMPLATES[k] = Image.open(p).convert('RGB')
+    print(f"Loaded master template: {k} ({cfg['file']})")
 
-# Pre-load Windows fonts (significantly larger!)
-FONT_BRAND = ImageFont.truetype(r'C:\Windows\Fonts\georgiab.ttf', 24)
-FONT_SUB = ImageFont.truetype(r'C:\Windows\Fonts\georgia.ttf', 11)
-FONT_INSP = ImageFont.truetype(r'C:\Windows\Fonts\segoeuib.ttf', 13)
-FONT_SPEC = ImageFont.truetype(r'C:\Windows\Fonts\segoeui.ttf', 11)
-FONT_LOT = ImageFont.truetype(r'C:\Windows\Fonts\segoeuib.ttf', 11)
+# Fonts
+FONT_BRAND = ImageFont.truetype(r'C:\Windows\Fonts\georgiab.ttf', 30)
+FONT_CAT = ImageFont.truetype(r'C:\Windows\Fonts\georgia.ttf', 12)
+FONT_INSP = ImageFont.truetype(r'C:\Windows\Fonts\segoeuib.ttf', 15)
+FONT_SPEC = ImageFont.truetype(r'C:\Windows\Fonts\segoeui.ttf', 12)
+FONT_LOT = ImageFont.truetype(r'C:\Windows\Fonts\segoeuib.ttf', 12)
 
-# Pre-load font size options for titles (every size from 8 to 42)
 TITLE_FONTS = {
     sz: ImageFont.truetype(r'C:\Windows\Fonts\palab.ttf', sz)
-    for sz in range(8, 42)
+    for sz in range(8, 76)
 }
 
-print(f"Loading template from {TEMPLATE_PATH}...")
-template_img = Image.open(TEMPLATE_PATH).convert('RGB')
+def choose_bottle_style(product):
+    cat = product.get('category', 'designer-fragrance')
+    sno = product.get('sno', 1)
+    
+    if cat == 'oriental-arabic':
+        return 'arabic_oud' if sno % 2 == 1 else 'amber_dropper'
+    elif cat == 'niche-luxury':
+        return 'obsidian_slate' if sno % 2 == 1 else 'crystal_gold'
+    elif cat == 'floral-botanical':
+        return 'crystal_gold'
+    elif cat == 'fruits-gourmand':
+        return 'crystal_gold' if sno % 2 == 1 else 'arabic_oud'
+    else: # designer-fragrance
+        styles = ['crystal_gold', 'amber_dropper', 'crystal_gold', 'obsidian_slate']
+        return styles[sno % len(styles)]
 
 def render_bottle_image(product):
+    style_key = choose_bottle_style(product)
+    cfg = BOTTLE_CONFIGS[style_key]
+    template_img = LOADED_TEMPLATES[style_key]
+
     img = template_img.copy()
     draw = ImageDraw.Draw(img)
 
-    cat_key = product.get('category', 'designer-fragrance')
-    theme = THEMES.get(cat_key, DEFAULT_THEME)
+    lx1, ly1, lx2, ly2 = cfg['label']
+    lw = lx2 - lx1
+    lh = ly2 - ly1
+    cx = (lx1 + lx2) // 2
 
-    # 1. Label background with rounded corners
-    draw.rounded_rectangle([LX1, LY1, LX2, LY2], radius=8, fill=theme['label_bg'])
+    # Draw luxury rounded label with double gold foil borders
+    draw.rounded_rectangle([lx1, ly1, lx2, ly2], radius=10, fill=cfg['label_bg'])
+    draw.rounded_rectangle([lx1 + 6, ly1 + 6, lx2 - 6, ly2 - 6], radius=8, outline=cfg['border_gold'], width=3)
+    draw.rounded_rectangle([lx1 + 12, ly1 + 12, lx2 - 12, ly2 - 12], radius=6, outline=cfg['border_sub'], width=1)
 
-    # 2. Luxury borders (Double-line gold foil look)
-    draw.rounded_rectangle([LX1 + 5, LY1 + 5, LX2 - 5, LY2 - 5], radius=6, outline=theme['border_primary'], width=3)
-    draw.rounded_rectangle([LX1 + 10, LY1 + 10, LX2 - 10, LY2 - 10], radius=4, outline=theme['border_secondary'], width=1)
+    # 1. Header: PANNA HEERA (Bold luxury serif)
+    draw.text((cx, ly1 + 30), "PANNA HEERA", font=FONT_BRAND, fill=(24, 20, 16), anchor="mm")
 
-    # 3. Top Header: PANNA HEERA (Bold luxury serif)
-    draw.text((CX, LY1 + 28), "PANNA HEERA", font=FONT_BRAND, fill=(26, 22, 18), anchor="mm")
+    # 2. Category Tag
+    tag_text = cfg['tag']
+    draw.text((cx, ly1 + 54), tag_text, font=FONT_CAT, fill=cfg['border_gold'], anchor="mm")
+    draw.line([(cx - 85, ly1 + 68), (cx + 85, ly1 + 68)], fill=cfg['border_sub'], width=1)
 
-    # 4. Category Tag
-    draw.text((CX, LY1 + 50), theme['tag'], font=FONT_SUB, fill=theme['text_accent'], anchor="mm")
-
-    # Divider
-    draw.line([(CX - 75, LY1 + 63), (CX + 75, LY1 + 63)], fill=theme['border_secondary'], width=1)
-
-    # 5. Benchmark Inspiration Brand
+    # 3. Brand Inspiration
     brand_name = (product.get('brand') or '').upper().strip()
     if brand_name:
         if len(brand_name) > 30:
             brand_name = brand_name[:28] + '..'
-        draw.text((CX, LY1 + 82), brand_name, font=FONT_INSP, fill=(85, 70, 55), anchor="mm")
+        draw.text((cx, ly1 + 90), brand_name, font=FONT_INSP, fill=(75, 60, 48), anchor="mm")
 
-    # 6. Fragrance Name (Auto-sized and wrapped)
+    # 4. Fragrance Name (Auto-scaled up to 60pt to FIT THE BOTTLE!)
     frag_name = (product.get('short_title') or product.get('title') or '').upper().strip()
     if ' - ' in frag_name:
         frag_name = frag_name.split(' - ')[-1].strip()
 
-    title_y = LY1 + 120
+    title_y = ly1 + 138
     chosen_font = None
     lines = [frag_name]
+    max_title_w = lw - 36
 
-    # Try single line first (up to 34pt!)
-    for test_sz in (34, 30, 26, 22, 18, 15):
+    # Try single line first
+    for test_sz in range(60, 31, -2):
         f = TITLE_FONTS[test_sz]
         bb = draw.textbbox((0, 0), frag_name, font=f)
-        if (bb[2] - bb[0]) <= (LW - 34):
-            chosen_font = f
-            lines = [frag_name]
-            break
+        w = bb[2] - bb[0]
+        if w <= max_title_w:
+            if w >= 180 or len(frag_name.split()) == 1:
+                chosen_font = f
+                lines = [frag_name]
+                break
 
-    # If single line doesn't fit, wrap into 2 lines
+    # If multi-word and didn't fit, wrap onto 2 lines
     if chosen_font is None:
         words = frag_name.split()
         if len(words) > 1:
-            mid = len(words) // 2
-            l1, l2 = ' '.join(words[:mid]), ' '.join(words[mid:])
-            for test_sz in (24, 21, 18, 15, 13):
+            best_diff = 999
+            best_split = len(words) // 2
+            for i in range(1, len(words)):
+                l1, l2 = ' '.join(words[:i]), ' '.join(words[i:])
+                diff = abs(len(l1) - len(l2))
+                if diff < best_diff:
+                    best_diff = diff
+                    best_split = i
+            line1 = ' '.join(words[:best_split])
+            line2 = ' '.join(words[best_split:])
+
+            for test_sz in range(46, 20, -2):
                 f = TITLE_FONTS[test_sz]
-                bb1 = draw.textbbox((0, 0), l1, font=f)
-                bb2 = draw.textbbox((0, 0), l2, font=f)
-                if max(bb1[2] - bb1[0], bb2[2] - bb2[0]) <= (LW - 28):
+                bb1 = draw.textbbox((0, 0), line1, font=f)
+                bb2 = draw.textbbox((0, 0), line2, font=f)
+                if max(bb1[2] - bb1[0], bb2[2] - bb2[0]) <= max_title_w:
                     chosen_font = f
-                    lines = [l1, l2]
+                    lines = [line1, line2]
                     break
 
     if chosen_font is None:
-        chosen_font = TITLE_FONTS[14]
+        chosen_font = TITLE_FONTS[20]
         lines = [frag_name[:26] + '..' if len(frag_name) > 26 else frag_name]
 
     if len(lines) == 1:
-        draw.text((CX, title_y), lines[0], font=chosen_font, fill=theme['text_main'], anchor="mm")
+        draw.text((cx, title_y), lines[0], font=chosen_font, fill=cfg['text_main'], anchor="mm")
     else:
-        draw.text((CX, title_y - 12), lines[0], font=chosen_font, fill=theme['text_main'], anchor="mm")
-        draw.text((CX, title_y + 16), lines[1], font=chosen_font, fill=theme['text_main'], anchor="mm")
+        draw.text((cx, title_y - 15), lines[0], font=chosen_font, fill=cfg['text_main'], anchor="mm")
+        draw.text((cx, title_y + 18), lines[1], font=chosen_font, fill=cfg['text_main'], anchor="mm")
 
-    # 7. Classification
-    draw.line([(CX - 65, LY1 + 160), (CX + 65, LY1 + 160)], fill=theme['border_secondary'], width=1)
-    draw.text((CX, LY1 + 182), "100% PURE CONCENTRATE", font=FONT_SUB, fill=(75, 65, 55), anchor="mm")
+    # 5. Divider
+    draw.line([(cx - 75, ly1 + 184), (cx + 75, ly1 + 184)], fill=cfg['border_sub'], width=1)
 
-    # 8. Specs
-    draw.text((CX, LY1 + 206), "ALCOHOL FREE • LONG LASTING", font=FONT_SPEC, fill=(95, 85, 75), anchor="mm")
+    # 6. Specs
+    draw.text((cx, ly1 + 204), "100% PURE CONCENTRATE", font=FONT_CAT, fill=(70, 60, 50), anchor="mm")
+    draw.text((cx, ly1 + 228), "ALCOHOL FREE • LONG LASTING", font=FONT_SPEC, fill=(90, 80, 70), anchor="mm")
 
-    # 9. Lot Number & Pack Sizing
+    # 7. Lot Stamp
     sno = product.get('sno', 1)
     lot_str = f"LOT NO. PH-{sno:04d} • 100G / 1KG"
-    draw.text((CX, LY1 + 234), lot_str, font=FONT_LOT, fill=theme['border_primary'], anchor="mm")
+    draw.text((cx, ly1 + 256), lot_str, font=FONT_LOT, fill=cfg['border_gold'], anchor="mm")
 
-    # ZOOM CROP: Zoom in tightly on the bottle (720x720 centered square crop)
-    # Bottle now occupies ~92% of frame height, text is 2x-3x larger and crystal clear!
-    zoomed_img = img.crop((152, 45, 872, 765))
+    # ZOOM CROP: Zoom in tightly on the bottle flacon
+    zoomed_img = img.crop(cfg['zoom'])
     final_img = zoomed_img.resize((800, 800), Image.Resampling.LANCZOS)
     
     prod_id = product.get('id', f'oil-{sno}')

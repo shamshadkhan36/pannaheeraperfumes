@@ -621,7 +621,7 @@ include_once __DIR__ . '/includes/header.php';
             <!-- Product Photo & High-End Badges -->
             <a href="product-detail.php?id=${item.id}" class="block relative aspect-square bg-gradient-to-br from-neutral-100 via-neutral-50 to-amber-50/40 overflow-hidden flex items-center justify-center border-b border-neutral-100">
               <img 
-                src="${(item.image || 'assets/images/products/' + item.id + '.webp')}?v=2.1" 
+                src="${(item.image || 'assets/images/products/' + item.id + '.webp')}?v=3.0" 
                 onerror="this.onerror=null;this.src='assets/images/categories/fragrance-oils.jpg';"
                 alt="${item.full_name}" 
                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
@@ -635,16 +635,6 @@ include_once __DIR__ . '/includes/header.php';
                 </span>
                 <span class="bg-gradient-to-r from-amber-500 to-amber-600 text-neutral-950 text-[9px] font-black uppercase tracking-wider px-2 py-0.5 rounded-full shadow">
                   100% Pure Oil
-                </span>
-              </div>
-
-              <!-- Bottom Overlays on Image -->
-              <div class="absolute bottom-2.5 left-2.5 right-2.5 flex items-center justify-between gap-1 pointer-events-none">
-                <span class="bg-white/95 backdrop-blur text-neutral-900 text-[10px] font-extrabold px-2 py-0.5 rounded-md shadow-sm truncate max-w-[65%] border border-neutral-200/60">
-                  ${item.brand}
-                </span>
-                <span class="bg-black/80 backdrop-blur text-gold text-[9px] font-bold px-1.5 py-0.5 rounded-md">
-                  0% Alcohol
                 </span>
               </div>
             </a>
