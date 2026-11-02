@@ -292,40 +292,90 @@ include_once __DIR__ . '/includes/header.php';
                     <span>MOQ: 100 GM</span>
                   </div>
 
-                  <!-- Notes Section Inside Card (if available) -->
+                  <!-- Notes Section Inside Card (if available) - Non-scrolling 3-tier grid -->
                   <?php 
                   $pNotes = $prod['notes'] ?? [];
                   $pTop = $pNotes['top'] ?? [];
                   $pMid = $pNotes['middle'] ?? [];
                   $pBase = $pNotes['base'] ?? [];
-                  $pDisplay = [];
-                  if (!empty($pTop)) $pDisplay[] = array_merge($pTop[0], ['tier' => 'Top', 'badge' => 'bg-emerald-50 text-emerald-800 border-emerald-200']);
-                  if (count($pTop) > 1) $pDisplay[] = array_merge($pTop[1], ['tier' => 'Top', 'badge' => 'bg-emerald-50 text-emerald-800 border-emerald-200']);
-                  if (!empty($pMid)) $pDisplay[] = array_merge($pMid[0], ['tier' => 'Heart', 'badge' => 'bg-rose-50 text-rose-800 border-rose-200']);
-                  if (!empty($pBase)) $pDisplay[] = array_merge($pBase[0], ['tier' => 'Base', 'badge' => 'bg-amber-50 text-amber-800 border-amber-200']);
-                  if (!empty($pDisplay)):
+                  $hasPNotes = !empty($pTop) || !empty($pMid) || !empty($pBase);
+                  if ($hasPNotes):
+                    $topLead = $pTop[0] ?? null;
+                    $topCount = count($pTop);
+                    $topExtra = $topCount > 1 ? '+' . ($topCount - 1) . ' more' : '';
+
+                    $midLead = $pMid[0] ?? null;
+                    $midCount = count($pMid);
+                    $midExtra = $midCount > 1 ? '+' . ($midCount - 1) . ' more' : '';
+
+                    $baseLead = $pBase[0] ?? null;
+                    $baseCount = count($pBase);
+                    $baseExtra = $baseCount > 1 ? '+' . ($baseCount - 1) . ' more' : '';
                   ?>
                     <div class="pt-2">
-                      <div class="bg-gradient-to-b from-neutral-50 to-white rounded-xl p-2 border border-neutral-200/90 shadow-[0_1px_3px_rgba(0,0,0,0.03)]">
-                        <div class="flex items-center justify-between text-[10px] font-bold text-neutral-600 mb-1.5 px-0.5">
+                      <a href="product-detail.php?id=<?php echo urlencode($prod['id']); ?>#olfactory-notes" class="block bg-neutral-50/90 hover:bg-neutral-100/90 rounded-2xl p-2.5 border border-neutral-200/90 transition shadow-xs group/pyramid">
+                        <div class="flex items-center justify-between text-[10px] font-bold text-neutral-600 mb-2 px-0.5">
                           <span class="flex items-center gap-1 uppercase tracking-wider text-[#2c405a]">
                             <svg class="w-3 h-3 text-gold" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg>
-                            <span>Fragrance Notes</span>
+                            <span>Olfactory Pyramid</span>
                           </span>
-                          <a href="product-detail.php?id=<?php echo urlencode($prod['id']); ?>" class="text-gold font-bold hover:underline text-[10px] flex items-center gap-0.5">Pyramid &rarr;</a>
+                          <span class="text-gold font-bold group-hover/pyramid:underline flex items-center gap-0.5 text-[10px]">
+                            View Full &rarr;
+                          </span>
                         </div>
-                        <div class="flex items-center justify-start gap-2 overflow-x-auto pb-0.5 scrollbar-none">
-                          <?php foreach ($pDisplay as $nd): ?>
-                            <a href="product-detail.php?id=<?php echo urlencode($prod['id']); ?>" class="flex-shrink-0 flex flex-col items-center w-[54px] p-1 rounded-xl bg-white border border-neutral-200 shadow-xs text-center hover:border-gold transition group/note" title="<?php echo htmlspecialchars($nd['tier'] . ' Note: ' . $nd['name']); ?>">
-                              <div class="w-9 h-9 rounded-lg bg-neutral-50 border border-neutral-100 flex items-center justify-center p-0.5 overflow-hidden">
-                                <img src="<?php echo htmlspecialchars($nd['image']); ?>" alt="<?php echo htmlspecialchars($nd['name']); ?>" class="max-w-full max-h-full object-contain group-hover/note:scale-105 transition-transform">
+                        <div class="grid grid-cols-3 gap-1.5 text-center">
+                          <!-- Top Note -->
+                          <div class="flex flex-col items-center bg-white p-1.5 rounded-xl border border-neutral-200/80 shadow-[0_1px_2px_rgba(0,0,0,0.03)]">
+                            <span class="text-[8px] font-black uppercase tracking-wider text-emerald-800 bg-emerald-50 border border-emerald-200 px-1.5 py-0.5 rounded-full mb-1">Top</span>
+                            <?php if ($topLead): ?>
+                              <div class="w-10 h-10 rounded-lg p-0.5 flex items-center justify-center overflow-hidden">
+                                <img src="<?php echo htmlspecialchars($topLead['image']); ?>" alt="<?php echo htmlspecialchars($topLead['name']); ?>" class="max-w-full max-h-full object-contain">
                               </div>
-                              <span class="text-[9px] font-bold text-neutral-800 truncate w-full mt-1"><?php echo htmlspecialchars($nd['name']); ?></span>
-                              <span class="text-[7.5px] font-bold <?php echo $nd['badge']; ?> border px-1 py-0.2 rounded-full uppercase mt-0.5 leading-none"><?php echo $nd['tier']; ?></span>
-                            </a>
-                          <?php endforeach; ?>
+                              <span class="text-[10px] font-bold text-neutral-800 truncate w-full mt-1 leading-tight" title="<?php echo htmlspecialchars($topLead['name']); ?>">
+                                <?php echo htmlspecialchars($topLead['name']); ?>
+                              </span>
+                              <?php if ($topExtra): ?><span class="text-[8px] font-semibold text-neutral-400 mt-0.5"><?php echo $topExtra; ?></span><?php endif; ?>
+                            <?php else: ?>
+                              <div class="w-10 h-10 rounded-lg flex items-center justify-center text-neutral-300 text-xs">—</div>
+                              <span class="text-[10px] text-neutral-400">—</span>
+                            <?php endif; ?>
+                          </div>
+
+                          <!-- Heart Note -->
+                          <div class="flex flex-col items-center bg-white p-1.5 rounded-xl border border-neutral-200/80 shadow-[0_1px_2px_rgba(0,0,0,0.03)]">
+                            <span class="text-[8px] font-black uppercase tracking-wider text-rose-800 bg-rose-50 border border-rose-200 px-1.5 py-0.5 rounded-full mb-1">Heart</span>
+                            <?php if ($midLead): ?>
+                              <div class="w-10 h-10 rounded-lg p-0.5 flex items-center justify-center overflow-hidden">
+                                <img src="<?php echo htmlspecialchars($midLead['image']); ?>" alt="<?php echo htmlspecialchars($midLead['name']); ?>" class="max-w-full max-h-full object-contain">
+                              </div>
+                              <span class="text-[10px] font-bold text-neutral-800 truncate w-full mt-1 leading-tight" title="<?php echo htmlspecialchars($midLead['name']); ?>">
+                                <?php echo htmlspecialchars($midLead['name']); ?>
+                              </span>
+                              <?php if ($midExtra): ?><span class="text-[8px] font-semibold text-neutral-400 mt-0.5"><?php echo $midExtra; ?></span><?php endif; ?>
+                            <?php else: ?>
+                              <div class="w-10 h-10 rounded-lg flex items-center justify-center text-neutral-300 text-xs">—</div>
+                              <span class="text-[10px] text-neutral-400">—</span>
+                            <?php endif; ?>
+                          </div>
+
+                          <!-- Base Note -->
+                          <div class="flex flex-col items-center bg-white p-1.5 rounded-xl border border-neutral-200/80 shadow-[0_1px_2px_rgba(0,0,0,0.03)]">
+                            <span class="text-[8px] font-black uppercase tracking-wider text-amber-900 bg-amber-50 border border-amber-200 px-1.5 py-0.5 rounded-full mb-1">Base</span>
+                            <?php if ($baseLead): ?>
+                              <div class="w-10 h-10 rounded-lg p-0.5 flex items-center justify-center overflow-hidden">
+                                <img src="<?php echo htmlspecialchars($baseLead['image']); ?>" alt="<?php echo htmlspecialchars($baseLead['name']); ?>" class="max-w-full max-h-full object-contain">
+                              </div>
+                              <span class="text-[10px] font-bold text-neutral-800 truncate w-full mt-1 leading-tight" title="<?php echo htmlspecialchars($baseLead['name']); ?>">
+                                <?php echo htmlspecialchars($baseLead['name']); ?>
+                              </span>
+                              <?php if ($baseExtra): ?><span class="text-[8px] font-semibold text-neutral-400 mt-0.5"><?php echo $baseExtra; ?></span><?php endif; ?>
+                            <?php else: ?>
+                              <div class="w-10 h-10 rounded-lg flex items-center justify-center text-neutral-300 text-xs">—</div>
+                              <span class="text-[10px] text-neutral-400">—</span>
+                            <?php endif; ?>
+                          </div>
                         </div>
-                      </div>
+                      </a>
                     </div>
                   <?php endif; ?>
                 </div>
