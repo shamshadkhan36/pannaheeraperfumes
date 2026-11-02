@@ -178,51 +178,147 @@ $marqueeItems = !empty($banner['marquee_items']) ? $banner['marquee_items'] : [
 
     <!-- 4-Column Product Grid -->
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-      <?php foreach ($featuredProducts as $prod): ?>
-        <div class="product-card group" data-category="<?php echo htmlspecialchars($prod['category']); ?>">
+      <?php foreach ($featuredProducts as $prod): 
+        $prodUrl = 'product-detail.php?id=' . urlencode($prod['id']);
+        $pNotes = $prod['notes'] ?? [];
+        $pTop = $pNotes['top'] ?? [];
+        $pMid = $pNotes['middle'] ?? [];
+        $pBase = $pNotes['base'] ?? [];
+        $hasPNotes = !empty($pTop) || !empty($pMid) || !empty($pBase);
+      ?>
+        <div class="product-card group relative flex flex-col justify-between" data-category="<?php echo htmlspecialchars($prod['category']); ?>">
           
-          <!-- Badge -->
-          <?php if (!empty($prod['badge'])): ?>
-            <span class="product-badge">
-              <?php echo htmlspecialchars($prod['badge']); ?>
-            </span>
-          <?php endif; ?>
+          <div>
+            <!-- Badge -->
+            <?php if (!empty($prod['badge'])): ?>
+              <span class="product-badge">
+                <?php echo htmlspecialchars($prod['badge']); ?>
+              </span>
+            <?php endif; ?>
 
-          <!-- Product Image Wrap -->
-          <div class="product-image-wrap">
-            <img 
-              src="<?php echo htmlspecialchars($prod['image']); ?>?v=4.0" 
-              alt="<?php echo htmlspecialchars($prod['title']); ?>" 
-              loading="lazy"
-            >
+            <!-- Product Image Wrap (clickable) -->
+            <a href="<?php echo $prodUrl; ?>" class="product-image-wrap block overflow-hidden">
+              <img 
+                src="<?php echo htmlspecialchars($prod['image']); ?>?v=4.0" 
+                alt="<?php echo htmlspecialchars($prod['title']); ?>" 
+                loading="lazy"
+                class="transition-transform duration-300 group-hover:scale-105"
+              >
+            </a>
+
+            <!-- Product Category & Title (clickable) -->
+            <div class="mt-3">
+              <div class="flex items-center gap-1.5 text-[10px] text-neutral-400 font-semibold uppercase tracking-wider mb-1">
+                <span class="w-1.5 h-1.5 rounded-full bg-amber-500"></span>
+                <span class="truncate"><?php echo htmlspecialchars($prod['category_title'] ?? 'Designer Fragrance'); ?></span>
+              </div>
+              <h3 class="product-title !mb-1 text-sm font-extrabold text-neutral-900 group-hover:text-amber-700 transition" title="<?php echo htmlspecialchars($prod['title']); ?>">
+                <a href="<?php echo $prodUrl; ?>">
+                  <?php echo htmlspecialchars($prod['short_title'] ?? $prod['title']); ?>
+                </a>
+              </h3>
+            </div>
+
+            <!-- Meta (Price & MOQ) -->
+            <div class="product-meta mt-2 mb-3">
+              <span class="product-price font-bold text-neutral-900">
+                From <?php echo formatPrice($prod['price']); ?>
+              </span>
+              <span class="product-moq text-[11px] text-neutral-500 font-medium">
+                MOQ: <?php echo htmlspecialchars($prod['moq_label'] ?? '100 GM'); ?>
+              </span>
+            </div>
+
+            <!-- Olfactory Notes Section inside Card -->
+            <?php if ($hasPNotes): 
+              $topLead = $pTop[0] ?? null;
+              $topCount = count($pTop);
+              $topExtra = $topCount > 1 ? '+' . ($topCount - 1) . ' more' : '';
+
+              $midLead = $pMid[0] ?? null;
+              $midCount = count($pMid);
+              $midExtra = $midCount > 1 ? '+' . ($midCount - 1) . ' more' : '';
+
+              $baseLead = $pBase[0] ?? null;
+              $baseCount = count($pBase);
+              $baseExtra = $baseCount > 1 ? '+' . ($baseCount - 1) . ' more' : '';
+            ?>
+              <a href="<?php echo $prodUrl; ?>#olfactory-notes" class="block bg-neutral-50/90 hover:bg-neutral-100/90 rounded-2xl p-2.5 border border-neutral-200/90 transition shadow-xs group/pyramid mb-4">
+                <div class="flex items-center justify-between text-[10px] font-bold text-neutral-600 mb-2 px-0.5">
+                  <span class="flex items-center gap-1 uppercase tracking-wider text-[#2c405a]">
+                    <svg class="w-3 h-3 text-gold" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg>
+                    <span>Olfactory Pyramid</span>
+                  </span>
+                  <span class="text-gold font-bold group-hover/pyramid:underline flex items-center gap-0.5 text-[10px]">
+                    View &rarr;
+                  </span>
+                </div>
+                <div class="grid grid-cols-3 gap-1.5 text-center">
+                  <!-- Top Note -->
+                  <div class="flex flex-col items-center bg-white p-1 rounded-xl border border-neutral-200/80 shadow-[0_1px_2px_rgba(0,0,0,0.03)]">
+                    <span class="text-[8px] font-black uppercase tracking-wider text-emerald-800 bg-emerald-50 border border-emerald-200 px-1.5 py-0.5 rounded-full mb-1">Top</span>
+                    <?php if ($topLead): ?>
+                      <div class="w-9 h-9 rounded-lg p-0.5 flex items-center justify-center overflow-hidden">
+                        <img src="<?php echo htmlspecialchars($topLead['image']); ?>?v=2.0" alt="<?php echo htmlspecialchars($topLead['name']); ?>" class="max-w-full max-h-full object-contain">
+                      </div>
+                      <span class="text-[10px] font-bold text-neutral-800 truncate w-full mt-1 leading-tight" title="<?php echo htmlspecialchars($topLead['name']); ?>">
+                        <?php echo htmlspecialchars($topLead['name']); ?>
+                      </span>
+                      <?php if ($topExtra): ?><span class="text-[8px] font-semibold text-neutral-400 mt-0.5"><?php echo $topExtra; ?></span><?php endif; ?>
+                    <?php else: ?>
+                      <div class="w-9 h-9 rounded-lg flex items-center justify-center text-neutral-300 text-xs">—</div>
+                      <span class="text-[10px] text-neutral-400">—</span>
+                    <?php endif; ?>
+                  </div>
+
+                  <!-- Heart Note -->
+                  <div class="flex flex-col items-center bg-white p-1 rounded-xl border border-neutral-200/80 shadow-[0_1px_2px_rgba(0,0,0,0.03)]">
+                    <span class="text-[8px] font-black uppercase tracking-wider text-rose-800 bg-rose-50 border border-rose-200 px-1.5 py-0.5 rounded-full mb-1">Heart</span>
+                    <?php if ($midLead): ?>
+                      <div class="w-9 h-9 rounded-lg p-0.5 flex items-center justify-center overflow-hidden">
+                        <img src="<?php echo htmlspecialchars($midLead['image']); ?>?v=2.0" alt="<?php echo htmlspecialchars($midLead['name']); ?>" class="max-w-full max-h-full object-contain">
+                      </div>
+                      <span class="text-[10px] font-bold text-neutral-800 truncate w-full mt-1 leading-tight" title="<?php echo htmlspecialchars($midLead['name']); ?>">
+                        <?php echo htmlspecialchars($midLead['name']); ?>
+                      </span>
+                      <?php if ($midExtra): ?><span class="text-[8px] font-semibold text-neutral-400 mt-0.5"><?php echo $midExtra; ?></span><?php endif; ?>
+                    <?php else: ?>
+                      <div class="w-9 h-9 rounded-lg flex items-center justify-center text-neutral-300 text-xs">—</div>
+                      <span class="text-[10px] text-neutral-400">—</span>
+                    <?php endif; ?>
+                  </div>
+
+                  <!-- Base Note -->
+                  <div class="flex flex-col items-center bg-white p-1 rounded-xl border border-neutral-200/80 shadow-[0_1px_2px_rgba(0,0,0,0.03)]">
+                    <span class="text-[8px] font-black uppercase tracking-wider text-amber-900 bg-amber-50 border border-amber-200 px-1.5 py-0.5 rounded-full mb-1">Base</span>
+                    <?php if ($baseLead): ?>
+                      <div class="w-9 h-9 rounded-lg p-0.5 flex items-center justify-center overflow-hidden">
+                        <img src="<?php echo htmlspecialchars($baseLead['image']); ?>?v=2.0" alt="<?php echo htmlspecialchars($baseLead['name']); ?>" class="max-w-full max-h-full object-contain">
+                      </div>
+                      <span class="text-[10px] font-bold text-neutral-800 truncate w-full mt-1 leading-tight" title="<?php echo htmlspecialchars($baseLead['name']); ?>">
+                        <?php echo htmlspecialchars($baseLead['name']); ?>
+                      </span>
+                      <?php if ($baseExtra): ?><span class="text-[8px] font-semibold text-neutral-400 mt-0.5"><?php echo $baseExtra; ?></span><?php endif; ?>
+                    <?php else: ?>
+                      <div class="w-9 h-9 rounded-lg flex items-center justify-center text-neutral-300 text-xs">—</div>
+                      <span class="text-[10px] text-neutral-400">—</span>
+                    <?php endif; ?>
+                  </div>
+                </div>
+              </a>
+            <?php endif; ?>
           </div>
 
-          <!-- Product Title -->
-          <h3 class="product-title" title="<?php echo htmlspecialchars($prod['title']); ?>">
-            <?php echo htmlspecialchars($prod['title']); ?>
-          </h3>
-
-          <!-- Meta (Price & MOQ) -->
-          <div class="product-meta">
-            <span class="product-price">
-              From <?php echo formatPrice($prod['price']); ?>
-            </span>
-            <span class="product-moq">
-              MOQ: <?php echo htmlspecialchars($prod['moq_label'] ?? '100 GM'); ?>
-            </span>
-          </div>
-
-          <!-- Select Options Action Button -->
-          <button 
-            type="button"
-            class="btn-select-options open-product-modal"
-            data-product-id="<?php echo htmlspecialchars($prod['id']); ?>"
+          <!-- Direct Link Action Button (navigates directly to product page instead of opening modal) -->
+          <a 
+            href="<?php echo $prodUrl; ?>"
+            class="btn-select-options flex items-center justify-center gap-2 w-full text-center py-3 px-4 rounded-xl bg-neutral-900 hover:bg-black text-white font-bold text-xs uppercase tracking-wider transition shadow-sm mt-2"
           >
-            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <svg class="w-4 h-4 text-amber-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/>
             </svg>
-            <span>Select Pack Size</span>
-          </button>
+            <span>View Details & Order</span>
+          </a>
 
         </div>
       <?php endforeach; ?>
