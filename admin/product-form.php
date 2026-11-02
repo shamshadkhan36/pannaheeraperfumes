@@ -248,7 +248,7 @@ $currentNotes = $product['notes'] ?? ['top' => [], 'middle' => [], 'base' => []]
       </div>
 
       <!-- Card 2: Fragrance Olfactory Notes & Pyramid (Top, Middle, Base) -->
-      <div class="bg-white p-6 rounded-2xl border border-neutral-200 shadow-sm space-y-6">
+      <div id="notes-section" class="bg-white p-6 rounded-2xl border border-neutral-200 shadow-sm space-y-6 scroll-mt-6">
         <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-neutral-100 pb-3">
           <div>
             <h3 class="text-xs font-bold uppercase tracking-wider text-neutral-900 flex items-center gap-2">

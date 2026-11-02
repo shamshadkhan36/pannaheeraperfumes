@@ -48,7 +48,7 @@
   <div id="cartFooter" class="p-5 border-t border-neutral-100 bg-neutral-50 space-y-3">
     <div class="flex items-center justify-between text-sm">
       <span class="text-neutral-500 font-medium">Estimated Subtotal:</span>
-      <span id="cartSubtotalAmount" class="text-lg font-bold text-neutral-900"><?php echo CURRENCY_SYMBOL; ?> 0.00</span>
+      <span id="cartSubtotalAmount" class="text-lg font-bold text-neutral-900"><?php echo getCurrencySymbol(); ?> 0.00</span>
     </div>
     <div class="text-[11px] text-neutral-400">
       * Taxes (GST), custom branding tooling, and dispatch freight calculated upon order confirmation.

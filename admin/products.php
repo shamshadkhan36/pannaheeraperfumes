@@ -129,6 +129,9 @@ $categories = $siteData['categories'] ?? [];
             </td>
 
             <td class="py-3 px-4 text-right space-x-2 whitespace-nowrap">
+              <a href="product-form.php?id=<?php echo urlencode($p['id']); ?>#notes-section" class="text-amber-800 bg-amber-50 hover:bg-amber-100 border border-amber-200 px-2.5 py-1 rounded-md text-[11px] font-bold inline-flex items-center gap-1 transition" title="Add or edit notes for this perfume">
+                🌿 Notes <?php if ($prodNotesCount > 0): ?><span class="bg-amber-200 text-amber-900 rounded-full px-1.5 py-0.2 text-[9px]"><?php echo $prodNotesCount; ?></span><?php endif; ?>
+              </a>
               <a href="product-form.php?id=<?php echo urlencode($p['id']); ?>" class="text-blue-600 hover:text-blue-800 font-bold">Edit</a>
               <a href="../product-detail.php?id=<?php echo urlencode($p['id']); ?>" target="_blank" class="text-neutral-500 hover:text-neutral-800">Preview</a>
               <a href="products.php?action=delete&id=<?php echo urlencode($p['id']); ?>" onclick="return confirm('Are you sure you want to delete this product?');" class="text-red-600 hover:text-red-800 font-bold">Delete</a>

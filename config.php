@@ -32,8 +32,17 @@ if (!defined('COMPANY_ADDRESS')) define('COMPANY_ADDRESS', 'Industrial Fragrance
 if (!defined('BUSINESS_HOURS')) define('BUSINESS_HOURS', 'Mon - Sat: 9:30 AM - 7:00 PM IST');
 
 // Currency & Commerce
-if (!defined('CURRENCY_SYMBOL')) define('CURRENCY_SYMBOL', '₹');
+if (!defined('SITE_CURRENCY_SYMBOL')) define('SITE_CURRENCY_SYMBOL', '₹');
 if (!defined('DEFAULT_TAX_RATE')) define('DEFAULT_TAX_RATE', 0.18); // 18% GST for B2B
+
+/**
+ * Helper to get active currency symbol safely (avoids PHP glibc internal CURRENCY_SYMBOL constant conflict)
+ */
+if (!function_exists('getCurrencySymbol')) {
+    function getCurrencySymbol() {
+        return defined('SITE_CURRENCY_SYMBOL') ? SITE_CURRENCY_SYMBOL : '₹';
+    }
+}
 
 /**
  * Helper to build instant WhatsApp chat link
@@ -56,7 +65,7 @@ if (!function_exists('formatPrice')) {
         if ($decimals === null) {
             $decimals = (floor((float)$amount) == (float)$amount) ? 0 : 2;
         }
-        return CURRENCY_SYMBOL . number_format((float)$amount, $decimals);
+        return getCurrencySymbol() . number_format((float)$amount, $decimals);
     }
 }
 

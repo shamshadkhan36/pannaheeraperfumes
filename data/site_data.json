@@ -172,42 +172,6 @@
                     "1 KG Wholesale Flacon - ₹6,240",
                     "100 GM Production Lot - ₹650"
                 ]
-            },
-            "notes": {
-                "top": [
-                    {
-                        "name": "Raspberry",
-                        "image": "assets/images/notes/raspberry.png"
-                    },
-                    {
-                        "name": "Black Currant",
-                        "image": "assets/images/notes/black-currant.png"
-                    },
-                    {
-                        "name": "Sour Cherry",
-                        "image": "assets/images/notes/sour-cherry.png"
-                    }
-                ],
-                "middle": [
-                    {
-                        "name": "Rose",
-                        "image": "assets/images/notes/rose.png"
-                    },
-                    {
-                        "name": "Jasmine",
-                        "image": "assets/images/notes/jasmine.png"
-                    }
-                ],
-                "base": [
-                    {
-                        "name": "Patchouli",
-                        "image": "assets/images/notes/patchouli.png"
-                    },
-                    {
-                        "name": "Vanilla",
-                        "image": "assets/images/notes/vanilla.png"
-                    }
-                ]
             }
         },
         {
@@ -245,38 +209,6 @@
                     "1 KG Wholesale Flacon - ₹4,680",
                     "100 GM Production Lot - ₹494"
                 ]
-            },
-            "notes": {
-                "top": [
-                    {
-                        "name": "Bergamot",
-                        "image": "assets/images/notes/bergamot.png"
-                    },
-                    {
-                        "name": "Lemon",
-                        "image": "assets/images/notes/lemon.png"
-                    }
-                ],
-                "middle": [
-                    {
-                        "name": "Jasmine",
-                        "image": "assets/images/notes/jasmine.png"
-                    },
-                    {
-                        "name": "Rose",
-                        "image": "assets/images/notes/rose.png"
-                    }
-                ],
-                "base": [
-                    {
-                        "name": "Cedarwood",
-                        "image": "assets/images/notes/cedarwood.png"
-                    },
-                    {
-                        "name": "Patchouli",
-                        "image": "assets/images/notes/patchouli.png"
-                    }
-                ]
             }
         },
         {
@@ -313,34 +245,6 @@
                 "Pack Size": [
                     "1 KG Wholesale Flacon - ₹4,680",
                     "100 GM Production Lot - ₹494"
-                ]
-            },
-            "notes": {
-                "top": [
-                    {
-                        "name": "Bergamot",
-                        "image": "assets/images/notes/bergamot.png"
-                    },
-                    {
-                        "name": "Mint",
-                        "image": "assets/images/notes/mint.png"
-                    }
-                ],
-                "middle": [
-                    {
-                        "name": "Jasmine",
-                        "image": "assets/images/notes/jasmine.png"
-                    }
-                ],
-                "base": [
-                    {
-                        "name": "Vetiver",
-                        "image": "assets/images/notes/vetiver.png"
-                    },
-                    {
-                        "name": "Patchouli",
-                        "image": "assets/images/notes/patchouli.png"
-                    }
                 ]
             }
         },
