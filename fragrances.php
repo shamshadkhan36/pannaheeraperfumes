@@ -515,7 +515,7 @@ include_once __DIR__ . '/includes/header.php';
                       </span>
                       ${topLead ? `
                         <div class="w-10 h-10 rounded-lg p-0.5 flex items-center justify-center overflow-hidden">
-                          <img src="${topLead.image}" alt="${topLead.name}" class="max-w-full max-h-full object-contain">
+                          <img src="${topLead.image}?v=2.0" alt="${topLead.name}" class="max-w-full max-h-full object-contain">
                         </div>
                         <span class="text-[10px] font-bold text-neutral-800 truncate w-full mt-1 leading-tight" title="${topLead.name}">
                           ${topLead.name}
@@ -534,7 +534,7 @@ include_once __DIR__ . '/includes/header.php';
                       </span>
                       ${midLead ? `
                         <div class="w-10 h-10 rounded-lg p-0.5 flex items-center justify-center overflow-hidden">
-                          <img src="${midLead.image}" alt="${midLead.name}" class="max-w-full max-h-full object-contain">
+                          <img src="${midLead.image}?v=2.0" alt="${midLead.name}" class="max-w-full max-h-full object-contain">
                         </div>
                         <span class="text-[10px] font-bold text-neutral-800 truncate w-full mt-1 leading-tight" title="${midLead.name}">
                           ${midLead.name}
@@ -553,7 +553,7 @@ include_once __DIR__ . '/includes/header.php';
                       </span>
                       ${baseLead ? `
                         <div class="w-10 h-10 rounded-lg p-0.5 flex items-center justify-center overflow-hidden">
-                          <img src="${baseLead.image}" alt="${baseLead.name}" class="max-w-full max-h-full object-contain">
+                          <img src="${baseLead.image}?v=2.0" alt="${baseLead.name}" class="max-w-full max-h-full object-contain">
                         </div>
                         <span class="text-[10px] font-bold text-neutral-800 truncate w-full mt-1 leading-tight" title="${baseLead.name}">
                           ${baseLead.name}

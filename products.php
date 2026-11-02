@@ -287,7 +287,7 @@ include_once __DIR__ . '/includes/header.php';
                             <span class="text-[8px] font-black uppercase tracking-wider text-emerald-800 bg-emerald-50 border border-emerald-200 px-1.5 py-0.5 rounded-full mb-1">Top</span>
                             <?php if ($topLead): ?>
                               <div class="w-10 h-10 rounded-lg p-0.5 flex items-center justify-center overflow-hidden">
-                                <img src="<?php echo htmlspecialchars($topLead['image']); ?>" alt="<?php echo htmlspecialchars($topLead['name']); ?>" class="max-w-full max-h-full object-contain">
+                                <img src="<?php echo htmlspecialchars($topLead['image']); ?>?v=2.0" alt="<?php echo htmlspecialchars($topLead['name']); ?>" class="max-w-full max-h-full object-contain">
                               </div>
                               <span class="text-[10px] font-bold text-neutral-800 truncate w-full mt-1 leading-tight" title="<?php echo htmlspecialchars($topLead['name']); ?>">
                                 <?php echo htmlspecialchars($topLead['name']); ?>
@@ -304,7 +304,7 @@ include_once __DIR__ . '/includes/header.php';
                             <span class="text-[8px] font-black uppercase tracking-wider text-rose-800 bg-rose-50 border border-rose-200 px-1.5 py-0.5 rounded-full mb-1">Heart</span>
                             <?php if ($midLead): ?>
                               <div class="w-10 h-10 rounded-lg p-0.5 flex items-center justify-center overflow-hidden">
-                                <img src="<?php echo htmlspecialchars($midLead['image']); ?>" alt="<?php echo htmlspecialchars($midLead['name']); ?>" class="max-w-full max-h-full object-contain">
+                                <img src="<?php echo htmlspecialchars($midLead['image']); ?>?v=2.0" alt="<?php echo htmlspecialchars($midLead['name']); ?>" class="max-w-full max-h-full object-contain">
                               </div>
                               <span class="text-[10px] font-bold text-neutral-800 truncate w-full mt-1 leading-tight" title="<?php echo htmlspecialchars($midLead['name']); ?>">
                                 <?php echo htmlspecialchars($midLead['name']); ?>
@@ -321,7 +321,7 @@ include_once __DIR__ . '/includes/header.php';
                             <span class="text-[8px] font-black uppercase tracking-wider text-amber-900 bg-amber-50 border border-amber-200 px-1.5 py-0.5 rounded-full mb-1">Base</span>
                             <?php if ($baseLead): ?>
                               <div class="w-10 h-10 rounded-lg p-0.5 flex items-center justify-center overflow-hidden">
-                                <img src="<?php echo htmlspecialchars($baseLead['image']); ?>" alt="<?php echo htmlspecialchars($baseLead['name']); ?>" class="max-w-full max-h-full object-contain">
+                                <img src="<?php echo htmlspecialchars($baseLead['image']); ?>?v=2.0" alt="<?php echo htmlspecialchars($baseLead['name']); ?>" class="max-w-full max-h-full object-contain">
                               </div>
                               <span class="text-[10px] font-bold text-neutral-800 truncate w-full mt-1 leading-tight" title="<?php echo htmlspecialchars($baseLead['name']); ?>">
                                 <?php echo htmlspecialchars($baseLead['name']); ?>
