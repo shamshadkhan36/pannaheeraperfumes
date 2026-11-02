@@ -348,7 +348,7 @@ function showProductModal(product) {
         <!-- Image & Technical diagram -->
         <div>
           <div class="w-full aspect-square bg-white border border-neutral-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
-            <img src="${product.image}" alt="${product.title}" class="max-w-full max-h-full object-contain">
+            <img src="${product.image ? product.image + '?v=4.0' : 'assets/images/categories/fragrance-oils.jpg'}" alt="${product.title}" class="max-w-full max-h-full object-contain">
           </div>
           ${specsHtml}
         </div>

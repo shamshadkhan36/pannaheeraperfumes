@@ -139,8 +139,8 @@
   </footer>
 
   <!-- Scripts -->
-  <script src="assets/js/products-data.js"></script>
-  <script src="assets/js/fragrance-data.js"></script>
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/products-data.js?v=4.0"></script>
+  <script src="assets/js/fragrance-data.js?v=4.0"></script>
+  <script src="assets/js/main.js?v=4.0"></script>
 </body>
 </html>
