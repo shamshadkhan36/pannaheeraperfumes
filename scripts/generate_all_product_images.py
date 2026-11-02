@@ -57,23 +57,23 @@ THEMES = {
 }
 DEFAULT_THEME = THEMES['designer-fragrance']
 
-# Label bounding box in 1024x1024 template
-LX1, LY1, LX2, LY2 = 395, 460, 625, 750
+# Label bounding box in 1024x1024 template (Wider & tighter for big bold typography)
+LX1, LY1, LX2, LY2 = 345, 430, 675, 715
 LW = LX2 - LX1
 LH = LY2 - LY1
 CX = (LX1 + LX2) // 2
 
-# Pre-load Windows fonts
-FONT_BRAND = ImageFont.truetype(r'C:\Windows\Fonts\georgiab.ttf', 16)
-FONT_SUB = ImageFont.truetype(r'C:\Windows\Fonts\georgia.ttf', 9)
-FONT_INSP = ImageFont.truetype(r'C:\Windows\Fonts\segoeuib.ttf', 10)
-FONT_SPEC = ImageFont.truetype(r'C:\Windows\Fonts\segoeui.ttf', 9)
-FONT_LOT = ImageFont.truetype(r'C:\Windows\Fonts\segoeuib.ttf', 9)
+# Pre-load Windows fonts (significantly larger!)
+FONT_BRAND = ImageFont.truetype(r'C:\Windows\Fonts\georgiab.ttf', 24)
+FONT_SUB = ImageFont.truetype(r'C:\Windows\Fonts\georgia.ttf', 11)
+FONT_INSP = ImageFont.truetype(r'C:\Windows\Fonts\segoeuib.ttf', 13)
+FONT_SPEC = ImageFont.truetype(r'C:\Windows\Fonts\segoeui.ttf', 11)
+FONT_LOT = ImageFont.truetype(r'C:\Windows\Fonts\segoeuib.ttf', 11)
 
-# Pre-load font size options for titles (every size from 8 to 32)
+# Pre-load font size options for titles (every size from 8 to 42)
 TITLE_FONTS = {
     sz: ImageFont.truetype(r'C:\Windows\Fonts\palab.ttf', sz)
-    for sz in range(8, 36)
+    for sz in range(8, 42)
 }
 
 print(f"Loading template from {TEMPLATE_PATH}...")
@@ -87,42 +87,42 @@ def render_bottle_image(product):
     theme = THEMES.get(cat_key, DEFAULT_THEME)
 
     # 1. Label background with rounded corners
-    draw.rounded_rectangle([LX1, LY1, LX2, LY2], radius=6, fill=theme['label_bg'])
+    draw.rounded_rectangle([LX1, LY1, LX2, LY2], radius=8, fill=theme['label_bg'])
 
     # 2. Luxury borders (Double-line gold foil look)
-    draw.rounded_rectangle([LX1 + 4, LY1 + 4, LX2 - 4, LY2 - 4], radius=4, outline=theme['border_primary'], width=2)
-    draw.rounded_rectangle([LX1 + 8, LY1 + 8, LX2 - 8, LY2 - 8], radius=3, outline=theme['border_secondary'], width=1)
+    draw.rounded_rectangle([LX1 + 5, LY1 + 5, LX2 - 5, LY2 - 5], radius=6, outline=theme['border_primary'], width=3)
+    draw.rounded_rectangle([LX1 + 10, LY1 + 10, LX2 - 10, LY2 - 10], radius=4, outline=theme['border_secondary'], width=1)
 
-    # 3. Top Header: PANNA HEERA
-    draw.text((CX, LY1 + 20), "PANNA HEERA", font=FONT_BRAND, fill=(30, 26, 22), anchor="mm")
+    # 3. Top Header: PANNA HEERA (Bold luxury serif)
+    draw.text((CX, LY1 + 28), "PANNA HEERA", font=FONT_BRAND, fill=(26, 22, 18), anchor="mm")
 
     # 4. Category Tag
-    draw.text((CX, LY1 + 38), theme['tag'], font=FONT_SUB, fill=theme['text_accent'], anchor="mm")
+    draw.text((CX, LY1 + 50), theme['tag'], font=FONT_SUB, fill=theme['text_accent'], anchor="mm")
 
     # Divider
-    draw.line([(CX - 55, LY1 + 50), (CX + 55, LY1 + 50)], fill=theme['border_secondary'], width=1)
+    draw.line([(CX - 75, LY1 + 63), (CX + 75, LY1 + 63)], fill=theme['border_secondary'], width=1)
 
     # 5. Benchmark Inspiration Brand
     brand_name = (product.get('brand') or '').upper().strip()
     if brand_name:
-        if len(brand_name) > 26:
-            brand_name = brand_name[:24] + '..'
-        draw.text((CX, LY1 + 64), brand_name, font=FONT_INSP, fill=(110, 95, 80), anchor="mm")
+        if len(brand_name) > 30:
+            brand_name = brand_name[:28] + '..'
+        draw.text((CX, LY1 + 82), brand_name, font=FONT_INSP, fill=(85, 70, 55), anchor="mm")
 
     # 6. Fragrance Name (Auto-sized and wrapped)
     frag_name = (product.get('short_title') or product.get('title') or '').upper().strip()
     if ' - ' in frag_name:
         frag_name = frag_name.split(' - ')[-1].strip()
 
-    title_y = LY1 + 96
+    title_y = LY1 + 120
     chosen_font = None
     lines = [frag_name]
 
-    # Try single line first
-    for test_sz in (22, 19, 17, 15, 13, 11):
+    # Try single line first (up to 34pt!)
+    for test_sz in (34, 30, 26, 22, 18, 15):
         f = TITLE_FONTS[test_sz]
         bb = draw.textbbox((0, 0), frag_name, font=f)
-        if (bb[2] - bb[0]) <= (LW - 26):
+        if (bb[2] - bb[0]) <= (LW - 34):
             chosen_font = f
             lines = [frag_name]
             break
@@ -133,39 +133,41 @@ def render_bottle_image(product):
         if len(words) > 1:
             mid = len(words) // 2
             l1, l2 = ' '.join(words[:mid]), ' '.join(words[mid:])
-            for test_sz in (15, 13, 11, 10):
+            for test_sz in (24, 21, 18, 15, 13):
                 f = TITLE_FONTS[test_sz]
                 bb1 = draw.textbbox((0, 0), l1, font=f)
                 bb2 = draw.textbbox((0, 0), l2, font=f)
-                if max(bb1[2] - bb1[0], bb2[2] - bb2[0]) <= (LW - 22):
+                if max(bb1[2] - bb1[0], bb2[2] - bb2[0]) <= (LW - 28):
                     chosen_font = f
                     lines = [l1, l2]
                     break
 
     if chosen_font is None:
-        chosen_font = TITLE_FONTS[10]
-        lines = [frag_name[:22] + '..' if len(frag_name) > 22 else frag_name]
+        chosen_font = TITLE_FONTS[14]
+        lines = [frag_name[:26] + '..' if len(frag_name) > 26 else frag_name]
 
     if len(lines) == 1:
         draw.text((CX, title_y), lines[0], font=chosen_font, fill=theme['text_main'], anchor="mm")
     else:
-        draw.text((CX, title_y - 8), lines[0], font=chosen_font, fill=theme['text_main'], anchor="mm")
-        draw.text((CX, title_y + 11), lines[1], font=chosen_font, fill=theme['text_main'], anchor="mm")
+        draw.text((CX, title_y - 12), lines[0], font=chosen_font, fill=theme['text_main'], anchor="mm")
+        draw.text((CX, title_y + 16), lines[1], font=chosen_font, fill=theme['text_main'], anchor="mm")
 
     # 7. Classification
-    draw.text((CX, LY1 + 138), "100% PURE CONCENTRATE", font=FONT_SUB, fill=(90, 80, 70), anchor="mm")
-    draw.line([(CX - 45, LY1 + 152), (CX + 45, LY1 + 152)], fill=theme['border_secondary'], width=1)
+    draw.line([(CX - 65, LY1 + 160), (CX + 65, LY1 + 160)], fill=theme['border_secondary'], width=1)
+    draw.text((CX, LY1 + 182), "100% PURE CONCENTRATE", font=FONT_SUB, fill=(75, 65, 55), anchor="mm")
 
     # 8. Specs
-    draw.text((CX, LY1 + 168), "ALCOHOL FREE • LONG LASTING", font=FONT_SPEC, fill=(110, 100, 90), anchor="mm")
+    draw.text((CX, LY1 + 206), "ALCOHOL FREE • LONG LASTING", font=FONT_SPEC, fill=(95, 85, 75), anchor="mm")
 
     # 9. Lot Number & Pack Sizing
     sno = product.get('sno', 1)
     lot_str = f"LOT NO. PH-{sno:04d} • 100G / 1KG"
-    draw.text((CX, LY1 + 188), lot_str, font=FONT_LOT, fill=theme['border_primary'], anchor="mm")
+    draw.text((CX, LY1 + 234), lot_str, font=FONT_LOT, fill=theme['border_primary'], anchor="mm")
 
-    # Resize to 800x800 for optimal e-commerce loading speed
-    final_img = img.resize((800, 800), Image.Resampling.LANCZOS)
+    # ZOOM CROP: Zoom in tightly on the bottle (720x720 centered square crop)
+    # Bottle now occupies ~92% of frame height, text is 2x-3x larger and crystal clear!
+    zoomed_img = img.crop((152, 45, 872, 765))
+    final_img = zoomed_img.resize((800, 800), Image.Resampling.LANCZOS)
     
     prod_id = product.get('id', f'oil-{sno}')
     out_rel = f"assets/images/products/{prod_id}.webp"
