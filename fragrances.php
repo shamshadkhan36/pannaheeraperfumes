@@ -23,47 +23,8 @@ include_once __DIR__ . '/includes/header.php';
   </div>
 </div>
 
-<!-- Page Header Hero -->
-<section class="bg-neutral-950 text-white py-12 sm:py-16 border-b border-neutral-800 relative overflow-hidden">
-  <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#d4af37_1px,transparent_1px)] [background-size:16px_16px]"></div>
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-    <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-8">
-      <div class="space-y-3 max-w-3xl">
-        <div class="flex items-center gap-2.5 flex-wrap">
-          <span class="px-3 py-1 rounded-full text-[11px] font-bold tracking-widest uppercase bg-gold/20 text-gold border border-gold/40">
-            Official B2B Rate List
-          </span>
-          <span class="px-3 py-1 rounded-full text-[11px] font-semibold tracking-wider bg-white/10 text-neutral-300">
-            ✦ 100% Alcohol-Free Pure Compounds
-          </span>
-          <span class="px-3 py-1 rounded-full text-[11px] font-semibold tracking-wider bg-white/10 text-neutral-300">
-            ✦ 1,040 Varieties In Stock
-          </span>
-        </div>
-        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black font-serif tracking-tight leading-tight">
-          Haute Fragrance Compounds & Oils
-        </h1>
-        <p class="text-neutral-400 text-xs sm:text-sm leading-relaxed max-w-2xl">
-          Direct wholesale supplier of ultra-concentrated French, Oriental, Arabic, and Artisanal fragrance oils. Available in wholesale lots of <strong class="text-white">1 KG</strong> and <strong class="text-white">100 GM</strong> production packs.
-        </p>
-      </div>
-
-      <div class="flex flex-col sm:flex-row lg:flex-col gap-3 flex-shrink-0">
-        <a href="assets/docs/panna-heera-price-list.pdf" download class="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-neutral-950 font-bold px-6 py-3.5 rounded-xl text-xs uppercase tracking-wider transition shadow-lg">
-          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
-          Download PDF Price List
-        </a>
-        <a href="<?php echo getWhatsAppLink('Hello Panna Heera Perfumery, I would like to inquire about wholesale fragrance oils.'); ?>" target="_blank" class="inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold px-6 py-3.5 rounded-xl text-xs uppercase tracking-wider transition shadow-lg">
-          <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.971.53 1.954.815 2.796.815 3.183 0 5.768-2.586 5.768-5.766.001-3.182-2.584-5.767-5.768-5.767zm0 10.368c-.768 0-1.636-.242-2.316-.645l-.166-.098-1.579.414.421-1.539-.108-.172c-.443-.708-.677-1.488-.677-2.562 0-2.538 2.066-4.604 4.605-4.604 2.539 0 4.604 2.066 4.604 4.605 0 2.538-2.065 4.601-4.605 4.601z"/></svg>
-          Quick WhatsApp Quote
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- Interactive Explorer & Directory Section -->
-<main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10" id="catalogApp">
+<main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8" id="catalogApp">
   
   <!-- Search & Filter Controls Card -->
   <div class="bg-white rounded-2xl border border-neutral-200 shadow-sm p-4 sm:p-6 mb-8 space-y-5">
