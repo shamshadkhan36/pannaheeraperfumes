@@ -3,3 +3,6 @@ Thumbs.db
 *.log
 .vscode/
 .idea/
+
+scratch_*
+data/fra_cleaned.csv
