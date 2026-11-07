@@ -1802,55 +1802,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-21",
@@ -1889,47 +1848,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Cacao / Cocoa",
-          "image": "assets/images/notes/cacao.png"
-        },
-        {
-          "name": "Coffee",
-          "image": "assets/images/notes/coffee.png"
-        },
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Tonka Bean",
-          "image": "assets/images/notes/tonka-bean.png"
-        },
-        {
-          "name": "Cinnamon",
-          "image": "assets/images/notes/cinnamon.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Caramel",
-          "image": "assets/images/notes/vanilla.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-22",
@@ -2542,51 +2468,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Pink Pepper",
-          "image": "assets/images/notes/pink-pepper.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Leather",
-          "image": "assets/images/notes/leather.png"
-        },
-        {
-          "name": "Incense",
-          "image": "assets/images/notes/incense.png"
-        },
-        {
-          "name": "Iris",
-          "image": "assets/images/notes/iris.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Vetiver",
-          "image": "assets/images/notes/vetiver.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-29",
@@ -2625,55 +2514,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-30",
@@ -2886,51 +2734,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-33",
@@ -3309,43 +3120,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Cassis",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Black Currant",
-          "image": "assets/images/notes/black-currant.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Woody Notes",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-38",
@@ -3384,51 +3166,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-39",
@@ -3467,51 +3212,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-40",
@@ -3550,53 +3258,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Water Hyacinth",
-          "image": "assets/images/notes/sea-notes.png"
-        },
-        {
-          "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Marigold",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "White Lily",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Peony",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Cashmere Wood",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/avon/lily-soft-musk-51069.html",
-    "fragrantica_reference": "lily-soft-musk by avon",
-    "notes_source": "Curated Olfactive Accord"
+    "fragrantica_url": null,
+    "fragrantica_reference": null,
+    "notes_source": null
   },
   {
     "id": "oil-41",
@@ -3805,51 +3474,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-44",
@@ -4155,51 +3787,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-48",
@@ -4238,51 +3833,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-49",
@@ -4321,47 +3879,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Frankincense",
-          "image": "assets/images/notes/incense.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-50",
@@ -4570,51 +4095,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-53",
@@ -4734,51 +4222,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-55",
@@ -4890,37 +4341,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Floral Notes",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Animal Notes",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Floral Notes",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Tuberose",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/al-wataniah/marjaan-64578.html",
-    "fragrantica_reference": "marjaan by al-wataniah",
-    "notes_source": "Curated Olfactive Accord"
+    "fragrantica_url": null,
+    "fragrantica_reference": null,
+    "notes_source": null
   },
   {
     "id": "oil-57",
@@ -4959,51 +4387,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-58",
@@ -5042,51 +4433,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-59",
@@ -5327,51 +4681,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-62",
@@ -5410,47 +4727,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Frankincense",
-          "image": "assets/images/notes/incense.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-63",
@@ -5671,35 +4955,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Fruity Notes",
-          "image": "assets/images/notes/raspberry.png"
-        },
-        {
-          "name": "Floral Notes",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Woody Notes",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-66",
@@ -5851,51 +5114,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-68",
@@ -6100,43 +5326,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Smoky Notes",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Spicy Notes",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Floral Notes",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Woody Notes",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-71",
@@ -6175,43 +5372,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Smoky Notes",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Spicy Notes",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Floral Notes",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Woody Notes",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-72",
@@ -6250,39 +5418,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Woody Notes",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Floral Notes",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-73",
@@ -6321,51 +5464,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-74",
@@ -6481,12 +5587,7 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
+      "top": [],
       "middle": [
         {
           "name": "Big Strawberry",
@@ -6509,24 +5610,7 @@ const PRODUCTS_DATA = [
           "image": "assets/images/notes/musk.png"
         }
       ],
-      "base": [
-        {
-          "name": "Agarwood (oud)",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Spices",
-          "image": "assets/images/notes/cardamom.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        }
-      ]
+      "base": []
     },
     "fragrantica_matched": true,
     "fragrantica_url": "https://www.fragrantica.com/perfume/Montale/Mukhallat.html",
@@ -6691,53 +5775,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Pepper",
-          "image": "assets/images/notes/pink-pepper.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Palisander Rosewood",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Agarwood (oud)",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/ajmal/amber-56388.html",
-    "fragrantica_reference": "amber by ajmal",
-    "notes_source": "Curated Olfactive Accord"
+    "fragrantica_url": null,
+    "fragrantica_reference": null,
+    "notes_source": null
   },
   {
     "id": "oil-78",
@@ -6776,35 +5821,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Floral Notes",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Fresh Spices",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-79",
@@ -6843,51 +5867,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-80",
@@ -6926,51 +5913,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-81",
@@ -7009,39 +5959,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Floral Notes",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Spices",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Woody Notes",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-82",
@@ -7080,39 +6005,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Floral Notes",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Spices",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Woody Notes",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-83",
@@ -7151,51 +6051,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-84",
@@ -7234,51 +6097,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-85",
@@ -7317,51 +6143,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-86",
@@ -7400,51 +6189,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-87",
@@ -7649,51 +6401,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-90",
@@ -7732,43 +6447,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Cassis",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Black Currant",
-          "image": "assets/images/notes/black-currant.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Woody Notes",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-91",
@@ -7945,51 +6631,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-94",
@@ -8028,51 +6677,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-95",
@@ -8511,51 +7123,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-100",
@@ -8594,51 +7169,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-101",
@@ -8677,51 +7215,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-102",
@@ -8760,51 +7261,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-103",
@@ -8843,43 +7307,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Spicy Wood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Aged Assam Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Leather",
-          "image": "assets/images/notes/leather.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Earthy Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-104",
@@ -8918,51 +7353,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-105",
@@ -9001,55 +7399,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-106",
@@ -9088,51 +7445,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Pineapple",
-          "image": "assets/images/notes/pineapple.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        },
-        {
-          "name": "Oakmoss",
-          "image": "assets/images/notes/oakmoss.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Tonka Bean",
-          "image": "assets/images/notes/tonka-bean.png"
-        },
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-107",
@@ -9636,55 +7956,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-113",
@@ -9723,55 +8002,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-114",
@@ -9883,55 +8121,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-116",
@@ -10366,51 +8563,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-121",
@@ -10449,51 +8609,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-122",
@@ -10532,51 +8655,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-123",
@@ -10708,55 +8794,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-125",
@@ -11304,51 +9349,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-131",
@@ -11387,51 +9395,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-132",
@@ -11470,55 +9441,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-133",
@@ -11557,51 +9487,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-134",
@@ -11640,55 +9533,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-135",
@@ -11727,55 +9579,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-136",
@@ -11903,55 +9714,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-138",
@@ -12140,55 +9910,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-141",
@@ -12320,51 +10049,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Pink Pepper",
-          "image": "assets/images/notes/pink-pepper.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Leather",
-          "image": "assets/images/notes/leather.png"
-        },
-        {
-          "name": "Incense",
-          "image": "assets/images/notes/incense.png"
-        },
-        {
-          "name": "Iris",
-          "image": "assets/images/notes/iris.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Vetiver",
-          "image": "assets/images/notes/vetiver.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-143",
@@ -12403,51 +10095,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Pink Pepper",
-          "image": "assets/images/notes/pink-pepper.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Leather",
-          "image": "assets/images/notes/leather.png"
-        },
-        {
-          "name": "Incense",
-          "image": "assets/images/notes/incense.png"
-        },
-        {
-          "name": "Iris",
-          "image": "assets/images/notes/iris.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Vetiver",
-          "image": "assets/images/notes/vetiver.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-144",
@@ -12591,55 +10246,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-146",
@@ -12678,55 +10292,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-147",
@@ -12765,47 +10338,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Almond",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Orange",
-          "image": "assets/images/notes/orange.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Tonka Bean",
-          "image": "assets/images/notes/tonka-bean.png"
-        },
-        {
-          "name": "Cacao / Cocoa",
-          "image": "assets/images/notes/cacao.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Caramel",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-148",
@@ -15028,55 +12568,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-173",
@@ -15192,51 +12691,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Grapefruit",
-          "image": "assets/images/notes/grapefruit.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Sea Notes",
-          "image": "assets/images/notes/sea-notes.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-175",
@@ -15372,55 +12834,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-177",
@@ -15940,55 +13361,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-183",
@@ -16217,65 +13597,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Green Apple",
-          "image": "assets/images/notes/apple.png"
-        },
-        {
-          "name": "Mint",
-          "image": "assets/images/notes/mint.png"
-        },
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Grapefruit",
-          "image": "assets/images/notes/grapefruit.png"
-        },
-        {
-          "name": "Basil",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Sage",
-          "image": "assets/images/notes/wormwood.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Carnation",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Fir",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cedar",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/hugo-boss/hugo-570.html",
-    "fragrantica_reference": "hugo by hugo-boss",
-    "notes_source": "Curated Olfactive Accord"
+    "fragrantica_url": null,
+    "fragrantica_reference": null,
+    "notes_source": null
   },
   {
     "id": "oil-186",
@@ -17362,51 +14691,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Pink Pepper",
-          "image": "assets/images/notes/pink-pepper.png"
-        },
-        {
-          "name": "Mandarin Orange",
-          "image": "assets/images/notes/mandarin.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Grasse Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Violet",
-          "image": "assets/images/notes/violet.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-199",
@@ -17546,51 +14838,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Pink Pepper",
-          "image": "assets/images/notes/pink-pepper.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Leather",
-          "image": "assets/images/notes/leather.png"
-        },
-        {
-          "name": "Incense",
-          "image": "assets/images/notes/incense.png"
-        },
-        {
-          "name": "Iris",
-          "image": "assets/images/notes/iris.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Vetiver",
-          "image": "assets/images/notes/vetiver.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-201",
@@ -17629,51 +14884,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Pink Pepper",
-          "image": "assets/images/notes/pink-pepper.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Leather",
-          "image": "assets/images/notes/leather.png"
-        },
-        {
-          "name": "Incense",
-          "image": "assets/images/notes/incense.png"
-        },
-        {
-          "name": "Iris",
-          "image": "assets/images/notes/iris.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Vetiver",
-          "image": "assets/images/notes/vetiver.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-202",
@@ -17785,51 +15003,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Pink Pepper",
-          "image": "assets/images/notes/pink-pepper.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Leather",
-          "image": "assets/images/notes/leather.png"
-        },
-        {
-          "name": "Incense",
-          "image": "assets/images/notes/incense.png"
-        },
-        {
-          "name": "Iris",
-          "image": "assets/images/notes/iris.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Vetiver",
-          "image": "assets/images/notes/vetiver.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-204",
@@ -17868,51 +15049,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Pink Pepper",
-          "image": "assets/images/notes/pink-pepper.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Leather",
-          "image": "assets/images/notes/leather.png"
-        },
-        {
-          "name": "Incense",
-          "image": "assets/images/notes/incense.png"
-        },
-        {
-          "name": "Iris",
-          "image": "assets/images/notes/iris.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Vetiver",
-          "image": "assets/images/notes/vetiver.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-205",
@@ -17951,55 +15095,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-206",
@@ -18038,55 +15141,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-207",
@@ -18125,55 +15187,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-208",
@@ -18212,47 +15233,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Watermelon",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lotus",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-209",
@@ -18291,47 +15279,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Watermelon",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lotus",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-210",
@@ -18370,47 +15325,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Watermelon",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lotus",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-211",
@@ -18449,47 +15371,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Blackberry",
-          "image": "assets/images/notes/raspberry.png"
-        },
-        {
-          "name": "Black Currant",
-          "image": "assets/images/notes/black-currant.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-212",
@@ -18528,47 +15417,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Watermelon",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lotus",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-213",
@@ -18607,55 +15463,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-214",
@@ -18694,55 +15509,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-215",
@@ -18870,55 +15644,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-217",
@@ -19510,55 +16243,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-223",
@@ -19815,55 +16507,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-226",
@@ -21937,55 +18588,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-246",
@@ -23387,55 +19997,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-262",
@@ -24912,51 +21481,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-277",
@@ -24995,51 +21527,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-278",
@@ -25078,51 +21573,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Pink Pepper",
-          "image": "assets/images/notes/pink-pepper.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Leather",
-          "image": "assets/images/notes/leather.png"
-        },
-        {
-          "name": "Incense",
-          "image": "assets/images/notes/incense.png"
-        },
-        {
-          "name": "Iris",
-          "image": "assets/images/notes/iris.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Vetiver",
-          "image": "assets/images/notes/vetiver.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-279",
@@ -25161,55 +21619,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-280",
@@ -25248,47 +21665,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Almond",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Orange",
-          "image": "assets/images/notes/orange.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Tonka Bean",
-          "image": "assets/images/notes/tonka-bean.png"
-        },
-        {
-          "name": "Cacao / Cocoa",
-          "image": "assets/images/notes/cacao.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Caramel",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-281",
@@ -25327,43 +21711,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Milk Chocolate",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Cinnamon",
-          "image": "assets/images/notes/cinnamon.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Myrrh",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-282",
@@ -25402,55 +21757,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-283",
@@ -25489,55 +21803,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-284",
@@ -25576,55 +21849,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-285",
@@ -25663,55 +21895,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-286",
@@ -25750,55 +21941,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-287",
@@ -25837,55 +21987,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-288",
@@ -25924,55 +22033,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-289",
@@ -26011,51 +22079,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Pink Pepper",
-          "image": "assets/images/notes/pink-pepper.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Leather",
-          "image": "assets/images/notes/leather.png"
-        },
-        {
-          "name": "Incense",
-          "image": "assets/images/notes/incense.png"
-        },
-        {
-          "name": "Iris",
-          "image": "assets/images/notes/iris.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Vetiver",
-          "image": "assets/images/notes/vetiver.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-290",
@@ -26094,55 +22125,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-291",
@@ -26181,55 +22171,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-292",
@@ -26268,55 +22217,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-293",
@@ -26355,55 +22263,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-294",
@@ -26442,55 +22309,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-295",
@@ -26529,55 +22355,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-296",
@@ -26616,55 +22401,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-297",
@@ -26705,53 +22449,51 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
+          "name": "Italian Cypress",
+          "image": "assets/images/notes/cedarwood.png"
         },
         {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
+          "name": "Myrtle",
+          "image": "assets/images/notes/amber.png"
         },
         {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
+          "name": "Rose",
+          "image": "assets/images/notes/rose.png"
         }
       ],
       "middle": [
         {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
+          "name": "Sandalwood",
+          "image": "assets/images/notes/sandalwood.png"
         },
         {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
+          "name": "Cedar",
+          "image": "assets/images/notes/cedarwood.png"
         }
       ],
       "base": [
         {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
+          "name": "Brazilian Rosewood",
+          "image": "assets/images/notes/rose.png"
         },
         {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
+          "name": "Spices",
+          "image": "assets/images/notes/cardamom.png"
         },
         {
           "name": "Amber",
           "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "White Musk",
+          "image": "assets/images/notes/musk.png"
         }
       ]
     },
-    "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "fragrantica_matched": true,
+    "notes_source": "Fragrantica (tam-dao-eau-de-toilette)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/diptyque/tam-dao-eau-de-toilette-3956.html",
+    "fragrantica_reference": "tam-dao-eau-de-toilette by diptyque"
   },
   {
     "id": "oil-298",
@@ -26877,53 +22619,47 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
+          "name": "Cassis",
+          "image": "assets/images/notes/black-currant.png"
+        },
+        {
           "name": "Bergamot",
           "image": "assets/images/notes/bergamot.png"
         },
         {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
+          "name": "Mandarin Orange",
+          "image": "assets/images/notes/mandarin.png"
         }
       ],
       "middle": [
         {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
+          "name": "Black Currant Leaf",
+          "image": "assets/images/notes/black-currant.png"
         },
         {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
+          "name": "Rose",
+          "image": "assets/images/notes/rose.png"
         },
         {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
+          "name": "Black Currant",
+          "image": "assets/images/notes/black-currant.png"
         }
       ],
       "base": [
         {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
+          "name": "Musk",
           "image": "assets/images/notes/musk.png"
         },
         {
-          "name": "Amber",
+          "name": "Ambergris",
           "image": "assets/images/notes/amber.png"
         }
       ]
     },
-    "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "fragrantica_matched": true,
+    "notes_source": "Fragrantica (l-ombre-dans-l-eau-limited-edition)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/diptyque/l-ombre-dans-l-eau-limited-edition-55614.html",
+    "fragrantica_reference": "l-ombre-dans-l-eau-limited-edition by diptyque"
   },
   {
     "id": "oil-300",
@@ -26964,53 +22700,31 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
+          "name": "Pink Pepper",
+          "image": "assets/images/notes/pink-pepper.png"
+        },
+        {
           "name": "Bergamot",
           "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
         }
       ],
       "middle": [
         {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
+          "name": "Rose",
+          "image": "assets/images/notes/rose.png"
         }
       ],
       "base": [
         {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
           "name": "Patchouli",
           "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
         }
       ]
     },
-    "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "fragrantica_matched": true,
+    "notes_source": "Fragrantica (eau-capitale-eau-de-parfum)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/diptyque/eau-capitale-eau-de-parfum-58391.html",
+    "fragrantica_reference": "eau-capitale-eau-de-parfum by diptyque"
   },
   {
     "id": "oil-301",
@@ -27882,55 +23596,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-311",
@@ -28042,51 +23715,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Grapefruit",
-          "image": "assets/images/notes/grapefruit.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Sea Notes",
-          "image": "assets/images/notes/sea-notes.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-313",
@@ -29192,55 +24828,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-325",
@@ -30071,55 +25666,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-334",
@@ -30158,93 +25712,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Amalfi Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Mint",
-          "image": "assets/images/notes/mint.png"
-        },
-        {
-          "name": "Pepper",
-          "image": "assets/images/notes/pink-pepper.png"
-        },
-        {
-          "name": "Palisander Rosewood",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Mandarin Orange",
-          "image": "assets/images/notes/mandarin.png"
-        },
-        {
-          "name": "Cypress",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Virginia Cedar",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Oak Moss",
-          "image": "assets/images/notes/oakmoss.png"
-        },
-        {
-          "name": "Tonka Bean",
-          "image": "assets/images/notes/tonka-bean.png"
-        },
-        {
-          "name": "Vanille",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/alfred-dunhill/d-13169.html",
-    "fragrantica_reference": "d by alfred-dunhill",
-    "notes_source": "Curated Olfactive Accord"
+    "fragrantica_url": null,
+    "fragrantica_reference": null,
+    "notes_source": null
   },
   {
     "id": "oil-335",
@@ -30566,55 +26041,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-339",
@@ -30653,55 +26087,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-340",
@@ -31060,51 +26453,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-345",
@@ -31777,55 +27133,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-352",
@@ -31864,55 +27179,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-353",
@@ -32056,55 +27330,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-355",
@@ -32240,55 +27473,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-357",
@@ -32416,55 +27608,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-359",
@@ -32503,47 +27654,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Watermelon",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lotus",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-360",
@@ -32582,55 +27700,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-361",
@@ -33157,43 +28234,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Cassis",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Black Currant",
-          "image": "assets/images/notes/black-currant.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Woody Notes",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-366",
@@ -33232,51 +28280,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Pink Pepper",
-          "image": "assets/images/notes/pink-pepper.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Leather",
-          "image": "assets/images/notes/leather.png"
-        },
-        {
-          "name": "Incense",
-          "image": "assets/images/notes/incense.png"
-        },
-        {
-          "name": "Iris",
-          "image": "assets/images/notes/iris.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Vetiver",
-          "image": "assets/images/notes/vetiver.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-367",
@@ -33400,55 +28411,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-369",
@@ -33750,55 +28720,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-373",
@@ -33837,43 +28766,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Cassis",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Black Currant",
-          "image": "assets/images/notes/black-currant.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Woody Notes",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-374",
@@ -33912,55 +28812,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-375",
@@ -33999,55 +28858,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-376",
@@ -34086,55 +28904,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-377",
@@ -34173,55 +28950,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-378",
@@ -34345,55 +29081,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-380",
@@ -34432,55 +29127,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-381",
@@ -34519,55 +29173,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-382",
@@ -34606,39 +29219,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Black Currant",
-          "image": "assets/images/notes/black-currant.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-383",
@@ -34677,51 +29265,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Davana",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Pink Pepper",
-          "image": "assets/images/notes/pink-pepper.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Leather",
-          "image": "assets/images/notes/leather.png"
-        },
-        {
-          "name": "Vetiver",
-          "image": "assets/images/notes/vetiver.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-384",
@@ -34760,51 +29311,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Davana",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Pink Pepper",
-          "image": "assets/images/notes/pink-pepper.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Leather",
-          "image": "assets/images/notes/leather.png"
-        },
-        {
-          "name": "Vetiver",
-          "image": "assets/images/notes/vetiver.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-385",
@@ -35637,55 +30151,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-396",
@@ -36190,55 +30663,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-403",
@@ -36277,55 +30709,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-404",
@@ -36445,55 +30836,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-406",
@@ -36702,51 +31052,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-409",
@@ -36785,55 +31098,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-410",
@@ -36872,55 +31144,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-411",
@@ -36959,55 +31190,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-412",
@@ -37046,55 +31236,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-413",
@@ -37133,55 +31282,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-414",
@@ -37305,55 +31413,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-416",
@@ -37477,55 +31544,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-418",
@@ -37564,55 +31590,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-419",
@@ -37651,55 +31636,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-420",
@@ -37738,55 +31682,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-421",
@@ -37825,51 +31728,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Pink Pepper",
-          "image": "assets/images/notes/pink-pepper.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Leather",
-          "image": "assets/images/notes/leather.png"
-        },
-        {
-          "name": "Incense",
-          "image": "assets/images/notes/incense.png"
-        },
-        {
-          "name": "Iris",
-          "image": "assets/images/notes/iris.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Vetiver",
-          "image": "assets/images/notes/vetiver.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-422",
@@ -37908,55 +31774,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-423",
@@ -37995,55 +31820,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-424",
@@ -38082,55 +31866,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-425",
@@ -38169,55 +31912,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-426",
@@ -38256,55 +31958,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-427",
@@ -38343,47 +32004,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Watermelon",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lotus",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-428",
@@ -38422,55 +32050,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-429",
@@ -38592,45 +32179,35 @@ const PRODUCTS_DATA = [
           "image": "assets/images/notes/saffron.png"
         },
         {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
+          "name": "Nutmeg",
+          "image": "assets/images/notes/cardamom.png"
         },
         {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
+          "name": "Lavender",
+          "image": "assets/images/notes/lavender.png"
         }
       ],
       "middle": [
         {
-          "name": "Oud",
+          "name": "Agarwood (oud)",
           "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
         }
       ],
       "base": [
         {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
+          "name": "Patchouli",
+          "image": "assets/images/notes/patchouli.png"
         },
         {
           "name": "Musk",
           "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
         }
       ]
     },
-    "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "fragrantica_matched": true,
+    "notes_source": "Fragrantica (Oud for Greatness)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/Initio Parfums Prives/Oud for Greatness.html",
+    "fragrantica_reference": "Oud for Greatness by Initio Parfums Prives"
   },
   {
     "id": "oil-431",
@@ -38746,55 +32323,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Calabrian Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        },
-        {
-          "name": "Pink Pepper",
-          "image": "assets/images/notes/pink-pepper.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Iris",
-          "image": "assets/images/notes/iris.png"
-        },
-        {
-          "name": "Leather",
-          "image": "assets/images/notes/leather.png"
-        },
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Haitian Vetiver",
-          "image": "assets/images/notes/vetiver.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-433",
@@ -38914,55 +32450,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Calabrian Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        },
-        {
-          "name": "Pink Pepper",
-          "image": "assets/images/notes/pink-pepper.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Iris",
-          "image": "assets/images/notes/iris.png"
-        },
-        {
-          "name": "Leather",
-          "image": "assets/images/notes/leather.png"
-        },
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Haitian Vetiver",
-          "image": "assets/images/notes/vetiver.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-435",
@@ -39001,55 +32496,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-436",
@@ -39088,55 +32542,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-437",
@@ -39700,55 +33113,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-443",
@@ -40126,51 +33498,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-447",
@@ -41222,51 +34557,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-461",
@@ -41366,55 +34664,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-463",
@@ -41453,55 +34710,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-464",
@@ -41540,55 +34756,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-465",
@@ -41627,55 +34802,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-466",
@@ -41714,51 +34848,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Pink Pepper",
-          "image": "assets/images/notes/pink-pepper.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Leather",
-          "image": "assets/images/notes/leather.png"
-        },
-        {
-          "name": "Incense",
-          "image": "assets/images/notes/incense.png"
-        },
-        {
-          "name": "Iris",
-          "image": "assets/images/notes/iris.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Vetiver",
-          "image": "assets/images/notes/vetiver.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-467",
@@ -41797,51 +34894,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Pink Pepper",
-          "image": "assets/images/notes/pink-pepper.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Leather",
-          "image": "assets/images/notes/leather.png"
-        },
-        {
-          "name": "Incense",
-          "image": "assets/images/notes/incense.png"
-        },
-        {
-          "name": "Iris",
-          "image": "assets/images/notes/iris.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Vetiver",
-          "image": "assets/images/notes/vetiver.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-468",
@@ -41880,47 +34940,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Watermelon",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lotus",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-469",
@@ -41959,55 +34986,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-470",
@@ -42592,16 +35578,7 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Blood Orange",
-          "image": "assets/images/notes/orange.png"
-        },
-        {
-          "name": "Mandarin Orange",
-          "image": "assets/images/notes/mandarin.png"
-        }
-      ],
+      "top": [],
       "middle": [
         {
           "name": "Raspberry",
@@ -42624,24 +35601,7 @@ const PRODUCTS_DATA = [
           "image": "assets/images/notes/neroli.png"
         }
       ],
-      "base": [
-        {
-          "name": "Beeswax",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Caramel",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Licorice",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "base": []
     },
     "fragrantica_matched": true,
     "fragrantica_url": "https://www.fragrantica.com/perfume/Jean Paul Gaultier/So Scandal!.html",
@@ -42685,55 +35645,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-478",
@@ -42861,55 +35780,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-480",
@@ -42948,55 +35826,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-481",
@@ -43035,55 +35872,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-482",
@@ -43122,55 +35918,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-483",
@@ -43209,55 +35964,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-484",
@@ -43640,55 +36354,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-489",
@@ -43727,55 +36400,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-490",
@@ -43814,55 +36446,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-491",
@@ -43901,55 +36492,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-492",
@@ -43988,55 +36538,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-493",
@@ -44075,55 +36584,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-494",
@@ -44162,55 +36630,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-495",
@@ -44249,55 +36676,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-496",
@@ -44336,55 +36722,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-497",
@@ -44727,55 +37072,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-502",
@@ -44814,55 +37118,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-503",
@@ -45337,55 +37600,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Calabrian Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        },
-        {
-          "name": "Pink Pepper",
-          "image": "assets/images/notes/pink-pepper.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Iris",
-          "image": "assets/images/notes/iris.png"
-        },
-        {
-          "name": "Leather",
-          "image": "assets/images/notes/leather.png"
-        },
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Haitian Vetiver",
-          "image": "assets/images/notes/vetiver.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-508",
@@ -45586,12 +37808,7 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Rum",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
+      "top": [],
       "middle": [
         {
           "name": "Dark Chocolate",
@@ -45626,24 +37843,7 @@ const PRODUCTS_DATA = [
           "image": "assets/images/notes/amber.png"
         }
       ],
-      "base": [
-        {
-          "name": "Caramel",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Sugar Cane",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Vetiver",
-          "image": "assets/images/notes/vetiver.png"
-        }
-      ]
+      "base": []
     },
     "fragrantica_matched": true,
     "fragrantica_url": "https://www.fragrantica.com/perfume/By Kilian/Black Phantom.html",
@@ -45853,55 +38053,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-514",
@@ -45940,55 +38099,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-515",
@@ -46027,55 +38145,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-516",
@@ -46114,55 +38191,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-517",
@@ -46350,51 +38386,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-519",
@@ -46518,55 +38517,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-521",
@@ -46605,55 +38563,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-522",
@@ -46692,55 +38609,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-523",
@@ -46779,55 +38655,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-524",
@@ -46866,55 +38701,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-525",
@@ -47054,51 +38848,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Almond",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Sugar",
-          "image": "assets/images/notes/vanilla.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Praline",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cacao",
-          "image": "assets/images/notes/cacao.png"
-        },
-        {
-          "name": "Tonka Bean",
-          "image": "assets/images/notes/tonka-bean.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Caramel",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-527",
@@ -47137,51 +38894,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-528",
@@ -47220,51 +38940,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-529",
@@ -47303,51 +38986,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-530",
@@ -47386,51 +39032,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-531",
@@ -47469,51 +39078,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-532",
@@ -48260,57 +39832,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        },
-        {
-          "name": "Pink Pepper",
-          "image": "assets/images/notes/pink-pepper.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Cloves",
-          "image": "assets/images/notes/cardamom.png"
-        },
-        {
-          "name": "Floral Notes",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Labdanum",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cypress",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Vetiver",
-          "image": "assets/images/notes/vetiver.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/lattafa-perfumes/ameer-82794.html",
-    "fragrantica_reference": "ameer by lattafa-perfumes",
-    "notes_source": "Curated Olfactive Accord"
+    "fragrantica_url": null,
+    "fragrantica_reference": null,
+    "notes_source": null
   },
   {
     "id": "oil-541",
@@ -48349,51 +39878,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-542",
@@ -48873,61 +40365,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Champagne",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Strawberry",
-          "image": "assets/images/notes/raspberry.png"
-        },
-        {
-          "name": "Tangerine",
-          "image": "assets/images/notes/mandarin.png"
-        },
-        {
-          "name": "Blood Orange",
-          "image": "assets/images/notes/orange.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Gardenia",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Vanilla Orchid",
-          "image": "assets/images/notes/vanilla.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Chestnut",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/lattafa-perfumes/haya-85031.html",
-    "fragrantica_reference": "haya by lattafa-perfumes",
-    "notes_source": "Curated Olfactive Accord"
+    "fragrantica_url": null,
+    "fragrantica_reference": null,
+    "notes_source": null
   },
   {
     "id": "oil-548",
@@ -49047,51 +40492,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-550",
@@ -49409,51 +40817,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-554",
@@ -49492,51 +40863,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-555",
@@ -49648,51 +40982,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-557",
@@ -50111,55 +41408,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-562",
@@ -50287,55 +41543,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-564",
@@ -50661,47 +41876,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Incense",
-          "image": "assets/images/notes/incense.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Raspberry",
-          "image": "assets/images/notes/raspberry.png"
-        },
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Amberwood",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-568",
@@ -50740,47 +41922,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Incense",
-          "image": "assets/images/notes/incense.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Raspberry",
-          "image": "assets/images/notes/raspberry.png"
-        },
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Amberwood",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-569",
@@ -51019,53 +42168,47 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
+          "name": "Pear",
+          "image": "assets/images/notes/mint.png"
         },
         {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
+          "name": "Cascalone",
+          "image": "assets/images/notes/amber.png"
         },
         {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
+          "name": "Ambrette (musk Mallow)",
+          "image": "assets/images/notes/musk.png"
         }
       ],
       "middle": [
         {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
+          "name": "Egyptian Jasmine",
+          "image": "assets/images/notes/jasmine.png"
         },
         {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
+          "name": "Narcissus",
+          "image": "assets/images/notes/amber.png"
         },
         {
-          "name": "Geranium",
+          "name": "Ylang-ylang",
           "image": "assets/images/notes/amber.png"
         }
       ],
       "base": [
         {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
           "name": "Patchouli",
           "image": "assets/images/notes/patchouli.png"
         },
         {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
+          "name": "Moss",
+          "image": "assets/images/notes/oakmoss.png"
         }
       ]
     },
-    "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "fragrantica_matched": true,
+    "notes_source": "Fragrantica (coeur-battant)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/louis-vuitton/coeur-battant-57129.html",
+    "fragrantica_reference": "coeur-battant by louis-vuitton"
   },
   {
     "id": "oil-572",
@@ -51193,55 +42336,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-574",
@@ -51280,51 +42382,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Pink Pepper",
-          "image": "assets/images/notes/pink-pepper.png"
-        },
-        {
-          "name": "Mandarin Orange",
-          "image": "assets/images/notes/mandarin.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Grasse Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Violet",
-          "image": "assets/images/notes/violet.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-575",
@@ -51363,55 +42428,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Calabrian Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        },
-        {
-          "name": "Pink Pepper",
-          "image": "assets/images/notes/pink-pepper.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Iris",
-          "image": "assets/images/notes/iris.png"
-        },
-        {
-          "name": "Leather",
-          "image": "assets/images/notes/leather.png"
-        },
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Haitian Vetiver",
-          "image": "assets/images/notes/vetiver.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-576",
@@ -51450,51 +42474,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Pink Pepper",
-          "image": "assets/images/notes/pink-pepper.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Leather",
-          "image": "assets/images/notes/leather.png"
-        },
-        {
-          "name": "Incense",
-          "image": "assets/images/notes/incense.png"
-        },
-        {
-          "name": "Iris",
-          "image": "assets/images/notes/iris.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Vetiver",
-          "image": "assets/images/notes/vetiver.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-577",
@@ -51533,55 +42520,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-578",
@@ -51620,43 +42566,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Cassis",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Black Currant",
-          "image": "assets/images/notes/black-currant.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Woody Notes",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-579",
@@ -51695,55 +42612,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-580",
@@ -51782,55 +42658,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-581",
@@ -51869,55 +42704,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-582",
@@ -51956,55 +42750,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-583",
@@ -52043,55 +42796,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-584",
@@ -52130,55 +42842,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-585",
@@ -52816,47 +43487,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Frankincense",
-          "image": "assets/images/notes/incense.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-593",
@@ -52895,47 +43533,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Frankincense",
-          "image": "assets/images/notes/incense.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-594",
@@ -52974,47 +43579,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Frankincense",
-          "image": "assets/images/notes/incense.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-595",
@@ -53053,47 +43625,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Frankincense",
-          "image": "assets/images/notes/incense.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-596",
@@ -53132,47 +43671,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Frankincense",
-          "image": "assets/images/notes/incense.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-597",
@@ -53211,47 +43717,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Frankincense",
-          "image": "assets/images/notes/incense.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-598",
@@ -53290,47 +43763,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Frankincense",
-          "image": "assets/images/notes/incense.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-599",
@@ -53369,47 +43809,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Frankincense",
-          "image": "assets/images/notes/incense.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-600",
@@ -53448,47 +43855,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Frankincense",
-          "image": "assets/images/notes/incense.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-601",
@@ -53624,47 +43998,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Frankincense",
-          "image": "assets/images/notes/incense.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-603",
@@ -53703,47 +44044,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Frankincense",
-          "image": "assets/images/notes/incense.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-604",
@@ -53782,55 +44090,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-605",
@@ -54051,51 +44318,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-608",
@@ -54136,53 +44366,51 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Calabrian Bergamot",
+          "name": "Saffron",
+          "image": "assets/images/notes/saffron.png"
+        },
+        {
+          "name": "Bergamot",
           "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        },
-        {
-          "name": "Pink Pepper",
-          "image": "assets/images/notes/pink-pepper.png"
         }
       ],
       "middle": [
         {
-          "name": "Iris",
-          "image": "assets/images/notes/iris.png"
+          "name": "Agarwood (oud)",
+          "image": "assets/images/notes/oud.png"
         },
         {
-          "name": "Leather",
-          "image": "assets/images/notes/leather.png"
-        },
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
+          "name": "Bulgarian Rose",
+          "image": "assets/images/notes/rose.png"
         }
       ],
       "base": [
+        {
+          "name": "Tonka Bean",
+          "image": "assets/images/notes/tonka-bean.png"
+        },
+        {
+          "name": "Sugar Cane",
+          "image": "assets/images/notes/vanilla.png"
+        },
         {
           "name": "Amber",
           "image": "assets/images/notes/amber.png"
         },
         {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Haitian Vetiver",
-          "image": "assets/images/notes/vetiver.png"
-        },
-        {
           "name": "White Musk",
           "image": "assets/images/notes/musk.png"
+        },
+        {
+          "name": "Oakmoss",
+          "image": "assets/images/notes/oakmoss.png"
         }
       ]
     },
-    "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "fragrantica_matched": true,
+    "notes_source": "Fragrantica (arabians-tonka)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/montale/arabians-tonka-57384.html",
+    "fragrantica_reference": "arabians-tonka by montale"
   },
   {
     "id": "oil-609",
@@ -54391,51 +44619,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Pink Pepper",
-          "image": "assets/images/notes/pink-pepper.png"
-        },
-        {
-          "name": "Mandarin Orange",
-          "image": "assets/images/notes/mandarin.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Grasse Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Violet",
-          "image": "assets/images/notes/violet.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-612",
@@ -54476,53 +44667,39 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Calabrian Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        },
-        {
-          "name": "Pink Pepper",
-          "image": "assets/images/notes/pink-pepper.png"
+          "name": "Floral Notes",
+          "image": "assets/images/notes/jasmine.png"
         }
       ],
       "middle": [
         {
-          "name": "Iris",
-          "image": "assets/images/notes/iris.png"
+          "name": "Rose",
+          "image": "assets/images/notes/rose.png"
         },
         {
-          "name": "Leather",
-          "image": "assets/images/notes/leather.png"
-        },
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
+          "name": "Coffee",
+          "image": "assets/images/notes/coffee.png"
         }
       ],
       "base": [
         {
-          "name": "Amber",
+          "name": "Vanila",
           "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Haitian Vetiver",
-          "image": "assets/images/notes/vetiver.png"
         },
         {
           "name": "White Musk",
           "image": "assets/images/notes/musk.png"
+        },
+        {
+          "name": "Amber",
+          "image": "assets/images/notes/amber.png"
         }
       ]
     },
-    "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "fragrantica_matched": true,
+    "notes_source": "Fragrantica (Intense Cafe)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/Montale/Intense Cafe.html",
+    "fragrantica_reference": "Intense Cafe by Montale"
   },
   {
     "id": "oil-613",
@@ -54654,51 +44831,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-615",
@@ -54737,51 +44877,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-616",
@@ -54925,55 +45028,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-618",
@@ -55012,55 +45074,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-619",
@@ -55099,55 +45120,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-620",
@@ -55186,55 +45166,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-621",
@@ -55544,16 +45483,7 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bulgarian Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Turkish Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
+      "top": [],
       "middle": [
         {
           "name": "Bulgarian Rose",
@@ -55580,20 +45510,7 @@ const PRODUCTS_DATA = [
           "image": "assets/images/notes/violet.png"
         }
       ],
-      "base": [
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "base": []
     },
     "fragrantica_matched": true,
     "fragrantica_url": "https://www.fragrantica.com/perfume/Maison Francis Kurkdjian/Oud Satin Mood.html",
@@ -55637,12 +45554,7 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Spanish Labdanum",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
+      "top": [],
       "middle": [
         {
           "name": "Amber",
@@ -55665,20 +45577,7 @@ const PRODUCTS_DATA = [
           "image": "assets/images/notes/amber.png"
         }
       ],
-      "base": [
-        {
-          "name": "Brazilian Tonka Bean",
-          "image": "assets/images/notes/tonka-bean.png"
-        },
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "base": []
     },
     "fragrantica_matched": true,
     "fragrantica_url": "https://www.fragrantica.com/perfume/Maison Francis Kurkdjian/Grand Soir.html",
@@ -55868,55 +45767,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-629",
@@ -55955,51 +45813,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Pink Pepper",
-          "image": "assets/images/notes/pink-pepper.png"
-        },
-        {
-          "name": "Mandarin Orange",
-          "image": "assets/images/notes/mandarin.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Grasse Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Violet",
-          "image": "assets/images/notes/violet.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-630",
@@ -56224,55 +46045,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Calabrian Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        },
-        {
-          "name": "Pink Pepper",
-          "image": "assets/images/notes/pink-pepper.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Iris",
-          "image": "assets/images/notes/iris.png"
-        },
-        {
-          "name": "Leather",
-          "image": "assets/images/notes/leather.png"
-        },
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Haitian Vetiver",
-          "image": "assets/images/notes/vetiver.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-633",
@@ -56424,55 +46204,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-635",
@@ -56511,55 +46250,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-636",
@@ -56598,55 +46296,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-637",
@@ -56685,55 +46342,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-638",
@@ -56772,55 +46388,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-639",
@@ -56859,55 +46434,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-640",
@@ -56946,51 +46480,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Pink Pepper",
-          "image": "assets/images/notes/pink-pepper.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Leather",
-          "image": "assets/images/notes/leather.png"
-        },
-        {
-          "name": "Incense",
-          "image": "assets/images/notes/incense.png"
-        },
-        {
-          "name": "Iris",
-          "image": "assets/images/notes/iris.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Vetiver",
-          "image": "assets/images/notes/vetiver.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-641",
@@ -57029,55 +46526,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-642",
@@ -57193,55 +46649,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-644",
@@ -57280,55 +46695,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-645",
@@ -57367,47 +46741,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Watermelon",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lotus",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-646",
@@ -57636,61 +46977,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Java Vetiver Oil",
-          "image": "assets/images/notes/vetiver.png"
-        },
-        {
-          "name": "Anise",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Pepper",
-          "image": "assets/images/notes/pink-pepper.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Bourbon Vetiver",
-          "image": "assets/images/notes/vetiver.png"
-        },
-        {
-          "name": "Haitian Vetiver",
-          "image": "assets/images/notes/vetiver.png"
-        },
-        {
-          "name": "Neroli",
-          "image": "assets/images/notes/neroli.png"
-        },
-        {
-          "name": "Tonka Bean",
-          "image": "assets/images/notes/tonka-bean.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Vetiver",
-          "image": "assets/images/notes/vetiver.png"
-        },
-        {
-          "name": "Leather",
-          "image": "assets/images/notes/leather.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/nishane/sultan-vetiver-30574.html",
-    "fragrantica_reference": "sultan-vetiver by nishane",
-    "notes_source": "Curated Olfactive Accord"
+    "fragrantica_url": null,
+    "fragrantica_reference": null,
+    "notes_source": null
   },
   {
     "id": "oil-649",
@@ -57729,55 +47023,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-650",
@@ -58051,55 +47304,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-654",
@@ -58138,55 +47350,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-655",
@@ -58306,55 +47477,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-657",
@@ -58393,51 +47523,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-658",
@@ -58476,51 +47569,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-659",
@@ -58648,47 +47704,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lily",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Soft Oud",
-          "image": "assets/images/notes/oud.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "White Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-661",
@@ -58727,51 +47750,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-662",
@@ -58891,51 +47877,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-664",
@@ -58974,51 +47923,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-665",
@@ -59134,53 +48046,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Yuzu",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Black Currant",
-          "image": "assets/images/notes/black-currant.png"
-        },
-        {
-          "name": "Plum",
-          "image": "assets/images/notes/raspberry.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Kashmir Wood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Agarwood (oud)",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/arabian-oud/kashmir-63057.html",
-    "fragrantica_reference": "kashmir by arabian-oud",
-    "notes_source": "Curated Olfactive Accord"
+    "fragrantica_url": null,
+    "fragrantica_reference": null,
+    "notes_source": null
   },
   {
     "id": "oil-667",
@@ -59219,53 +48092,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Yuzu",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Black Currant",
-          "image": "assets/images/notes/black-currant.png"
-        },
-        {
-          "name": "Plum",
-          "image": "assets/images/notes/raspberry.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Kashmir Wood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Agarwood (oud)",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/arabian-oud/kashmir-63057.html",
-    "fragrantica_reference": "kashmir by arabian-oud",
-    "notes_source": "Curated Olfactive Accord"
+    "fragrantica_url": null,
+    "fragrantica_reference": null,
+    "notes_source": null
   },
   {
     "id": "oil-668",
@@ -59458,43 +48292,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Incense",
-          "image": "assets/images/notes/incense.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-671",
@@ -59533,51 +48338,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-672",
@@ -59697,51 +48465,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-674",
@@ -59780,43 +48511,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Labdanum",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-675",
@@ -59928,51 +48630,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-677",
@@ -60011,43 +48676,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Cassis",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Black Currant",
-          "image": "assets/images/notes/black-currant.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Woody Notes",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-678",
@@ -60086,43 +48722,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Cassis",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Black Currant",
-          "image": "assets/images/notes/black-currant.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Woody Notes",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-679",
@@ -60371,51 +48978,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-682",
@@ -60454,51 +49024,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-683",
@@ -60537,51 +49070,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-684",
@@ -60620,51 +49116,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-685",
@@ -60703,51 +49162,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-686",
@@ -60786,51 +49208,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-687",
@@ -60869,51 +49254,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-688",
@@ -60952,51 +49300,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-689",
@@ -61035,51 +49346,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-690",
@@ -61288,51 +49562,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-693",
@@ -61371,51 +49608,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-694",
@@ -61454,51 +49654,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-695",
@@ -61537,51 +49700,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-696",
@@ -61620,51 +49746,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-697",
@@ -61703,51 +49792,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-698",
@@ -61786,51 +49838,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-699",
@@ -61869,51 +49884,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-700",
@@ -62021,47 +49999,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Pink Pepper",
-          "image": "assets/images/notes/pink-pepper.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Violet",
-          "image": "assets/images/notes/violet.png"
-        },
-        {
-          "name": "Cambodian Oud",
-          "image": "assets/images/notes/oud.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-702",
@@ -62100,51 +50045,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-703",
@@ -62183,51 +50091,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-704",
@@ -62266,51 +50137,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-705",
@@ -62349,51 +50183,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-706",
@@ -62432,51 +50229,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-707",
@@ -62592,51 +50352,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-709",
@@ -62675,51 +50398,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-710",
@@ -62758,51 +50444,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-711",
@@ -62841,51 +50490,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-712",
@@ -62924,43 +50536,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Cassis",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Black Currant",
-          "image": "assets/images/notes/black-currant.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Woody Notes",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-713",
@@ -62999,55 +50582,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-714",
@@ -63086,43 +50628,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Cassis",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Black Currant",
-          "image": "assets/images/notes/black-currant.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Woody Notes",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-715",
@@ -63313,53 +50826,55 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
+          "name": "Blood Mandarin",
+          "image": "assets/images/notes/mandarin.png"
         },
         {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
+          "name": "Grapefruit",
+          "image": "assets/images/notes/grapefruit.png"
         },
         {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
+          "name": "Mint",
+          "image": "assets/images/notes/mint.png"
         }
       ],
       "middle": [
         {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
+          "name": "Cinnamon",
+          "image": "assets/images/notes/cinnamon.png"
         },
         {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
+          "name": "Rose",
+          "image": "assets/images/notes/rose.png"
         },
         {
-          "name": "Geranium",
+          "name": "Spicy Notes",
           "image": "assets/images/notes/amber.png"
         }
       ],
       "base": [
         {
-          "name": "Cedarwood",
+          "name": "Amber",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Leather",
+          "image": "assets/images/notes/leather.png"
+        },
+        {
+          "name": "Woody Notes",
           "image": "assets/images/notes/cedarwood.png"
         },
         {
-          "name": "Patchouli",
+          "name": "Indian Patchouli",
           "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
         }
       ]
     },
-    "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "fragrantica_matched": true,
+    "notes_source": "Fragrantica (1 Million)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/Paco Rabanne/1 Million.html",
+    "fragrantica_reference": "1 Million by Paco Rabanne"
   },
   {
     "id": "oil-718",
@@ -63400,53 +50915,55 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
+          "name": "Blood Mandarin",
+          "image": "assets/images/notes/mandarin.png"
         },
         {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
+          "name": "Grapefruit",
+          "image": "assets/images/notes/grapefruit.png"
         },
         {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
+          "name": "Mint",
+          "image": "assets/images/notes/mint.png"
         }
       ],
       "middle": [
         {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
+          "name": "Cinnamon",
+          "image": "assets/images/notes/cinnamon.png"
         },
         {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
+          "name": "Rose",
+          "image": "assets/images/notes/rose.png"
         },
         {
-          "name": "Geranium",
+          "name": "Spicy Notes",
           "image": "assets/images/notes/amber.png"
         }
       ],
       "base": [
         {
-          "name": "Cedarwood",
+          "name": "Amber",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Leather",
+          "image": "assets/images/notes/leather.png"
+        },
+        {
+          "name": "Woody Notes",
           "image": "assets/images/notes/cedarwood.png"
         },
         {
-          "name": "Patchouli",
+          "name": "Indian Patchouli",
           "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
         }
       ]
     },
-    "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "fragrantica_matched": true,
+    "notes_source": "Fragrantica (1 Million)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/Paco Rabanne/1 Million.html",
+    "fragrantica_reference": "1 Million by Paco Rabanne"
   },
   {
     "id": "oil-719",
@@ -63487,49 +51004,55 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
+          "name": "Blood Mandarin",
+          "image": "assets/images/notes/mandarin.png"
         },
         {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
+          "name": "Grapefruit",
+          "image": "assets/images/notes/grapefruit.png"
         },
         {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
+          "name": "Mint",
+          "image": "assets/images/notes/mint.png"
         }
       ],
       "middle": [
         {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
+          "name": "Cinnamon",
+          "image": "assets/images/notes/cinnamon.png"
         },
+        {
+          "name": "Rose",
+          "image": "assets/images/notes/rose.png"
+        },
+        {
+          "name": "Spicy Notes",
+          "image": "assets/images/notes/amber.png"
+        }
+      ],
+      "base": [
         {
           "name": "Amber",
           "image": "assets/images/notes/amber.png"
         },
         {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
+          "name": "Leather",
+          "image": "assets/images/notes/leather.png"
         },
         {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
+          "name": "Woody Notes",
+          "image": "assets/images/notes/cedarwood.png"
         },
         {
-          "name": "Patchouli",
+          "name": "Indian Patchouli",
           "image": "assets/images/notes/patchouli.png"
         }
       ]
     },
-    "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "fragrantica_matched": true,
+    "notes_source": "Fragrantica (1 Million)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/Paco Rabanne/1 Million.html",
+    "fragrantica_reference": "1 Million by Paco Rabanne"
   },
   {
     "id": "oil-720",
@@ -63570,53 +51093,71 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
+          "name": "Plum",
+          "image": "assets/images/notes/raspberry.png"
+        },
+        {
+          "name": "Ozonic Notes",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Grapefruit",
+          "image": "assets/images/notes/grapefruit.png"
+        },
+        {
           "name": "Bergamot",
           "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
         }
       ],
       "middle": [
         {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
+          "name": "Hazelnut",
           "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Honey",
+          "image": "assets/images/notes/vanilla.png"
+        },
+        {
+          "name": "Cedar",
+          "image": "assets/images/notes/cedarwood.png"
+        },
+        {
+          "name": "Cashmere Wood",
+          "image": "assets/images/notes/cedarwood.png"
+        },
+        {
+          "name": "Jasmine",
+          "image": "assets/images/notes/jasmine.png"
+        },
+        {
+          "name": "Orange Blossom",
+          "image": "assets/images/notes/neroli.png"
         }
       ],
       "base": [
         {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
+          "name": "Amberwood",
+          "image": "assets/images/notes/amber.png"
         },
         {
           "name": "Patchouli",
           "image": "assets/images/notes/patchouli.png"
         },
         {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
+          "name": "Oakmoss",
+          "image": "assets/images/notes/oakmoss.png"
         },
         {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
+          "name": "Vetiver",
+          "image": "assets/images/notes/vetiver.png"
         }
       ]
     },
-    "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "fragrantica_matched": true,
+    "notes_source": "Fragrantica (1 Million Lucky)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/Paco Rabanne/1 Million Lucky.html",
+    "fragrantica_reference": "1 Million Lucky by Paco Rabanne"
   },
   {
     "id": "oil-721",
@@ -63657,53 +51198,39 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
+          "name": "Cinnamon",
+          "image": "assets/images/notes/cinnamon.png"
         },
         {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
+          "name": "Blood Mandarin",
+          "image": "assets/images/notes/mandarin.png"
         }
       ],
       "middle": [
         {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
+          "name": "Tobacco",
+          "image": "assets/images/notes/tobacco.png"
         },
         {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
+          "name": "Myrrh",
+          "image": "assets/images/notes/incense.png"
         }
       ],
       "base": [
         {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
+          "name": "Tonka Bean",
+          "image": "assets/images/notes/tonka-bean.png"
         },
         {
           "name": "Patchouli",
           "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
         }
       ]
     },
-    "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "fragrantica_matched": true,
+    "notes_source": "Fragrantica (1-million-prive)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/paco-rabanne/1-million-prive-37698.html",
+    "fragrantica_reference": "1-million-prive by paco-rabanne"
   },
   {
     "id": "oil-722",
@@ -63744,16 +51271,16 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
+          "name": "Cardamom",
+          "image": "assets/images/notes/cardamom.png"
+        },
+        {
+          "name": "Tangerine",
+          "image": "assets/images/notes/mandarin.png"
+        },
+        {
           "name": "Bergamot",
           "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
         }
       ],
       "middle": [
@@ -63762,35 +51289,33 @@ const PRODUCTS_DATA = [
           "image": "assets/images/notes/lavender.png"
         },
         {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
+          "name": "Violet Leaf",
+          "image": "assets/images/notes/violet.png"
         },
         {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
+          "name": "Sage",
+          "image": "assets/images/notes/wormwood.png"
         }
       ],
       "base": [
         {
-          "name": "Cedarwood",
+          "name": "Benzoin",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Cedar",
           "image": "assets/images/notes/cedarwood.png"
         },
         {
           "name": "Patchouli",
           "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
         }
       ]
     },
-    "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "fragrantica_matched": true,
+    "notes_source": "Fragrantica (1-million-royal)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/paco-rabanne/1-million-royal-79159.html",
+    "fragrantica_reference": "1-million-royal by paco-rabanne"
   },
   {
     "id": "oil-723",
@@ -64084,51 +51609,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Sea Notes",
-          "image": "assets/images/notes/sea-notes.png"
-        },
-        {
-          "name": "Grapefruit",
-          "image": "assets/images/notes/grapefruit.png"
-        },
-        {
-          "name": "Mandarin Orange",
-          "image": "assets/images/notes/mandarin.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Bay Leaf",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Guaiac Wood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Oakmoss",
-          "image": "assets/images/notes/oakmoss.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-727",
@@ -64517,49 +52005,51 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
+          "name": "Lemon",
+          "image": "assets/images/notes/lemon.png"
         },
         {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Pink Pepper",
-          "image": "assets/images/notes/pink-pepper.png"
+          "name": "Sage",
+          "image": "assets/images/notes/wormwood.png"
         }
       ],
       "middle": [
         {
-          "name": "Leather",
-          "image": "assets/images/notes/leather.png"
+          "name": "Praline",
+          "image": "assets/images/notes/cacao.png"
         },
         {
-          "name": "Incense",
-          "image": "assets/images/notes/incense.png"
+          "name": "Cinnamon",
+          "image": "assets/images/notes/cinnamon.png"
         },
         {
-          "name": "Iris",
-          "image": "assets/images/notes/iris.png"
+          "name": "Tolu Balsam",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Black Cardamom",
+          "image": "assets/images/notes/cardamom.png"
         }
       ],
       "base": [
+        {
+          "name": "Brazilian Rosewood",
+          "image": "assets/images/notes/rose.png"
+        },
         {
           "name": "Patchouli",
           "image": "assets/images/notes/patchouli.png"
         },
         {
-          "name": "Amber",
+          "name": "Black Amber",
           "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Vetiver",
-          "image": "assets/images/notes/vetiver.png"
         }
       ]
     },
-    "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "fragrantica_matched": true,
+    "notes_source": "Fragrantica (black-xs)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/paco-rabanne/black-xs-514.html",
+    "fragrantica_reference": "black-xs by paco-rabanne"
   },
   {
     "id": "oil-732",
@@ -64764,43 +52254,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Cassis",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Black Currant",
-          "image": "assets/images/notes/black-currant.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Woody Notes",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-735",
@@ -65398,55 +52859,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-743",
@@ -65485,55 +52905,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-744",
@@ -65572,51 +52951,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Grapefruit",
-          "image": "assets/images/notes/grapefruit.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Sea Notes",
-          "image": "assets/images/notes/sea-notes.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-745",
@@ -65655,55 +52997,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-746",
@@ -65742,55 +53043,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-747",
@@ -65934,55 +53194,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-749",
@@ -67015,55 +54234,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-760",
@@ -67102,55 +54280,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-761",
@@ -67189,55 +54326,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-762",
@@ -67276,55 +54372,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-763",
@@ -67363,55 +54418,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-764",
@@ -67450,55 +54464,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-765",
@@ -69363,43 +56336,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Cassis",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Black Currant",
-          "image": "assets/images/notes/black-currant.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Woody Notes",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-784",
@@ -69438,43 +56382,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Cassis",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Black Currant",
-          "image": "assets/images/notes/black-currant.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Woody Notes",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-785",
@@ -69695,43 +56610,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Cassis",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Black Currant",
-          "image": "assets/images/notes/black-currant.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Woody Notes",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-788",
@@ -70130,47 +57016,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Watermelon",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lotus",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-793",
@@ -70209,43 +57062,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Cassis",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Black Currant",
-          "image": "assets/images/notes/black-currant.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Woody Notes",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-794",
@@ -70385,43 +57209,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Cassis",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Black Currant",
-          "image": "assets/images/notes/black-currant.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Woody Notes",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-796",
@@ -70816,43 +57611,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Cassis",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Black Currant",
-          "image": "assets/images/notes/black-currant.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Woody Notes",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-801",
@@ -70891,43 +57657,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Cassis",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Black Currant",
-          "image": "assets/images/notes/black-currant.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Woody Notes",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-802",
@@ -71031,43 +57768,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Cassis",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Black Currant",
-          "image": "assets/images/notes/black-currant.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Woody Notes",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-804",
@@ -71300,55 +58008,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-807",
@@ -71387,55 +58054,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-808",
@@ -71805,51 +58431,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-812",
@@ -71888,47 +58477,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Almond",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Orange",
-          "image": "assets/images/notes/orange.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Tonka Bean",
-          "image": "assets/images/notes/tonka-bean.png"
-        },
-        {
-          "name": "Cacao / Cocoa",
-          "image": "assets/images/notes/cacao.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Caramel",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-813",
@@ -71967,47 +58523,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Almond",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Orange",
-          "image": "assets/images/notes/orange.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Tonka Bean",
-          "image": "assets/images/notes/tonka-bean.png"
-        },
-        {
-          "name": "Cacao / Cocoa",
-          "image": "assets/images/notes/cacao.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Caramel",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-814",
@@ -72046,51 +58569,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-815",
@@ -72129,51 +58615,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-816",
@@ -72212,85 +58661,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        },
-        {
-          "name": "Mandarin Orange",
-          "image": "assets/images/notes/mandarin.png"
-        },
-        {
-          "name": "Plum",
-          "image": "assets/images/notes/raspberry.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
-        },
-        {
-          "name": "Cashmeran",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Myrrh",
-          "image": "assets/images/notes/incense.png"
-        },
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Oakmoss",
-          "image": "assets/images/notes/oakmoss.png"
-        },
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Cedar",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/swiss-arabian/hawa-66931.html",
-    "fragrantica_reference": "hawa by swiss-arabian",
-    "notes_source": "Curated Olfactive Accord"
+    "fragrantica_url": null,
+    "fragrantica_reference": null,
+    "notes_source": null
   },
   {
     "id": "oil-817",
@@ -72329,51 +58707,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-818",
@@ -72412,51 +58753,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-819",
@@ -72588,51 +58892,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-821",
@@ -72671,51 +58938,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-822",
@@ -72754,51 +58984,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Pink Pepper",
-          "image": "assets/images/notes/pink-pepper.png"
-        },
-        {
-          "name": "Mandarin Orange",
-          "image": "assets/images/notes/mandarin.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Grasse Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Violet",
-          "image": "assets/images/notes/violet.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-823",
@@ -72837,51 +59030,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-824",
@@ -72920,51 +59076,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-825",
@@ -73003,51 +59122,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-826",
@@ -73086,51 +59168,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-827",
@@ -73169,51 +59214,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-828",
@@ -73252,51 +59260,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-829",
@@ -73335,51 +59306,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-830",
@@ -73418,47 +59352,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Almond",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Orange",
-          "image": "assets/images/notes/orange.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Tonka Bean",
-          "image": "assets/images/notes/tonka-bean.png"
-        },
-        {
-          "name": "Cacao / Cocoa",
-          "image": "assets/images/notes/cacao.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Caramel",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-831",
@@ -73497,51 +59398,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-832",
@@ -73580,51 +59444,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-833",
@@ -73663,51 +59490,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-834",
@@ -73746,51 +59536,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-835",
@@ -73829,51 +59582,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Pink Pepper",
-          "image": "assets/images/notes/pink-pepper.png"
-        },
-        {
-          "name": "Mandarin Orange",
-          "image": "assets/images/notes/mandarin.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Grasse Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Violet",
-          "image": "assets/images/notes/violet.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-836",
@@ -73912,51 +59628,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Grapefruit",
-          "image": "assets/images/notes/grapefruit.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Sea Notes",
-          "image": "assets/images/notes/sea-notes.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-837",
@@ -73995,51 +59674,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-838",
@@ -74078,51 +59720,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-839",
@@ -74161,51 +59766,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-840",
@@ -74244,51 +59812,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-841",
@@ -74327,51 +59858,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-842",
@@ -74410,51 +59904,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-843",
@@ -74493,51 +59950,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-844",
@@ -74576,51 +59996,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-845",
@@ -74659,51 +60042,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-846",
@@ -74742,51 +60088,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-847",
@@ -74825,51 +60134,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-848",
@@ -74908,51 +60180,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-849",
@@ -74991,55 +60226,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-850",
@@ -75078,55 +60272,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-851",
@@ -75165,55 +60318,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-852",
@@ -75252,55 +60364,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-853",
@@ -75505,55 +60576,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-856",
@@ -75592,55 +60622,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-857",
@@ -75849,55 +60838,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-860",
@@ -75936,55 +60884,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-861",
@@ -76023,51 +60930,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-862",
@@ -76106,55 +60976,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-863",
@@ -76193,55 +61022,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-864",
@@ -76280,55 +61068,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-865",
@@ -76367,55 +61114,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-866",
@@ -76454,55 +61160,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-867",
@@ -76541,55 +61206,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-868",
@@ -76628,55 +61252,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-869",
@@ -76715,43 +61298,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Cassis",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Black Currant",
-          "image": "assets/images/notes/black-currant.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Woody Notes",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-870",
@@ -76790,55 +61344,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-871",
@@ -76958,51 +61471,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-873",
@@ -77162,55 +61638,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-875",
@@ -77249,51 +61684,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Pink Pepper",
-          "image": "assets/images/notes/pink-pepper.png"
-        },
-        {
-          "name": "Mandarin Orange",
-          "image": "assets/images/notes/mandarin.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Grasse Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Violet",
-          "image": "assets/images/notes/violet.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-876",
@@ -77332,55 +61730,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-877",
@@ -77419,55 +61776,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-878",
@@ -77506,55 +61822,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-879",
@@ -77593,55 +61868,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-880",
@@ -77680,55 +61914,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-881",
@@ -77767,55 +61960,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-882",
@@ -77854,55 +62006,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-883",
@@ -77941,55 +62052,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-884",
@@ -78028,55 +62098,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-885",
@@ -78192,55 +62221,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-887",
@@ -78477,51 +62465,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-890",
@@ -79852,51 +63803,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-903",
@@ -80635,51 +64549,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Pink Pepper",
-          "image": "assets/images/notes/pink-pepper.png"
-        },
-        {
-          "name": "Mandarin Orange",
-          "image": "assets/images/notes/mandarin.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Grasse Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Violet",
-          "image": "assets/images/notes/violet.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-912",
@@ -80718,55 +64595,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Calabrian Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        },
-        {
-          "name": "Pink Pepper",
-          "image": "assets/images/notes/pink-pepper.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Iris",
-          "image": "assets/images/notes/iris.png"
-        },
-        {
-          "name": "Leather",
-          "image": "assets/images/notes/leather.png"
-        },
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Haitian Vetiver",
-          "image": "assets/images/notes/vetiver.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-913",
@@ -80910,47 +64746,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Almond",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Orange",
-          "image": "assets/images/notes/orange.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Tonka Bean",
-          "image": "assets/images/notes/tonka-bean.png"
-        },
-        {
-          "name": "Cacao / Cocoa",
-          "image": "assets/images/notes/cacao.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Caramel",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-915",
@@ -80989,55 +64792,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-916",
@@ -81291,47 +65053,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Almond",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Orange",
-          "image": "assets/images/notes/orange.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Tonka Bean",
-          "image": "assets/images/notes/tonka-bean.png"
-        },
-        {
-          "name": "Cacao / Cocoa",
-          "image": "assets/images/notes/cacao.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Caramel",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-920",
@@ -82921,55 +66650,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-936",
@@ -83113,39 +66801,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Whipped Cream",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        },
-        {
-          "name": "Cashmere",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-938",
@@ -83184,39 +66847,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Whipped Cream",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        },
-        {
-          "name": "Cashmere",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-939",
@@ -83255,55 +66893,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-940",
@@ -83342,55 +66939,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-941",
@@ -83429,51 +66985,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Grapefruit",
-          "image": "assets/images/notes/grapefruit.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Sea Notes",
-          "image": "assets/images/notes/sea-notes.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-942",
@@ -84030,55 +67549,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-949",
@@ -84117,55 +67595,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-950",
@@ -84204,39 +67641,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Plum",
-          "image": "assets/images/notes/raspberry.png"
-        },
-        {
-          "name": "Melon",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Floral Notes",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-951",
@@ -84400,55 +67812,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-953",
@@ -84665,43 +68036,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Cassis",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Black Currant",
-          "image": "assets/images/notes/black-currant.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Woody Notes",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-956",
@@ -84740,55 +68082,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-957",
@@ -84827,55 +68128,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-958",
@@ -84914,55 +68174,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-959",
@@ -85001,55 +68220,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-960",
@@ -85165,55 +68343,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Calabrian Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        },
-        {
-          "name": "Pink Pepper",
-          "image": "assets/images/notes/pink-pepper.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Iris",
-          "image": "assets/images/notes/iris.png"
-        },
-        {
-          "name": "Leather",
-          "image": "assets/images/notes/leather.png"
-        },
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Haitian Vetiver",
-          "image": "assets/images/notes/vetiver.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-962",
@@ -86544,43 +69681,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Cassis",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Black Currant",
-          "image": "assets/images/notes/black-currant.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Woody Notes",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-975",
@@ -86619,59 +69727,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Mandarin Orange",
-          "image": "assets/images/notes/mandarin.png"
-        },
-        {
-          "name": "Black Currant",
-          "image": "assets/images/notes/black-currant.png"
-        },
-        {
-          "name": "Petitgrain",
-          "image": "assets/images/notes/orange.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Orange Blossom",
-          "image": "assets/images/notes/orange.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Madagascar Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-976",
@@ -86888,51 +69951,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Oud",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-979",
@@ -86971,55 +69997,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-980",
@@ -87058,55 +70043,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-981",
@@ -87145,55 +70089,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-982",
@@ -87232,55 +70135,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-983",
@@ -87319,55 +70181,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Panna Heera Proprietary Compounding"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-984",
@@ -87467,55 +70288,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-986",
@@ -87745,55 +70525,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-990",
@@ -87832,55 +70571,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/amber.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-991",
@@ -89517,51 +72215,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Pink Pepper",
-          "image": "assets/images/notes/pink-pepper.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Leather",
-          "image": "assets/images/notes/leather.png"
-        },
-        {
-          "name": "Incense",
-          "image": "assets/images/notes/incense.png"
-        },
-        {
-          "name": "Iris",
-          "image": "assets/images/notes/iris.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Vetiver",
-          "image": "assets/images/notes/vetiver.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-1014",
@@ -89673,41 +72334,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Kiwi",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Pineapple",
-          "image": "assets/images/notes/pineapple.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Vanille",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/oriflame/the-babes-crazy-kiwi-10106.html",
-    "fragrantica_reference": "the-babes-crazy-kiwi by oriflame",
-    "notes_source": "Curated Olfactive Accord"
+    "fragrantica_url": null,
+    "fragrantica_reference": null,
+    "notes_source": null
   },
   {
     "id": "oil-1016",
@@ -90111,51 +72745,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Raspberry",
-          "image": "assets/images/notes/raspberry.png"
-        },
-        {
-          "name": "Peach",
-          "image": "assets/images/notes/peach.png"
-        },
-        {
-          "name": "Mandarin Orange",
-          "image": "assets/images/notes/mandarin.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Praline",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Tonka Bean",
-          "image": "assets/images/notes/tonka-bean.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Caramel",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-1022",
@@ -90283,51 +72880,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Raspberry",
-          "image": "assets/images/notes/raspberry.png"
-        },
-        {
-          "name": "Peach",
-          "image": "assets/images/notes/peach.png"
-        },
-        {
-          "name": "Mandarin Orange",
-          "image": "assets/images/notes/mandarin.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Praline",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Tonka Bean",
-          "image": "assets/images/notes/tonka-bean.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Caramel",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-1024",
@@ -90366,51 +72926,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Raspberry",
-          "image": "assets/images/notes/raspberry.png"
-        },
-        {
-          "name": "Peach",
-          "image": "assets/images/notes/peach.png"
-        },
-        {
-          "name": "Mandarin Orange",
-          "image": "assets/images/notes/mandarin.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Praline",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Tonka Bean",
-          "image": "assets/images/notes/tonka-bean.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Caramel",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-1025",
@@ -90449,51 +72972,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Raspberry",
-          "image": "assets/images/notes/raspberry.png"
-        },
-        {
-          "name": "Peach",
-          "image": "assets/images/notes/peach.png"
-        },
-        {
-          "name": "Mandarin Orange",
-          "image": "assets/images/notes/mandarin.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Praline",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Tonka Bean",
-          "image": "assets/images/notes/tonka-bean.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Caramel",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-1026",
@@ -90532,51 +73018,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Raspberry",
-          "image": "assets/images/notes/raspberry.png"
-        },
-        {
-          "name": "Peach",
-          "image": "assets/images/notes/peach.png"
-        },
-        {
-          "name": "Mandarin Orange",
-          "image": "assets/images/notes/mandarin.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Praline",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Tonka Bean",
-          "image": "assets/images/notes/tonka-bean.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Caramel",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-1027",
@@ -90947,51 +73396,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Mandarin Orange",
-          "image": "assets/images/notes/mandarin.png"
-        },
-        {
-          "name": "Neroli",
-          "image": "assets/images/notes/neroli.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Grasse Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Lily-of-the-Valley",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-1032",
@@ -91111,51 +73523,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Mandarin Orange",
-          "image": "assets/images/notes/mandarin.png"
-        },
-        {
-          "name": "Neroli",
-          "image": "assets/images/notes/neroli.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Grasse Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Lily-of-the-Valley",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-1034",
@@ -91194,51 +73569,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Mandarin Orange",
-          "image": "assets/images/notes/mandarin.png"
-        },
-        {
-          "name": "Neroli",
-          "image": "assets/images/notes/neroli.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Grasse Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Lily-of-the-Valley",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-1035",
@@ -91277,51 +73615,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Mandarin Orange",
-          "image": "assets/images/notes/mandarin.png"
-        },
-        {
-          "name": "Neroli",
-          "image": "assets/images/notes/neroli.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Grasse Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Lily-of-the-Valley",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-1036",
@@ -91360,51 +73661,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Mandarin Orange",
-          "image": "assets/images/notes/mandarin.png"
-        },
-        {
-          "name": "Neroli",
-          "image": "assets/images/notes/neroli.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Grasse Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Lily-of-the-Valley",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-1037",
@@ -91443,51 +73707,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Mandarin Orange",
-          "image": "assets/images/notes/mandarin.png"
-        },
-        {
-          "name": "Neroli",
-          "image": "assets/images/notes/neroli.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Grasse Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Lily-of-the-Valley",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-1038",
@@ -91526,51 +73753,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Mandarin Orange",
-          "image": "assets/images/notes/mandarin.png"
-        },
-        {
-          "name": "Neroli",
-          "image": "assets/images/notes/neroli.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Grasse Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Lily-of-the-Valley",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-1039",
@@ -91609,51 +73799,14 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Mandarin Orange",
-          "image": "assets/images/notes/mandarin.png"
-        },
-        {
-          "name": "Neroli",
-          "image": "assets/images/notes/neroli.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Grasse Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Lily-of-the-Valley",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
-        }
-      ]
+      "top": [],
+      "middle": [],
+      "base": []
     },
     "fragrantica_matched": false,
-    "notes_source": "Curated Olfactive Accord"
+    "notes_source": null,
+    "fragrantica_url": null,
+    "fragrantica_reference": null
   },
   {
     "id": "oil-1040",

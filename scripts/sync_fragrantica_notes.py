@@ -109,6 +109,7 @@ BRAND_MAP = {
     'abercrombie g fitch': 'abercrombie fitch',
     'swiss': 'swiss arabian',
     'paco rabbane': 'paco rabanne',
+    'paco rabanne': 'paco rabanne',
     'caroline harerra': 'carolina herrera',
     'monte blanc': 'montblanc',
     'tomford': 'tom ford',
@@ -126,7 +127,9 @@ BRAND_MAP = {
     'valentino donna': 'valentino',
     'ysl': 'yves saint laurent',
     'roja dove': 'roja dove',
-    'mfk': 'maison francis kurkdjian'
+    'mfk': 'maison francis kurkdjian',
+    'dyptique': 'diptyque',
+    'diptyque': 'diptyque'
 }
 
 TITLE_REPLACEMENTS = {
@@ -134,6 +137,18 @@ TITLE_REPLACEMENTS = {
     'club d nuit intense (m)': 'club de nuit intense man',
     'club d nuit intense (w)': 'club de nuit intense',
     'club d nuit': 'club de nuit intense man',
+    'one million': '1 million',
+    'black x.s.': 'black xs',
+    'black xs': 'black xs',
+    'oudh for greatness': 'oud for greatness',
+    'arabian tonka': 'arabians tonka',
+    'café intense': 'intense cafe',
+    'cafe intense': 'intense cafe',
+    'tam dao edt': 'tam dao',
+    'l\'ombre dans leau': 'l ombre dans l eau',
+    'eau d capital': 'eau capitale',
+    'coeur buttant': 'coeur battant',
+    'oudh lime': 'aoud lime',
     'aqua di ': 'acqua di ',
     'aqua ': 'acqua ',
     'd nuit': 'de nuit',
@@ -266,15 +281,20 @@ def main():
     print(f"Total catalog products: {total}")
 
     matched_count = 0
+    cleared_count = 0
 
     for p in products:
         brand_raw = p.get('brand', '')
         short_title_raw = p.get('short_title') or p.get('title') or ''
         
-        # Panna Heera Originals retain their proprietary formulation
+        # User explicitly requested: REMOVE all notes not on Fragrantica
         if brand_raw == 'Panna Heera Originals':
+            p['notes'] = {'top': [], 'middle': [], 'base': []}
             p['fragrantica_matched'] = False
-            p['notes_source'] = 'Panna Heera Proprietary Compounding'
+            p['fragrantica_url'] = None
+            p['fragrantica_reference'] = None
+            p['notes_source'] = None
+            cleared_count += 1
             continue
 
         b_clean = clean_brand(brand_raw)
@@ -341,24 +361,34 @@ def main():
 
         if found:
             matched_count += 1
+            # STRICT: Only notes that exist on Fragrantica; empty list otherwise
             p['notes'] = {
-                'top': [resolve_note(n) for n in found['top']] if found['top'] else p.get('notes', {}).get('top', []),
-                'middle': [resolve_note(n) for n in found['middle']] if found['middle'] else p.get('notes', {}).get('middle', []),
-                'base': [resolve_note(n) for n in found['base']] if found['base'] else p.get('notes', {}).get('base', [])
+                'top': [resolve_note(n) for n in found['top']] if found['top'] else [],
+                'middle': [resolve_note(n) for n in found['middle']] if found['middle'] else [],
+                'base': [resolve_note(n) for n in found['base']] if found['base'] else []
             }
             p['fragrantica_matched'] = True
             p['fragrantica_url'] = found['url']
             p['fragrantica_reference'] = f"{found['raw_perfume']} by {found['raw_brand']}"
             p['notes_source'] = f"Fragrantica ({found['raw_perfume']})"
         else:
+            # STRICT: Not on Fragrantica -> REMOVE all notes
+            p['notes'] = {
+                'top': [],
+                'middle': [],
+                'base': []
+            }
             p['fragrantica_matched'] = False
-            p['notes_source'] = 'Curated Olfactive Accord'
+            p['fragrantica_url'] = None
+            p['fragrantica_reference'] = None
+            p['notes_source'] = None
+            cleared_count += 1
 
     print(f"\n=======================================================")
     print(f"FRAGRANTICA HARMONIZATION RESULTS:")
     print(f"  Total catalog products: {total}")
-    print(f"  Direct Fragrantica Matches: {matched_count} products")
-    print(f"  Panna Heera Originals (Proprietary): {len([p for p in products if p.get('brand') == 'Panna Heera Originals'])}")
+    print(f"  Fragrantica Matched (Kept authentic notes): {matched_count} products")
+    print(f"  Not on Fragrantica (Notes completely removed): {cleared_count} products")
     print(f"=======================================================\n")
 
     # Save to site_data.json
