@@ -38,6 +38,7 @@ def main():
         ('data/site_data.json', f'{REMOTE_BASE}/data/site_data.json'),
         ('data/notes_library.json', f'{REMOTE_BASE}/data/notes_library.json'),
         ('assets/js/products-data.js', f'{REMOTE_BASE}/assets/js/products-data.js'),
+        ('assets/images/categories/fragrance-oils.jpg', f'{REMOTE_BASE}/assets/images/categories/fragrance-oils.jpg'),
         ('index.php', f'{REMOTE_BASE}/index.php'),
         ('product-detail.php', f'{REMOTE_BASE}/product-detail.php'),
         ('fragrances.php', f'{REMOTE_BASE}/fragrances.php'),

@@ -20,48 +20,50 @@ with open(NOTES_LIB_PATH, 'r', encoding='utf-8') as f:
     notes_lib = json.load(f)
 
 NOTE_IMG_MAP = {n['name'].lower(): n['image'] for n in notes_lib}
+NOTE_IMG_MAP['tobacco'] = 'assets/images/notes/tobacco.png'
+NOTE_IMG_MAP['tobacco leaf'] = 'assets/images/notes/tobacco.png'
 
 SYNONYMS = {
-    'sicilian lemon': 'lemon', 'italian lemon': 'lemon', 'lemon zest': 'lemon', 'lime': 'lemon', 'yuzu': 'lemon', 'citron': 'lemon', 'citruses': 'lemon', 'amalfi lemon': 'lemon',
-    'calabrian bergamot': 'bergamot', 'bergamot orange': 'bergamot', 'sicilian bergamot': 'bergamot', 'bergamotto': 'bergamot',
+    'sicilian lemon': 'lemon', 'italian lemon': 'lemon', 'lemon zest': 'lemon', 'lime': 'lemon', 'yuzu': 'lemon', 'citron': 'lemon', 'citruses': 'lemon', 'amalfi lemon': 'lemon', 'candied lemon': 'lemon',
+    'calabrian bergamot': 'bergamot', 'bergamot orange': 'bergamot', 'sicilian bergamot': 'bergamot', 'bergamotto': 'bergamot', 'italian bergamot': 'bergamot',
     'grapefruit': 'grapefruit', 'pink grapefruit': 'grapefruit', 'blood grapefruit': 'grapefruit',
-    'blood orange': 'orange', 'bitter orange': 'orange', 'orange peel': 'orange', 'orange': 'orange', 'sweet orange': 'orange', 'brazilian orange': 'orange',
-    'mandarin': 'mandarin orange', 'mandarin orange': 'mandarin orange', 'green mandarin': 'mandarin orange', 'tangerine': 'mandarin orange', 'clementine': 'mandarin orange', 'blood mandarin': 'mandarin orange',
-    'cassis': 'black currant', 'black currant': 'black currant', 'black-currant': 'black currant', 'blackberry': 'black currant',
-    'black cherry': 'sour cherry', 'sour cherry': 'sour cherry', 'cherry': 'sour cherry',
+    'blood orange': 'orange', 'bitter orange': 'orange', 'orange peel': 'orange', 'orange': 'orange', 'sweet orange': 'orange', 'brazilian orange': 'orange', 'california orange': 'orange',
+    'mandarin': 'mandarin', 'mandarin orange': 'mandarin', 'green mandarin': 'mandarin', 'tangerine': 'mandarin', 'clementine': 'mandarin', 'blood mandarin': 'mandarin', 'italian mandarin': 'mandarin', 'sicilian mandarin': 'mandarin',
+    'cassis': 'black-currant', 'black currant': 'black-currant', 'black-currant': 'black-currant', 'blackberry': 'black-currant',
+    'black cherry': 'sour-cherry', 'sour cherry': 'sour-cherry', 'cherry': 'sour-cherry',
     'wild berries': 'raspberry', 'red berries': 'raspberry', 'raspberry': 'raspberry', 'strawberry': 'raspberry', 'cranberry': 'raspberry', 'red fruits': 'raspberry', 'fruity notes': 'raspberry',
-    'grasse rose': 'rose', 'damask rose': 'rose', 'turkish rose': 'rose', 'bulgarian rose': 'rose', 'may rose': 'rose', 'taif rose': 'rose', 'rose': 'rose', 'rosa': 'rose', 'centifolia rose': 'rose', 'moroccan rose': 'rose', 'rose de mai': 'rose', 'rose petals': 'rose',
-    'sambac jasmine': 'jasmine', 'white jasmine': 'jasmine', 'jasmine': 'jasmine', 'jasmine sambac': 'jasmine', 'water jasmine': 'jasmine', 'egyptian jasmine': 'jasmine', 'white flowers': 'jasmine', 'floral notes': 'jasmine',
+    'grasse rose': 'rose', 'damask rose': 'rose', 'turkish rose': 'rose', 'bulgarian rose': 'rose', 'may rose': 'rose', 'taif rose': 'rose', 'rose': 'rose', 'rosa': 'rose', 'centifolia rose': 'rose', 'moroccan rose': 'rose', 'rose de mai': 'rose', 'rose petals': 'rose', 'black rose': 'rose',
+    'sambac jasmine': 'jasmine', 'white jasmine': 'jasmine', 'jasmine': 'jasmine', 'jasmine sambac': 'jasmine', 'water jasmine': 'jasmine', 'egyptian jasmine': 'jasmine', 'white flowers': 'jasmine', 'floral notes': 'jasmine', 'jasmine petals': 'jasmine',
     'french lavender': 'lavender', 'lavender': 'lavender', 'wild lavender': 'lavender',
     'bourbon vanilla': 'vanilla', 'madagascar vanilla': 'vanilla', 'vanilla': 'vanilla', 'vanilla orchid': 'vanilla', 'vanilla caviar': 'vanilla', 'black vanilla husk': 'vanilla', 'whipped vanilla': 'vanilla', 'vanilla absolute': 'vanilla',
-    'virginian cedar': 'cedarwood', 'atlas cedar': 'cedarwood', 'cedar': 'cedarwood', 'cedarwood': 'cedarwood', 'virginia cedar': 'cedarwood', 'white woods': 'cedarwood', 'woodsy notes': 'cedarwood', 'woody notes': 'cedarwood', 'teak wood': 'cedarwood', 'guaiac wood': 'cedarwood', 'cashmere wood': 'cedarwood',
+    'virginian cedar': 'cedarwood', 'atlas cedar': 'cedarwood', 'cedar': 'cedarwood', 'cedarwood': 'cedarwood', 'virginia cedar': 'cedarwood', 'white woods': 'cedarwood', 'woodsy notes': 'cedarwood', 'woody notes': 'cedarwood', 'teak wood': 'cedarwood', 'guaiac wood': 'cedarwood', 'cashmere wood': 'cedarwood', 'white cedar extract': 'cedarwood', 'driftwood': 'cedarwood',
     'mysore sandalwood': 'sandalwood', 'sandalwood': 'sandalwood', 'natural sandalwood': 'sandalwood',
     'haitian vetiver': 'vetiver', 'vetiver': 'vetiver', 'bourbon vetiver': 'vetiver', 'java vetiver': 'vetiver', 'sand vetiver': 'vetiver', 'tahitian vetiver': 'vetiver',
-    'white musk': 'musk', 'crystal musk': 'musk', 'musk': 'musk', 'cashmeran': 'musk', 'ambroxan': 'amber',
-    'ambergris': 'amber', 'amberwood': 'amber', 'amber': 'amber', 'benzoin': 'amber', 'labdanum': 'amber', 'amber xtreme': 'amber', 'white amber': 'amber', 'resins': 'amber',
-    'agarwood': 'oud', 'cambodian oud': 'oud', 'agarwood (oud)': 'oud', 'oud': 'oud', 'laotian oud': 'oud', 'assam oud': 'oud',
+    'white musk': 'musk', 'crystal musk': 'musk', 'musk': 'musk', 'cashmeran': 'musk', 'ambroxan': 'amber', 'ambrofix': 'amber',
+    'ambergris': 'amber', 'amberwood': 'amber', 'amber': 'amber', 'benzoin': 'amber', 'labdanum': 'amber', 'amber xtreme': 'amber', 'white amber': 'amber', 'resins': 'amber', 'black amber': 'amber',
+    'agarwood': 'oud', 'cambodian oud': 'oud', 'agarwood (oud)': 'oud', 'oud': 'oud', 'laotian oud': 'oud', 'assam oud': 'oud', 'indian oud': 'oud',
     'cardamom': 'cardamom', 'green cardamom': 'cardamom', 'guatemalan cardamom': 'cardamom',
     'cinnamon': 'cinnamon', 'ceylon cinnamon': 'cinnamon', 'cinnamon bark': 'cinnamon',
-    'pink pepper': 'pink pepper', 'pink-pepper': 'pink pepper', 'black pepper': 'pink pepper', 'sichuan pepper': 'pink pepper', 'pepper': 'pink pepper', 'white pepper': 'pink pepper', 'spices': 'pink pepper', 'spicy notes': 'pink pepper',
+    'pink pepper': 'pink-pepper', 'pink-pepper': 'pink-pepper', 'black pepper': 'pink-pepper', 'sichuan pepper': 'pink-pepper', 'pepper': 'pink-pepper', 'white pepper': 'pink-pepper', 'spices': 'pink-pepper', 'spicy notes': 'pink-pepper', 'pimento': 'pink-pepper',
     'saffron': 'saffron', 'red saffron': 'saffron',
-    'tobacco': 'tobacco leaf', 'tobacco leaf': 'tobacco leaf', 'cured tobacco': 'tobacco leaf', 'white tobacco': 'tobacco leaf',
+    'tobacco': 'tobacco', 'tobacco leaf': 'tobacco', 'cured tobacco': 'tobacco', 'white tobacco': 'tobacco', 'tobacco blossom': 'tobacco',
     'coffee': 'coffee', 'roasted coffee': 'coffee', 'espresso': 'coffee', 'coffee beans': 'coffee', 'roasted coffee beans': 'coffee',
-    'cacao': 'cacao / cocoa', 'cocoa': 'cacao / cocoa', 'chocolate': 'cacao / cocoa', 'dark chocolate': 'cacao / cocoa', 'praline': 'cacao / cocoa', 'milk chocolate': 'cacao / cocoa', 'hazelnut': 'cacao / cocoa',
-    'tonka': 'tonka bean', 'tonka bean': 'tonka bean', 'coumarin': 'tonka bean',
-    'sea notes': 'sea-notes', 'marine notes': 'sea-notes', 'aquatic notes': 'sea-notes', 'ocean notes': 'sea-notes', 'sea salt': 'sea-notes', 'water notes': 'sea-notes', 'calone': 'sea-notes', 'sea water': 'sea-notes', 'watery notes': 'sea-notes',
+    'cacao': 'cacao', 'cocoa': 'cacao', 'chocolate': 'cacao', 'dark chocolate': 'cacao', 'praline': 'cacao', 'milk chocolate': 'cacao', 'hazelnut': 'cacao',
+    'tonka': 'tonka-bean', 'tonka bean': 'tonka-bean', 'coumarin': 'tonka-bean',
+    'sea notes': 'sea-notes', 'marine notes': 'sea-notes', 'aquatic notes': 'sea-notes', 'ocean notes': 'sea-notes', 'sea salt': 'sea-notes', 'water notes': 'sea-notes', 'calone': 'sea-notes', 'sea water': 'sea-notes', 'watery notes': 'sea-notes', 'seaweed': 'sea-notes',
     'oakmoss': 'oakmoss', 'moss': 'oakmoss', 'tree moss': 'oakmoss',
     'patchouli': 'patchouli', 'indonesian patchouli': 'patchouli', 'patchouli leaf': 'patchouli',
     'mint': 'mint', 'spearmint': 'mint', 'peppermint': 'mint',
     'apple': 'apple', 'green apple': 'apple', 'red apple': 'apple', 'granny smith apple': 'apple',
-    'pineapple': 'pineapple', 'peach': 'peach', 'white peach': 'peach', 'pear': 'peach', 'plum': 'peach', 'apricot': 'peach', 'melon': 'peach',
+    'pineapple': 'pineapple', 'peach': 'peach', 'white peach': 'peach', 'pear': 'peach', 'plum': 'peach', 'apricot': 'peach', 'melon': 'peach', 'lychee': 'peach', 'dates': 'peach',
     'rosemary': 'rosemary',
     'incense': 'incense', 'frankincense': 'incense', 'olibanum': 'incense', 'myrrh': 'incense',
     'iris': 'iris', 'orris': 'iris', 'orris root': 'iris',
-    'violet': 'violet', 'violet leaf': 'violet', 'violet leaves': 'violet',
+    'violet': 'violet', 'violet leaf': 'violet', 'violet leaves': 'violet', 'parma violet': 'violet',
     'leather': 'leather', 'suede': 'leather', 'tuscan leather': 'leather', 'white suede': 'leather',
     'wormwood': 'wormwood', 'artemisia': 'wormwood', 'clary sage': 'wormwood', 'sage': 'wormwood',
     'neroli': 'neroli', 'orange blossom': 'neroli', 'african orange flower': 'neroli', 'petitgrain': 'neroli',
-    'tuberose': 'jasmine', 'gardenia': 'jasmine', 'magnolia': 'jasmine', 'lily': 'jasmine', 'lily-of-the-valley': 'jasmine', 'freesia': 'jasmine', 'carnation': 'rose', 'geranium': 'rose', 'lotus': 'jasmine', 'peony': 'rose'
+    'tuberose': 'jasmine', 'gardenia': 'jasmine', 'magnolia': 'jasmine', 'lily': 'jasmine', 'lily-of-the-valley': 'jasmine', 'freesia': 'jasmine', 'carnation': 'rose', 'geranium': 'rose', 'lotus': 'jasmine', 'peony': 'rose', 'osmanthus': 'jasmine', 'heliotrope': 'jasmine'
 }
 
 def resolve_note(note_name):
@@ -106,40 +108,158 @@ def resolve_note(note_name):
         return {'name': disp_name, 'image': 'assets/images/notes/sea-notes.png'}
     elif any(w in low for w in ['leather', 'suede']):
         return {'name': disp_name, 'image': 'assets/images/notes/leather.png'}
+    elif any(w in low for w in ['tobacco']):
+        return {'name': disp_name, 'image': 'assets/images/notes/tobacco.png'}
         
     return {'name': disp_name, 'image': 'assets/images/notes/amber.png'}
 
+# Standardize Catalog Brands to Fragrantica Brand Slugs
 BRAND_MAP = {
-    'abercrombie g fitch': 'abercrombie fitch',
-    'swiss': 'swiss arabian',
-    'paco rabbane': 'paco rabanne',
-    'paco rabanne': 'paco rabanne',
-    'caroline harerra': 'carolina herrera',
-    'monte blanc': 'montblanc',
-    'tomford': 'tom ford',
-    'jpg': 'jean paul gaultier',
-    'ck': 'calvin klein',
-    'boss': 'hugo boss',
-    'victoria sec': 'victoria s secret',
-    'victoria secret': 'victoria s secret',
-    'd g g': 'dolce gabbana',
-    'dgg': 'dolce gabbana',
-    'parfums d marly': 'parfums de marly',
-    'al rehab': 'al rehab',
-    'jo malone': 'jo malone london',
-    'kilian': 'by kilian',
-    'valentino uomo': 'valentino',
-    'valentino donna': 'valentino',
-    'ysl': 'yves saint laurent',
-    'roja dove': 'roja dove',
-    'mfk': 'maison francis kurkdjian',
+    'abercrombie g fitch': 'abercrombie-fitch',
+    'adidas': 'adidas',
+    'afnan': 'afnan',
+    'ahmed al maghribi': 'ahmed-al-maghribi',
+    'ajmal': 'ajmal',
+    'al harmain': 'al-haramain-perfumes',
+    'al rehab': 'al-rehab',
+    'amouage': 'amouage',
+    'arabian oud': 'arabian-oud',
+    'arabiyat': 'arabiyat',
+    'armaf': 'armaf',
+    'armani': 'giorgio-armani',
+    'azzaro': 'azzaro',
+    'balman paris': 'pierre-balmain',
+    'bath and body': 'bath-body-works',
+    'bath and body works': 'bath-body-works',
+    'bath g body': 'bath-body-works',
+    'bentley': 'bentley',
+    'billie eilish': 'billie-eilish',
+    'bond no g': 'bond-no-9',
+    'boss': 'hugo-boss',
+    'britney spear': 'britney-spears',
+    'burberry': 'burberry',
+    'bvlgari': 'bvlgari',
+    'byredo': 'byredo',
+    'caroline harerra': 'carolina-herrera',
+    'cartier': 'cartier',
+    'chanel': 'chanel',
+    'chloe': 'chloe',
+    'chopard': 'chopard',
+    'cigar': 'cigar',
+    'ck': 'calvin-klein',
+    'coach': 'coach',
+    'creed': 'creed',
+    'd g g': 'dolce-gabbana',
+    'david beckham': 'david-beckham',
+    'davidoff': 'davidoff',
+    'dgg': 'dolce-gabbana',
+    'dior': 'dior',
+    'dunhill': 'alfred-dunhill',
     'dyptique': 'diptyque',
-    'diptyque': 'diptyque',
-    'louis vuitton': 'louis vuitton',
+    'elizabeth': 'elizabeth-arden',
+    'elizabeth arden': 'elizabeth-arden',
+    'emper': 'emper',
+    'escada': 'escada',
+    'ex nihilo': 'ex-nihilo',
+    'ferrari': 'ferrari',
+    'fragrance world': 'fragrance-world',
+    'frederic malle': 'frederic-malle',
+    'givenchy': 'givenchy',
+    'gucci': 'gucci',
+    'guerlain': 'guerlain',
+    'hermes': 'hermes',
+    'iceberg': 'iceberg',
+    'initio': 'initio-parfums-prives',
+    'issey miyake': 'issey-miyake',
+    'isseymiyake': 'issey-miyake',
+    'jacques bogart': 'jacques-bogart',
+    'jaques bogart': 'jacques-bogart',
+    'jo malone': 'jo-malone-london',
+    'jovan musk': 'jovan',
+    'jpg': 'jean-paul-gaultier',
+    'kayali': 'kayali-fragrances',
+    'kilian': 'by-kilian',
+    'lancome': 'lancome',
+    'lattafa': 'lattafa-perfumes',
+    'le labo': 'le-labo',
+    'louis vuitton': 'louis-vuitton',
+    'maison crivelli': 'maison-crivelli',
+    'maision crivelli': 'maison-crivelli',
+    'maison martin margiela': 'maison-martin-margiela',
     'mancera': 'mancera',
+    'marc antonie barrois': 'marc-antoine-barrois',
+    'marc jacobs': 'marc-jacobs',
+    'memo paris': 'memo-paris',
+    'mfk': 'maison-francis-kurkdjian',
     'montale': 'montale',
-    'initio': 'initio'
+    'monte blanc': 'montblanc',
+    'moshino': 'moschino',
+    'narciso rodriguez': 'narciso-rodriguez',
+    'nishane': 'nishane',
+    'orto parisi': 'orto-parisi',
+    'paco rabbane': 'paco-rabanne',
+    'paco rabanne': 'paco-rabanne',
+    'parfums d marly': 'parfums-de-marly',
+    'penhaligon\'s': 'penhaligon-s',
+    'prada': 'prada',
+    'ralph lauren': 'ralph-lauren',
+    'rasasi': 'rasasi',
+    'roja': 'roja-dove',
+    'roja dove': 'roja-dove',
+    'salvatore ferragamo': 'salvatore-ferragamo',
+    'sapil': 'sapil',
+    'sospiro': 'sospiro-perfumes',
+    'spirit of dubai': 'the-spirit-of-dubai',
+    'swiss': 'swiss-arabian',
+    'swiss arabian': 'swiss-arabian',
+    'the body shop': 'the-body-shop',
+    'thierry mugler': 'mugler',
+    'thomas khosala': 'thomas-kosmala',
+    'tiziana terenzi': 'tiziana-terenzi',
+    'tom ford': 'tom-ford',
+    'tomford': 'tom-ford',
+    'valentino donna': 'valentino',
+    'valentino uomo': 'valentino',
+    'versace': 'versace',
+    'victoria sec': 'victoria-s-secret',
+    'victoria secret': 'victoria-s-secret',
+    'viktor g rolf': 'viktor-rolf',
+    'viva': 'juicy-couture',
+    'viva la juicy': 'juicy-couture',
+    'xerjoff': 'xerjoff',
+    'ysl': 'yves-saint-laurent',
+    'zara': 'zara'
 }
+
+# Brands embedded inside titles (for Panna Heera Originals)
+EMBEDDED_BRAND_PATTERNS = [
+    ('acqua di parma', 'acqua-di-parma'),
+    ('azzaro', 'azzaro'),
+    ('dior', 'dior'),
+    ('dkny', 'donna-karan'),
+    ('eliesaab', 'elie-saab'),
+    ('elie saab', 'elie-saab'),
+    ('jaguar', 'jaguar'),
+    ('jimmy choo', 'jimmy-choo'),
+    ('kenzo', 'kenzo'),
+    ('lacoste', 'lacoste-fragrances'),
+    ('lomani', 'lomani'),
+    ('mancera', 'mancera'),
+    ('mercedes benz', 'mercedes-benz'),
+    ('nautica', 'nautica'),
+    ('paco rabbane', 'paco-rabanne'),
+    ('paco rabanne', 'paco-rabanne'),
+    ('tommy', 'tommy-hilfiger'),
+    ('valentino', 'valentino'),
+    ('ysl', 'yves-saint-laurent'),
+    ('versace', 'versace'),
+    ('chanel', 'chanel'),
+    ('gucci', 'gucci'),
+    ('lattafa', 'lattafa-perfumes'),
+    ('al rehab', 'al-rehab'),
+    ('ajmal', 'ajmal'),
+    ('rasasi', 'rasasi')
+]
 
 TITLE_REPLACEMENTS = {
     'club d nuit sillage': 'club de nuit sillage',
@@ -199,17 +319,13 @@ TITLE_REPLACEMENTS = {
 
 def clean_brand(b):
     s = re.sub(r'[^a-z0-9 ]', ' ', str(b).lower()).strip()
-    return BRAND_MAP.get(s, s)
+    return BRAND_MAP.get(s, s.replace(' ', '-'))
 
 def clean_title(t):
     s = str(t).lower()
-    
-    # Specific known title mappings first
     for k, v in TITLE_REPLACEMENTS.items():
         if k in s:
             s = s.replace(k, v)
-            
-    # Clean out non-alphanumeric except spaces
     s = re.sub(r'\(m\)', ' man ', s)
     s = re.sub(r'\(w\)', ' woman ', s)
     s = re.sub(r' - new\b', '', s)
@@ -231,8 +347,19 @@ def parse_pyramid_list(val):
             pass
     return [x.strip() for x in s.split(',') if x.strip() and x.lower() != 'nan']
 
+def brand_matches(cat_b_slug, fra_b_slug):
+    if not cat_b_slug or not fra_b_slug:
+        return False
+    c = cat_b_slug.replace('-', '').replace(' ', '').lower()
+    f = fra_b_slug.replace('-', '').replace(' ', '').lower()
+    if c == f:
+        return True
+    if len(c) >= 4 and (c in f or f in c):
+        return True
+    return False
+
 def main():
-    print("Loading Fragrantica database sources...")
+    print("Loading unified Fragrantica database sources...")
     frag_records = []
 
     # Source 1: Combined dataset (211 modern hits)
@@ -243,16 +370,21 @@ def main():
             mid = parse_pyramid_list(row.get('middle notes'))
             base = parse_pyramid_list(row.get('base notes'))
             if top or mid or base:
+                raw_co = str(row.get('company', '')).strip()
+                raw_nm = str(row.get('name', '')).strip()
+                c_brand = clean_brand(raw_co)
+                c_perf = clean_title(raw_nm)
                 frag_records.append({
-                    'raw_brand': str(row.get('company', '')),
-                    'raw_perfume': str(row.get('name', '')),
-                    'clean_brand': clean_brand(row.get('company', '')),
-                    'clean_perfume': clean_title(row.get('name', '')),
-                    'words': set(clean_title(row.get('name', '')).split()),
+                    'raw_brand': raw_co,
+                    'raw_perfume': raw_nm,
+                    'clean_brand': c_brand,
+                    'clean_perfume': c_perf,
+                    'words': set(c_perf.split()),
+                    'gender': str(row.get('for_gender', '')).lower(),
                     'top': top,
                     'middle': mid,
                     'base': base,
-                    'url': f"https://www.fragrantica.com/perfume/{row.get('company', '')}/{row.get('name', '')}.html",
+                    'url': f"https://www.fragrantica.com/perfume/{raw_co}/{raw_nm}.html",
                     'source': 'Fragrantica Official'
                 })
         print(f"Loaded {len(frag_records)} records from Source 1 (Combined).")
@@ -266,12 +398,17 @@ def main():
             mid = parse_pyramid_list(row.get('Middle'))
             base = parse_pyramid_list(row.get('Base'))
             if top or mid or base:
+                raw_b = str(row.get('Brand', '')).strip()
+                raw_p = str(row.get('Perfume', '')).strip()
+                c_brand = clean_brand(raw_b)
+                c_perf = clean_title(raw_p.replace('-', ' '))
                 frag_records.append({
-                    'raw_brand': str(row.get('Brand', '')),
-                    'raw_perfume': str(row.get('Perfume', '')),
-                    'clean_brand': clean_brand(row.get('Brand', '')),
-                    'clean_perfume': clean_title(row.get('Perfume', '')),
-                    'words': set(clean_title(row.get('Perfume', '')).split()),
+                    'raw_brand': raw_b,
+                    'raw_perfume': raw_p,
+                    'clean_brand': c_brand,
+                    'clean_perfume': c_perf,
+                    'words': set(c_perf.split()),
+                    'gender': str(row.get('Gender', '')).lower(),
                     'top': top,
                     'middle': mid,
                     'base': base,
@@ -295,90 +432,136 @@ def main():
     matched_count = 0
     cleared_count = 0
 
+    # Non-perfume raw material categories that must NOT have retail perfume pyramids
+    RAW_MATERIAL_BRANDS = {'fruits collection', 'floral collection', 'black mushk', 'black jin', 'careless', 'cooper', 'khus', 'oud', 'oudh'}
+
     for p in products:
-        brand_raw = p.get('brand', '')
-        short_title_raw = p.get('short_title') or p.get('title') or ''
-        full_title_raw = p.get('title', '')
+        brand_raw = (p.get('brand') or '').strip()
+        short_title_raw = (p.get('short_title') or p.get('title') or '').strip()
+        full_title_raw = (p.get('title') or '').strip()
         
-        b_clean = clean_brand(brand_raw)
+        b_low = brand_raw.lower()
         s_clean = clean_title(short_title_raw)
         f_clean = clean_title(full_title_raw)
         s_words = set(s_clean.split())
 
+        # Determine true brand slug
+        target_brand_slug = clean_brand(brand_raw)
+
+        # Check for title-embedded brands if under Panna Heera Originals
+        if b_low == 'panna heera originals' or target_brand_slug == 'panna-heera-originals':
+            for pat, bslug in EMBEDDED_BRAND_PATTERNS:
+                if pat in f_clean or pat in s_clean:
+                    target_brand_slug = bslug
+                    break
+
+        # Pure raw materials should not match perfumes
+        if b_low in RAW_MATERIAL_BRANDS:
+            target_brand_slug = None
+
         found = None
 
-        # Step A: Check Benchmark Pyramids first (High Priority curated Fragrantica pyramids)
-        for key, pyr in BENCHMARK_PYRAMIDS.items():
-            k_clean = clean_title(key)
-            if k_clean == s_clean or k_clean == f_clean or k_clean in f_clean or k_clean in s_clean:
-                found = {
-                    'raw_brand': brand_raw,
-                    'raw_perfume': pyr['ref'],
-                    'top': pyr['top'],
-                    'middle': pyr['middle'],
-                    'base': pyr['base'],
-                    'url': pyr['url'],
-                    'source': f"Fragrantica ({pyr['ref']})"
-                }
+        # -------------------------------------------------------------
+        # STEP 1: Curated Benchmark Pyramids (Exact Fragrantica Matches)
+        # -------------------------------------------------------------
+        # Try full title, short title, and stripped title against curated benchmarks
+        check_keys = [
+            f_clean,
+            s_clean,
+            clean_title(f"{brand_raw} {short_title_raw}"),
+            clean_title(f"{brand_raw} - {short_title_raw}")
+        ]
+
+        # Sort benchmark pyramids by key length descending so longer/more specific flankers match first
+        sorted_benchmarks = sorted(BENCHMARK_PYRAMIDS.items(), key=lambda x: len(clean_title(x[0])), reverse=True)
+
+        for k in check_keys:
+            for b_key, pyr in sorted_benchmarks:
+                if clean_title(b_key) == k:
+                    found = {
+                        'raw_brand': brand_raw,
+                        'raw_perfume': pyr['ref'],
+                        'top': pyr['top'],
+                        'middle': pyr['middle'],
+                        'base': pyr['base'],
+                        'url': pyr['url'],
+                        'source': f"Fragrantica Benchmark ({pyr['ref']})"
+                    }
+                    break
+            if found:
                 break
 
-        # Step B: LEVEL 1 EXACT MATCH (Brand + Perfume name exact)
+        # Substring search in benchmark pyramids (exact benchmark title within string)
         if not found:
-            for rec in frag_records:
-                if b_clean and (b_clean in rec['clean_brand'] or rec['clean_brand'] in b_clean):
+            for b_key, pyr in sorted_benchmarks:
+                bk = clean_title(b_key)
+                if len(bk) >= 5 and (bk == s_clean or bk == f_clean or f" {bk} " in f" {f_clean} " or f" {bk} " in f" {s_clean} "):
+                    # Extra check: make sure brand matches if benchmark key mentions brand
+                    found = {
+                        'raw_brand': brand_raw,
+                        'raw_perfume': pyr['ref'],
+                        'top': pyr['top'],
+                        'middle': pyr['middle'],
+                        'base': pyr['base'],
+                        'url': pyr['url'],
+                        'source': f"Fragrantica Benchmark ({pyr['ref']})"
+                    }
+                    break
+
+        # -------------------------------------------------------------
+        # STEP 2: Strict Brand-Matched Fragrantica Search
+        # (ONLY search records belonging to target_brand_slug)
+        # -------------------------------------------------------------
+        if not found and target_brand_slug and target_brand_slug != 'panna-heera-originals':
+            # Pre-filter records belonging exclusively to this brand
+            brand_candidates = [
+                rec for rec in frag_records 
+                if brand_matches(target_brand_slug, rec['clean_brand'])
+            ]
+
+            if brand_candidates:
+                # 2A: Exact perfume name match within brand
+                for rec in brand_candidates:
                     if s_clean == rec['clean_perfume']:
                         found = rec
                         break
 
-        # Step C: LEVEL 2 EXACT PERFUME NAME anywhere in database
-        if not found and s_clean:
-            for rec in frag_records:
-                if s_clean == rec['clean_perfume']:
-                    found = rec
-                    break
+                # 2B: Substring match within brand
+                if not found and s_clean:
+                    sub_candidates = [
+                        rec for rec in brand_candidates 
+                        if s_clean in rec['clean_perfume'] or rec['clean_perfume'] in s_clean
+                    ]
+                    if sub_candidates:
+                        # Prefer men's if title has (m) or men; prefer women's if (w) or women
+                        is_men = '(m)' in full_title_raw.lower() or ' men' in full_title_raw.lower() or ' man' in full_title_raw.lower()
+                        is_women = '(w)' in full_title_raw.lower() or ' women' in full_title_raw.lower() or ' woman' in full_title_raw.lower() or ' pour femme' in full_title_raw.lower()
+                        
+                        if is_men:
+                            gender_matched = [c for c in sub_candidates if c.get('gender') == 'men']
+                            if gender_matched:
+                                sub_candidates = gender_matched
+                        elif is_women:
+                            gender_matched = [c for c in sub_candidates if c.get('gender') == 'women']
+                            if gender_matched:
+                                sub_candidates = gender_matched
 
-        # Step D: LEVEL 3 Brand match + Shortest matching substring
-        if not found and s_clean:
-            candidates = []
-            for rec in frag_records:
-                if b_clean and (b_clean in rec['clean_brand'] or rec['clean_brand'] in b_clean):
-                    if s_clean in rec['clean_perfume']:
-                        candidates.append(rec)
-            if candidates:
-                candidates.sort(key=lambda x: len(x['clean_perfume']))
-                found = candidates[0]
+                        sub_candidates.sort(key=lambda x: len(x['clean_perfume']))
+                        found = sub_candidates[0]
 
-        # Step E: LEVEL 4 Brand match + Token subset
-        if not found and s_words:
-            candidates = []
-            for rec in frag_records:
-                if b_clean and (b_clean in rec['clean_brand'] or rec['clean_brand'] in b_clean):
-                    if s_words.issubset(rec['words']) or rec['words'].issubset(s_words):
-                        candidates.append(rec)
-            if candidates:
-                candidates.sort(key=lambda x: len(x['clean_perfume']))
-                found = candidates[0]
+                # 2C: Token subset within brand
+                if not found and s_words:
+                    token_candidates = [
+                        rec for rec in brand_candidates 
+                        if s_words.issubset(rec['words']) or rec['words'].issubset(s_words)
+                    ]
+                    if token_candidates:
+                        token_candidates.sort(key=lambda x: len(x['clean_perfume']))
+                        found = token_candidates[0]
 
-        # Step F: LEVEL 5 Global substring match for distinctive titles (>= 5 chars)
-        if not found and len(s_clean) >= 5:
-            candidates = []
-            for rec in frag_records:
-                if s_clean in rec['clean_perfume']:
-                    candidates.append(rec)
-            if candidates:
-                candidates.sort(key=lambda x: len(x['clean_perfume']))
-                found = candidates[0]
-
-        # Step G: LEVEL 6 Token subset across database for multi-word titles
-        if not found and len(s_words) >= 2:
-            candidates = []
-            for rec in frag_records:
-                if s_words.issubset(rec['words']):
-                    candidates.append(rec)
-            if candidates:
-                candidates.sort(key=lambda x: len(x['clean_perfume']))
-                found = candidates[0]
-
+        # -------------------------------------------------------------
+        # ASSIGN NOTES OR CLEAR
+        # -------------------------------------------------------------
         if found:
             matched_count += 1
             p['notes'] = {
@@ -403,10 +586,10 @@ def main():
             cleared_count += 1
 
     print(f"\n=======================================================")
-    print(f"FRAGRANTICA HARMONIZATION RESULTS:")
+    print(f"STRICT FRAGRANTICA HARMONIZATION RESULTS:")
     print(f"  Total catalog products: {total}")
     print(f"  Fragrantica Matched (Active authentic notes): {matched_count} products")
-    print(f"  Unmatched Raw Materials / Pure Attars (No notes): {cleared_count} products")
+    print(f"  Pure Attars / Proprietary House Compounds (Empty notes): {cleared_count} products")
     print(f"=======================================================\n")
 
     # Save to site_data.json
@@ -420,7 +603,7 @@ def main():
     with open(PRODUCTS_JS_PATH, 'w', encoding='utf-8') as f:
         f.write(js_content)
 
-    print("Fragrantica notes synchronization complete!")
+    print("Strict Fragrantica synchronization complete!")
 
 if __name__ == '__main__':
     main()

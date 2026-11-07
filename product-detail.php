@@ -214,9 +214,10 @@ include_once __DIR__ . '/includes/header.php';
               <div class="flex flex-col items-center text-center w-20 sm:w-24 group">
                 <div class="w-16 h-16 sm:w-20 sm:h-20 bg-white rounded-2xl border border-neutral-200/80 shadow-[0_2px_8px_rgba(0,0,0,0.04)] p-1.5 flex items-center justify-center transition-transform group-hover:scale-105 duration-200">
                   <img 
-                    src="<?php echo htmlspecialchars($note['image']); ?>?v=2.0" 
+                    src="<?php echo htmlspecialchars($note['image']); ?>?v=3.0" 
                     alt="<?php echo htmlspecialchars($note['name']); ?>" 
                     class="max-w-full max-h-full object-contain"
+                    onerror="this.onerror=null;this.src='assets/images/notes/amber.png';"
                     loading="lazy"
                   >
                 </div>
@@ -242,9 +243,10 @@ include_once __DIR__ . '/includes/header.php';
               <div class="flex flex-col items-center text-center w-20 sm:w-24 group">
                 <div class="w-16 h-16 sm:w-20 sm:h-20 bg-white rounded-2xl border border-neutral-200/80 shadow-[0_2px_8px_rgba(0,0,0,0.04)] p-1.5 flex items-center justify-center transition-transform group-hover:scale-105 duration-200">
                   <img 
-                    src="<?php echo htmlspecialchars($note['image']); ?>?v=2.0" 
+                    src="<?php echo htmlspecialchars($note['image']); ?>?v=3.0" 
                     alt="<?php echo htmlspecialchars($note['name']); ?>" 
                     class="max-w-full max-h-full object-contain"
+                    onerror="this.onerror=null;this.src='assets/images/notes/amber.png';"
                     loading="lazy"
                   >
                 </div>
@@ -270,9 +272,10 @@ include_once __DIR__ . '/includes/header.php';
               <div class="flex flex-col items-center text-center w-20 sm:w-24 group">
                 <div class="w-16 h-16 sm:w-20 sm:h-20 bg-white rounded-2xl border border-neutral-200/80 shadow-[0_2px_8px_rgba(0,0,0,0.04)] p-1.5 flex items-center justify-center transition-transform group-hover:scale-105 duration-200">
                   <img 
-                    src="<?php echo htmlspecialchars($note['image']); ?>?v=2.0" 
+                    src="<?php echo htmlspecialchars($note['image']); ?>?v=3.0" 
                     alt="<?php echo htmlspecialchars($note['name']); ?>" 
                     class="max-w-full max-h-full object-contain"
+                    onerror="this.onerror=null;this.src='assets/images/notes/amber.png';"
                     loading="lazy"
                   >
                 </div>
