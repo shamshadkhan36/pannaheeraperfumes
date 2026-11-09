@@ -2,8 +2,8 @@ BENCHMARK_PYRAMIDS = {
     'acqua di parma colonia': {
         "ref": 'Colonia by Acqua di Parma',
         "url": 'https://www.fragrantica.com/perfume/Acqua-di-Parma/Acqua-di-Parma-Colonia-1681.html',
-        "top": ['Lemon', 'Calabrian Bergamot', 'Orange'],
-        "middle": ['Lavender', 'Rosemary', 'Rose', 'Verbena'],
+        "top": ['Sicilian Citrus', 'Lemon', 'Calabrian Bergamot', 'Sweet Orange'],
+        "middle": ['Lavender', 'Rosemary', 'Verbena', 'Bulgarian Rose'],
         "base": ['Vetiver', 'Sandalwood', 'Patchouli']
     },
     'oudwood': {
@@ -2217,5 +2217,264 @@ BENCHMARK_PYRAMIDS = {
         "top": ['Heliotrope', 'Orchid', 'Tangerine'],
         "middle": ['Gourmand Accord', 'Tropical Fruits'],
         "base": ['Vanilla', 'Musk', 'Sandalwood']
+    },
+    'allure sports': {
+        "ref": 'Allure Homme Sport by Chanel',
+        "url": 'https://www.fragrantica.com/perfume/Chanel/Allure-Homme-Sport-607.html',
+        "top": ['Orange', 'Sea Notes', 'Aldehydes', 'Blood Mandarin'],
+        "middle": ['Pepper', 'Neroli', 'Cedar'],
+        "base": ['Tonka Bean', 'Vanilla', 'White Musk', 'Amber', 'Vetiver', 'Elemi resin']
+    },
+    'chanel - allure sports': {
+        "ref": 'Allure Homme Sport by Chanel',
+        "url": 'https://www.fragrantica.com/perfume/Chanel/Allure-Homme-Sport-607.html',
+        "top": ['Orange', 'Sea Notes', 'Aldehydes', 'Blood Mandarin'],
+        "middle": ['Pepper', 'Neroli', 'Cedar'],
+        "base": ['Tonka Bean', 'Vanilla', 'White Musk', 'Amber', 'Vetiver', 'Elemi resin']
+    },
+    'dior homme intense': {
+        "ref": 'Dior Homme Intense by Dior',
+        "url": 'https://www.fragrantica.com/perfume/Dior/Dior-Homme-Intense-2011-13016.html',
+        "top": ['Lavender'],
+        "middle": ['Iris', 'Ambrette (Musk Mallow)', 'Pear'],
+        "base": ['Virginia Cedar', 'Vetiver']
+    },
+    'dior - dior homme intense': {
+        "ref": 'Dior Homme Intense by Dior',
+        "url": 'https://www.fragrantica.com/perfume/Dior/Dior-Homme-Intense-2011-13016.html',
+        "top": ['Lavender'],
+        "middle": ['Iris', 'Ambrette (Musk Mallow)', 'Pear'],
+        "base": ['Virginia Cedar', 'Vetiver']
+    },
+    'creed aventus absolu': {
+        "ref": 'Absolu Aventus by Creed',
+        "url": 'https://www.fragrantica.com/perfume/Creed/Absolu-Aventus-84724.html',
+        "top": ['Grapefruit', 'Bergamot', 'Black Currant'],
+        "middle": ['Ginger', 'Cinnamon', 'Cardamom', 'Citron'],
+        "base": ['Pink Pepper', 'Patchouli', 'Vetiver']
+    },
+    'creed - creed aventus absolu': {
+        "ref": 'Absolu Aventus by Creed',
+        "url": 'https://www.fragrantica.com/perfume/Creed/Absolu-Aventus-84724.html',
+        "top": ['Grapefruit', 'Bergamot', 'Black Currant'],
+        "middle": ['Ginger', 'Cinnamon', 'Cardamom', 'Citron'],
+        "base": ['Pink Pepper', 'Patchouli', 'Vetiver']
+    },
+    'boss bottled oudh': {
+        "ref": 'Boss Bottled Oud by Hugo Boss',
+        "url": 'https://www.fragrantica.com/perfume/Hugo-Boss/Boss-Bottled-Oud-30818.html',
+        "top": ['Apple', 'Citruses'],
+        "middle": ['Cinnamon', 'Saffron', 'Clove', 'Labdanum'],
+        "base": ['Agarwood (Oud)', 'Sandalwood', 'Cypriol Oil']
+    },
+    'boss – boss bottled oudh': {
+        "ref": 'Boss Bottled Oud by Hugo Boss',
+        "url": 'https://www.fragrantica.com/perfume/Hugo-Boss/Boss-Bottled-Oud-30818.html',
+        "top": ['Apple', 'Citruses'],
+        "middle": ['Cinnamon', 'Saffron', 'Clove', 'Labdanum'],
+        "base": ['Agarwood (Oud)', 'Sandalwood', 'Cypriol Oil']
+    },
+    'l’homme ideal edp': {
+        "ref": "L'Homme Idéal Eau de Parfum by Guerlain",
+        "url": 'https://www.fragrantica.com/perfume/Guerlain/L-Homme-Ideal-Eau-de-Parfum-37735.html',
+        "top": ['Almond', 'Spices', 'Lavender', 'Thyme', 'Rosemary', 'Bergamot'],
+        "middle": ['Cherry', 'Vanilla', 'Incense', 'Bulgarian Rose'],
+        "base": ['Leather', 'Tonka Bean', 'Sandalwood']
+    },
+    'guerlain - l’homme ideal edp': {
+        "ref": "L'Homme Idéal Eau de Parfum by Guerlain",
+        "url": 'https://www.fragrantica.com/perfume/Guerlain/L-Homme-Ideal-Eau-de-Parfum-37735.html',
+        "top": ['Almond', 'Spices', 'Lavender', 'Thyme', 'Rosemary', 'Bergamot'],
+        "middle": ['Cherry', 'Vanilla', 'Incense', 'Bulgarian Rose'],
+        "base": ['Leather', 'Tonka Bean', 'Sandalwood']
+    },
+    'ysl libre intense': {
+        "ref": 'Libre Intense by Yves Saint Laurent',
+        "url": 'https://www.fragrantica.com/perfume/Yves-Saint-Laurent/Libre-Intense-62310.html',
+        "top": ['Lavender', 'Mandarin Orange', 'Bergamot'],
+        "middle": ['Lavender', 'Tunisian Orange Blossom', 'Jasmine Sambac', 'Orchid'],
+        "base": ['Madagascar Vanilla', 'Tonka Bean', 'Ambergris', 'Vetiver']
+    },
+    'ysl - libre intense': {
+        "ref": 'Libre Intense by Yves Saint Laurent',
+        "url": 'https://www.fragrantica.com/perfume/Yves-Saint-Laurent/Libre-Intense-62310.html',
+        "top": ['Lavender', 'Mandarin Orange', 'Bergamot'],
+        "middle": ['Lavender', 'Tunisian Orange Blossom', 'Jasmine Sambac', 'Orchid'],
+        "base": ['Madagascar Vanilla', 'Tonka Bean', 'Ambergris', 'Vetiver']
+    },
+    'polo black': {
+        "ref": 'Polo Black by Ralph Lauren',
+        "url": 'https://www.fragrantica.com/perfume/Ralph-Lauren/Polo-Black-1198.html',
+        "top": ['Mango', 'Tangerine', 'Lemon'],
+        "middle": ['Sage', 'Wormwood', 'Calone'],
+        "base": ['Sandalwood', 'Patchouli', 'Tonka Bean']
+    },
+    'ralph lauren - polo black': {
+        "ref": 'Polo Black by Ralph Lauren',
+        "url": 'https://www.fragrantica.com/perfume/Ralph-Lauren/Polo-Black-1198.html',
+        "top": ['Mango', 'Tangerine', 'Lemon'],
+        "middle": ['Sage', 'Wormwood', 'Calone'],
+        "base": ['Sandalwood', 'Patchouli', 'Tonka Bean']
+    },
+    'polo oud supreme': {
+        "ref": 'Polo Supreme Oud by Ralph Lauren',
+        "url": 'https://www.fragrantica.com/perfume/Ralph-Lauren/Polo-Supreme-Oud-29759.html',
+        "top": ['Cinnamon', 'Pink Pepper'],
+        "middle": ['Indian Oud'],
+        "base": ['Guaiac Wood', 'Vetiver']
+    },
+    'ralph lauren - polo oud supreme': {
+        "ref": 'Polo Supreme Oud by Ralph Lauren',
+        "url": 'https://www.fragrantica.com/perfume/Ralph-Lauren/Polo-Supreme-Oud-29759.html',
+        "top": ['Cinnamon', 'Pink Pepper'],
+        "middle": ['Indian Oud'],
+        "base": ['Guaiac Wood', 'Vetiver']
+    },
+    'tubereuse nue': {
+        "ref": 'Tubéreuse Nue by Tom Ford',
+        "url": 'https://www.fragrantica.com/perfume/Tom-Ford/Tubereuse-Nue-64747.html',
+        "top": ['Lily', 'Jasmine', 'Sichuan Pepper'],
+        "middle": ['Tuberose', 'Suede', 'Styrax', 'Benzoin'],
+        "base": ['White Suede', 'Musk', 'Tonka Bean', 'Agarwood (Oud)']
+    },
+    'tomford - tuberose': {
+        "ref": 'Tubéreuse Nue by Tom Ford',
+        "url": 'https://www.fragrantica.com/perfume/Tom-Ford/Tubereuse-Nue-64747.html',
+        "top": ['Lily', 'Jasmine', 'Sichuan Pepper'],
+        "middle": ['Tuberose', 'Suede', 'Styrax', 'Benzoin'],
+        "base": ['White Suede', 'Musk', 'Tonka Bean', 'Agarwood (Oud)']
+    },
+    'lattafa fakhir': {
+        "ref": 'Fakhar Black by Lattafa Perfumes',
+        "url": 'https://www.fragrantica.com/perfume/Lattafa-Perfumes/Fakhar-Black-70388.html',
+        "top": ['Apple', 'Bergamot', 'Ginger'],
+        "middle": ['Lavender', 'Sage', 'Juniper Berries', 'Geranium'],
+        "base": ['Tonka Bean', 'Amberwood', 'Cedar', 'Vetiver']
+    },
+    'lattafa - fakhir': {
+        "ref": 'Fakhar Black by Lattafa Perfumes',
+        "url": 'https://www.fragrantica.com/perfume/Lattafa-Perfumes/Fakhar-Black-70388.html',
+        "top": ['Apple', 'Bergamot', 'Ginger'],
+        "middle": ['Lavender', 'Sage', 'Juniper Berries', 'Geranium'],
+        "base": ['Tonka Bean', 'Amberwood', 'Cedar', 'Vetiver']
+    },
+    'lattafa - teriaq intense': {
+        "ref": 'Teriaq Intense by Lattafa Perfumes',
+        "url": 'https://www.fragrantica.com/perfume/Lattafa-Perfumes/Teriaq-Intense-97305.html',
+        "top": ['Bergamot', 'Saffron'],
+        "middle": ['Cinnamon', 'Plum', 'Liquor'],
+        "base": ['Amber', 'Tonka Bean', 'Benzoin']
+    },
+    'lattafa - maahir black': {
+        "ref": 'Maahir Black Edition by Lattafa Perfumes',
+        "url": 'https://www.fragrantica.com/perfume/Lattafa-Perfumes/Maahir-Black-Edition-65238.html',
+        "top": ['Black Pepper', 'Pink Pepper', 'Saffron'],
+        "middle": ['Rhubarb', 'Cade Oil', 'Labdanum', 'Gurjan Balsam'],
+        "base": ['Leather', 'Cedar', 'Patchouli', 'Guaiac Wood', 'Musk', 'Moss']
+    },
+    'ajmal - amberwood noir': {
+        "ref": 'Amber Wood Noir by Ajmal',
+        "url": 'https://www.fragrantica.com/perfume/Ajmal/Amber-Wood-Noir-62424.html',
+        "top": ['Cardamom', 'White Pepper', 'Apple'],
+        "middle": ['Cedarwood', 'Orris', 'Floral Notes'],
+        "base": ['Amber', 'Woody Notes', 'Patchouli']
+    },
+    'ajmal – amber gold': {
+        "ref": 'Amber Gold by Ajmal',
+        "url": 'https://www.fragrantica.com/perfume/Ajmal/Amber-Gold-38932.html',
+        "top": ['Bergamot', 'Lemon'],
+        "middle": ['Rose', 'Jasmine', 'Spices'],
+        "base": ['Amber', 'Sandalwood', 'Musk']
+    },
+    'al harmain - amber oudh': {
+        "ref": 'Amber Oud by Al Haramain',
+        "url": 'https://www.fragrantica.com/perfume/Al-Haramain-Perfumes/Amber-Oud-51846.html',
+        "top": ['Rosemary', 'Cedar', 'Lemon', 'Bergamot'],
+        "middle": ['Cedar', 'Spices', 'Guaiac Wood'],
+        "base": ['Amber', 'Musk', 'Resins']
+    },
+    'paco rabbane - olympea intense': {
+        "ref": 'Olympéa Intense by Paco Rabanne',
+        "url": 'https://www.fragrantica.com/perfume/Paco-Rabanne/Olympea-Intense-41484.html',
+        "top": ['Salt', 'Vanilla'],
+        "middle": ['Ambergris', 'Orange Blossom'],
+        "base": ['White Amber', 'Cedar']
+    },
+    'valentino uomo - born in roma intense': {
+        "ref": 'Valentino Uomo Born In Roma Intense by Valentino',
+        "url": 'https://www.fragrantica.com/perfume/Valentino/Valentino-Uomo-Born-in-Roma-Intense-78716.html',
+        "top": ['Vanilla', 'Bourbon Vanilla'],
+        "middle": ['Lavender'],
+        "base": ['Vetiver']
+    },
+    'victoria sec - bombshell oudh': {
+        "ref": "Bombshell Oud by Victoria's Secret",
+        "url": 'https://www.fragrantica.com/perfume/Victoria-s-Secret/Bombshell-Oud-66633.html',
+        "top": ['Saffron', 'Mandarin Orange', 'Violet Leaf'],
+        "middle": ['White Suede', 'Peony'],
+        "base": ['Agarwood (Oud)', 'Ambroxan']
+    },
+    'zara - tobacco intense': {
+        "ref": 'Tobacco Collection Intense Dark Exclusive by Zara',
+        "url": 'https://www.fragrantica.com/perfume/Zara/Tobacco-Collection-Intense-Dark-Exclusive-41258.html',
+        "top": ['Apple'],
+        "middle": ['Black Pepper', 'Mint'],
+        "base": ['Tobacco', 'Tonka Bean', 'Cedar']
+    },
+    'chanel - chloe': {
+        "ref": 'Chloé Eau de Parfum by Chloé',
+        "url": 'https://www.fragrantica.com/perfume/Chloe/Chloe-Eau-de-Parfum-1733.html',
+        "top": ['Peony', 'Litchi', 'Freesia'],
+        "middle": ['Rose', 'Lily-of-the-Valley', 'Magnolia'],
+        "base": ['Virginia Cedar', 'Amber']
+    },
+    'armani - aqua di gio abs.': {
+        "ref": 'Acqua di Gio Absolu by Giorgio Armani',
+        "url": 'https://www.fragrantica.com/perfume/Giorgio-Armani/Acqua-di-Gio-Absolu-48259.html',
+        "top": ['Sea Notes', 'Bergamot', 'Pear', 'Apple', 'Grapefruit', 'Lemon'],
+        "middle": ['Lavender', 'Rosemary', 'Geranium'],
+        "base": ['Woody Notes', 'Tonka Bean', 'Patchouli', 'Amberwood', 'Labdanum']
+    },
+    'acqua di gio abs.': {
+        "ref": 'Acqua di Gio Absolu by Giorgio Armani',
+        "url": 'https://www.fragrantica.com/perfume/Giorgio-Armani/Acqua-di-Gio-Absolu-48259.html',
+        "top": ['Sea Notes', 'Bergamot', 'Pear', 'Apple', 'Grapefruit', 'Lemon'],
+        "middle": ['Lavender', 'Rosemary', 'Geranium'],
+        "base": ['Woody Notes', 'Tonka Bean', 'Patchouli', 'Amberwood', 'Labdanum']
+    },
+    'acqua di gio absolu': {
+        "ref": 'Acqua di Gio Absolu by Giorgio Armani',
+        "url": 'https://www.fragrantica.com/perfume/Giorgio-Armani/Acqua-di-Gio-Absolu-48259.html',
+        "top": ['Sea Notes', 'Bergamot', 'Pear', 'Apple', 'Grapefruit', 'Lemon'],
+        "middle": ['Lavender', 'Rosemary', 'Geranium'],
+        "base": ['Woody Notes', 'Tonka Bean', 'Patchouli', 'Amberwood', 'Labdanum']
+    },
+    'armani - aqua di essenza': {
+        "ref": 'Acqua di Gio Essenza by Giorgio Armani',
+        "url": 'https://www.fragrantica.com/perfume/Giorgio-Armani/Acqua-di-Gio-Essenza-14825.html',
+        "top": ['Water Notes', 'Bergamot', 'Grapefruit', 'Calone'],
+        "middle": ['Basil', 'Floral Notes', 'Jasmine', 'Sage'],
+        "base": ['Pepper', 'Cedar', 'Musk', 'Vetiver', 'Ambergris', 'Clary Sage', 'Amber', 'Patchouli']
+    },
+    'aqua di essenza': {
+        "ref": 'Acqua di Gio Essenza by Giorgio Armani',
+        "url": 'https://www.fragrantica.com/perfume/Giorgio-Armani/Acqua-di-Gio-Essenza-14825.html',
+        "top": ['Water Notes', 'Bergamot', 'Grapefruit', 'Calone'],
+        "middle": ['Basil', 'Floral Notes', 'Jasmine', 'Sage'],
+        "base": ['Pepper', 'Cedar', 'Musk', 'Vetiver', 'Ambergris', 'Clary Sage', 'Amber', 'Patchouli']
+    },
+    'armani - aqua di profumo': {
+        "ref": 'Acqua di Giò Profumo by Giorgio Armani',
+        "url": 'https://www.fragrantica.com/perfume/Giorgio-Armani/Acqua-di-Gio-Profumo-29727.html',
+        "top": ['Sea Notes', 'Bergamot'],
+        "middle": ['Rosemary', 'Sage', 'Geranium'],
+        "base": ['Incense', 'Patchouli']
+    },
+    'aqua di profumo': {
+        "ref": 'Acqua di Giò Profumo by Giorgio Armani',
+        "url": 'https://www.fragrantica.com/perfume/Giorgio-Armani/Acqua-di-Gio-Profumo-29727.html',
+        "top": ['Sea Notes', 'Bergamot'],
+        "middle": ['Rosemary', 'Sage', 'Geranium'],
+        "base": ['Incense', 'Patchouli']
     },
 }

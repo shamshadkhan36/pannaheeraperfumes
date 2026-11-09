@@ -446,9 +446,9 @@ const PRODUCTS_DATA = [
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/giorgio-armani/acqua-di-gio-essenza-14825.html",
-    "fragrantica_reference": "acqua-di-gio-essenza",
-    "notes_source": "Fragrantica (acqua-di-gio-essenza)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/Giorgio-Armani/Acqua-di-Gio-Essenza-14825.html",
+    "fragrantica_reference": "Acqua di Gio Essenza by Giorgio Armani",
+    "notes_source": "Fragrantica (Acqua di Gio Essenza by Giorgio Armani)"
   },
   {
     "id": "oil-5",
@@ -523,9 +523,9 @@ const PRODUCTS_DATA = [
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/Giorgio Armani/Acqua di Giò Profumo.html",
-    "fragrantica_reference": "Acqua di Giò Profumo",
-    "notes_source": "Fragrantica (Acqua di Giò Profumo)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/Giorgio-Armani/Acqua-di-Gio-Profumo-29727.html",
+    "fragrantica_reference": "Acqua di Giò Profumo by Giorgio Armani",
+    "notes_source": "Fragrantica (Acqua di Giò Profumo by Giorgio Armani)"
   },
   {
     "id": "oil-6",
@@ -647,111 +647,71 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Lime",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
+          "name": "Sea Notes",
+          "image": "assets/images/notes/sea-notes.png"
         },
         {
           "name": "Bergamot",
           "image": "assets/images/notes/bergamot.png"
         },
         {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
+          "name": "Pear",
+          "image": "assets/images/notes/peach.png"
         },
         {
-          "name": "Orange",
-          "image": "assets/images/notes/orange.png"
+          "name": "Apple",
+          "image": "assets/images/notes/apple.png"
         },
         {
-          "name": "Mandarin Orange",
-          "image": "assets/images/notes/mandarin.png"
+          "name": "Grapefruit",
+          "image": "assets/images/notes/grapefruit.png"
         },
         {
-          "name": "Neroli",
-          "image": "assets/images/notes/neroli.png"
+          "name": "Lemon",
+          "image": "assets/images/notes/lemon.png"
         }
       ],
       "middle": [
         {
-          "name": "Sea Notes",
-          "image": "assets/images/notes/sea-notes.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Calone",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Peach",
-          "image": "assets/images/notes/peach.png"
-        },
-        {
-          "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
+          "name": "Lavender",
+          "image": "assets/images/notes/lavender.png"
         },
         {
           "name": "Rosemary",
           "image": "assets/images/notes/rosemary.png"
         },
         {
-          "name": "Hyacinth",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cyclamen",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Violet",
-          "image": "assets/images/notes/violet.png"
-        },
-        {
-          "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
-        },
-        {
-          "name": "Rose",
+          "name": "Geranium",
           "image": "assets/images/notes/rose.png"
         }
       ],
       "base": [
         {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Cedar",
+          "name": "Woody Notes",
           "image": "assets/images/notes/cedarwood.png"
         },
         {
-          "name": "Oakmoss",
-          "image": "assets/images/notes/oakmoss.png"
+          "name": "Tonka Bean",
+          "image": "assets/images/notes/tonka-bean.png"
         },
         {
           "name": "Patchouli",
           "image": "assets/images/notes/patchouli.png"
         },
         {
-          "name": "Amber",
+          "name": "Amberwood",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Labdanum",
           "image": "assets/images/notes/amber.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/Giorgio-Armani/Acqua-di-Gio-410.html",
-    "fragrantica_reference": "Acqua di Gio Pour Homme by Giorgio Armani",
-    "notes_source": "Fragrantica (Acqua di Gio Pour Homme by Giorgio Armani)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/Giorgio-Armani/Acqua-di-Gio-Absolu-48259.html",
+    "fragrantica_reference": "Acqua di Gio Absolu by Giorgio Armani",
+    "notes_source": "Fragrantica (Acqua di Gio Absolu by Giorgio Armani)"
   },
   {
     "id": "oil-8",
@@ -792,43 +752,99 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Cassis",
+          "name": "Galbanum",
           "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Marigold",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Aldehydes",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Pineapple",
+          "image": "assets/images/notes/pineapple.png"
+        },
+        {
+          "name": "Bergamot",
+          "image": "assets/images/notes/bergamot.png"
+        },
+        {
+          "name": "Mint",
+          "image": "assets/images/notes/mint.png"
         }
       ],
       "middle": [
         {
-          "name": "May Rose",
+          "name": "Narcissus",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Orris Root",
+          "image": "assets/images/notes/iris.png"
+        },
+        {
+          "name": "Tuberose",
+          "image": "assets/images/notes/jasmine.png"
+        },
+        {
+          "name": "Rose",
           "image": "assets/images/notes/rose.png"
         },
         {
-          "name": "Freesia",
+          "name": "Jasmine",
           "image": "assets/images/notes/jasmine.png"
+        },
+        {
+          "name": "Cyclamen",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Lily-of-the-valley",
+          "image": "assets/images/notes/jasmine.png"
+        },
+        {
+          "name": "Orchid",
+          "image": "assets/images/notes/vanilla.png"
         }
       ],
       "base": [
         {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
+          "name": "Oakmoss",
+          "image": "assets/images/notes/oakmoss.png"
         },
         {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Ambroxan",
+          "name": "Benzoin",
           "image": "assets/images/notes/amber.png"
         },
         {
-          "name": "Woody Notes",
+          "name": "Cedar",
           "image": "assets/images/notes/cedarwood.png"
+        },
+        {
+          "name": "Amber",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Sandalwood",
+          "image": "assets/images/notes/sandalwood.png"
+        },
+        {
+          "name": "Tonka Bean",
+          "image": "assets/images/notes/tonka-bean.png"
+        },
+        {
+          "name": "Musk",
+          "image": "assets/images/notes/musk.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/Giorgio Armani/Si.html",
-    "fragrantica_reference": "Si",
-    "notes_source": "Fragrantica (Si)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/giorgio-armani/armani-827.html",
+    "fragrantica_reference": "armani",
+    "notes_source": "Fragrantica (armani)"
   },
   {
     "id": "oil-9",
@@ -1824,6 +1840,10 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
+          "name": "Sicilian Citrus",
+          "image": "assets/images/notes/lemon.png"
+        },
+        {
           "name": "Lemon",
           "image": "assets/images/notes/lemon.png"
         },
@@ -1832,7 +1852,7 @@ const PRODUCTS_DATA = [
           "image": "assets/images/notes/bergamot.png"
         },
         {
-          "name": "Orange",
+          "name": "Sweet Orange",
           "image": "assets/images/notes/orange.png"
         }
       ],
@@ -1846,12 +1866,12 @@ const PRODUCTS_DATA = [
           "image": "assets/images/notes/rosemary.png"
         },
         {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
           "name": "Verbena",
           "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Bulgarian Rose",
+          "image": "assets/images/notes/rose.png"
         }
       ],
       "base": [
@@ -1911,14 +1931,49 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [],
-      "middle": [],
-      "base": []
+      "top": [
+        {
+          "name": "Vanilla",
+          "image": "assets/images/notes/vanilla.png"
+        },
+        {
+          "name": "Amber",
+          "image": "assets/images/notes/amber.png"
+        }
+      ],
+      "middle": [
+        {
+          "name": "Oriental Notes",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Spices",
+          "image": "assets/images/notes/cardamom.png"
+        },
+        {
+          "name": "Iris",
+          "image": "assets/images/notes/iris.png"
+        }
+      ],
+      "base": [
+        {
+          "name": "Vanilla",
+          "image": "assets/images/notes/vanilla.png"
+        },
+        {
+          "name": "Leather",
+          "image": "assets/images/notes/leather.png"
+        },
+        {
+          "name": "Jasmine",
+          "image": "assets/images/notes/jasmine.png"
+        }
+      ]
     },
-    "fragrantica_matched": false,
-    "notes_source": null,
-    "fragrantica_url": null,
-    "fragrantica_reference": null
+    "fragrantica_matched": true,
+    "notes_source": "Fragrantica (odyssey-homme)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/armaf/odyssey-homme-64464.html",
+    "fragrantica_reference": "odyssey-homme"
   },
   {
     "id": "oil-22",
@@ -2519,14 +2574,61 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [],
-      "middle": [],
-      "base": []
+      "top": [
+        {
+          "name": "Bergamot",
+          "image": "assets/images/notes/bergamot.png"
+        },
+        {
+          "name": "Pear",
+          "image": "assets/images/notes/peach.png"
+        },
+        {
+          "name": "Lemon",
+          "image": "assets/images/notes/lemon.png"
+        }
+      ],
+      "middle": [
+        {
+          "name": "Jasmine",
+          "image": "assets/images/notes/jasmine.png"
+        },
+        {
+          "name": "Lily",
+          "image": "assets/images/notes/jasmine.png"
+        },
+        {
+          "name": "Neroli",
+          "image": "assets/images/notes/neroli.png"
+        },
+        {
+          "name": "Honeysuckle",
+          "image": "assets/images/notes/vanilla.png"
+        },
+        {
+          "name": "Rose",
+          "image": "assets/images/notes/rose.png"
+        }
+      ],
+      "base": [
+        {
+          "name": "Sandalwood",
+          "image": "assets/images/notes/sandalwood.png"
+        },
+        {
+          "name": "Vanilla",
+          "image": "assets/images/notes/vanilla.png"
+        },
+        {
+          "name": "Musk",
+          "image": "assets/images/notes/musk.png"
+        }
+      ]
     },
-    "fragrantica_matched": false,
-    "notes_source": null,
-    "fragrantica_url": null,
-    "fragrantica_reference": null
+    "fragrantica_matched": true,
+    "notes_source": "Fragrantica (mignon-black)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/armaf/mignon-black-64465.html",
+    "fragrantica_reference": "mignon-black"
   },
   {
     "id": "oil-29",
@@ -2565,14 +2667,61 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [],
-      "middle": [],
-      "base": []
+      "top": [
+        {
+          "name": "Peach",
+          "image": "assets/images/notes/peach.png"
+        },
+        {
+          "name": "Lemon",
+          "image": "assets/images/notes/lemon.png"
+        },
+        {
+          "name": "Litchi",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Bergamot",
+          "image": "assets/images/notes/bergamot.png"
+        }
+      ],
+      "middle": [
+        {
+          "name": "Cinnamon",
+          "image": "assets/images/notes/cinnamon.png"
+        },
+        {
+          "name": "Apple",
+          "image": "assets/images/notes/apple.png"
+        },
+        {
+          "name": "Jasmine",
+          "image": "assets/images/notes/jasmine.png"
+        },
+        {
+          "name": "Lily-of-the-valley",
+          "image": "assets/images/notes/jasmine.png"
+        }
+      ],
+      "base": [
+        {
+          "name": "Cedar",
+          "image": "assets/images/notes/cedarwood.png"
+        },
+        {
+          "name": "Sandalwood",
+          "image": "assets/images/notes/sandalwood.png"
+        },
+        {
+          "name": "Musk",
+          "image": "assets/images/notes/musk.png"
+        }
+      ]
     },
-    "fragrantica_matched": false,
-    "notes_source": null,
-    "fragrantica_url": null,
-    "fragrantica_reference": null
+    "fragrantica_matched": true,
+    "notes_source": "Fragrantica (legesi-femme)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/armaf/legesi-femme-52266.html",
+    "fragrantica_reference": "legesi-femme"
   },
   {
     "id": "oil-30",
@@ -3231,14 +3380,69 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [],
-      "middle": [],
-      "base": []
+      "top": [
+        {
+          "name": "Musk",
+          "image": "assets/images/notes/musk.png"
+        },
+        {
+          "name": "Fruits",
+          "image": "assets/images/notes/raspberry.png"
+        },
+        {
+          "name": "Basil",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Amber",
+          "image": "assets/images/notes/amber.png"
+        }
+      ],
+      "middle": [
+        {
+          "name": "Lily Of The Valley",
+          "image": "assets/images/notes/jasmine.png"
+        },
+        {
+          "name": "Coriander",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Jasmine",
+          "image": "assets/images/notes/jasmine.png"
+        },
+        {
+          "name": "Citruses",
+          "image": "assets/images/notes/lemon.png"
+        }
+      ],
+      "base": [
+        {
+          "name": "Musk",
+          "image": "assets/images/notes/musk.png"
+        },
+        {
+          "name": "Sandalwood",
+          "image": "assets/images/notes/sandalwood.png"
+        },
+        {
+          "name": "Lavender",
+          "image": "assets/images/notes/lavender.png"
+        },
+        {
+          "name": "Sage",
+          "image": "assets/images/notes/wormwood.png"
+        },
+        {
+          "name": "Orange Blossom",
+          "image": "assets/images/notes/neroli.png"
+        }
+      ]
     },
-    "fragrantica_matched": false,
-    "notes_source": null,
-    "fragrantica_url": null,
-    "fragrantica_reference": null
+    "fragrantica_matched": true,
+    "notes_source": "Fragrantica (al-fares)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/al-rehab/al-fares-20118.html",
+    "fragrantica_reference": "al-fares"
   },
   {
     "id": "oil-39",
@@ -5010,14 +5214,45 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [],
-      "middle": [],
-      "base": []
+      "top": [
+        {
+          "name": "Rose",
+          "image": "assets/images/notes/rose.png"
+        },
+        {
+          "name": "Woodsy Notes",
+          "image": "assets/images/notes/cedarwood.png"
+        },
+        {
+          "name": "Spices",
+          "image": "assets/images/notes/cardamom.png"
+        }
+      ],
+      "middle": [
+        {
+          "name": "Agarwood (oud)",
+          "image": "assets/images/notes/oud.png"
+        },
+        {
+          "name": "Ambergris",
+          "image": "assets/images/notes/amber.png"
+        }
+      ],
+      "base": [
+        {
+          "name": "Musk",
+          "image": "assets/images/notes/musk.png"
+        },
+        {
+          "name": "Powdery Notes",
+          "image": "assets/images/notes/amber.png"
+        }
+      ]
     },
-    "fragrantica_matched": false,
-    "notes_source": null,
-    "fragrantica_url": null,
-    "fragrantica_reference": null
+    "fragrantica_matched": true,
+    "notes_source": "Fragrantica (dahn-al-oudh-moattaq)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/ajmal/dahn-al-oudh-moattaq-15069.html",
+    "fragrantica_reference": "dahn-al-oudh-moattaq"
   },
   {
     "id": "oil-62",
@@ -5056,14 +5291,45 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [],
-      "middle": [],
-      "base": []
+      "top": [
+        {
+          "name": "Rose",
+          "image": "assets/images/notes/rose.png"
+        }
+      ],
+      "middle": [
+        {
+          "name": "Ambergris",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Sandalwood",
+          "image": "assets/images/notes/sandalwood.png"
+        }
+      ],
+      "base": [
+        {
+          "name": "Agarwood (oud)",
+          "image": "assets/images/notes/oud.png"
+        },
+        {
+          "name": "Saffron",
+          "image": "assets/images/notes/saffron.png"
+        },
+        {
+          "name": "Spices",
+          "image": "assets/images/notes/cardamom.png"
+        },
+        {
+          "name": "Musk",
+          "image": "assets/images/notes/musk.png"
+        }
+      ]
     },
-    "fragrantica_matched": false,
-    "notes_source": null,
-    "fragrantica_url": null,
-    "fragrantica_reference": null
+    "fragrantica_matched": true,
+    "notes_source": "Fragrantica (mukhallat-tharwaan)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/ajmal/mukhallat-tharwaan-15085.html",
+    "fragrantica_reference": "mukhallat-tharwaan"
   },
   {
     "id": "oil-63",
@@ -5102,14 +5368,57 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [],
-      "middle": [],
-      "base": []
+      "top": [
+        {
+          "name": "Musk",
+          "image": "assets/images/notes/musk.png"
+        },
+        {
+          "name": "Saffron",
+          "image": "assets/images/notes/saffron.png"
+        }
+      ],
+      "middle": [
+        {
+          "name": "Musk",
+          "image": "assets/images/notes/musk.png"
+        },
+        {
+          "name": "Ylang-ylang",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Jasmine",
+          "image": "assets/images/notes/jasmine.png"
+        },
+        {
+          "name": "Lily-of-the-valley",
+          "image": "assets/images/notes/jasmine.png"
+        }
+      ],
+      "base": [
+        {
+          "name": "Musk",
+          "image": "assets/images/notes/musk.png"
+        },
+        {
+          "name": "Cashmeran",
+          "image": "assets/images/notes/musk.png"
+        },
+        {
+          "name": "Cedar",
+          "image": "assets/images/notes/cedarwood.png"
+        },
+        {
+          "name": "Patchouli",
+          "image": "assets/images/notes/patchouli.png"
+        }
+      ]
     },
-    "fragrantica_matched": false,
-    "fragrantica_url": null,
-    "fragrantica_reference": null,
-    "notes_source": null
+    "fragrantica_matched": true,
+    "fragrantica_url": "https://www.fragrantica.com/perfume/ajmal/cashmere-musk-55882.html",
+    "fragrantica_reference": "cashmere-musk",
+    "notes_source": "Fragrantica (cashmere-musk)"
   },
   {
     "id": "oil-64",
@@ -5386,14 +5695,45 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [],
-      "middle": [],
-      "base": []
+      "top": [
+        {
+          "name": "Spicy Notes",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Floral Notes",
+          "image": "assets/images/notes/jasmine.png"
+        }
+      ],
+      "middle": [
+        {
+          "name": "Rose",
+          "image": "assets/images/notes/rose.png"
+        },
+        {
+          "name": "Musk",
+          "image": "assets/images/notes/musk.png"
+        }
+      ],
+      "base": [
+        {
+          "name": "Agarwood (oud)",
+          "image": "assets/images/notes/oud.png"
+        },
+        {
+          "name": "Woody Notes",
+          "image": "assets/images/notes/cedarwood.png"
+        },
+        {
+          "name": "Powdery Notes",
+          "image": "assets/images/notes/amber.png"
+        }
+      ]
     },
-    "fragrantica_matched": false,
-    "fragrantica_url": null,
-    "fragrantica_reference": null,
-    "notes_source": null
+    "fragrantica_matched": true,
+    "fragrantica_url": "https://www.fragrantica.com/perfume/ajmal/rose-wood-35894.html",
+    "fragrantica_reference": "rose-wood",
+    "notes_source": "Fragrantica (rose-wood)"
   },
   {
     "id": "oil-69",
@@ -5740,14 +6080,41 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [],
-      "middle": [],
-      "base": []
+      "top": [
+        {
+          "name": "Sea Water",
+          "image": "assets/images/notes/sea-notes.png"
+        },
+        {
+          "name": "Spices",
+          "image": "assets/images/notes/cardamom.png"
+        }
+      ],
+      "middle": [
+        {
+          "name": "Floral Notes",
+          "image": "assets/images/notes/jasmine.png"
+        },
+        {
+          "name": "Ambergris",
+          "image": "assets/images/notes/amber.png"
+        }
+      ],
+      "base": [
+        {
+          "name": "Fruity Notes",
+          "image": "assets/images/notes/raspberry.png"
+        },
+        {
+          "name": "Woodsy Notes",
+          "image": "assets/images/notes/cedarwood.png"
+        }
+      ]
     },
-    "fragrantica_matched": false,
-    "notes_source": null,
-    "fragrantica_url": null,
-    "fragrantica_reference": null
+    "fragrantica_matched": true,
+    "notes_source": "Fragrantica (rouh-al-khaleej)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/ajmal/rouh-al-khaleej-15095.html",
+    "fragrantica_reference": "rouh-al-khaleej"
   },
   {
     "id": "oil-74",
@@ -6027,30 +6394,30 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "White Pepper",
+          "name": "Cardamom",
           "image": "assets/images/notes/cardamom.png"
         },
         {
-          "name": "Cardamom",
+          "name": "White Pepper",
           "image": "assets/images/notes/cardamom.png"
         },
         {
           "name": "Apple",
           "image": "assets/images/notes/apple.png"
-        },
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
         }
       ],
       "middle": [
+        {
+          "name": "Cedarwood",
+          "image": "assets/images/notes/cedarwood.png"
+        },
         {
           "name": "Orris",
           "image": "assets/images/notes/iris.png"
         },
         {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
+          "name": "Floral Notes",
+          "image": "assets/images/notes/jasmine.png"
         }
       ],
       "base": [
@@ -6069,9 +6436,9 @@ const PRODUCTS_DATA = [
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/Ajmal/Amber-Wood-26367.html",
-    "fragrantica_reference": "Amber Wood by Ajmal",
-    "notes_source": "Fragrantica (Amber Wood by Ajmal)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/Ajmal/Amber-Wood-Noir-62424.html",
+    "fragrantica_reference": "Amber Wood Noir by Ajmal",
+    "notes_source": "Fragrantica (Amber Wood Noir by Ajmal)"
   },
   {
     "id": "oil-78",
@@ -6179,14 +6546,57 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [],
-      "middle": [],
-      "base": []
+      "top": [
+        {
+          "name": "Musk",
+          "image": "assets/images/notes/musk.png"
+        },
+        {
+          "name": "Saffron",
+          "image": "assets/images/notes/saffron.png"
+        }
+      ],
+      "middle": [
+        {
+          "name": "Musk",
+          "image": "assets/images/notes/musk.png"
+        },
+        {
+          "name": "Ylang-ylang",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Jasmine",
+          "image": "assets/images/notes/jasmine.png"
+        },
+        {
+          "name": "Lily-of-the-valley",
+          "image": "assets/images/notes/jasmine.png"
+        }
+      ],
+      "base": [
+        {
+          "name": "Musk",
+          "image": "assets/images/notes/musk.png"
+        },
+        {
+          "name": "Cashmeran",
+          "image": "assets/images/notes/musk.png"
+        },
+        {
+          "name": "Cedar",
+          "image": "assets/images/notes/cedarwood.png"
+        },
+        {
+          "name": "Patchouli",
+          "image": "assets/images/notes/patchouli.png"
+        }
+      ]
     },
-    "fragrantica_matched": false,
-    "notes_source": null,
-    "fragrantica_url": null,
-    "fragrantica_reference": null
+    "fragrantica_matched": true,
+    "notes_source": "Fragrantica (cashmere-musk)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/ajmal/cashmere-musk-55882.html",
+    "fragrantica_reference": "cashmere-musk"
   },
   {
     "id": "oil-80",
@@ -6464,14 +6874,57 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [],
-      "middle": [],
-      "base": []
+      "top": [
+        {
+          "name": "Musk",
+          "image": "assets/images/notes/musk.png"
+        },
+        {
+          "name": "Saffron",
+          "image": "assets/images/notes/saffron.png"
+        }
+      ],
+      "middle": [
+        {
+          "name": "Musk",
+          "image": "assets/images/notes/musk.png"
+        },
+        {
+          "name": "Ylang-ylang",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Jasmine",
+          "image": "assets/images/notes/jasmine.png"
+        },
+        {
+          "name": "Lily-of-the-valley",
+          "image": "assets/images/notes/jasmine.png"
+        }
+      ],
+      "base": [
+        {
+          "name": "Musk",
+          "image": "assets/images/notes/musk.png"
+        },
+        {
+          "name": "Cashmeran",
+          "image": "assets/images/notes/musk.png"
+        },
+        {
+          "name": "Cedar",
+          "image": "assets/images/notes/cedarwood.png"
+        },
+        {
+          "name": "Patchouli",
+          "image": "assets/images/notes/patchouli.png"
+        }
+      ]
     },
-    "fragrantica_matched": false,
-    "notes_source": null,
-    "fragrantica_url": null,
-    "fragrantica_reference": null
+    "fragrantica_matched": true,
+    "notes_source": "Fragrantica (cashmere-musk)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/ajmal/cashmere-musk-55882.html",
+    "fragrantica_reference": "cashmere-musk"
   },
   {
     "id": "oil-84",
@@ -6510,14 +6963,57 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [],
-      "middle": [],
-      "base": []
+      "top": [
+        {
+          "name": "Musk",
+          "image": "assets/images/notes/musk.png"
+        },
+        {
+          "name": "Saffron",
+          "image": "assets/images/notes/saffron.png"
+        }
+      ],
+      "middle": [
+        {
+          "name": "Musk",
+          "image": "assets/images/notes/musk.png"
+        },
+        {
+          "name": "Ylang-ylang",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Jasmine",
+          "image": "assets/images/notes/jasmine.png"
+        },
+        {
+          "name": "Lily-of-the-valley",
+          "image": "assets/images/notes/jasmine.png"
+        }
+      ],
+      "base": [
+        {
+          "name": "Musk",
+          "image": "assets/images/notes/musk.png"
+        },
+        {
+          "name": "Cashmeran",
+          "image": "assets/images/notes/musk.png"
+        },
+        {
+          "name": "Cedar",
+          "image": "assets/images/notes/cedarwood.png"
+        },
+        {
+          "name": "Patchouli",
+          "image": "assets/images/notes/patchouli.png"
+        }
+      ]
     },
-    "fragrantica_matched": false,
-    "notes_source": null,
-    "fragrantica_url": null,
-    "fragrantica_reference": null
+    "fragrantica_matched": true,
+    "notes_source": "Fragrantica (cashmere-musk)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/ajmal/cashmere-musk-55882.html",
+    "fragrantica_reference": "cashmere-musk"
   },
   {
     "id": "oil-85",
@@ -6556,14 +7052,57 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [],
-      "middle": [],
-      "base": []
+      "top": [
+        {
+          "name": "Musk",
+          "image": "assets/images/notes/musk.png"
+        },
+        {
+          "name": "Saffron",
+          "image": "assets/images/notes/saffron.png"
+        }
+      ],
+      "middle": [
+        {
+          "name": "Musk",
+          "image": "assets/images/notes/musk.png"
+        },
+        {
+          "name": "Ylang-ylang",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Jasmine",
+          "image": "assets/images/notes/jasmine.png"
+        },
+        {
+          "name": "Lily-of-the-valley",
+          "image": "assets/images/notes/jasmine.png"
+        }
+      ],
+      "base": [
+        {
+          "name": "Musk",
+          "image": "assets/images/notes/musk.png"
+        },
+        {
+          "name": "Cashmeran",
+          "image": "assets/images/notes/musk.png"
+        },
+        {
+          "name": "Cedar",
+          "image": "assets/images/notes/cedarwood.png"
+        },
+        {
+          "name": "Patchouli",
+          "image": "assets/images/notes/patchouli.png"
+        }
+      ]
     },
-    "fragrantica_matched": false,
-    "notes_source": null,
-    "fragrantica_url": null,
-    "fragrantica_reference": null
+    "fragrantica_matched": true,
+    "notes_source": "Fragrantica (cashmere-musk)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/ajmal/cashmere-musk-55882.html",
+    "fragrantica_reference": "cashmere-musk"
   },
   {
     "id": "oil-86",
@@ -6985,8 +7524,8 @@ const PRODUCTS_DATA = [
           "image": "assets/images/notes/bergamot.png"
         },
         {
-          "name": "Pepper",
-          "image": "assets/images/notes/mint.png"
+          "name": "Lemon",
+          "image": "assets/images/notes/lemon.png"
         }
       ],
       "middle": [
@@ -6995,12 +7534,12 @@ const PRODUCTS_DATA = [
           "image": "assets/images/notes/rose.png"
         },
         {
-          "name": "Palisander Rosewood",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
           "name": "Jasmine",
           "image": "assets/images/notes/jasmine.png"
+        },
+        {
+          "name": "Spices",
+          "image": "assets/images/notes/cardamom.png"
         }
       ],
       "base": [
@@ -7009,23 +7548,19 @@ const PRODUCTS_DATA = [
           "image": "assets/images/notes/amber.png"
         },
         {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Agarwood (oud)",
-          "image": "assets/images/notes/oud.png"
-        },
-        {
           "name": "Sandalwood",
           "image": "assets/images/notes/sandalwood.png"
+        },
+        {
+          "name": "Musk",
+          "image": "assets/images/notes/musk.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/ajmal/amber-56388.html",
-    "fragrantica_reference": "amber",
-    "notes_source": "Fragrantica (amber)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/Ajmal/Amber-Gold-38932.html",
+    "fragrantica_reference": "Amber Gold by Ajmal",
+    "notes_source": "Fragrantica (Amber Gold by Ajmal)"
   },
   {
     "id": "oil-93",
@@ -7064,14 +7599,49 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [],
-      "middle": [],
-      "base": []
+      "top": [
+        {
+          "name": "Ylang-ylang",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Jasmine",
+          "image": "assets/images/notes/jasmine.png"
+        },
+        {
+          "name": "Neroli",
+          "image": "assets/images/notes/neroli.png"
+        },
+        {
+          "name": "Rose",
+          "image": "assets/images/notes/rose.png"
+        }
+      ],
+      "middle": [
+        {
+          "name": "Patchouli",
+          "image": "assets/images/notes/patchouli.png"
+        }
+      ],
+      "base": [
+        {
+          "name": "Vanilla",
+          "image": "assets/images/notes/vanilla.png"
+        },
+        {
+          "name": "Amber",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Musk",
+          "image": "assets/images/notes/musk.png"
+        }
+      ]
     },
-    "fragrantica_matched": false,
-    "notes_source": null,
-    "fragrantica_url": null,
-    "fragrantica_reference": null
+    "fragrantica_matched": true,
+    "notes_source": "Fragrantica (007-royal-patchouli)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/ajmal/007-royal-patchouli-26873.html",
+    "fragrantica_reference": "007-royal-patchouli"
   },
   {
     "id": "oil-94",
@@ -7758,14 +8328,45 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [],
-      "middle": [],
-      "base": []
+      "top": [
+        {
+          "name": "Saffron",
+          "image": "assets/images/notes/saffron.png"
+        },
+        {
+          "name": "Nutmeg",
+          "image": "assets/images/notes/cardamom.png"
+        },
+        {
+          "name": "Lavender",
+          "image": "assets/images/notes/lavender.png"
+        }
+      ],
+      "middle": [
+        {
+          "name": "Agarwood (oud)",
+          "image": "assets/images/notes/oud.png"
+        },
+        {
+          "name": "Sweet Notes",
+          "image": "assets/images/notes/vanilla.png"
+        }
+      ],
+      "base": [
+        {
+          "name": "Patchouli",
+          "image": "assets/images/notes/patchouli.png"
+        },
+        {
+          "name": "Musk",
+          "image": "assets/images/notes/musk.png"
+        }
+      ]
     },
-    "fragrantica_matched": false,
-    "notes_source": null,
-    "fragrantica_url": null,
-    "fragrantica_reference": null
+    "fragrantica_matched": true,
+    "notes_source": "Fragrantica (supremacy-in-oud)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/afnan/supremacy-in-oud-68283.html",
+    "fragrantica_reference": "supremacy-in-oud"
   },
   {
     "id": "oil-104",
@@ -7804,14 +8405,57 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [],
-      "middle": [],
-      "base": []
+      "top": [
+        {
+          "name": "Nutmeg",
+          "image": "assets/images/notes/cardamom.png"
+        },
+        {
+          "name": "Violet",
+          "image": "assets/images/notes/violet.png"
+        },
+        {
+          "name": "Peach Blossom",
+          "image": "assets/images/notes/peach.png"
+        },
+        {
+          "name": "Cumin",
+          "image": "assets/images/notes/amber.png"
+        }
+      ],
+      "middle": [
+        {
+          "name": "Iris",
+          "image": "assets/images/notes/iris.png"
+        },
+        {
+          "name": "Patchouli",
+          "image": "assets/images/notes/patchouli.png"
+        }
+      ],
+      "base": [
+        {
+          "name": "Amber",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Vanilla",
+          "image": "assets/images/notes/vanilla.png"
+        },
+        {
+          "name": "Agarwood (oud)",
+          "image": "assets/images/notes/oud.png"
+        },
+        {
+          "name": "Benzoin",
+          "image": "assets/images/notes/amber.png"
+        }
+      ]
     },
-    "fragrantica_matched": false,
-    "notes_source": null,
-    "fragrantica_url": null,
-    "fragrantica_reference": null
+    "fragrantica_matched": true,
+    "notes_source": "Fragrantica (supremacy-gold)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/afnan/supremacy-gold-27351.html",
+    "fragrantica_reference": "supremacy-gold"
   },
   {
     "id": "oil-105",
@@ -8139,59 +8783,27 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Ginger",
+          "name": "Cardamom",
           "image": "assets/images/notes/cardamom.png"
-        },
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Mint",
-          "image": "assets/images/notes/mint.png"
         }
       ],
       "middle": [
         {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
-        },
-        {
-          "name": "Juniper",
+          "name": "Toffee",
           "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Guatemalan Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
         }
       ],
       "base": [
         {
-          "name": "Tonka Bean",
-          "image": "assets/images/notes/tonka-bean.png"
-        },
-        {
           "name": "Amberwood",
           "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Haitian Vetiver",
-          "image": "assets/images/notes/vetiver.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/azzaro/wanted-38686.html",
-    "fragrantica_reference": "wanted",
-    "notes_source": "Fragrantica (wanted)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/azzaro/the-most-wanted-66826.html",
+    "fragrantica_reference": "the-most-wanted",
+    "notes_source": "Fragrantica (the-most-wanted)"
   },
   {
     "id": "oil-109",
@@ -8232,59 +8844,79 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
+          "name": "Cinnamon",
+          "image": "assets/images/notes/cinnamon.png"
         },
         {
-          "name": "Ginger",
-          "image": "assets/images/notes/cardamom.png"
+          "name": "Mandarin Orange",
+          "image": "assets/images/notes/mandarin.png"
         },
         {
           "name": "Lavender",
           "image": "assets/images/notes/lavender.png"
         },
         {
-          "name": "Mint",
-          "image": "assets/images/notes/mint.png"
+          "name": "Lemon",
+          "image": "assets/images/notes/lemon.png"
         }
       ],
       "middle": [
         {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
+          "name": "Fruity Notes",
+          "image": "assets/images/notes/raspberry.png"
         },
         {
-          "name": "Juniper",
+          "name": "Incense",
+          "image": "assets/images/notes/incense.png"
+        },
+        {
+          "name": "Red Cedar",
+          "image": "assets/images/notes/cedarwood.png"
+        },
+        {
+          "name": "Cumin",
           "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Guatemalan Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
         }
       ],
       "base": [
         {
-          "name": "Tonka Bean",
-          "image": "assets/images/notes/tonka-bean.png"
+          "name": "Tobacco",
+          "image": "assets/images/notes/tobacco.png"
         },
         {
-          "name": "Amberwood",
+          "name": "Vanilla",
+          "image": "assets/images/notes/vanilla.png"
+        },
+        {
+          "name": "Cedar",
+          "image": "assets/images/notes/cedarwood.png"
+        },
+        {
+          "name": "Leather",
+          "image": "assets/images/notes/leather.png"
+        },
+        {
+          "name": "Benzoin",
           "image": "assets/images/notes/amber.png"
         },
         {
-          "name": "Haitian Vetiver",
-          "image": "assets/images/notes/vetiver.png"
+          "name": "Cypress",
+          "image": "assets/images/notes/cedarwood.png"
+        },
+        {
+          "name": "Iso E Super",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Patchouli",
+          "image": "assets/images/notes/patchouli.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/azzaro/wanted-38686.html",
-    "fragrantica_reference": "wanted",
-    "notes_source": "Fragrantica (wanted)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/Azzaro/Wanted by Night.html",
+    "fragrantica_reference": "Wanted by Night",
+    "notes_source": "Fragrantica (Wanted by Night)"
   },
   {
     "id": "oil-110",
@@ -8714,14 +9346,53 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [],
-      "middle": [],
-      "base": []
+      "top": [
+        {
+          "name": "Mint",
+          "image": "assets/images/notes/mint.png"
+        },
+        {
+          "name": "Sicilian Bergamot",
+          "image": "assets/images/notes/bergamot.png"
+        },
+        {
+          "name": "Elemi",
+          "image": "assets/images/notes/amber.png"
+        }
+      ],
+      "middle": [
+        {
+          "name": "Cardamom",
+          "image": "assets/images/notes/cardamom.png"
+        },
+        {
+          "name": "Lavender",
+          "image": "assets/images/notes/lavender.png"
+        },
+        {
+          "name": "African Geranium",
+          "image": "assets/images/notes/rose.png"
+        }
+      ],
+      "base": [
+        {
+          "name": "Vetiver",
+          "image": "assets/images/notes/vetiver.png"
+        },
+        {
+          "name": "Patchouli",
+          "image": "assets/images/notes/patchouli.png"
+        },
+        {
+          "name": "Balsam Fir",
+          "image": "assets/images/notes/amber.png"
+        }
+      ]
     },
-    "fragrantica_matched": false,
-    "notes_source": null,
-    "fragrantica_url": null,
-    "fragrantica_reference": null
+    "fragrantica_matched": true,
+    "notes_source": "Fragrantica (uefa-champions-league-dare-edition)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/adidas/uefa-champions-league-dare-edition-63047.html",
+    "fragrantica_reference": "uefa-champions-league-dare-edition"
   },
   {
     "id": "oil-116",
@@ -8883,50 +9554,34 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Spicy Notes",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
-        },
-        {
-          "name": "Cloves",
-          "image": "assets/images/notes/cardamom.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
+          "name": "Rosemary",
+          "image": "assets/images/notes/rosemary.png"
         },
         {
           "name": "Cedar",
           "image": "assets/images/notes/cedarwood.png"
         },
         {
-          "name": "Orris",
-          "image": "assets/images/notes/iris.png"
+          "name": "Lemon",
+          "image": "assets/images/notes/lemon.png"
         },
         {
-          "name": "Artemisia",
-          "image": "assets/images/notes/wormwood.png"
+          "name": "Bergamot",
+          "image": "assets/images/notes/bergamot.png"
+        }
+      ],
+      "middle": [
+        {
+          "name": "Cedar",
+          "image": "assets/images/notes/cedarwood.png"
+        },
+        {
+          "name": "Spices",
+          "image": "assets/images/notes/cardamom.png"
+        },
+        {
+          "name": "Guaiac Wood",
+          "image": "assets/images/notes/cedarwood.png"
         }
       ],
       "base": [
@@ -8935,35 +9590,19 @@ const PRODUCTS_DATA = [
           "image": "assets/images/notes/amber.png"
         },
         {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Labdanum",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Guaiac Wood",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
           "name": "Musk",
           "image": "assets/images/notes/musk.png"
         },
         {
-          "name": "Amyris",
+          "name": "Resins",
           "image": "assets/images/notes/amber.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/al-haramain-perfumes/amber-21779.html",
-    "fragrantica_reference": "amber",
-    "notes_source": "Fragrantica (amber)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/Al-Haramain-Perfumes/Amber-Oud-51846.html",
+    "fragrantica_reference": "Amber Oud by Al Haramain",
+    "notes_source": "Fragrantica (Amber Oud by Al Haramain)"
   },
   {
     "id": "oil-118",
@@ -11017,14 +11656,89 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [],
-      "middle": [],
-      "base": []
+      "top": [
+        {
+          "name": "Bergamot",
+          "image": "assets/images/notes/bergamot.png"
+        },
+        {
+          "name": "Fruity Notes",
+          "image": "assets/images/notes/raspberry.png"
+        },
+        {
+          "name": "Orange",
+          "image": "assets/images/notes/orange.png"
+        },
+        {
+          "name": "Mandarin Orange",
+          "image": "assets/images/notes/mandarin.png"
+        },
+        {
+          "name": "Melon",
+          "image": "assets/images/notes/peach.png"
+        },
+        {
+          "name": "Tangerine",
+          "image": "assets/images/notes/orange.png"
+        }
+      ],
+      "middle": [
+        {
+          "name": "Gardenia",
+          "image": "assets/images/notes/jasmine.png"
+        },
+        {
+          "name": "Tuberose",
+          "image": "assets/images/notes/jasmine.png"
+        },
+        {
+          "name": "Peony",
+          "image": "assets/images/notes/rose.png"
+        },
+        {
+          "name": "Camelia",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Magnolia",
+          "image": "assets/images/notes/jasmine.png"
+        },
+        {
+          "name": "Lily-of-the-valley",
+          "image": "assets/images/notes/jasmine.png"
+        },
+        {
+          "name": "Freesia",
+          "image": "assets/images/notes/jasmine.png"
+        }
+      ],
+      "base": [
+        {
+          "name": "Patchouli",
+          "image": "assets/images/notes/patchouli.png"
+        },
+        {
+          "name": "Vetiver",
+          "image": "assets/images/notes/vetiver.png"
+        },
+        {
+          "name": "Sandalwood",
+          "image": "assets/images/notes/sandalwood.png"
+        },
+        {
+          "name": "Vanilla",
+          "image": "assets/images/notes/vanilla.png"
+        },
+        {
+          "name": "Musk",
+          "image": "assets/images/notes/musk.png"
+        }
+      ]
     },
-    "fragrantica_matched": false,
-    "notes_source": null,
-    "fragrantica_url": null,
-    "fragrantica_reference": null
+    "fragrantica_matched": true,
+    "notes_source": "Fragrantica (black-amethyst)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/bath-body-works/black-amethyst-4565.html",
+    "fragrantica_reference": "black-amethyst"
   },
   {
     "id": "oil-144",
@@ -12913,63 +13627,67 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Mint",
-          "image": "assets/images/notes/mint.png"
+          "name": "Ginger",
+          "image": "assets/images/notes/cardamom.png"
         },
         {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
+          "name": "Cardamom",
+          "image": "assets/images/notes/cardamom.png"
         },
         {
           "name": "Bergamot",
           "image": "assets/images/notes/bergamot.png"
         },
         {
-          "name": "Thyme",
-          "image": "assets/images/notes/amber.png"
+          "name": "Green Mandarin",
+          "image": "assets/images/notes/orange.png"
         }
       ],
       "middle": [
+        {
+          "name": "Wild Rose",
+          "image": "assets/images/notes/rose.png"
+        },
+        {
+          "name": "Nutmeg",
+          "image": "assets/images/notes/cardamom.png"
+        },
         {
           "name": "Cedar",
           "image": "assets/images/notes/cedarwood.png"
         },
         {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Oakmoss",
-          "image": "assets/images/notes/oakmoss.png"
+          "name": "Spicy Notes",
+          "image": "assets/images/notes/amber.png"
         }
       ],
       "base": [
         {
-          "name": "Musk",
+          "name": "Tonka Bean",
+          "image": "assets/images/notes/tonka-bean.png"
+        },
+        {
+          "name": "Gray Musk",
           "image": "assets/images/notes/musk.png"
         },
         {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
+          "name": "Cedar",
+          "image": "assets/images/notes/cedarwood.png"
         },
         {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
+          "name": "Oriental Woodsy Notes",
+          "image": "assets/images/notes/cedarwood.png"
+        },
+        {
+          "name": "Patchouli",
+          "image": "assets/images/notes/patchouli.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/burberry/burberry-men-817.html",
-    "fragrantica_reference": "burberry-men",
-    "notes_source": "Fragrantica (burberry-men)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/burberry/burberry-brit-for-men-1115.html",
+    "fragrantica_reference": "burberry-brit-for-men",
+    "notes_source": "Fragrantica (burberry-brit-for-men)"
   },
   {
     "id": "oil-165",
@@ -13079,44 +13797,36 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Honeysuckle",
-          "image": "assets/images/notes/vanilla.png"
+          "name": "Peach",
+          "image": "assets/images/notes/peach.png"
         },
         {
-          "name": "Tangerine",
-          "image": "assets/images/notes/orange.png"
+          "name": "Grapefruit",
+          "image": "assets/images/notes/grapefruit.png"
+        },
+        {
+          "name": "Pepper",
+          "image": "assets/images/notes/mint.png"
+        }
+      ],
+      "middle": [
+        {
+          "name": "Honeysuckle",
+          "image": "assets/images/notes/vanilla.png"
         },
         {
           "name": "Rose",
           "image": "assets/images/notes/rose.png"
         }
       ],
-      "middle": [
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Tiare Flower",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Peony",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Clementine",
-          "image": "assets/images/notes/orange.png"
-        }
-      ],
       "base": [
+        {
+          "name": "Mahogany",
+          "image": "assets/images/notes/amber.png"
+        },
         {
           "name": "Musk",
           "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
         },
         {
           "name": "Patchouli",
@@ -13125,9 +13835,9 @@ const PRODUCTS_DATA = [
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/burberry/london-813.html",
-    "fragrantica_reference": "london",
-    "notes_source": "Fragrantica (london)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/burberry/burberry-london-special-edition-for-women-4694.html",
+    "fragrantica_reference": "burberry-london-special-edition-for-women",
+    "notes_source": "Fragrantica (burberry-london-special-edition-for-women)"
   },
   {
     "id": "oil-167",
@@ -14042,63 +14752,51 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Green Apple",
-          "image": "assets/images/notes/apple.png"
+          "name": "Mandarin Orange",
+          "image": "assets/images/notes/mandarin.png"
         },
         {
-          "name": "Mint",
-          "image": "assets/images/notes/mint.png"
+          "name": "Clary Sage",
+          "image": "assets/images/notes/wormwood.png"
         },
         {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
-        },
-        {
-          "name": "Grapefruit",
-          "image": "assets/images/notes/grapefruit.png"
-        },
-        {
-          "name": "Basil",
+          "name": "Cognac",
           "image": "assets/images/notes/amber.png"
         }
       ],
       "middle": [
         {
-          "name": "Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "name": "Nutmeg",
+          "image": "assets/images/notes/cardamom.png"
         },
         {
-          "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "name": "Cardamom",
+          "image": "assets/images/notes/cardamom.png"
         },
         {
-          "name": "Carnation",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
+          "name": "Pimento",
+          "image": "assets/images/notes/amber.png"
         }
       ],
       "base": [
         {
-          "name": "Fir",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Cedar",
-          "image": "assets/images/notes/cedarwood.png"
+          "name": "Sandalwood",
+          "image": "assets/images/notes/sandalwood.png"
         },
         {
           "name": "Patchouli",
           "image": "assets/images/notes/patchouli.png"
+        },
+        {
+          "name": "Cedar",
+          "image": "assets/images/notes/cedarwood.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/hugo-boss/hugo-570.html",
-    "fragrantica_reference": "hugo",
-    "notes_source": "Fragrantica (hugo)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/hugo-boss/boss-in-motion-green-568.html",
+    "fragrantica_reference": "boss-in-motion-green",
+    "notes_source": "Fragrantica (boss-in-motion-green)"
   },
   {
     "id": "oil-178",
@@ -14422,24 +15120,8 @@ const PRODUCTS_DATA = [
           "image": "assets/images/notes/apple.png"
         },
         {
-          "name": "Plum",
-          "image": "assets/images/notes/peach.png"
-        },
-        {
-          "name": "Lemon",
+          "name": "Citruses",
           "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Oakmoss",
-          "image": "assets/images/notes/oakmoss.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
         }
       ],
       "middle": [
@@ -14448,41 +15130,37 @@ const PRODUCTS_DATA = [
           "image": "assets/images/notes/cinnamon.png"
         },
         {
-          "name": "Mahogany",
-          "image": "assets/images/notes/amber.png"
+          "name": "Saffron",
+          "image": "assets/images/notes/saffron.png"
         },
         {
-          "name": "Carnation",
-          "image": "assets/images/notes/rose.png"
+          "name": "Clove",
+          "image": "assets/images/notes/cardamom.png"
+        },
+        {
+          "name": "Labdanum",
+          "image": "assets/images/notes/amber.png"
         }
       ],
       "base": [
         {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
+          "name": "Agarwood (oud)",
+          "image": "assets/images/notes/oud.png"
         },
         {
           "name": "Sandalwood",
           "image": "assets/images/notes/sandalwood.png"
         },
         {
-          "name": "Cedar",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Vetiver",
-          "image": "assets/images/notes/vetiver.png"
-        },
-        {
-          "name": "Olive Tree",
-          "image": "assets/images/notes/cedarwood.png"
+          "name": "Cypriol Oil",
+          "image": "assets/images/notes/amber.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/hugo-boss/boss-bottled-383.html",
-    "fragrantica_reference": "boss-bottled",
-    "notes_source": "Fragrantica (boss-bottled)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/Hugo-Boss/Boss-Bottled-Oud-30818.html",
+    "fragrantica_reference": "Boss Bottled Oud by Hugo Boss",
+    "notes_source": "Fragrantica (Boss Bottled Oud by Hugo Boss)"
   },
   {
     "id": "oil-182",
@@ -14780,14 +15458,73 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [],
-      "middle": [],
-      "base": []
+      "top": [
+        {
+          "name": "Cardamom",
+          "image": "assets/images/notes/cardamom.png"
+        },
+        {
+          "name": "Pepper",
+          "image": "assets/images/notes/mint.png"
+        },
+        {
+          "name": "Anise",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Mandarin Orange",
+          "image": "assets/images/notes/mandarin.png"
+        },
+        {
+          "name": "Bergamot",
+          "image": "assets/images/notes/bergamot.png"
+        }
+      ],
+      "middle": [
+        {
+          "name": "Cinnamon",
+          "image": "assets/images/notes/cinnamon.png"
+        },
+        {
+          "name": "Nutmeg",
+          "image": "assets/images/notes/cardamom.png"
+        },
+        {
+          "name": "Lavender",
+          "image": "assets/images/notes/lavender.png"
+        },
+        {
+          "name": "Coriander",
+          "image": "assets/images/notes/amber.png"
+        }
+      ],
+      "base": [
+        {
+          "name": "Vanilla",
+          "image": "assets/images/notes/vanilla.png"
+        },
+        {
+          "name": "Tonka Bean",
+          "image": "assets/images/notes/tonka-bean.png"
+        },
+        {
+          "name": "Amber",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Vetiver",
+          "image": "assets/images/notes/vetiver.png"
+        },
+        {
+          "name": "Musk",
+          "image": "assets/images/notes/musk.png"
+        }
+      ]
     },
-    "fragrantica_matched": false,
-    "fragrantica_url": null,
-    "fragrantica_reference": null,
-    "notes_source": null
+    "fragrantica_matched": true,
+    "fragrantica_url": "https://www.fragrantica.com/perfume/Hugo Boss/Boss Soul.html",
+    "fragrantica_reference": "Boss Soul",
+    "notes_source": "Fragrantica (Boss Soul)"
   },
   {
     "id": "oil-186",
@@ -14905,43 +15642,31 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Ginger",
-          "image": "assets/images/notes/cardamom.png"
+          "name": "Peach",
+          "image": "assets/images/notes/peach.png"
         },
         {
-          "name": "Mandarin Orange",
-          "image": "assets/images/notes/mandarin.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
+          "name": "Freesia",
+          "image": "assets/images/notes/jasmine.png"
         }
       ],
       "middle": [
         {
-          "name": "Maninka",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
+          "name": "Osmanthus",
+          "image": "assets/images/notes/jasmine.png"
         }
       ],
       "base": [
         {
-          "name": "Leather",
-          "image": "assets/images/notes/leather.png"
-        },
-        {
-          "name": "Woody Notes",
-          "image": "assets/images/notes/cedarwood.png"
+          "name": "Cacao",
+          "image": "assets/images/notes/amber.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/hugo-boss/boss-the-scent-31445.html",
-    "fragrantica_reference": "boss-the-scent",
-    "notes_source": "Fragrantica (boss-the-scent)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/hugo-boss/boss-the-scent-for-her-38998.html",
+    "fragrantica_reference": "boss-the-scent-for-her",
+    "notes_source": "Fragrantica (boss-the-scent-for-her)"
   },
   {
     "id": "oil-188",
@@ -15997,19 +16722,19 @@ const PRODUCTS_DATA = [
           "image": "assets/images/notes/amber.png"
         },
         {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
           "name": "Cedar",
           "image": "assets/images/notes/cedarwood.png"
+        },
+        {
+          "name": "Patchouli",
+          "image": "assets/images/notes/patchouli.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/Bentley/Bentley for Men Intense.html",
-    "fragrantica_reference": "Bentley for Men Intense",
-    "notes_source": "Fragrantica (Bentley for Men Intense)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/bentley/bentley-for-men-intense-17666.html",
+    "fragrantica_reference": "bentley-for-men-intense",
+    "notes_source": "Fragrantica (bentley-for-men-intense)"
   },
   {
     "id": "oil-200",
@@ -17061,14 +17786,49 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [],
-      "middle": [],
-      "base": []
+      "top": [
+        {
+          "name": "Peony",
+          "image": "assets/images/notes/rose.png"
+        },
+        {
+          "name": "Litchi",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Freesia",
+          "image": "assets/images/notes/jasmine.png"
+        }
+      ],
+      "middle": [
+        {
+          "name": "Rose",
+          "image": "assets/images/notes/rose.png"
+        },
+        {
+          "name": "Lily-of-the-valley",
+          "image": "assets/images/notes/jasmine.png"
+        },
+        {
+          "name": "Magnolia",
+          "image": "assets/images/notes/jasmine.png"
+        }
+      ],
+      "base": [
+        {
+          "name": "Virginia Cedar",
+          "image": "assets/images/notes/cedarwood.png"
+        },
+        {
+          "name": "Amber",
+          "image": "assets/images/notes/amber.png"
+        }
+      ]
     },
-    "fragrantica_matched": false,
-    "fragrantica_url": null,
-    "fragrantica_reference": null,
-    "notes_source": null
+    "fragrantica_matched": true,
+    "fragrantica_url": "https://www.fragrantica.com/perfume/Chloe/Chloe-Eau-de-Parfum-1733.html",
+    "fragrantica_reference": "Chloé Eau de Parfum by Chloé",
+    "notes_source": "Fragrantica (Chloé Eau de Parfum by Chloé)"
   },
   {
     "id": "oil-218",
@@ -17113,16 +17873,20 @@ const PRODUCTS_DATA = [
           "image": "assets/images/notes/lemon.png"
         },
         {
-          "name": "Mandarin Orange",
-          "image": "assets/images/notes/mandarin.png"
-        },
-        {
           "name": "Peach",
           "image": "assets/images/notes/peach.png"
         },
         {
-          "name": "Passionfruit",
-          "image": "assets/images/notes/raspberry.png"
+          "name": "Ginger",
+          "image": "assets/images/notes/cardamom.png"
+        },
+        {
+          "name": "Mandarin Orange",
+          "image": "assets/images/notes/mandarin.png"
+        },
+        {
+          "name": "Lavender",
+          "image": "assets/images/notes/lavender.png"
         },
         {
           "name": "Bergamot",
@@ -17131,15 +17895,35 @@ const PRODUCTS_DATA = [
       ],
       "middle": [
         {
-          "name": "Honeysuckle",
-          "image": "assets/images/notes/vanilla.png"
+          "name": "Pepper",
+          "image": "assets/images/notes/mint.png"
+        },
+        {
+          "name": "Cedar",
+          "image": "assets/images/notes/cedarwood.png"
+        },
+        {
+          "name": "Patchouli",
+          "image": "assets/images/notes/patchouli.png"
+        },
+        {
+          "name": "Vetiver",
+          "image": "assets/images/notes/vetiver.png"
+        },
+        {
+          "name": "Brazilian Rosewood",
+          "image": "assets/images/notes/rose.png"
+        },
+        {
+          "name": "Rose",
+          "image": "assets/images/notes/rose.png"
         },
         {
           "name": "Jasmine",
           "image": "assets/images/notes/jasmine.png"
         },
         {
-          "name": "Magnolia",
+          "name": "Gardenia",
           "image": "assets/images/notes/jasmine.png"
         },
         {
@@ -17147,20 +17931,8 @@ const PRODUCTS_DATA = [
           "image": "assets/images/notes/jasmine.png"
         },
         {
-          "name": "Water Lily",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
-        },
-        {
-          "name": "Peony",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "May Rose",
-          "image": "assets/images/notes/rose.png"
+          "name": "Anise",
+          "image": "assets/images/notes/amber.png"
         }
       ],
       "base": [
@@ -17169,27 +17941,43 @@ const PRODUCTS_DATA = [
           "image": "assets/images/notes/vanilla.png"
         },
         {
+          "name": "Tonka Bean",
+          "image": "assets/images/notes/tonka-bean.png"
+        },
+        {
           "name": "Sandalwood",
           "image": "assets/images/notes/sandalwood.png"
+        },
+        {
+          "name": "Coconut",
+          "image": "assets/images/notes/amber.png"
         },
         {
           "name": "Amber",
           "image": "assets/images/notes/amber.png"
         },
         {
-          "name": "Vetiver",
-          "image": "assets/images/notes/vetiver.png"
+          "name": "Benzoin",
+          "image": "assets/images/notes/amber.png"
         },
         {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
+          "name": "Musk",
+          "image": "assets/images/notes/musk.png"
+        },
+        {
+          "name": "Leather",
+          "image": "assets/images/notes/leather.png"
+        },
+        {
+          "name": "Oakmoss",
+          "image": "assets/images/notes/oakmoss.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/chanel/allure-502.html",
-    "fragrantica_reference": "allure",
-    "notes_source": "Fragrantica (allure)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/chanel/allure-homme-523.html",
+    "fragrantica_reference": "allure-homme",
+    "notes_source": "Fragrantica (allure-homme)"
   },
   {
     "id": "oil-219",
@@ -17351,68 +18139,48 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
+          "name": "Orange",
+          "image": "assets/images/notes/orange.png"
         },
         {
-          "name": "Mandarin Orange",
-          "image": "assets/images/notes/mandarin.png"
+          "name": "Sea Notes",
+          "image": "assets/images/notes/sea-notes.png"
         },
         {
-          "name": "Peach",
-          "image": "assets/images/notes/peach.png"
+          "name": "Aldehydes",
+          "image": "assets/images/notes/amber.png"
         },
         {
-          "name": "Passionfruit",
-          "image": "assets/images/notes/raspberry.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
+          "name": "Blood Mandarin",
+          "image": "assets/images/notes/orange.png"
         }
       ],
       "middle": [
         {
-          "name": "Honeysuckle",
-          "image": "assets/images/notes/vanilla.png"
+          "name": "Pepper",
+          "image": "assets/images/notes/mint.png"
         },
         {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Magnolia",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Water Lily",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Orange Blossom",
+          "name": "Neroli",
           "image": "assets/images/notes/neroli.png"
         },
         {
-          "name": "Peony",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "May Rose",
-          "image": "assets/images/notes/rose.png"
+          "name": "Cedar",
+          "image": "assets/images/notes/cedarwood.png"
         }
       ],
       "base": [
+        {
+          "name": "Tonka Bean",
+          "image": "assets/images/notes/tonka-bean.png"
+        },
         {
           "name": "Vanilla",
           "image": "assets/images/notes/vanilla.png"
         },
         {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
+          "name": "White Musk",
+          "image": "assets/images/notes/musk.png"
         },
         {
           "name": "Amber",
@@ -17423,15 +18191,15 @@ const PRODUCTS_DATA = [
           "image": "assets/images/notes/vetiver.png"
         },
         {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
+          "name": "Elemi Resin",
+          "image": "assets/images/notes/amber.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/chanel/allure-502.html",
-    "fragrantica_reference": "allure",
-    "notes_source": "Fragrantica (allure)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/Chanel/Allure-Homme-Sport-607.html",
+    "fragrantica_reference": "Allure Homme Sport by Chanel",
+    "notes_source": "Fragrantica (Allure Homme Sport by Chanel)"
   },
   {
     "id": "oil-221",
@@ -17476,67 +18244,83 @@ const PRODUCTS_DATA = [
           "image": "assets/images/notes/amber.png"
         },
         {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
+          "name": "Ylang-ylang",
+          "image": "assets/images/notes/amber.png"
         },
         {
           "name": "Neroli",
           "image": "assets/images/notes/neroli.png"
         },
         {
-          "name": "Mandarin Orange",
-          "image": "assets/images/notes/mandarin.png"
-        },
-        {
           "name": "Bergamot",
           "image": "assets/images/notes/bergamot.png"
         },
         {
-          "name": "Orange",
-          "image": "assets/images/notes/orange.png"
-        },
-        {
-          "name": "Lime",
+          "name": "Lemon",
           "image": "assets/images/notes/lemon.png"
         }
       ],
       "middle": [
         {
-          "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
+          "name": "Iris",
+          "image": "assets/images/notes/iris.png"
         },
         {
           "name": "Jasmine",
           "image": "assets/images/notes/jasmine.png"
         },
         {
-          "name": "May Rose",
+          "name": "Rose",
           "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
         },
         {
           "name": "Orris Root",
           "image": "assets/images/notes/iris.png"
         },
         {
-          "name": "Cedar",
-          "image": "assets/images/notes/cedarwood.png"
+          "name": "Lily-of-the-valley",
+          "image": "assets/images/notes/jasmine.png"
+        }
+      ],
+      "base": [
+        {
+          "name": "Civet",
+          "image": "assets/images/notes/amber.png"
         },
         {
-          "name": "Vanila",
+          "name": "Musk",
+          "image": "assets/images/notes/musk.png"
+        },
+        {
+          "name": "Sandalwood",
+          "image": "assets/images/notes/sandalwood.png"
+        },
+        {
+          "name": "Amber",
           "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Moss",
+          "image": "assets/images/notes/oakmoss.png"
+        },
+        {
+          "name": "Vanilla",
+          "image": "assets/images/notes/vanilla.png"
+        },
+        {
+          "name": "Vetiver",
+          "image": "assets/images/notes/vetiver.png"
+        },
+        {
+          "name": "Patchouli",
+          "image": "assets/images/notes/patchouli.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/chanel/chanel-no-5-l-eau-38543.html",
-    "fragrantica_reference": "chanel-no-5-l-eau",
-    "notes_source": "Fragrantica (chanel-no-5-l-eau)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/chanel/chanel-no-5-parfum-28711.html",
+    "fragrantica_reference": "chanel-no-5-parfum",
+    "notes_source": "Fragrantica (chanel-no-5-parfum)"
   },
   {
     "id": "oil-222",
@@ -18213,19 +18997,11 @@ const PRODUCTS_DATA = [
           "image": "assets/images/notes/neroli.png"
         },
         {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
           "name": "Tuberose",
           "image": "assets/images/notes/jasmine.png"
         },
         {
-          "name": "Lily-of-the-valley",
+          "name": "Jasmine",
           "image": "assets/images/notes/jasmine.png"
         },
         {
@@ -18235,6 +19011,14 @@ const PRODUCTS_DATA = [
         {
           "name": "Pink Pepper",
           "image": "assets/images/notes/pink-pepper.png"
+        },
+        {
+          "name": "Lily-of-the-valley",
+          "image": "assets/images/notes/jasmine.png"
+        },
+        {
+          "name": "Ylang-ylang",
+          "image": "assets/images/notes/amber.png"
         }
       ],
       "base": [
@@ -18257,9 +19041,9 @@ const PRODUCTS_DATA = [
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/Chanel/Gabrielle.html",
-    "fragrantica_reference": "Gabrielle",
-    "notes_source": "Fragrantica (Gabrielle)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/chanel/gabrielle-chanel-hair-mist-56250.html",
+    "fragrantica_reference": "gabrielle-chanel-hair-mist",
+    "notes_source": "Fragrantica (gabrielle-chanel-hair-mist)"
   },
   {
     "id": "oil-229",
@@ -18534,99 +19318,63 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
+          "name": "Lavender",
+          "image": "assets/images/notes/lavender.png"
         },
         {
-          "name": "Green Notes",
-          "image": "assets/images/notes/amber.png"
+          "name": "Clementine",
+          "image": "assets/images/notes/orange.png"
         },
         {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Mandarin Orange",
-          "image": "assets/images/notes/mandarin.png"
-        },
-        {
-          "name": "Pineapple",
-          "image": "assets/images/notes/pineapple.png"
-        },
-        {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        },
-        {
-          "name": "Papaya",
+          "name": "Cucumber",
           "image": "assets/images/notes/amber.png"
         }
       ],
       "middle": [
         {
-          "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Violet",
-          "image": "assets/images/notes/violet.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Nutmeg",
+          "name": "Cardamom",
           "image": "assets/images/notes/cardamom.png"
         },
         {
-          "name": "Orris Root",
-          "image": "assets/images/notes/iris.png"
+          "name": "Pepper",
+          "image": "assets/images/notes/mint.png"
         },
         {
-          "name": "Freesia",
+          "name": "Basil",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Osmanthus",
           "image": "assets/images/notes/jasmine.png"
         }
       ],
       "base": [
         {
-          "name": "Green Accord",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Cedar",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Oakmoss",
-          "image": "assets/images/notes/oakmoss.png"
-        },
-        {
-          "name": "Green Tea",
-          "image": "assets/images/notes/amber.png"
+          "name": "Tobacco",
+          "image": "assets/images/notes/tobacco.png"
         },
         {
           "name": "Amber",
           "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Patchouli",
+          "image": "assets/images/notes/patchouli.png"
+        },
+        {
+          "name": "Woodsy Notes",
+          "image": "assets/images/notes/cedarwood.png"
+        },
+        {
+          "name": "Musk",
+          "image": "assets/images/notes/musk.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/calvin-klein/ck-one-276.html",
-    "fragrantica_reference": "ck-one",
-    "notes_source": "Fragrantica (ck-one)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/Calvin Klein/CK One Shock For Him.html",
+    "fragrantica_reference": "CK One Shock For Him",
+    "notes_source": "Fragrantica (CK One Shock For Him)"
   },
   {
     "id": "oil-232",
@@ -19047,55 +19795,63 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Pomegranate",
+          "name": "Dates",
+          "image": "assets/images/notes/peach.png"
+        },
+        {
+          "name": "Solar Notes",
           "image": "assets/images/notes/amber.png"
         },
         {
-          "name": "Persimmon",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Green Accord",
-          "image": "assets/images/notes/amber.png"
+          "name": "Neroli",
+          "image": "assets/images/notes/neroli.png"
         }
       ],
       "middle": [
         {
-          "name": "Black Orchid",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Lotus",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Champaca",
+          "name": "Almond",
           "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Ylang-ylang",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Orange Blossom",
+          "image": "assets/images/notes/neroli.png"
+        },
+        {
+          "name": "Rose",
+          "image": "assets/images/notes/rose.png"
         }
       ],
       "base": [
         {
-          "name": "Mahogany",
+          "name": "Leather",
+          "image": "assets/images/notes/leather.png"
+        },
+        {
+          "name": "Vanilla Absolute",
+          "image": "assets/images/notes/vanilla.png"
+        },
+        {
+          "name": "Benzoin",
           "image": "assets/images/notes/amber.png"
         },
         {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
+          "name": "Patchouli",
+          "image": "assets/images/notes/patchouli.png"
         },
         {
-          "name": "Black Violet",
-          "image": "assets/images/notes/violet.png"
-        },
-        {
-          "name": "Whipped Cream",
-          "image": "assets/images/notes/amber.png"
+          "name": "Musk",
+          "image": "assets/images/notes/musk.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/calvin-klein/euphoria-253.html",
-    "fragrantica_reference": "euphoria",
-    "notes_source": "Fragrantica (euphoria)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/calvin-klein/pure-gold-euphoria-women-44223.html",
+    "fragrantica_reference": "pure-gold-euphoria-women",
+    "notes_source": "Fragrantica (pure-gold-euphoria-women)"
   },
   {
     "id": "oil-237",
@@ -19382,66 +20138,66 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
+          "name": "Cinnamon",
+          "image": "assets/images/notes/cinnamon.png"
         },
         {
-          "name": "Basil",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Mandarin Orange",
-          "image": "assets/images/notes/mandarin.png"
-        },
-        {
-          "name": "Green Notes",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Peach",
-          "image": "assets/images/notes/peach.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Spices",
-          "image": "assets/images/notes/cardamom.png"
-        },
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
+          "name": "Lavender",
+          "image": "assets/images/notes/lavender.png"
         },
         {
           "name": "Coriander",
           "image": "assets/images/notes/amber.png"
         },
         {
-          "name": "Oakmoss",
-          "image": "assets/images/notes/oakmoss.png"
+          "name": "Mandarin Orange",
+          "image": "assets/images/notes/mandarin.png"
         },
         {
-          "name": "Cedar",
+          "name": "Lime",
+          "image": "assets/images/notes/lemon.png"
+        },
+        {
+          "name": "Bergamot",
+          "image": "assets/images/notes/bergamot.png"
+        },
+        {
+          "name": "Grapefruit",
+          "image": "assets/images/notes/grapefruit.png"
+        }
+      ],
+      "middle": [
+        {
+          "name": "Myrhh",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Nutmeg",
+          "image": "assets/images/notes/cardamom.png"
+        },
+        {
+          "name": "Carnation",
+          "image": "assets/images/notes/rose.png"
+        },
+        {
+          "name": "Brazilian Rosewood",
+          "image": "assets/images/notes/rose.png"
+        },
+        {
+          "name": "Pine Tree",
           "image": "assets/images/notes/cedarwood.png"
         },
         {
-          "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "name": "Sage",
+          "image": "assets/images/notes/wormwood.png"
         },
         {
           "name": "Jasmine",
           "image": "assets/images/notes/jasmine.png"
         },
         {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
+          "name": "Red Berries",
+          "image": "assets/images/notes/raspberry.png"
         }
       ],
       "base": [
@@ -19450,20 +20206,20 @@ const PRODUCTS_DATA = [
           "image": "assets/images/notes/amber.png"
         },
         {
-          "name": "Incense",
-          "image": "assets/images/notes/incense.png"
-        },
-        {
           "name": "Vanilla",
           "image": "assets/images/notes/vanilla.png"
         },
         {
-          "name": "Civet",
-          "image": "assets/images/notes/amber.png"
+          "name": "Sandalwood",
+          "image": "assets/images/notes/sandalwood.png"
         },
         {
           "name": "Musk",
           "image": "assets/images/notes/musk.png"
+        },
+        {
+          "name": "Patchouli",
+          "image": "assets/images/notes/patchouli.png"
         },
         {
           "name": "Vetiver",
@@ -19472,9 +20228,9 @@ const PRODUCTS_DATA = [
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/calvin-klein/obsession-248.html",
-    "fragrantica_reference": "obsession",
-    "notes_source": "Fragrantica (obsession)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/calvin-klein/obsession-for-men-249.html",
+    "fragrantica_reference": "obsession-for-men",
+    "notes_source": "Fragrantica (obsession-for-men)"
   },
   {
     "id": "oil-240",
@@ -19576,20 +20332,16 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Green Notes",
+          "name": "Sea Notes",
+          "image": "assets/images/notes/sea-notes.png"
+        },
+        {
+          "name": "Ozonic Notes",
           "image": "assets/images/notes/amber.png"
         },
         {
-          "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Sage",
-          "image": "assets/images/notes/wormwood.png"
-        },
-        {
-          "name": "Citruses",
-          "image": "assets/images/notes/lemon.png"
+          "name": "Juniper Berries",
+          "image": "assets/images/notes/amber.png"
         },
         {
           "name": "Mandarin Orange",
@@ -19598,53 +20350,25 @@ const PRODUCTS_DATA = [
       ],
       "middle": [
         {
-          "name": "Carnation",
-          "image": "assets/images/notes/rose.png"
+          "name": "Lavender",
+          "image": "assets/images/notes/lavender.png"
         },
         {
-          "name": "Lily",
-          "image": "assets/images/notes/jasmine.png"
+          "name": "Green Apple",
+          "image": "assets/images/notes/apple.png"
         },
         {
-          "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Narcissus",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Marigold",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Violet",
+          "name": "Violet Leaf",
           "image": "assets/images/notes/violet.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
         }
       ],
       "base": [
         {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
+          "name": "Seaweed",
+          "image": "assets/images/notes/sea-notes.png"
         },
         {
-          "name": "Heliotrope",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Amber",
+          "name": "Ambergris",
           "image": "assets/images/notes/amber.png"
         },
         {
@@ -19654,9 +20378,9 @@ const PRODUCTS_DATA = [
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/calvin-klein/eternity-257.html",
-    "fragrantica_reference": "eternity",
-    "notes_source": "Fragrantica (eternity)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/calvin-klein/eternity-air-for-men-48717.html",
+    "fragrantica_reference": "eternity-air-for-men",
+    "notes_source": "Fragrantica (eternity-air-for-men)"
   },
   {
     "id": "oil-242",
@@ -19697,20 +20421,16 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Green Notes",
-          "image": "assets/images/notes/amber.png"
+          "name": "Lavender",
+          "image": "assets/images/notes/lavender.png"
         },
         {
-          "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Sage",
-          "image": "assets/images/notes/wormwood.png"
-        },
-        {
-          "name": "Citruses",
+          "name": "Lemon",
           "image": "assets/images/notes/lemon.png"
+        },
+        {
+          "name": "Bergamot",
+          "image": "assets/images/notes/bergamot.png"
         },
         {
           "name": "Mandarin Orange",
@@ -19719,65 +20439,69 @@ const PRODUCTS_DATA = [
       ],
       "middle": [
         {
-          "name": "Carnation",
+          "name": "Sage",
+          "image": "assets/images/notes/wormwood.png"
+        },
+        {
+          "name": "Juniper Berries",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Basil",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Geranium",
           "image": "assets/images/notes/rose.png"
         },
         {
-          "name": "Lily",
+          "name": "Jasmine",
           "image": "assets/images/notes/jasmine.png"
+        },
+        {
+          "name": "Coriander",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Orange Blossom",
+          "image": "assets/images/notes/neroli.png"
         },
         {
           "name": "Lily-of-the-valley",
           "image": "assets/images/notes/jasmine.png"
         },
         {
-          "name": "Narcissus",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Marigold",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Violet",
-          "image": "assets/images/notes/violet.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Jasmine",
+          "name": "Lily",
           "image": "assets/images/notes/jasmine.png"
         }
       ],
       "base": [
         {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Heliotrope",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
           "name": "Sandalwood",
           "image": "assets/images/notes/sandalwood.png"
         },
         {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
+          "name": "Musk",
+          "image": "assets/images/notes/musk.png"
         },
         {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
+          "name": "Vetiver",
+          "image": "assets/images/notes/vetiver.png"
+        },
+        {
+          "name": "Brazilian Rosewood",
+          "image": "assets/images/notes/rose.png"
+        },
+        {
+          "name": "Amber",
+          "image": "assets/images/notes/amber.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/calvin-klein/eternity-257.html",
-    "fragrantica_reference": "eternity",
-    "notes_source": "Fragrantica (eternity)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/calvin-klein/eternity-for-men-258.html",
+    "fragrantica_reference": "eternity-for-men",
+    "notes_source": "Fragrantica (eternity-for-men)"
   },
   {
     "id": "oil-243",
@@ -19818,58 +20542,30 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Green Notes",
+          "name": "Quince",
           "image": "assets/images/notes/amber.png"
         },
         {
-          "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
+          "name": "Sorbet",
+          "image": "assets/images/notes/amber.png"
         },
         {
-          "name": "Sage",
-          "image": "assets/images/notes/wormwood.png"
-        },
-        {
-          "name": "Citruses",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Mandarin Orange",
-          "image": "assets/images/notes/mandarin.png"
+          "name": "Litchi",
+          "image": "assets/images/notes/amber.png"
         }
       ],
       "middle": [
         {
-          "name": "Carnation",
+          "name": "Peach Blossom",
+          "image": "assets/images/notes/peach.png"
+        },
+        {
+          "name": "Peony",
           "image": "assets/images/notes/rose.png"
         },
         {
-          "name": "Lily",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Narcissus",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Marigold",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Violet",
-          "image": "assets/images/notes/violet.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
+          "name": "Neroli",
+          "image": "assets/images/notes/neroli.png"
         }
       ],
       "base": [
@@ -19878,27 +20574,19 @@ const PRODUCTS_DATA = [
           "image": "assets/images/notes/musk.png"
         },
         {
-          "name": "Heliotrope",
-          "image": "assets/images/notes/jasmine.png"
+          "name": "Cashmere Wood",
+          "image": "assets/images/notes/cedarwood.png"
         },
         {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Amber",
+          "name": "Ambroxan",
           "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/calvin-klein/eternity-257.html",
-    "fragrantica_reference": "eternity",
-    "notes_source": "Fragrantica (eternity)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/calvin-klein/eternity-now-for-women-31004.html",
+    "fragrantica_reference": "eternity-now-for-women",
+    "notes_source": "Fragrantica (eternity-now-for-women)"
   },
   {
     "id": "oil-244",
@@ -20279,63 +20967,55 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Pineapple",
-          "image": "assets/images/notes/pineapple.png"
-        },
-        {
-          "name": "Black Currant",
-          "image": "assets/images/notes/black-currant.png"
+          "name": "Grapefruit",
+          "image": "assets/images/notes/grapefruit.png"
         },
         {
           "name": "Bergamot",
           "image": "assets/images/notes/bergamot.png"
         },
         {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
+          "name": "Black Currant",
+          "image": "assets/images/notes/black-currant.png"
         }
       ],
       "middle": [
         {
-          "name": "Birch",
-          "image": "assets/images/notes/cedarwood.png"
+          "name": "Ginger",
+          "image": "assets/images/notes/cardamom.png"
+        },
+        {
+          "name": "Cinnamon",
+          "image": "assets/images/notes/cinnamon.png"
+        },
+        {
+          "name": "Cardamom",
+          "image": "assets/images/notes/cardamom.png"
+        },
+        {
+          "name": "Citron",
+          "image": "assets/images/notes/lemon.png"
+        }
+      ],
+      "base": [
+        {
+          "name": "Pink Pepper",
+          "image": "assets/images/notes/pink-pepper.png"
         },
         {
           "name": "Patchouli",
           "image": "assets/images/notes/patchouli.png"
         },
         {
-          "name": "Moroccan Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Oak Moss",
-          "image": "assets/images/notes/oakmoss.png"
-        },
-        {
-          "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Vanille",
-          "image": "assets/images/notes/amber.png"
+          "name": "Vetiver",
+          "image": "assets/images/notes/vetiver.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/Creed/Aventus.html",
-    "fragrantica_reference": "Aventus",
-    "notes_source": "Fragrantica (Aventus)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/Creed/Absolu-Aventus-84724.html",
+    "fragrantica_reference": "Absolu Aventus by Creed",
+    "notes_source": "Fragrantica (Absolu Aventus by Creed)"
   },
   {
     "id": "oil-249",
@@ -24432,12 +25112,12 @@ const PRODUCTS_DATA = [
           "image": "assets/images/notes/cedarwood.png"
         },
         {
-          "name": "Myrtle",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
           "name": "Rose",
           "image": "assets/images/notes/rose.png"
+        },
+        {
+          "name": "Myrtle",
+          "image": "assets/images/notes/amber.png"
         }
       ],
       "middle": [
@@ -24452,12 +25132,8 @@ const PRODUCTS_DATA = [
       ],
       "base": [
         {
-          "name": "Brazilian Rosewood",
+          "name": "Palisander Rosewood",
           "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Spices",
-          "image": "assets/images/notes/cardamom.png"
         },
         {
           "name": "Amber",
@@ -24466,13 +25142,17 @@ const PRODUCTS_DATA = [
         {
           "name": "White Musk",
           "image": "assets/images/notes/musk.png"
+        },
+        {
+          "name": "Spices",
+          "image": "assets/images/notes/cardamom.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "notes_source": "Fragrantica (tam-dao-eau-de-toilette)",
-    "fragrantica_url": "https://www.fragrantica.com/perfume/diptyque/tam-dao-eau-de-toilette-3956.html",
-    "fragrantica_reference": "tam-dao-eau-de-toilette"
+    "notes_source": "Fragrantica (tam-dao-limited-edition)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/diptyque/tam-dao-limited-edition-55612.html",
+    "fragrantica_reference": "tam-dao-limited-edition"
   },
   {
     "id": "oil-298",
@@ -24517,12 +25197,12 @@ const PRODUCTS_DATA = [
           "image": "assets/images/notes/cedarwood.png"
         },
         {
-          "name": "Myrtle",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
           "name": "Rose",
           "image": "assets/images/notes/rose.png"
+        },
+        {
+          "name": "Myrtle",
+          "image": "assets/images/notes/amber.png"
         }
       ],
       "middle": [
@@ -24537,12 +25217,8 @@ const PRODUCTS_DATA = [
       ],
       "base": [
         {
-          "name": "Brazilian Rosewood",
+          "name": "Palisander Rosewood",
           "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Spices",
-          "image": "assets/images/notes/cardamom.png"
         },
         {
           "name": "Amber",
@@ -24551,13 +25227,17 @@ const PRODUCTS_DATA = [
         {
           "name": "White Musk",
           "image": "assets/images/notes/musk.png"
+        },
+        {
+          "name": "Spices",
+          "image": "assets/images/notes/cardamom.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/diptyque/tam-dao-eau-de-toilette-3956.html",
-    "fragrantica_reference": "tam-dao-eau-de-toilette",
-    "notes_source": "Fragrantica (tam-dao-eau-de-toilette)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/diptyque/tam-dao-limited-edition-55612.html",
+    "fragrantica_reference": "tam-dao-limited-edition",
+    "notes_source": "Fragrantica (tam-dao-limited-edition)"
   },
   {
     "id": "oil-299",
@@ -24995,79 +25675,39 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Sea Water",
-          "image": "assets/images/notes/sea-notes.png"
+          "name": "Grapefruit",
+          "image": "assets/images/notes/grapefruit.png"
         },
         {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
+          "name": "Amalfi Lemon",
+          "image": "assets/images/notes/lemon.png"
         },
         {
-          "name": "Mint",
-          "image": "assets/images/notes/mint.png"
-        },
-        {
-          "name": "Green Notes",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Calone",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
+          "name": "Mandarin Orange",
+          "image": "assets/images/notes/mandarin.png"
         }
       ],
       "middle": [
         {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
+          "name": "Sage",
+          "image": "assets/images/notes/wormwood.png"
         },
         {
-          "name": "Neroli",
-          "image": "assets/images/notes/neroli.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
+          "name": "Basil",
+          "image": "assets/images/notes/amber.png"
         }
       ],
       "base": [
         {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Oakmoss",
-          "image": "assets/images/notes/oakmoss.png"
-        },
-        {
-          "name": "Tobacco",
-          "image": "assets/images/notes/tobacco.png"
-        },
-        {
-          "name": "Cedar",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Ambergris",
+          "name": "Green Notes",
           "image": "assets/images/notes/amber.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/davidoff/cool-water-507.html",
-    "fragrantica_reference": "cool-water",
-    "notes_source": "Fragrantica (cool-water)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/davidoff/davidoff-cool-water-men-ice-fresh-7932.html",
+    "fragrantica_reference": "davidoff-cool-water-men-ice-fresh",
+    "notes_source": "Fragrantica (davidoff-cool-water-men-ice-fresh)"
   },
   {
     "id": "oil-305",
@@ -25108,79 +25748,39 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Sea Water",
-          "image": "assets/images/notes/sea-notes.png"
+          "name": "Grapefruit",
+          "image": "assets/images/notes/grapefruit.png"
         },
         {
-          "name": "Lavender",
-          "image": "assets/images/notes/lavender.png"
+          "name": "Amalfi Lemon",
+          "image": "assets/images/notes/lemon.png"
         },
         {
-          "name": "Mint",
-          "image": "assets/images/notes/mint.png"
-        },
-        {
-          "name": "Green Notes",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Rosemary",
-          "image": "assets/images/notes/rosemary.png"
-        },
-        {
-          "name": "Calone",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
+          "name": "Mandarin Orange",
+          "image": "assets/images/notes/mandarin.png"
         }
       ],
       "middle": [
         {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
+          "name": "Sage",
+          "image": "assets/images/notes/wormwood.png"
         },
         {
-          "name": "Neroli",
-          "image": "assets/images/notes/neroli.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
+          "name": "Basil",
+          "image": "assets/images/notes/amber.png"
         }
       ],
       "base": [
         {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Oakmoss",
-          "image": "assets/images/notes/oakmoss.png"
-        },
-        {
-          "name": "Tobacco",
-          "image": "assets/images/notes/tobacco.png"
-        },
-        {
-          "name": "Cedar",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Ambergris",
+          "name": "Green Notes",
           "image": "assets/images/notes/amber.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/davidoff/cool-water-507.html",
-    "fragrantica_reference": "cool-water",
-    "notes_source": "Fragrantica (cool-water)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/davidoff/davidoff-cool-water-men-ice-fresh-7932.html",
+    "fragrantica_reference": "davidoff-cool-water-men-ice-fresh",
+    "notes_source": "Fragrantica (davidoff-cool-water-men-ice-fresh)"
   },
   {
     "id": "oil-306",
@@ -25221,107 +25821,47 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
+          "name": "Mint",
+          "image": "assets/images/notes/mint.png"
+        },
+        {
           "name": "Melon",
           "image": "assets/images/notes/peach.png"
         },
         {
-          "name": "Lotus",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
           "name": "Pineapple",
           "image": "assets/images/notes/pineapple.png"
-        },
-        {
-          "name": "Quince",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Calone",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Lily",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Black Currant",
-          "image": "assets/images/notes/black-currant.png"
         }
       ],
       "middle": [
         {
+          "name": "Sea Water",
+          "image": "assets/images/notes/sea-notes.png"
+        },
+        {
           "name": "Lotus",
           "image": "assets/images/notes/jasmine.png"
         },
         {
-          "name": "Water Lily",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Honey",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Hawthorn",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
+          "name": "Violet",
+          "image": "assets/images/notes/violet.png"
         }
       ],
       "base": [
         {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
+          "name": "Woodsy Notes",
+          "image": "assets/images/notes/cedarwood.png"
         },
         {
-          "name": "Vetiver",
-          "image": "assets/images/notes/vetiver.png"
-        },
-        {
-          "name": "Violet Root",
-          "image": "assets/images/notes/violet.png"
-        },
-        {
-          "name": "Raspberry",
-          "image": "assets/images/notes/raspberry.png"
-        },
-        {
-          "name": "Blackberry",
-          "image": "assets/images/notes/raspberry.png"
-        },
-        {
-          "name": "Peach",
-          "image": "assets/images/notes/peach.png"
-        },
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
+          "name": "Amber",
+          "image": "assets/images/notes/amber.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/davidoff/cool-water-508.html",
-    "fragrantica_reference": "cool-water",
-    "notes_source": "Fragrantica (cool-water)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/davidoff/davidoff-cool-water-women-ice-fresh-7931.html",
+    "fragrantica_reference": "davidoff-cool-water-women-ice-fresh",
+    "notes_source": "Fragrantica (davidoff-cool-water-women-ice-fresh)"
   },
   {
     "id": "oil-307",
@@ -25508,107 +26048,27 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Melon",
-          "image": "assets/images/notes/peach.png"
-        },
-        {
-          "name": "Lotus",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Lemon",
-          "image": "assets/images/notes/lemon.png"
-        },
-        {
-          "name": "Pineapple",
-          "image": "assets/images/notes/pineapple.png"
-        },
-        {
-          "name": "Quince",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Calone",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Lily",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Black Currant",
-          "image": "assets/images/notes/black-currant.png"
-        }
-      ],
-      "middle": [
-        {
-          "name": "Lotus",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Water Lily",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Honey",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Hawthorn",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
           "name": "Rose",
           "image": "assets/images/notes/rose.png"
         }
       ],
+      "middle": [
+        {
+          "name": "Haitian Vetiver",
+          "image": "assets/images/notes/vetiver.png"
+        }
+      ],
       "base": [
         {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Vetiver",
-          "image": "assets/images/notes/vetiver.png"
-        },
-        {
-          "name": "Violet Root",
-          "image": "assets/images/notes/violet.png"
-        },
-        {
-          "name": "Raspberry",
-          "image": "assets/images/notes/raspberry.png"
-        },
-        {
-          "name": "Blackberry",
-          "image": "assets/images/notes/raspberry.png"
-        },
-        {
-          "name": "Peach",
-          "image": "assets/images/notes/peach.png"
-        },
-        {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
-        },
-        {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
+          "name": "Tonka Bean",
+          "image": "assets/images/notes/tonka-bean.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "notes_source": "Fragrantica (cool-water)",
-    "fragrantica_url": "https://www.fragrantica.com/perfume/davidoff/cool-water-508.html",
-    "fragrantica_reference": "cool-water"
+    "notes_source": "Fragrantica (cool-water-parfum-for-her)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/davidoff/cool-water-parfum-for-her-66526.html",
+    "fragrantica_reference": "cool-water-parfum-for-her"
   },
   {
     "id": "oil-310",
@@ -25977,87 +26437,43 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Pear",
-          "image": "assets/images/notes/peach.png"
-        },
-        {
-          "name": "Melon",
-          "image": "assets/images/notes/peach.png"
-        },
-        {
-          "name": "Magnolia",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Peach",
-          "image": "assets/images/notes/peach.png"
-        },
-        {
-          "name": "Mandarin Orange",
-          "image": "assets/images/notes/mandarin.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        }
-      ],
-      "middle": [
-        {
           "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Tuberose",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Freesia",
           "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Rose",
           "image": "assets/images/notes/rose.png"
+        }
+      ],
+      "middle": [
+        {
+          "name": "Vanille",
+          "image": "assets/images/notes/amber.png"
         },
         {
-          "name": "Orchid",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Plum",
-          "image": "assets/images/notes/peach.png"
-        },
-        {
-          "name": "Violet",
-          "image": "assets/images/notes/violet.png"
+          "name": "Tonka Bean",
+          "image": "assets/images/notes/tonka-bean.png"
         }
       ],
       "base": [
         {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
+          "name": "Amber",
+          "image": "assets/images/notes/amber.png"
         },
         {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
+          "name": "French Labdanum",
+          "image": "assets/images/notes/amber.png"
         },
         {
-          "name": "Blackberry",
-          "image": "assets/images/notes/raspberry.png"
-        },
-        {
-          "name": "Cedar",
-          "image": "assets/images/notes/cedarwood.png"
+          "name": "Patchouli",
+          "image": "assets/images/notes/patchouli.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/dior/j-adore-210.html",
-    "fragrantica_reference": "j-adore",
-    "notes_source": "Fragrantica (j-adore)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/dior/j-adore-l-or-10371.html",
+    "fragrantica_reference": "j-adore-l-or",
+    "notes_source": "Fragrantica (j-adore-l-or)"
   },
   {
     "id": "oil-315",
@@ -27633,47 +28049,39 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Aldehydes",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Lilac",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
+          "name": "Lavender",
+          "image": "assets/images/notes/lavender.png"
         }
       ],
       "middle": [
         {
-          "name": "Narcissus",
-          "image": "assets/images/notes/amber.png"
+          "name": "Iris",
+          "image": "assets/images/notes/iris.png"
         },
         {
-          "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "name": "Ambrette (musk Mallow)",
+          "image": "assets/images/notes/musk.png"
+        },
+        {
+          "name": "Pear",
+          "image": "assets/images/notes/peach.png"
         }
       ],
       "base": [
         {
-          "name": "Oak Moss",
-          "image": "assets/images/notes/oakmoss.png"
-        },
-        {
-          "name": "Woodsy Notes",
+          "name": "Virginia Cedar",
           "image": "assets/images/notes/cedarwood.png"
         },
         {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
+          "name": "Vetiver",
+          "image": "assets/images/notes/vetiver.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/dior/dior-dior-2607.html",
-    "fragrantica_reference": "dior-dior",
-    "notes_source": "Fragrantica (dior-dior)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/Dior/Dior-Homme-Intense-2011-13016.html",
+    "fragrantica_reference": "Dior Homme Intense by Dior",
+    "notes_source": "Fragrantica (Dior Homme Intense by Dior)"
   },
   {
     "id": "oil-331",
@@ -27791,47 +28199,55 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Aldehydes",
-          "image": "assets/images/notes/amber.png"
+          "name": "Blackberry",
+          "image": "assets/images/notes/raspberry.png"
         },
         {
-          "name": "Lilac",
-          "image": "assets/images/notes/amber.png"
+          "name": "Mandarin Leaf",
+          "image": "assets/images/notes/orange.png"
         },
         {
-          "name": "Jasmine",
+          "name": "Silk Tree Blossom",
           "image": "assets/images/notes/jasmine.png"
         }
       ],
       "middle": [
         {
-          "name": "Narcissus",
+          "name": "Jasmine",
+          "image": "assets/images/notes/jasmine.png"
+        },
+        {
+          "name": "Orange Blossom",
+          "image": "assets/images/notes/neroli.png"
+        },
+        {
+          "name": "Night Blooming Cereus",
           "image": "assets/images/notes/amber.png"
         },
         {
-          "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "name": "Rose",
+          "image": "assets/images/notes/rose.png"
         }
       ],
       "base": [
         {
-          "name": "Oak Moss",
-          "image": "assets/images/notes/oakmoss.png"
+          "name": "Vanilla",
+          "image": "assets/images/notes/vanilla.png"
         },
         {
-          "name": "Woodsy Notes",
-          "image": "assets/images/notes/cedarwood.png"
+          "name": "Tonka Bean",
+          "image": "assets/images/notes/tonka-bean.png"
         },
         {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
+          "name": "Mysore Sandalwood",
+          "image": "assets/images/notes/sandalwood.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/dior/dior-dior-2607.html",
-    "fragrantica_reference": "dior-dior",
-    "notes_source": "Fragrantica (dior-dior)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/dior/dior-addict-215.html",
+    "fragrantica_reference": "dior-addict",
+    "notes_source": "Fragrantica (dior-addict)"
   },
   {
     "id": "oil-333",
@@ -28695,55 +29111,55 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Sicilian Lemon",
-          "image": "assets/images/notes/lemon.png"
+          "name": "Grapefruit",
+          "image": "assets/images/notes/grapefruit.png"
         },
         {
-          "name": "Apple",
-          "image": "assets/images/notes/apple.png"
+          "name": "Bergamot",
+          "image": "assets/images/notes/bergamot.png"
         },
         {
-          "name": "Cedar",
-          "image": "assets/images/notes/cedarwood.png"
+          "name": "Sicilian Mandarin",
+          "image": "assets/images/notes/orange.png"
         },
         {
-          "name": "Bellflower",
-          "image": "assets/images/notes/jasmine.png"
+          "name": "Juniper",
+          "image": "assets/images/notes/amber.png"
         }
       ],
       "middle": [
         {
-          "name": "Bamboo",
-          "image": "assets/images/notes/amber.png"
+          "name": "Pepper",
+          "image": "assets/images/notes/mint.png"
         },
         {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
+          "name": "Rosemary",
+          "image": "assets/images/notes/rosemary.png"
         },
         {
-          "name": "White Rose",
+          "name": "Brazilian Rosewood",
           "image": "assets/images/notes/rose.png"
         }
       ],
       "base": [
         {
-          "name": "Cedar",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
           "name": "Musk",
           "image": "assets/images/notes/musk.png"
         },
         {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
+          "name": "Incense",
+          "image": "assets/images/notes/incense.png"
+        },
+        {
+          "name": "Oakmoss",
+          "image": "assets/images/notes/oakmoss.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/dolce-gabbana/light-blue-485.html",
-    "fragrantica_reference": "light-blue",
-    "notes_source": "Fragrantica (light-blue)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/dolce-gabbana/light-blue-pour-homme-1068.html",
+    "fragrantica_reference": "light-blue-pour-homme",
+    "notes_source": "Fragrantica (light-blue-pour-homme)"
   },
   {
     "id": "oil-344",
@@ -28849,63 +29265,59 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Peach",
-          "image": "assets/images/notes/peach.png"
+          "name": "Grapefruit",
+          "image": "assets/images/notes/grapefruit.png"
         },
         {
-          "name": "Litchi",
+          "name": "Cardamom",
+          "image": "assets/images/notes/cardamom.png"
+        },
+        {
+          "name": "Coriander",
           "image": "assets/images/notes/amber.png"
         },
         {
-          "name": "Mandarin Orange",
-          "image": "assets/images/notes/mandarin.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
+          "name": "Basil",
+          "image": "assets/images/notes/amber.png"
         }
       ],
       "middle": [
         {
-          "name": "Lily",
-          "image": "assets/images/notes/jasmine.png"
+          "name": "Clary Sage",
+          "image": "assets/images/notes/wormwood.png"
         },
         {
-          "name": "Plum",
-          "image": "assets/images/notes/peach.png"
+          "name": "Lavender",
+          "image": "assets/images/notes/lavender.png"
         },
         {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "name": "Geranium",
+          "image": "assets/images/notes/rose.png"
         }
       ],
       "base": [
         {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
           "name": "Vetiver",
           "image": "assets/images/notes/vetiver.png"
+        },
+        {
+          "name": "Tobacco",
+          "image": "assets/images/notes/tobacco.png"
+        },
+        {
+          "name": "Patchouli",
+          "image": "assets/images/notes/patchouli.png"
+        },
+        {
+          "name": "Labdanum",
+          "image": "assets/images/notes/amber.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/dolce-gabbana/the-one-698.html",
-    "fragrantica_reference": "the-one",
-    "notes_source": "Fragrantica (the-one)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/dolce-gabbana/the-one-grey-50611.html",
+    "fragrantica_reference": "the-one-grey",
+    "notes_source": "Fragrantica (the-one-grey)"
   },
   {
     "id": "oil-346",
@@ -28966,18 +29378,6 @@ const PRODUCTS_DATA = [
         {
           "name": "Lily",
           "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Plum",
-          "image": "assets/images/notes/peach.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
         }
       ],
       "base": [
@@ -28992,17 +29392,13 @@ const PRODUCTS_DATA = [
         {
           "name": "Musk",
           "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Vetiver",
-          "image": "assets/images/notes/vetiver.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/dolce-gabbana/the-one-698.html",
-    "fragrantica_reference": "the-one",
-    "notes_source": "Fragrantica (the-one)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/dolce-gabbana/the-one-collector-for-women-27418.html",
+    "fragrantica_reference": "the-one-collector-for-women",
+    "notes_source": "Fragrantica (the-one-collector-for-women)"
   },
   {
     "id": "oil-347",
@@ -30009,14 +30405,73 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [],
-      "middle": [],
-      "base": []
+      "top": [
+        {
+          "name": "Mango",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Passionfruit",
+          "image": "assets/images/notes/raspberry.png"
+        },
+        {
+          "name": "Raspberry",
+          "image": "assets/images/notes/raspberry.png"
+        },
+        {
+          "name": "Passion Flower",
+          "image": "assets/images/notes/jasmine.png"
+        },
+        {
+          "name": "Orange",
+          "image": "assets/images/notes/orange.png"
+        },
+        {
+          "name": "Magnolia",
+          "image": "assets/images/notes/jasmine.png"
+        },
+        {
+          "name": "White Flowers",
+          "image": "assets/images/notes/jasmine.png"
+        }
+      ],
+      "middle": [
+        {
+          "name": "White Peach",
+          "image": "assets/images/notes/peach.png"
+        },
+        {
+          "name": "Red Berries",
+          "image": "assets/images/notes/raspberry.png"
+        },
+        {
+          "name": "Hibiscus",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Rose Hip",
+          "image": "assets/images/notes/rose.png"
+        }
+      ],
+      "base": [
+        {
+          "name": "Musk",
+          "image": "assets/images/notes/musk.png"
+        },
+        {
+          "name": "Sandalwood",
+          "image": "assets/images/notes/sandalwood.png"
+        },
+        {
+          "name": "White Woods",
+          "image": "assets/images/notes/cedarwood.png"
+        }
+      ]
     },
-    "fragrantica_matched": false,
-    "notes_source": null,
-    "fragrantica_url": null,
-    "fragrantica_reference": null
+    "fragrantica_matched": true,
+    "notes_source": "Fragrantica (island-kiss)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/escada/island-kiss-1355.html",
+    "fragrantica_reference": "island-kiss"
   },
   {
     "id": "oil-359",
@@ -32049,25 +32504,17 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Pear Blossom",
+          "name": "Pear",
           "image": "assets/images/notes/peach.png"
         },
         {
           "name": "Red Berries",
           "image": "assets/images/notes/raspberry.png"
-        },
-        {
-          "name": "Italian Mandarin",
-          "image": "assets/images/notes/orange.png"
         }
       ],
       "middle": [
         {
           "name": "Gardenia",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Jasmine",
           "image": "assets/images/notes/jasmine.png"
         },
         {
@@ -32077,19 +32524,15 @@ const PRODUCTS_DATA = [
       ],
       "base": [
         {
-          "name": "Brown Sugar",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
           "name": "Patchouli",
           "image": "assets/images/notes/patchouli.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/gucci/flora-gorgeous-gardenia-68578.html",
-    "fragrantica_reference": "flora-gorgeous-gardenia",
-    "notes_source": "Fragrantica (flora-gorgeous-gardenia)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/gucci/flora-by-gucci-gorgeous-gardenia-14395.html",
+    "fragrantica_reference": "flora-by-gucci-gorgeous-gardenia",
+    "notes_source": "Fragrantica (flora-by-gucci-gorgeous-gardenia)"
   },
   {
     "id": "oil-387",
@@ -32296,27 +32739,27 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Jasmine Sambac",
-          "image": "assets/images/notes/jasmine.png"
+          "name": "Vanilla",
+          "image": "assets/images/notes/vanilla.png"
         }
       ],
       "middle": [
         {
-          "name": "Black Tea",
-          "image": "assets/images/notes/amber.png"
+          "name": "Vanilla Orchid",
+          "image": "assets/images/notes/vanilla.png"
         }
       ],
       "base": [
         {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
+          "name": "Ozonic Notes",
+          "image": "assets/images/notes/amber.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/gucci/a-floral-verse-81511.html",
-    "fragrantica_reference": "a-floral-verse",
-    "notes_source": "Fragrantica (a-floral-verse)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/gucci/flora-gorgeous-orchid-94979.html",
+    "fragrantica_reference": "flora-gorgeous-orchid",
+    "notes_source": "Fragrantica (flora-gorgeous-orchid)"
   },
   {
     "id": "oil-390",
@@ -32357,27 +32800,27 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Jasmine Sambac",
-          "image": "assets/images/notes/jasmine.png"
+          "name": "Vanilla",
+          "image": "assets/images/notes/vanilla.png"
         }
       ],
       "middle": [
         {
-          "name": "Black Tea",
-          "image": "assets/images/notes/amber.png"
+          "name": "Vanilla Orchid",
+          "image": "assets/images/notes/vanilla.png"
         }
       ],
       "base": [
         {
-          "name": "White Musk",
-          "image": "assets/images/notes/musk.png"
+          "name": "Ozonic Notes",
+          "image": "assets/images/notes/amber.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "notes_source": "Fragrantica (a-floral-verse)",
-    "fragrantica_url": "https://www.fragrantica.com/perfume/gucci/a-floral-verse-81511.html",
-    "fragrantica_reference": "a-floral-verse"
+    "notes_source": "Fragrantica (flora-gorgeous-orchid)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/gucci/flora-gorgeous-orchid-94979.html",
+    "fragrantica_reference": "flora-gorgeous-orchid"
   },
   {
     "id": "oil-391",
@@ -33658,30 +34101,46 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Citruses",
-          "image": "assets/images/notes/lemon.png"
+          "name": "Almond",
+          "image": "assets/images/notes/amber.png"
         },
         {
-          "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "name": "Spices",
+          "image": "assets/images/notes/cardamom.png"
+        },
+        {
+          "name": "Lavender",
+          "image": "assets/images/notes/lavender.png"
+        },
+        {
+          "name": "Thyme",
+          "image": "assets/images/notes/amber.png"
         },
         {
           "name": "Rosemary",
           "image": "assets/images/notes/rosemary.png"
         },
         {
-          "name": "Bitter Orange",
-          "image": "assets/images/notes/orange.png"
+          "name": "Bergamot",
+          "image": "assets/images/notes/bergamot.png"
         }
       ],
       "middle": [
         {
-          "name": "Almond",
-          "image": "assets/images/notes/amber.png"
+          "name": "Cherry",
+          "image": "assets/images/notes/raspberry.png"
         },
         {
-          "name": "Tonka Bean",
-          "image": "assets/images/notes/tonka-bean.png"
+          "name": "Vanilla",
+          "image": "assets/images/notes/vanilla.png"
+        },
+        {
+          "name": "Incense",
+          "image": "assets/images/notes/incense.png"
+        },
+        {
+          "name": "Bulgarian Rose",
+          "image": "assets/images/notes/rose.png"
         }
       ],
       "base": [
@@ -33690,19 +34149,19 @@ const PRODUCTS_DATA = [
           "image": "assets/images/notes/leather.png"
         },
         {
-          "name": "Cedar",
-          "image": "assets/images/notes/cedarwood.png"
+          "name": "Tonka Bean",
+          "image": "assets/images/notes/tonka-bean.png"
         },
         {
-          "name": "Vetiver",
-          "image": "assets/images/notes/vetiver.png"
+          "name": "Sandalwood",
+          "image": "assets/images/notes/sandalwood.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/guerlain/l-homme-ideal-25780.html",
-    "fragrantica_reference": "l-homme-ideal",
-    "notes_source": "Fragrantica (l-homme-ideal)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/Guerlain/L-Homme-Ideal-Eau-de-Parfum-37735.html",
+    "fragrantica_reference": "L'Homme Idéal Eau de Parfum by Guerlain",
+    "notes_source": "Fragrantica (L'Homme Idéal Eau de Parfum by Guerlain)"
   },
   {
     "id": "oil-408",
@@ -36211,14 +36670,57 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [],
-      "middle": [],
-      "base": []
+      "top": [
+        {
+          "name": "Grapefruit",
+          "image": "assets/images/notes/grapefruit.png"
+        },
+        {
+          "name": "Cardamom",
+          "image": "assets/images/notes/cardamom.png"
+        },
+        {
+          "name": "Elemi",
+          "image": "assets/images/notes/amber.png"
+        }
+      ],
+      "middle": [
+        {
+          "name": "Apricot",
+          "image": "assets/images/notes/peach.png"
+        },
+        {
+          "name": "Ambroxan",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Virginian Cedar",
+          "image": "assets/images/notes/cedarwood.png"
+        },
+        {
+          "name": "Sandalwood",
+          "image": "assets/images/notes/sandalwood.png"
+        }
+      ],
+      "base": [
+        {
+          "name": "Woody Notes",
+          "image": "assets/images/notes/cedarwood.png"
+        },
+        {
+          "name": "Haitian Vetiver",
+          "image": "assets/images/notes/vetiver.png"
+        },
+        {
+          "name": "Patchouli",
+          "image": "assets/images/notes/patchouli.png"
+        }
+      ]
     },
-    "fragrantica_matched": false,
-    "notes_source": null,
-    "fragrantica_url": null,
-    "fragrantica_reference": null
+    "fragrantica_matched": true,
+    "notes_source": "Fragrantica (l-eau-d-issey-pour-homme-wood-wood)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/issey-miyake/l-eau-d-issey-pour-homme-wood-wood-55797.html",
+    "fragrantica_reference": "l-eau-d-issey-pour-homme-wood-wood"
   },
   {
     "id": "oil-442",
@@ -37532,14 +38034,41 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [],
-      "middle": [],
-      "base": []
+      "top": [
+        {
+          "name": "Mandarin Orange",
+          "image": "assets/images/notes/mandarin.png"
+        },
+        {
+          "name": "Bergamot",
+          "image": "assets/images/notes/bergamot.png"
+        },
+        {
+          "name": "Petitgrain",
+          "image": "assets/images/notes/neroli.png"
+        }
+      ],
+      "middle": [
+        {
+          "name": "Orange",
+          "image": "assets/images/notes/orange.png"
+        }
+      ],
+      "base": [
+        {
+          "name": "Amber",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Iris",
+          "image": "assets/images/notes/iris.png"
+        }
+      ]
     },
-    "fragrantica_matched": false,
-    "notes_source": null,
-    "fragrantica_url": null,
-    "fragrantica_reference": null
+    "fragrantica_matched": true,
+    "notes_source": "Fragrantica (bitter-mandarin)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/jo-malone-london/bitter-mandarin-72614.html",
+    "fragrantica_reference": "bitter-mandarin"
   },
   {
     "id": "oil-458",
@@ -39761,14 +40290,53 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [],
-      "middle": [],
-      "base": []
+      "top": [
+        {
+          "name": "Mango",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Peach",
+          "image": "assets/images/notes/peach.png"
+        },
+        {
+          "name": "Melon",
+          "image": "assets/images/notes/peach.png"
+        }
+      ],
+      "middle": [
+        {
+          "name": "Frangipani",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Tiare Flower",
+          "image": "assets/images/notes/jasmine.png"
+        },
+        {
+          "name": "Ylang-ylang",
+          "image": "assets/images/notes/amber.png"
+        }
+      ],
+      "base": [
+        {
+          "name": "Musk",
+          "image": "assets/images/notes/musk.png"
+        },
+        {
+          "name": "Vanille",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Sandalwood",
+          "image": "assets/images/notes/sandalwood.png"
+        }
+      ]
     },
-    "fragrantica_matched": false,
-    "fragrantica_url": null,
-    "fragrantica_reference": null,
-    "notes_source": null
+    "fragrantica_matched": true,
+    "fragrantica_url": "https://www.fragrantica.com/perfume/jovan/satisfaction-for-women-9411.html",
+    "fragrantica_reference": "satisfaction-for-women",
+    "notes_source": "Fragrantica (satisfaction-for-women)"
   },
   {
     "id": "oil-487",
@@ -42918,14 +43486,45 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [],
-      "middle": [],
-      "base": []
+      "top": [
+        {
+          "name": "Pineapple",
+          "image": "assets/images/notes/pineapple.png"
+        },
+        {
+          "name": "Saffron",
+          "image": "assets/images/notes/saffron.png"
+        }
+      ],
+      "middle": [
+        {
+          "name": "Coffee",
+          "image": "assets/images/notes/coffee.png"
+        },
+        {
+          "name": "Violet Leaves",
+          "image": "assets/images/notes/violet.png"
+        }
+      ],
+      "base": [
+        {
+          "name": "Butterscotch",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Vanilla",
+          "image": "assets/images/notes/vanilla.png"
+        },
+        {
+          "name": "Sandalwood",
+          "image": "assets/images/notes/sandalwood.png"
+        }
+      ]
     },
-    "fragrantica_matched": false,
-    "notes_source": null,
-    "fragrantica_url": null,
-    "fragrantica_reference": null
+    "fragrantica_matched": true,
+    "notes_source": "Fragrantica (ajayeb-dubai)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/lattafa-perfumes/ajayeb-dubai-84223.html",
+    "fragrantica_reference": "ajayeb-dubai"
   },
   {
     "id": "oil-531",
@@ -43101,67 +43700,47 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Caramel",
-          "image": "assets/images/notes/vanilla.png"
+          "name": "Bergamot",
+          "image": "assets/images/notes/bergamot.png"
         },
         {
-          "name": "Bitter Almond",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Pink Pepper",
-          "image": "assets/images/notes/pink-pepper.png"
-        },
-        {
-          "name": "Apricot",
-          "image": "assets/images/notes/peach.png"
+          "name": "Saffron",
+          "image": "assets/images/notes/saffron.png"
         }
       ],
       "middle": [
         {
-          "name": "Honey",
-          "image": "assets/images/notes/vanilla.png"
+          "name": "Cinnamon",
+          "image": "assets/images/notes/cinnamon.png"
         },
         {
-          "name": "Rhubarb",
+          "name": "Plum",
+          "image": "assets/images/notes/peach.png"
+        },
+        {
+          "name": "Liquor",
           "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "White Flowers",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
         }
       ],
       "base": [
         {
-          "name": "Leather",
-          "image": "assets/images/notes/leather.png"
+          "name": "Amber",
+          "image": "assets/images/notes/amber.png"
         },
         {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
+          "name": "Tonka Bean",
+          "image": "assets/images/notes/tonka-bean.png"
         },
         {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Vetiver",
-          "image": "assets/images/notes/vetiver.png"
-        },
-        {
-          "name": "Labdanum",
+          "name": "Benzoin",
           "image": "assets/images/notes/amber.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/lattafa-perfumes/teriaq-89850.html",
-    "fragrantica_reference": "teriaq",
-    "notes_source": "Fragrantica (teriaq)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/Lattafa-Perfumes/Teriaq-Intense-97305.html",
+    "fragrantica_reference": "Teriaq Intense by Lattafa Perfumes",
+    "notes_source": "Fragrantica (Teriaq Intense by Lattafa Perfumes)"
   },
   {
     "id": "oil-534",
@@ -43807,14 +44386,61 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [],
-      "middle": [],
-      "base": []
+      "top": [
+        {
+          "name": "Apple",
+          "image": "assets/images/notes/apple.png"
+        },
+        {
+          "name": "Bergamot",
+          "image": "assets/images/notes/bergamot.png"
+        },
+        {
+          "name": "Ginger",
+          "image": "assets/images/notes/cardamom.png"
+        }
+      ],
+      "middle": [
+        {
+          "name": "Lavender",
+          "image": "assets/images/notes/lavender.png"
+        },
+        {
+          "name": "Sage",
+          "image": "assets/images/notes/wormwood.png"
+        },
+        {
+          "name": "Juniper Berries",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Geranium",
+          "image": "assets/images/notes/rose.png"
+        }
+      ],
+      "base": [
+        {
+          "name": "Tonka Bean",
+          "image": "assets/images/notes/tonka-bean.png"
+        },
+        {
+          "name": "Amberwood",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Cedar",
+          "image": "assets/images/notes/cedarwood.png"
+        },
+        {
+          "name": "Vetiver",
+          "image": "assets/images/notes/vetiver.png"
+        }
+      ]
     },
-    "fragrantica_matched": false,
-    "notes_source": null,
-    "fragrantica_url": null,
-    "fragrantica_reference": null
+    "fragrantica_matched": true,
+    "notes_source": "Fragrantica (Fakhar Black by Lattafa Perfumes)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/Lattafa-Perfumes/Fakhar-Black-70388.html",
+    "fragrantica_reference": "Fakhar Black by Lattafa Perfumes"
   },
   {
     "id": "oil-542",
@@ -44296,59 +44922,55 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Champagne",
-          "image": "assets/images/notes/amber.png"
+          "name": "Bergamot",
+          "image": "assets/images/notes/bergamot.png"
         },
         {
-          "name": "Strawberry",
-          "image": "assets/images/notes/raspberry.png"
+          "name": "Sage",
+          "image": "assets/images/notes/wormwood.png"
         },
         {
-          "name": "Tangerine",
-          "image": "assets/images/notes/orange.png"
-        },
-        {
-          "name": "Blood Orange",
-          "image": "assets/images/notes/orange.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
+          "name": "Pink Pepper",
+          "image": "assets/images/notes/pink-pepper.png"
         }
       ],
       "middle": [
         {
-          "name": "Gardenia",
-          "image": "assets/images/notes/jasmine.png"
+          "name": "Plum",
+          "image": "assets/images/notes/peach.png"
         },
         {
           "name": "Jasmine",
           "image": "assets/images/notes/jasmine.png"
         },
         {
-          "name": "Vanilla Orchid",
-          "image": "assets/images/notes/vanilla.png"
+          "name": "Black Pepper",
+          "image": "assets/images/notes/cardamom.png"
         }
       ],
       "base": [
+        {
+          "name": "Saffiano Leather",
+          "image": "assets/images/notes/leather.png"
+        },
         {
           "name": "Amber",
           "image": "assets/images/notes/amber.png"
         },
         {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
+          "name": "Patchouli",
+          "image": "assets/images/notes/patchouli.png"
         },
         {
-          "name": "Chestnut",
-          "image": "assets/images/notes/amber.png"
+          "name": "Moss",
+          "image": "assets/images/notes/oakmoss.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/lattafa-perfumes/haya-85031.html",
-    "fragrantica_reference": "haya",
-    "notes_source": "Fragrantica (haya)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/lattafa-perfumes/al-nashama-89762.html",
+    "fragrantica_reference": "al-nashama",
+    "notes_source": "Fragrantica (al-nashama)"
   },
   {
     "id": "oil-548",
@@ -44632,51 +45254,67 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Red Berries",
-          "image": "assets/images/notes/raspberry.png"
+          "name": "Black Pepper",
+          "image": "assets/images/notes/cardamom.png"
         },
         {
-          "name": "Peach",
-          "image": "assets/images/notes/peach.png"
+          "name": "Pink Pepper",
+          "image": "assets/images/notes/pink-pepper.png"
         },
         {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
+          "name": "Saffron",
+          "image": "assets/images/notes/saffron.png"
         }
       ],
       "middle": [
         {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
+          "name": "Rhubarb",
+          "image": "assets/images/notes/amber.png"
         },
         {
-          "name": "Peony",
-          "image": "assets/images/notes/rose.png"
+          "name": "Cade Oil",
+          "image": "assets/images/notes/amber.png"
         },
         {
-          "name": "Red Lily",
-          "image": "assets/images/notes/jasmine.png"
+          "name": "Labdanum",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Gurjan Balsam",
+          "image": "assets/images/notes/amber.png"
         }
       ],
       "base": [
         {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
+          "name": "Leather",
+          "image": "assets/images/notes/leather.png"
         },
         {
-          "name": "Vanilla Flower",
-          "image": "assets/images/notes/vanilla.png"
+          "name": "Cedar",
+          "image": "assets/images/notes/cedarwood.png"
+        },
+        {
+          "name": "Patchouli",
+          "image": "assets/images/notes/patchouli.png"
+        },
+        {
+          "name": "Guaiac Wood",
+          "image": "assets/images/notes/cedarwood.png"
         },
         {
           "name": "Musk",
           "image": "assets/images/notes/musk.png"
+        },
+        {
+          "name": "Moss",
+          "image": "assets/images/notes/oakmoss.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/lattafa-perfumes/maahir-64950.html",
-    "fragrantica_reference": "maahir",
-    "notes_source": "Fragrantica (maahir)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/Lattafa-Perfumes/Maahir-Black-Edition-65238.html",
+    "fragrantica_reference": "Maahir Black Edition by Lattafa Perfumes",
+    "notes_source": "Fragrantica (Maahir Black Edition by Lattafa Perfumes)"
   },
   {
     "id": "oil-552",
@@ -52707,14 +53345,45 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [],
-      "middle": [],
-      "base": []
+      "top": [
+        {
+          "name": "Woody Notes",
+          "image": "assets/images/notes/cedarwood.png"
+        },
+        {
+          "name": "Oud",
+          "image": "assets/images/notes/oud.png"
+        }
+      ],
+      "middle": [
+        {
+          "name": "Vanilla",
+          "image": "assets/images/notes/vanilla.png"
+        },
+        {
+          "name": "Sugar",
+          "image": "assets/images/notes/vanilla.png"
+        }
+      ],
+      "base": [
+        {
+          "name": "Oud",
+          "image": "assets/images/notes/oud.png"
+        },
+        {
+          "name": "Sandalwood",
+          "image": "assets/images/notes/sandalwood.png"
+        },
+        {
+          "name": "Herbal Notes",
+          "image": "assets/images/notes/amber.png"
+        }
+      ]
     },
-    "fragrantica_matched": false,
-    "fragrantica_url": null,
-    "fragrantica_reference": null,
-    "notes_source": null
+    "fragrantica_matched": true,
+    "fragrantica_url": "https://www.fragrantica.com/perfume/Lattafa-Perfumes/Ameer-Al-Oudh-Intense-Oud-64949.html",
+    "fragrantica_reference": "Ameer Al Oudh Special Edition by Lattafa",
+    "notes_source": "Fragrantica (Ameer Al Oudh Special Edition by Lattafa)"
   },
   {
     "id": "oil-666",
@@ -52930,14 +53599,37 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [],
-      "middle": [],
-      "base": []
+      "top": [
+        {
+          "name": "Cinnamon",
+          "image": "assets/images/notes/cinnamon.png"
+        },
+        {
+          "name": "Pink Pepper",
+          "image": "assets/images/notes/pink-pepper.png"
+        }
+      ],
+      "middle": [
+        {
+          "name": "Indian Oud",
+          "image": "assets/images/notes/oud.png"
+        }
+      ],
+      "base": [
+        {
+          "name": "Guaiac Wood",
+          "image": "assets/images/notes/cedarwood.png"
+        },
+        {
+          "name": "Vetiver",
+          "image": "assets/images/notes/vetiver.png"
+        }
+      ]
     },
-    "fragrantica_matched": false,
-    "fragrantica_url": null,
-    "fragrantica_reference": null,
-    "notes_source": null
+    "fragrantica_matched": true,
+    "fragrantica_url": "https://www.fragrantica.com/perfume/Ralph-Lauren/Polo-Supreme-Oud-29759.html",
+    "fragrantica_reference": "Polo Supreme Oud by Ralph Lauren",
+    "notes_source": "Fragrantica (Polo Supreme Oud by Ralph Lauren)"
   },
   {
     "id": "oil-670",
@@ -56920,47 +57612,39 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Water Jasmine",
-          "image": "assets/images/notes/jasmine.png"
+          "name": "Salt",
+          "image": "assets/images/notes/sea-notes.png"
         },
-        {
-          "name": "Green Mandarin",
-          "image": "assets/images/notes/orange.png"
-        },
-        {
-          "name": "Ginger Flower",
-          "image": "assets/images/notes/jasmine.png"
-        }
-      ],
-      "middle": [
         {
           "name": "Vanilla",
           "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Salt",
-          "image": "assets/images/notes/sea-notes.png"
         }
       ],
-      "base": [
+      "middle": [
         {
           "name": "Ambergris",
           "image": "assets/images/notes/amber.png"
         },
         {
-          "name": "Cashmere Wood",
-          "image": "assets/images/notes/cedarwood.png"
+          "name": "Orange Blossom",
+          "image": "assets/images/notes/neroli.png"
+        }
+      ],
+      "base": [
+        {
+          "name": "White Amber",
+          "image": "assets/images/notes/amber.png"
         },
         {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
+          "name": "Cedar",
+          "image": "assets/images/notes/cedarwood.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/paco-rabanne/olympea-31666.html",
-    "fragrantica_reference": "olympea",
-    "notes_source": "Fragrantica (olympea)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/Paco-Rabanne/Olympea-Intense-41484.html",
+    "fragrantica_reference": "Olympéa Intense by Paco Rabanne",
+    "notes_source": "Fragrantica (Olympéa Intense by Paco Rabanne)"
   },
   {
     "id": "oil-734",
@@ -59920,99 +60604,51 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Juniper Berries",
+          "name": "Mango",
           "image": "assets/images/notes/amber.png"
         },
         {
-          "name": "Basil",
-          "image": "assets/images/notes/amber.png"
+          "name": "Tangerine",
+          "image": "assets/images/notes/orange.png"
         },
         {
-          "name": "Artemisia",
-          "image": "assets/images/notes/wormwood.png"
-        },
-        {
-          "name": "Caraway",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
+          "name": "Lemon",
+          "image": "assets/images/notes/lemon.png"
         }
       ],
       "middle": [
         {
-          "name": "Pine Tree Needles",
-          "image": "assets/images/notes/cedarwood.png"
+          "name": "Sage",
+          "image": "assets/images/notes/wormwood.png"
         },
         {
-          "name": "Leather",
-          "image": "assets/images/notes/leather.png"
+          "name": "Wormwood",
+          "image": "assets/images/notes/wormwood.png"
         },
         {
-          "name": "Chamomile",
+          "name": "Calone",
           "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Pepper",
-          "image": "assets/images/notes/mint.png"
-        },
-        {
-          "name": "Carnation",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
         }
       ],
       "base": [
         {
-          "name": "Tobacco",
-          "image": "assets/images/notes/tobacco.png"
-        },
-        {
-          "name": "Oakmoss",
-          "image": "assets/images/notes/oakmoss.png"
+          "name": "Sandalwood",
+          "image": "assets/images/notes/sandalwood.png"
         },
         {
           "name": "Patchouli",
           "image": "assets/images/notes/patchouli.png"
         },
         {
-          "name": "Cedar",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Vetiver",
-          "image": "assets/images/notes/vetiver.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
+          "name": "Tonka Bean",
+          "image": "assets/images/notes/tonka-bean.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/ralph-lauren/polo-890.html",
-    "fragrantica_reference": "polo",
-    "notes_source": "Fragrantica (polo)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/Ralph-Lauren/Polo-Black-1198.html",
+    "fragrantica_reference": "Polo Black by Ralph Lauren",
+    "notes_source": "Fragrantica (Polo Black by Ralph Lauren)"
   },
   {
     "id": "oil-770",
@@ -60352,19 +60988,15 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Juniper Berries",
-          "image": "assets/images/notes/amber.png"
+          "name": "Lavender",
+          "image": "assets/images/notes/lavender.png"
         },
         {
-          "name": "Basil",
-          "image": "assets/images/notes/amber.png"
+          "name": "Bergamot",
+          "image": "assets/images/notes/bergamot.png"
         },
         {
-          "name": "Artemisia",
-          "image": "assets/images/notes/wormwood.png"
-        },
-        {
-          "name": "Caraway",
+          "name": "Aldehydes",
           "image": "assets/images/notes/amber.png"
         },
         {
@@ -60372,33 +61004,37 @@ const PRODUCTS_DATA = [
           "image": "assets/images/notes/amber.png"
         },
         {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
+          "name": "Artemisia",
+          "image": "assets/images/notes/wormwood.png"
+        },
+        {
+          "name": "Green Notes",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Neroli",
+          "image": "assets/images/notes/neroli.png"
+        },
+        {
+          "name": "Lemon",
+          "image": "assets/images/notes/lemon.png"
         }
       ],
       "middle": [
         {
-          "name": "Pine Tree Needles",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Leather",
-          "image": "assets/images/notes/leather.png"
-        },
-        {
-          "name": "Chamomile",
+          "name": "Tarragon",
           "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Pepper",
-          "image": "assets/images/notes/mint.png"
         },
         {
           "name": "Carnation",
           "image": "assets/images/notes/rose.png"
         },
         {
-          "name": "Geranium",
+          "name": "Cinnamon",
+          "image": "assets/images/notes/cinnamon.png"
+        },
+        {
+          "name": "Rose",
           "image": "assets/images/notes/rose.png"
         },
         {
@@ -60406,34 +61042,34 @@ const PRODUCTS_DATA = [
           "image": "assets/images/notes/jasmine.png"
         },
         {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
+          "name": "Cyclamen",
+          "image": "assets/images/notes/amber.png"
         }
       ],
       "base": [
         {
-          "name": "Tobacco",
-          "image": "assets/images/notes/tobacco.png"
+          "name": "Leather",
+          "image": "assets/images/notes/leather.png"
         },
         {
           "name": "Oakmoss",
           "image": "assets/images/notes/oakmoss.png"
         },
         {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
+          "name": "Sandalwood",
+          "image": "assets/images/notes/sandalwood.png"
         },
         {
           "name": "Cedar",
           "image": "assets/images/notes/cedarwood.png"
         },
         {
-          "name": "Vetiver",
-          "image": "assets/images/notes/vetiver.png"
-        },
-        {
           "name": "Musk",
           "image": "assets/images/notes/musk.png"
+        },
+        {
+          "name": "Patchouli",
+          "image": "assets/images/notes/patchouli.png"
         },
         {
           "name": "Amber",
@@ -60442,9 +61078,9 @@ const PRODUCTS_DATA = [
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/ralph-lauren/polo-890.html",
-    "fragrantica_reference": "polo",
-    "notes_source": "Fragrantica (polo)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/ralph-lauren/safari-for-men-896.html",
+    "fragrantica_reference": "safari-for-men",
+    "notes_source": "Fragrantica (safari-for-men)"
   },
   {
     "id": "oil-774",
@@ -60485,99 +61121,35 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Juniper Berries",
-          "image": "assets/images/notes/amber.png"
+          "name": "Cinnamon",
+          "image": "assets/images/notes/cinnamon.png"
         },
         {
-          "name": "Basil",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Artemisia",
-          "image": "assets/images/notes/wormwood.png"
-        },
-        {
-          "name": "Caraway",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
+          "name": "Pink Pepper",
+          "image": "assets/images/notes/pink-pepper.png"
         }
       ],
       "middle": [
         {
-          "name": "Pine Tree Needles",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Leather",
-          "image": "assets/images/notes/leather.png"
-        },
-        {
-          "name": "Chamomile",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Pepper",
-          "image": "assets/images/notes/mint.png"
-        },
-        {
-          "name": "Carnation",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Rose",
-          "image": "assets/images/notes/rose.png"
+          "name": "Indian Oud",
+          "image": "assets/images/notes/oud.png"
         }
       ],
       "base": [
         {
-          "name": "Tobacco",
-          "image": "assets/images/notes/tobacco.png"
-        },
-        {
-          "name": "Oakmoss",
-          "image": "assets/images/notes/oakmoss.png"
-        },
-        {
-          "name": "Patchouli",
-          "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Cedar",
+          "name": "Guaiac Wood",
           "image": "assets/images/notes/cedarwood.png"
         },
         {
           "name": "Vetiver",
           "image": "assets/images/notes/vetiver.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/ralph-lauren/polo-890.html",
-    "fragrantica_reference": "polo",
-    "notes_source": "Fragrantica (polo)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/Ralph-Lauren/Polo-Supreme-Oud-29759.html",
+    "fragrantica_reference": "Polo Supreme Oud by Ralph Lauren",
+    "notes_source": "Fragrantica (Polo Supreme Oud by Ralph Lauren)"
   },
   {
     "id": "oil-775",
@@ -63149,16 +63721,12 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Lime",
-          "image": "assets/images/notes/lemon.png"
+          "name": "Saffron",
+          "image": "assets/images/notes/saffron.png"
         },
         {
           "name": "Bergamot",
           "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
         }
       ],
       "middle": [
@@ -63173,39 +63741,31 @@ const PRODUCTS_DATA = [
         {
           "name": "Violet",
           "image": "assets/images/notes/violet.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
         }
       ],
       "base": [
+        {
+          "name": "Musk",
+          "image": "assets/images/notes/musk.png"
+        },
         {
           "name": "Sandalwood",
           "image": "assets/images/notes/sandalwood.png"
         },
         {
-          "name": "Woodsy Notes",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Cashmere Musk",
-          "image": "assets/images/notes/musk.png"
+          "name": "Tonka Bean",
+          "image": "assets/images/notes/tonka-bean.png"
         },
         {
           "name": "Patchouli",
           "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Tonka Bean",
-          "image": "assets/images/notes/tonka-bean.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/rasasi/mukhallat-oudh-al-mubakhar-75045.html",
-    "fragrantica_reference": "mukhallat-oudh-al-mubakhar",
-    "notes_source": "Fragrantica (mukhallat-oudh-al-mubakhar)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/rasasi/oud-al-mubakhar-19523.html",
+    "fragrantica_reference": "oud-al-mubakhar",
+    "notes_source": "Fragrantica (oud-al-mubakhar)"
   },
   {
     "id": "oil-805",
@@ -63246,16 +63806,12 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Lime",
-          "image": "assets/images/notes/lemon.png"
+          "name": "Saffron",
+          "image": "assets/images/notes/saffron.png"
         },
         {
           "name": "Bergamot",
           "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Saffron",
-          "image": "assets/images/notes/saffron.png"
         }
       ],
       "middle": [
@@ -63270,39 +63826,31 @@ const PRODUCTS_DATA = [
         {
           "name": "Violet",
           "image": "assets/images/notes/violet.png"
-        },
-        {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
         }
       ],
       "base": [
+        {
+          "name": "Musk",
+          "image": "assets/images/notes/musk.png"
+        },
         {
           "name": "Sandalwood",
           "image": "assets/images/notes/sandalwood.png"
         },
         {
-          "name": "Woodsy Notes",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Cashmere Musk",
-          "image": "assets/images/notes/musk.png"
+          "name": "Tonka Bean",
+          "image": "assets/images/notes/tonka-bean.png"
         },
         {
           "name": "Patchouli",
           "image": "assets/images/notes/patchouli.png"
-        },
-        {
-          "name": "Tonka Bean",
-          "image": "assets/images/notes/tonka-bean.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/rasasi/mukhallat-oudh-al-mubakhar-75045.html",
-    "fragrantica_reference": "mukhallat-oudh-al-mubakhar",
-    "notes_source": "Fragrantica (mukhallat-oudh-al-mubakhar)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/rasasi/oud-al-mubakhar-19523.html",
+    "fragrantica_reference": "oud-al-mubakhar",
+    "notes_source": "Fragrantica (oud-al-mubakhar)"
   },
   {
     "id": "oil-806",
@@ -63764,14 +64312,41 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [],
-      "middle": [],
-      "base": []
+      "top": [
+        {
+          "name": "Saffron",
+          "image": "assets/images/notes/saffron.png"
+        }
+      ],
+      "middle": [
+        {
+          "name": "Agarwood (oud)",
+          "image": "assets/images/notes/oud.png"
+        },
+        {
+          "name": "Rose",
+          "image": "assets/images/notes/rose.png"
+        }
+      ],
+      "base": [
+        {
+          "name": "Agarwood (oud)",
+          "image": "assets/images/notes/oud.png"
+        },
+        {
+          "name": "Praline",
+          "image": "assets/images/notes/vanilla.png"
+        },
+        {
+          "name": "Vanilla",
+          "image": "assets/images/notes/vanilla.png"
+        }
+      ]
     },
-    "fragrantica_matched": false,
-    "notes_source": null,
-    "fragrantica_url": null,
-    "fragrantica_reference": null
+    "fragrantica_matched": true,
+    "notes_source": "Fragrantica (shaghaf-oud)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/swiss-arabian/shaghaf-oud-50582.html",
+    "fragrantica_reference": "shaghaf-oud"
   },
   {
     "id": "oil-812",
@@ -64399,14 +64974,45 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [],
-      "middle": [],
-      "base": []
+      "top": [
+        {
+          "name": "Water Notes",
+          "image": "assets/images/notes/sea-notes.png"
+        },
+        {
+          "name": "Lemon",
+          "image": "assets/images/notes/lemon.png"
+        }
+      ],
+      "middle": [
+        {
+          "name": "Rose",
+          "image": "assets/images/notes/rose.png"
+        },
+        {
+          "name": "Caramel",
+          "image": "assets/images/notes/vanilla.png"
+        }
+      ],
+      "base": [
+        {
+          "name": "Vanilla",
+          "image": "assets/images/notes/vanilla.png"
+        },
+        {
+          "name": "White Musk",
+          "image": "assets/images/notes/musk.png"
+        },
+        {
+          "name": "Cedar",
+          "image": "assets/images/notes/cedarwood.png"
+        }
+      ]
     },
-    "fragrantica_matched": false,
-    "notes_source": null,
-    "fragrantica_url": null,
-    "fragrantica_reference": null
+    "fragrantica_matched": true,
+    "notes_source": "Fragrantica (crystal-rose)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/swiss-arabian/crystal-rose-53854.html",
+    "fragrantica_reference": "crystal-rose"
   },
   {
     "id": "oil-823",
@@ -64445,14 +65051,41 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [],
-      "middle": [],
-      "base": []
+      "top": [
+        {
+          "name": "Saffron",
+          "image": "assets/images/notes/saffron.png"
+        }
+      ],
+      "middle": [
+        {
+          "name": "Agarwood (oud)",
+          "image": "assets/images/notes/oud.png"
+        },
+        {
+          "name": "Rose",
+          "image": "assets/images/notes/rose.png"
+        }
+      ],
+      "base": [
+        {
+          "name": "Agarwood (oud)",
+          "image": "assets/images/notes/oud.png"
+        },
+        {
+          "name": "Praline",
+          "image": "assets/images/notes/vanilla.png"
+        },
+        {
+          "name": "Vanilla",
+          "image": "assets/images/notes/vanilla.png"
+        }
+      ]
     },
-    "fragrantica_matched": false,
-    "notes_source": null,
-    "fragrantica_url": null,
-    "fragrantica_reference": null
+    "fragrantica_matched": true,
+    "notes_source": "Fragrantica (shaghaf-oud)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/swiss-arabian/shaghaf-oud-50582.html",
+    "fragrantica_reference": "shaghaf-oud"
   },
   {
     "id": "oil-824",
@@ -64583,14 +65216,41 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [],
-      "middle": [],
-      "base": []
+      "top": [
+        {
+          "name": "Saffron",
+          "image": "assets/images/notes/saffron.png"
+        }
+      ],
+      "middle": [
+        {
+          "name": "Agarwood (oud)",
+          "image": "assets/images/notes/oud.png"
+        },
+        {
+          "name": "Rose",
+          "image": "assets/images/notes/rose.png"
+        }
+      ],
+      "base": [
+        {
+          "name": "Agarwood (oud)",
+          "image": "assets/images/notes/oud.png"
+        },
+        {
+          "name": "Praline",
+          "image": "assets/images/notes/vanilla.png"
+        },
+        {
+          "name": "Vanilla",
+          "image": "assets/images/notes/vanilla.png"
+        }
+      ]
     },
-    "fragrantica_matched": false,
-    "notes_source": null,
-    "fragrantica_url": null,
-    "fragrantica_reference": null
+    "fragrantica_matched": true,
+    "notes_source": "Fragrantica (shaghaf-oud)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/swiss-arabian/shaghaf-oud-50582.html",
+    "fragrantica_reference": "shaghaf-oud"
   },
   {
     "id": "oil-827",
@@ -64905,14 +65565,57 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [],
-      "middle": [],
-      "base": []
+      "top": [
+        {
+          "name": "Amber",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Dates",
+          "image": "assets/images/notes/peach.png"
+        },
+        {
+          "name": "Cinnamon",
+          "image": "assets/images/notes/cinnamon.png"
+        }
+      ],
+      "middle": [
+        {
+          "name": "Rose",
+          "image": "assets/images/notes/rose.png"
+        },
+        {
+          "name": "Ylang-ylang",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Orris",
+          "image": "assets/images/notes/iris.png"
+        }
+      ],
+      "base": [
+        {
+          "name": "Sandalwood",
+          "image": "assets/images/notes/sandalwood.png"
+        },
+        {
+          "name": "Incense",
+          "image": "assets/images/notes/incense.png"
+        },
+        {
+          "name": "Vanilla",
+          "image": "assets/images/notes/vanilla.png"
+        },
+        {
+          "name": "Patchouli",
+          "image": "assets/images/notes/patchouli.png"
+        }
+      ]
     },
-    "fragrantica_matched": false,
-    "notes_source": null,
-    "fragrantica_url": null,
-    "fragrantica_reference": null
+    "fragrantica_matched": true,
+    "notes_source": "Fragrantica (amber-07)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/swiss-arabian/amber-07-72628.html",
+    "fragrantica_reference": "amber-07"
   },
   {
     "id": "oil-834",
@@ -64997,14 +65700,45 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [],
-      "middle": [],
-      "base": []
+      "top": [
+        {
+          "name": "Water Notes",
+          "image": "assets/images/notes/sea-notes.png"
+        },
+        {
+          "name": "Lemon",
+          "image": "assets/images/notes/lemon.png"
+        }
+      ],
+      "middle": [
+        {
+          "name": "Rose",
+          "image": "assets/images/notes/rose.png"
+        },
+        {
+          "name": "Caramel",
+          "image": "assets/images/notes/vanilla.png"
+        }
+      ],
+      "base": [
+        {
+          "name": "Vanilla",
+          "image": "assets/images/notes/vanilla.png"
+        },
+        {
+          "name": "White Musk",
+          "image": "assets/images/notes/musk.png"
+        },
+        {
+          "name": "Cedar",
+          "image": "assets/images/notes/cedarwood.png"
+        }
+      ]
     },
-    "fragrantica_matched": false,
-    "notes_source": null,
-    "fragrantica_url": null,
-    "fragrantica_reference": null
+    "fragrantica_matched": true,
+    "notes_source": "Fragrantica (crystal-rose)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/swiss-arabian/crystal-rose-53854.html",
+    "fragrantica_reference": "crystal-rose"
   },
   {
     "id": "oil-836",
@@ -65181,14 +65915,45 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [],
-      "middle": [],
-      "base": []
+      "top": [
+        {
+          "name": "Water Notes",
+          "image": "assets/images/notes/sea-notes.png"
+        },
+        {
+          "name": "Lemon",
+          "image": "assets/images/notes/lemon.png"
+        }
+      ],
+      "middle": [
+        {
+          "name": "Rose",
+          "image": "assets/images/notes/rose.png"
+        },
+        {
+          "name": "Caramel",
+          "image": "assets/images/notes/vanilla.png"
+        }
+      ],
+      "base": [
+        {
+          "name": "Vanilla",
+          "image": "assets/images/notes/vanilla.png"
+        },
+        {
+          "name": "White Musk",
+          "image": "assets/images/notes/musk.png"
+        },
+        {
+          "name": "Cedar",
+          "image": "assets/images/notes/cedarwood.png"
+        }
+      ]
     },
-    "fragrantica_matched": false,
-    "notes_source": null,
-    "fragrantica_url": null,
-    "fragrantica_reference": null
+    "fragrantica_matched": true,
+    "notes_source": "Fragrantica (crystal-rose)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/swiss-arabian/crystal-rose-53854.html",
+    "fragrantica_reference": "crystal-rose"
   },
   {
     "id": "oil-840",
@@ -65462,14 +66227,57 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [],
-      "middle": [],
-      "base": []
+      "top": [
+        {
+          "name": "Amber",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Dates",
+          "image": "assets/images/notes/peach.png"
+        },
+        {
+          "name": "Cinnamon",
+          "image": "assets/images/notes/cinnamon.png"
+        }
+      ],
+      "middle": [
+        {
+          "name": "Rose",
+          "image": "assets/images/notes/rose.png"
+        },
+        {
+          "name": "Ylang-ylang",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Orris",
+          "image": "assets/images/notes/iris.png"
+        }
+      ],
+      "base": [
+        {
+          "name": "Sandalwood",
+          "image": "assets/images/notes/sandalwood.png"
+        },
+        {
+          "name": "Incense",
+          "image": "assets/images/notes/incense.png"
+        },
+        {
+          "name": "Vanilla",
+          "image": "assets/images/notes/vanilla.png"
+        },
+        {
+          "name": "Patchouli",
+          "image": "assets/images/notes/patchouli.png"
+        }
+      ]
     },
-    "fragrantica_matched": false,
-    "notes_source": null,
-    "fragrantica_url": null,
-    "fragrantica_reference": null
+    "fragrantica_matched": true,
+    "notes_source": "Fragrantica (amber-07)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/swiss-arabian/amber-07-72628.html",
+    "fragrantica_reference": "amber-07"
   },
   {
     "id": "oil-845",
@@ -65554,14 +66362,61 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [],
-      "middle": [],
-      "base": []
+      "top": [
+        {
+          "name": "White Flowers",
+          "image": "assets/images/notes/jasmine.png"
+        },
+        {
+          "name": "Lily-of-the-valley",
+          "image": "assets/images/notes/jasmine.png"
+        },
+        {
+          "name": "Herbal Notes",
+          "image": "assets/images/notes/amber.png"
+        }
+      ],
+      "middle": [
+        {
+          "name": "Rose",
+          "image": "assets/images/notes/rose.png"
+        },
+        {
+          "name": "Hyacinth",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Pepper",
+          "image": "assets/images/notes/mint.png"
+        },
+        {
+          "name": "Cumin",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Geranium",
+          "image": "assets/images/notes/rose.png"
+        }
+      ],
+      "base": [
+        {
+          "name": "Agarwood (oud)",
+          "image": "assets/images/notes/oud.png"
+        },
+        {
+          "name": "Musk",
+          "image": "assets/images/notes/musk.png"
+        },
+        {
+          "name": "Amber",
+          "image": "assets/images/notes/amber.png"
+        }
+      ]
     },
-    "fragrantica_matched": false,
-    "notes_source": null,
-    "fragrantica_url": null,
-    "fragrantica_reference": null
+    "fragrantica_matched": true,
+    "notes_source": "Fragrantica (al-waseem)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/swiss-arabian/al-waseem-10839.html",
+    "fragrantica_reference": "al-waseem"
   },
   {
     "id": "oil-847",
@@ -67884,27 +68739,43 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Jasmine Sambac",
-          "image": "assets/images/notes/jasmine.png"
+          "name": "Mandarin Orange",
+          "image": "assets/images/notes/mandarin.png"
         }
       ],
       "middle": [
         {
-          "name": "Cashmeran",
-          "image": "assets/images/notes/musk.png"
+          "name": "Jasmine",
+          "image": "assets/images/notes/jasmine.png"
+        },
+        {
+          "name": "Orange Blossom",
+          "image": "assets/images/notes/neroli.png"
         }
       ],
       "base": [
         {
           "name": "Amber",
           "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Woody Notes",
+          "image": "assets/images/notes/cedarwood.png"
+        },
+        {
+          "name": "Cashmeran",
+          "image": "assets/images/notes/musk.png"
+        },
+        {
+          "name": "Vanilla",
+          "image": "assets/images/notes/vanilla.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/mugler/alien-707.html",
-    "fragrantica_reference": "alien",
-    "notes_source": "Fragrantica (alien)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/mugler/alien-we-are-all-alien-collector-edition-51521.html",
+    "fragrantica_reference": "alien-we-are-all-alien-collector-edition",
+    "notes_source": "Fragrantica (alien-we-are-all-alien-collector-edition)"
   },
   {
     "id": "oil-886",
@@ -70239,14 +71110,61 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [],
-      "middle": [],
-      "base": []
+      "top": [
+        {
+          "name": "Lily",
+          "image": "assets/images/notes/jasmine.png"
+        },
+        {
+          "name": "Jasmine",
+          "image": "assets/images/notes/jasmine.png"
+        },
+        {
+          "name": "Sichuan Pepper",
+          "image": "assets/images/notes/cardamom.png"
+        }
+      ],
+      "middle": [
+        {
+          "name": "Tuberose",
+          "image": "assets/images/notes/jasmine.png"
+        },
+        {
+          "name": "Suede",
+          "image": "assets/images/notes/leather.png"
+        },
+        {
+          "name": "Styrax",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Benzoin",
+          "image": "assets/images/notes/amber.png"
+        }
+      ],
+      "base": [
+        {
+          "name": "White Suede",
+          "image": "assets/images/notes/leather.png"
+        },
+        {
+          "name": "Musk",
+          "image": "assets/images/notes/musk.png"
+        },
+        {
+          "name": "Tonka Bean",
+          "image": "assets/images/notes/tonka-bean.png"
+        },
+        {
+          "name": "Agarwood (oud)",
+          "image": "assets/images/notes/oud.png"
+        }
+      ]
     },
-    "fragrantica_matched": false,
-    "fragrantica_url": null,
-    "fragrantica_reference": null,
-    "notes_source": null
+    "fragrantica_matched": true,
+    "fragrantica_url": "https://www.fragrantica.com/perfume/Tom-Ford/Tubereuse-Nue-64747.html",
+    "fragrantica_reference": "Tubéreuse Nue by Tom Ford",
+    "notes_source": "Fragrantica (Tubéreuse Nue by Tom Ford)"
   },
   {
     "id": "oil-911",
@@ -70770,43 +71688,31 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
+          "name": "Vanilla",
+          "image": "assets/images/notes/vanilla.png"
         },
         {
-          "name": "Myrtle",
-          "image": "assets/images/notes/amber.png"
+          "name": "Bourbon Vanilla",
+          "image": "assets/images/notes/vanilla.png"
         }
       ],
       "middle": [
         {
-          "name": "Hazelnut",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Chocolate",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Roasted Coffee Beans",
-          "image": "assets/images/notes/coffee.png"
+          "name": "Lavender",
+          "image": "assets/images/notes/lavender.png"
         }
       ],
       "base": [
         {
-          "name": "Leather",
-          "image": "assets/images/notes/leather.png"
-        },
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
+          "name": "Vetiver",
+          "image": "assets/images/notes/vetiver.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/Valentino/Valentino-Uomo-19158.html",
-    "fragrantica_reference": "Valentino Uomo by Valentino",
-    "notes_source": "Fragrantica (Valentino Uomo by Valentino)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/Valentino/Valentino-Uomo-Born-in-Roma-Intense-78716.html",
+    "fragrantica_reference": "Valentino Uomo Born In Roma Intense by Valentino",
+    "notes_source": "Fragrantica (Valentino Uomo Born In Roma Intense by Valentino)"
   },
   {
     "id": "oil-918",
@@ -71509,12 +72415,12 @@ const PRODUCTS_DATA = [
           "image": "assets/images/notes/peach.png"
         },
         {
-          "name": "Rose Hip",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
           "name": "Petalia",
           "image": "assets/images/notes/jasmine.png"
+        },
+        {
+          "name": "Rose Hip",
+          "image": "assets/images/notes/rose.png"
         },
         {
           "name": "Rose",
@@ -71545,9 +72451,9 @@ const PRODUCTS_DATA = [
       ]
     },
     "fragrantica_matched": true,
-    "notes_source": "Fragrantica (Versace Pour Femme Dylan Blue)",
-    "fragrantica_url": "https://www.fragrantica.com/perfume/Versace/Versace Pour Femme Dylan Blue.html",
-    "fragrantica_reference": "Versace Pour Femme Dylan Blue"
+    "notes_source": "Fragrantica (versace-pour-femme-dylan-blue)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/versace/versace-pour-femme-dylan-blue-47459.html",
+    "fragrantica_reference": "versace-pour-femme-dylan-blue"
   },
   {
     "id": "oil-926",
@@ -71863,59 +72769,59 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Mint",
-          "image": "assets/images/notes/mint.png"
-        },
-        {
-          "name": "Green Apple",
-          "image": "assets/images/notes/apple.png"
-        },
-        {
-          "name": "Lemon",
+          "name": "Sicilian Lemon",
           "image": "assets/images/notes/lemon.png"
+        },
+        {
+          "name": "Pomegranate",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Calabrian Bergamot",
+          "image": "assets/images/notes/bergamot.png"
         }
       ],
       "middle": [
         {
-          "name": "Tonka Bean",
-          "image": "assets/images/notes/tonka-bean.png"
+          "name": "Lemon Blossom",
+          "image": "assets/images/notes/lemon.png"
+        },
+        {
+          "name": "Jasmine Sambac",
+          "image": "assets/images/notes/jasmine.png"
+        },
+        {
+          "name": "Jasmine",
+          "image": "assets/images/notes/jasmine.png"
+        },
+        {
+          "name": "Peony",
+          "image": "assets/images/notes/rose.png"
+        }
+      ],
+      "base": [
+        {
+          "name": "Musk",
+          "image": "assets/images/notes/musk.png"
         },
         {
           "name": "Ambroxan",
           "image": "assets/images/notes/amber.png"
         },
         {
-          "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
-        }
-      ],
-      "base": [
-        {
-          "name": "Madagascar Vanilla",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Virginian Cedar",
+          "name": "Woodsy Notes",
           "image": "assets/images/notes/cedarwood.png"
         },
         {
-          "name": "Atlas Cedar",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Vetiver",
-          "image": "assets/images/notes/vetiver.png"
-        },
-        {
-          "name": "Oakmoss",
-          "image": "assets/images/notes/oakmoss.png"
+          "name": "Sandalwood",
+          "image": "assets/images/notes/sandalwood.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/versace/eros-16657.html",
-    "fragrantica_reference": "eros",
-    "notes_source": "Fragrantica (eros)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/versace/eros-pour-femme-28958.html",
+    "fragrantica_reference": "eros-pour-femme",
+    "notes_source": "Fragrantica (eros-pour-femme)"
   },
   {
     "id": "oil-930",
@@ -72496,14 +73402,49 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [],
-      "middle": [],
-      "base": []
+      "top": [
+        {
+          "name": "Litchi",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Melon",
+          "image": "assets/images/notes/peach.png"
+        },
+        {
+          "name": "Kiwi",
+          "image": "assets/images/notes/amber.png"
+        }
+      ],
+      "middle": [
+        {
+          "name": "Raspberry",
+          "image": "assets/images/notes/raspberry.png"
+        },
+        {
+          "name": "Rose",
+          "image": "assets/images/notes/rose.png"
+        }
+      ],
+      "base": [
+        {
+          "name": "Vanilla",
+          "image": "assets/images/notes/vanilla.png"
+        },
+        {
+          "name": "Musk",
+          "image": "assets/images/notes/musk.png"
+        },
+        {
+          "name": "Amber",
+          "image": "assets/images/notes/amber.png"
+        }
+      ]
     },
-    "fragrantica_matched": false,
-    "fragrantica_url": null,
-    "fragrantica_reference": null,
-    "notes_source": null
+    "fragrantica_matched": true,
+    "fragrantica_url": "https://www.fragrantica.com/perfume/victoria-s-secret/pink-beach-1993.html",
+    "fragrantica_reference": "pink-beach",
+    "notes_source": "Fragrantica (pink-beach)"
   },
   {
     "id": "oil-937",
@@ -72684,14 +73625,29 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [],
-      "middle": [],
-      "base": []
+      "top": [
+        {
+          "name": "Raspberry",
+          "image": "assets/images/notes/raspberry.png"
+        }
+      ],
+      "middle": [
+        {
+          "name": "Peony",
+          "image": "assets/images/notes/rose.png"
+        }
+      ],
+      "base": [
+        {
+          "name": "Vanilla",
+          "image": "assets/images/notes/vanilla.png"
+        }
+      ]
     },
-    "fragrantica_matched": false,
-    "notes_source": null,
-    "fragrantica_url": null,
-    "fragrantica_reference": null
+    "fragrantica_matched": true,
+    "notes_source": "Fragrantica (victoria-s-secret-pink-warm-cozy)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/victoria-s-secret/victoria-s-secret-pink-warm-cozy-20400.html",
+    "fragrantica_reference": "victoria-s-secret-pink-warm-cozy"
   },
   {
     "id": "oil-940",
@@ -73117,67 +74073,43 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Passionfruit",
-          "image": "assets/images/notes/raspberry.png"
+          "name": "Saffron",
+          "image": "assets/images/notes/saffron.png"
         },
         {
-          "name": "Grapefruit",
-          "image": "assets/images/notes/grapefruit.png"
+          "name": "Mandarin Orange",
+          "image": "assets/images/notes/mandarin.png"
         },
         {
-          "name": "Pineapple",
-          "image": "assets/images/notes/pineapple.png"
-        },
-        {
-          "name": "Tangerine",
-          "image": "assets/images/notes/orange.png"
-        },
-        {
-          "name": "Big Strawberry",
-          "image": "assets/images/notes/raspberry.png"
+          "name": "Violet Leaf",
+          "image": "assets/images/notes/violet.png"
         }
       ],
       "middle": [
         {
+          "name": "White Suede",
+          "image": "assets/images/notes/leather.png"
+        },
+        {
           "name": "Peony",
           "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Vanilla Orchid",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Red Berries",
-          "image": "assets/images/notes/raspberry.png"
-        },
-        {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
         }
       ],
       "base": [
         {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
+          "name": "Agarwood (oud)",
+          "image": "assets/images/notes/oud.png"
         },
         {
-          "name": "Woody Notes",
-          "image": "assets/images/notes/cedarwood.png"
-        },
-        {
-          "name": "Oakmoss",
-          "image": "assets/images/notes/oakmoss.png"
+          "name": "Ambroxan",
+          "image": "assets/images/notes/amber.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/Victoria's Secret/Bombshell.html",
-    "fragrantica_reference": "Bombshell",
-    "notes_source": "Fragrantica (Bombshell)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/Victoria-s-Secret/Bombshell-Oud-66633.html",
+    "fragrantica_reference": "Bombshell Oud by Victoria's Secret",
+    "notes_source": "Fragrantica (Bombshell Oud by Victoria's Secret)"
   },
   {
     "id": "oil-946",
@@ -74798,99 +75730,59 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Aldehydes",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Green Notes",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Galbanum",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Honeysuckle",
-          "image": "assets/images/notes/vanilla.png"
-        },
-        {
-          "name": "Peach",
+          "name": "Pear",
           "image": "assets/images/notes/peach.png"
         },
         {
-          "name": "Gardenia",
-          "image": "assets/images/notes/jasmine.png"
+          "name": "Orange Blossom",
+          "image": "assets/images/notes/neroli.png"
         },
         {
-          "name": "Mirabelle Plum",
-          "image": "assets/images/notes/peach.png"
+          "name": "Pink Pepper",
+          "image": "assets/images/notes/pink-pepper.png"
         }
       ],
       "middle": [
         {
-          "name": "Hiacynth",
+          "name": "Coffee",
+          "image": "assets/images/notes/coffee.png"
+        },
+        {
+          "name": "Bitter Almond",
           "image": "assets/images/notes/amber.png"
         },
         {
-          "name": "Orris Root",
-          "image": "assets/images/notes/iris.png"
-        },
-        {
-          "name": "Ylang-ylang",
+          "name": "Licorice",
           "image": "assets/images/notes/amber.png"
         },
         {
           "name": "Jasmine",
           "image": "assets/images/notes/jasmine.png"
-        },
-        {
-          "name": "Bulgarian Rose",
-          "image": "assets/images/notes/rose.png"
-        },
-        {
-          "name": "Tuberose",
-          "image": "assets/images/notes/jasmine.png"
         }
       ],
       "base": [
-        {
-          "name": "Oakmoss",
-          "image": "assets/images/notes/oakmoss.png"
-        },
-        {
-          "name": "Civet",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Vetiver",
-          "image": "assets/images/notes/vetiver.png"
-        },
         {
           "name": "Patchouli",
           "image": "assets/images/notes/patchouli.png"
         },
         {
-          "name": "Sandalwood",
-          "image": "assets/images/notes/sandalwood.png"
+          "name": "Vanilla",
+          "image": "assets/images/notes/vanilla.png"
         },
         {
-          "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "name": "Cashmere Wood",
+          "image": "assets/images/notes/cedarwood.png"
         },
         {
-          "name": "Styrax",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Amber",
-          "image": "assets/images/notes/amber.png"
+          "name": "Cedar",
+          "image": "assets/images/notes/cedarwood.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/yves-saint-laurent/y-100.html",
-    "fragrantica_reference": "y",
-    "notes_source": "Fragrantica (y)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/yves-saint-laurent/black-opium-baby-cat-collector-63448.html",
+    "fragrantica_reference": "black-opium-baby-cat-collector",
+    "notes_source": "Fragrantica (black-opium-baby-cat-collector)"
   },
   {
     "id": "oil-968",
@@ -75691,12 +76583,8 @@ const PRODUCTS_DATA = [
           "image": "assets/images/notes/mandarin.png"
         },
         {
-          "name": "Black Currant",
-          "image": "assets/images/notes/black-currant.png"
-        },
-        {
-          "name": "Petitgrain",
-          "image": "assets/images/notes/neroli.png"
+          "name": "Bergamot",
+          "image": "assets/images/notes/bergamot.png"
         }
       ],
       "middle": [
@@ -75705,12 +76593,16 @@ const PRODUCTS_DATA = [
           "image": "assets/images/notes/lavender.png"
         },
         {
-          "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "name": "Tunisian Orange Blossom",
+          "image": "assets/images/notes/orange.png"
         },
         {
-          "name": "Jasmine",
+          "name": "Jasmine Sambac",
           "image": "assets/images/notes/jasmine.png"
+        },
+        {
+          "name": "Orchid",
+          "image": "assets/images/notes/vanilla.png"
         }
       ],
       "base": [
@@ -75719,23 +76611,23 @@ const PRODUCTS_DATA = [
           "image": "assets/images/notes/vanilla.png"
         },
         {
-          "name": "Musk",
-          "image": "assets/images/notes/musk.png"
-        },
-        {
-          "name": "Cedarwood",
-          "image": "assets/images/notes/cedarwood.png"
+          "name": "Tonka Bean",
+          "image": "assets/images/notes/tonka-bean.png"
         },
         {
           "name": "Ambergris",
           "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Vetiver",
+          "image": "assets/images/notes/vetiver.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/Yves-Saint-Laurent/Libre-56077.html",
-    "fragrantica_reference": "Libre by Yves Saint Laurent",
-    "notes_source": "Fragrantica (Libre by Yves Saint Laurent)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/Yves-Saint-Laurent/Libre-Intense-62310.html",
+    "fragrantica_reference": "Libre Intense by Yves Saint Laurent",
+    "notes_source": "Fragrantica (Libre Intense by Yves Saint Laurent)"
   },
   {
     "id": "oil-977",
@@ -76219,14 +77111,41 @@ const PRODUCTS_DATA = [
       ]
     },
     "notes": {
-      "top": [],
-      "middle": [],
-      "base": []
+      "top": [
+        {
+          "name": "Citruses",
+          "image": "assets/images/notes/lemon.png"
+        },
+        {
+          "name": "Coriander",
+          "image": "assets/images/notes/amber.png"
+        }
+      ],
+      "middle": [
+        {
+          "name": "Cashmeran",
+          "image": "assets/images/notes/musk.png"
+        },
+        {
+          "name": "Cedar",
+          "image": "assets/images/notes/cedarwood.png"
+        }
+      ],
+      "base": [
+        {
+          "name": "Amber",
+          "image": "assets/images/notes/amber.png"
+        },
+        {
+          "name": "Sandalwood",
+          "image": "assets/images/notes/sandalwood.png"
+        }
+      ]
     },
-    "fragrantica_matched": false,
-    "notes_source": null,
-    "fragrantica_url": null,
-    "fragrantica_reference": null
+    "fragrantica_matched": true,
+    "notes_source": "Fragrantica (6-0-zara)",
+    "fragrantica_url": "https://www.fragrantica.com/perfume/zara/6-0-zara-49330.html",
+    "fragrantica_reference": "6-0-zara"
   },
   {
     "id": "oil-986",
@@ -76267,35 +77186,39 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Bergamot",
-          "image": "assets/images/notes/bergamot.png"
-        },
-        {
-          "name": "Mandarin Orange",
-          "image": "assets/images/notes/mandarin.png"
+          "name": "Apple",
+          "image": "assets/images/notes/apple.png"
         }
       ],
       "middle": [
         {
-          "name": "Marigold",
-          "image": "assets/images/notes/amber.png"
+          "name": "Black Pepper",
+          "image": "assets/images/notes/cardamom.png"
         },
         {
-          "name": "Jasmine",
-          "image": "assets/images/notes/jasmine.png"
+          "name": "Mint",
+          "image": "assets/images/notes/mint.png"
         }
       ],
       "base": [
         {
-          "name": "Vanilla",
-          "image": "assets/images/notes/vanilla.png"
+          "name": "Tobacco",
+          "image": "assets/images/notes/tobacco.png"
+        },
+        {
+          "name": "Tonka Bean",
+          "image": "assets/images/notes/tonka-bean.png"
+        },
+        {
+          "name": "Cedar",
+          "image": "assets/images/notes/cedarwood.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/zara/intense-16571.html",
-    "fragrantica_reference": "intense",
-    "notes_source": "Fragrantica (intense)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/Zara/Tobacco-Collection-Intense-Dark-Exclusive-41258.html",
+    "fragrantica_reference": "Tobacco Collection Intense Dark Exclusive by Zara",
+    "notes_source": "Fragrantica (Tobacco Collection Intense Dark Exclusive by Zara)"
   },
   {
     "id": "oil-987",
@@ -76836,31 +77759,27 @@ const PRODUCTS_DATA = [
     "notes": {
       "top": [
         {
-          "name": "Praline",
-          "image": "assets/images/notes/vanilla.png"
+          "name": "Mineral Notes",
+          "image": "assets/images/notes/amber.png"
         }
       ],
       "middle": [
         {
-          "name": "Cinnamon",
-          "image": "assets/images/notes/cinnamon.png"
+          "name": "Spicy Notes",
+          "image": "assets/images/notes/amber.png"
         }
       ],
       "base": [
         {
-          "name": "Cardamom",
-          "image": "assets/images/notes/cardamom.png"
-        },
-        {
-          "name": "Woody Notes",
-          "image": "assets/images/notes/cedarwood.png"
+          "name": "Leather",
+          "image": "assets/images/notes/leather.png"
         }
       ]
     },
     "fragrantica_matched": true,
-    "fragrantica_url": "https://www.fragrantica.com/perfume/zara/gold-65900.html",
-    "fragrantica_reference": "gold",
-    "notes_source": "Fragrantica (gold)"
+    "fragrantica_url": "https://www.fragrantica.com/perfume/zara/gold-oddity-89149.html",
+    "fragrantica_reference": "gold-oddity",
+    "notes_source": "Fragrantica (gold-oddity)"
   },
   {
     "id": "oil-996",

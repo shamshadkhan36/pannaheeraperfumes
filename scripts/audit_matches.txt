@@ -20,39 +20,39 @@
    BASE: White Musk, Cedar, Oakmoss, Patchouli, Amber
 
 #4 | [ARMANI] ARMANI - AQUA DI ESSENZA (short: AQUA DI ESSENZA)
-   MATCHED: True | REF: acqua-di-gio-essenza
-   URL: https://www.fragrantica.com/perfume/giorgio-armani/acqua-di-gio-essenza-14825.html
+   MATCHED: True | REF: Acqua di Gio Essenza by Giorgio Armani
+   URL: https://www.fragrantica.com/perfume/Giorgio-Armani/Acqua-di-Gio-Essenza-14825.html
    TOP: Water Notes, Bergamot, Grapefruit, Calone
    MID: Basil, Floral Notes, Jasmine, Sage
    BASE: Pepper, Cedar, Musk, Vetiver, Ambergris, Clary Sage, Amber, Patchouli
 
 #5 | [ARMANI] ARMANI - AQUA DI PROFUMO (short: AQUA DI PROFUMO)
-   MATCHED: True | REF: Acqua di Giò Profumo
-   URL: https://www.fragrantica.com/perfume/Giorgio Armani/Acqua di Giò Profumo.html
+   MATCHED: True | REF: Acqua di Giò Profumo by Giorgio Armani
+   URL: https://www.fragrantica.com/perfume/Giorgio-Armani/Acqua-di-Gio-Profumo-29727.html
    TOP: Sea Notes, Bergamot
    MID: Rosemary, Sage, Geranium
    BASE: Incense, Patchouli
 
 #6 | [ARMANI] ARMANI - AQUA DI GIO (W) (short: AQUA DI GIO (W))
-   MATCHED: True | REF: Acqua di Gio Pour Homme by Giorgio Armani
-   URL: https://www.fragrantica.com/perfume/Giorgio-Armani/Acqua-di-Gio-410.html
-   TOP: Lime, Lemon, Bergamot, Jasmine, Orange, Mandarin Orange, Neroli
-   MID: Sea Notes, Jasmine, Calone, Peach, Freesia, Rosemary, Hyacinth, Cyclamen, Violet, Coriander, Nutmeg, Rose
-   BASE: White Musk, Cedar, Oakmoss, Patchouli, Amber
+   MATCHED: True | REF: Acqua di Gioia by Giorgio Armani
+   URL: https://www.fragrantica.com/perfume/Giorgio-Armani/Acqua-di-Gioia-8442.html
+   TOP: Amalfi Lemon, Mint
+   MID: Jasmine, Peony, Pink Pepper
+   BASE: Virginia Cedar, Brown Sugar, Labdanum
 
 #7 | [ARMANI] ARMANI - AQUA DI GIO ABS. (short: AQUA DI GIO ABS.)
-   MATCHED: True | REF: Acqua di Gio Pour Homme by Giorgio Armani
-   URL: https://www.fragrantica.com/perfume/Giorgio-Armani/Acqua-di-Gio-410.html
-   TOP: Lime, Lemon, Bergamot, Jasmine, Orange, Mandarin Orange, Neroli
-   MID: Sea Notes, Jasmine, Calone, Peach, Freesia, Rosemary, Hyacinth, Cyclamen, Violet, Coriander, Nutmeg, Rose
-   BASE: White Musk, Cedar, Oakmoss, Patchouli, Amber
+   MATCHED: True | REF: Acqua di Gio Absolu by Giorgio Armani
+   URL: https://www.fragrantica.com/perfume/Giorgio-Armani/Acqua-di-Gio-Absolu-48259.html
+   TOP: Sea Notes, Bergamot, Pear, Apple, Grapefruit, Lemon
+   MID: Lavender, Rosemary, Geranium
+   BASE: Woody Notes, Tonka Bean, Patchouli, Amberwood, Labdanum
 
 #8 | [ARMANI] ARMANI – ARMANI SI (short: ARMANI SI)
-   MATCHED: True | REF: Si
-   URL: https://www.fragrantica.com/perfume/Giorgio Armani/Si.html
-   TOP: Cassis
-   MID: May Rose, Freesia
-   BASE: Vanilla, Patchouli, Ambroxan, Woody Notes
+   MATCHED: True | REF: armani
+   URL: https://www.fragrantica.com/perfume/giorgio-armani/armani-827.html
+   TOP: Galbanum, Marigold, Aldehydes, Pineapple, Bergamot, Mint
+   MID: Narcissus, Orris Root, Tuberose, Rose, Jasmine, Cyclamen, Lily-of-the-valley, Orchid
+   BASE: Oakmoss, Benzoin, Cedar, Amber, Sandalwood, Tonka Bean, Musk
 
 #9 | [ARMANI] ARMANI – ARMANI SI PASSIONE (short: ARMANI SI PASSIONE)
    MATCHED: True | REF: Sì Passione by Giorgio Armani
@@ -134,16 +134,16 @@
 #20 | [Panna Heera Originals] ACQUA DI PARMA COLONIA (short: ACQUA DI PARMA COLONIA)
    MATCHED: True | REF: Colonia by Acqua di Parma
    URL: https://www.fragrantica.com/perfume/Acqua-di-Parma/Acqua-di-Parma-Colonia-1681.html
-   TOP: Lemon, Calabrian Bergamot, Orange
-   MID: Lavender, Rosemary, Rose, Verbena
+   TOP: Sicilian Citrus, Lemon, Calabrian Bergamot, Sweet Orange
+   MID: Lavender, Rosemary, Verbena, Bulgarian Rose
    BASE: Vetiver, Sandalwood, Patchouli
 
 #21 | [ARMAF] ARMAF - ODYSSEY DUBAI CHOCLATE (short: ODYSSEY DUBAI CHOCLATE)
-   MATCHED: False | REF: None
-   URL: None
-   TOP: 
-   MID: 
-   BASE: 
+   MATCHED: True | REF: odyssey-homme
+   URL: https://www.fragrantica.com/perfume/armaf/odyssey-homme-64464.html
+   TOP: Vanilla, Amber
+   MID: Oriental Notes, Spices, Iris
+   BASE: Vanilla, Leather, Jasmine
 
 #22 | [ARMAF] ARMAF - VANITY (short: VANITY)
    MATCHED: True | REF: vanity-femme
@@ -188,18 +188,18 @@
    BASE: Vetiver, Sandalwood, Patchouli, Cedar
 
 #28 | [ARMAF] ARMAF - MAGNUM BLACK (short: MAGNUM BLACK)
-   MATCHED: False | REF: None
-   URL: None
-   TOP: 
-   MID: 
-   BASE: 
+   MATCHED: True | REF: mignon-black
+   URL: https://www.fragrantica.com/perfume/armaf/mignon-black-64465.html
+   TOP: Bergamot, Pear, Lemon
+   MID: Jasmine, Lily, Neroli, Honeysuckle, Rose
+   BASE: Sandalwood, Vanilla, Musk
 
 #29 | [ARMAF] ARMAF - MAGNUM FEMME PEAERL (short: MAGNUM FEMME PEAERL)
-   MATCHED: False | REF: None
-   URL: None
-   TOP: 
-   MID: 
-   BASE: 
+   MATCHED: True | REF: legesi-femme
+   URL: https://www.fragrantica.com/perfume/armaf/legesi-femme-52266.html
+   TOP: Peach, Lemon, Litchi, Bergamot
+   MID: Cinnamon, Apple, Jasmine, Lily-of-the-valley
+   BASE: Cedar, Sandalwood, Musk
 
 #30 | [ARMAF] ARMAF - NICHE OUD (short: NICHE OUD)
    MATCHED: True | REF: oud
@@ -258,11 +258,11 @@
    BASE: Amber, Vanilla
 
 #38 | [AL REHAB] AL REHAB - AL SHADA (short: AL SHADA)
-   MATCHED: False | REF: None
-   URL: None
-   TOP: 
-   MID: 
-   BASE: 
+   MATCHED: True | REF: al-fares
+   URL: https://www.fragrantica.com/perfume/al-rehab/al-fares-20118.html
+   TOP: Musk, Fruits, Basil, Amber
+   MID: Lily Of The Valley, Coriander, Jasmine, Citruses
+   BASE: Musk, Sandalwood, Lavender, Sage, Orange Blossom
 
 #39 | [AL REHAB] AL REHAB - SABAYA GOLD (short: SABAYA GOLD)
    MATCHED: True | REF: Sabaya by Al-Rehab
@@ -419,25 +419,25 @@
    BASE: Agarwood (oud), Amber, White Musk, Patchouli, Ambroxan
 
 #61 | [AJMAL] AJMAL - RHYTHM OF OUD (short: RHYTHM OF OUD)
-   MATCHED: False | REF: None
-   URL: None
-   TOP: 
-   MID: 
-   BASE: 
+   MATCHED: True | REF: dahn-al-oudh-moattaq
+   URL: https://www.fragrantica.com/perfume/ajmal/dahn-al-oudh-moattaq-15069.html
+   TOP: Rose, Woodsy Notes, Spices
+   MID: Agarwood (oud), Ambergris
+   BASE: Musk, Powdery Notes
 
 #62 | [AJMAL] AJMAL - MUKHALLAT RASHID (short: MUKHALLAT RASHID)
-   MATCHED: False | REF: None
-   URL: None
-   TOP: 
-   MID: 
-   BASE: 
+   MATCHED: True | REF: mukhallat-tharwaan
+   URL: https://www.fragrantica.com/perfume/ajmal/mukhallat-tharwaan-15085.html
+   TOP: Rose
+   MID: Ambergris, Sandalwood
+   BASE: Agarwood (oud), Saffron, Spices, Musk
 
 #63 | [AJMAL] AJMAL - VELVET MUSK (short: VELVET MUSK)
-   MATCHED: False | REF: None
-   URL: None
-   TOP: 
-   MID: 
-   BASE: 
+   MATCHED: True | REF: cashmere-musk
+   URL: https://www.fragrantica.com/perfume/ajmal/cashmere-musk-55882.html
+   TOP: Musk, Saffron
+   MID: Musk, Ylang-ylang, Jasmine, Lily-of-the-valley
+   BASE: Musk, Cashmeran, Cedar, Patchouli
 
 #64 | [AJMAL] AJMAL – BLUE (short: BLUE)
    MATCHED: True | REF: Blu by Ajmal
@@ -468,11 +468,11 @@
    BASE: 
 
 #68 | [AJMAL] AJMAL - MUSK ROSE (short: MUSK ROSE)
-   MATCHED: False | REF: None
-   URL: None
-   TOP: 
-   MID: 
-   BASE: 
+   MATCHED: True | REF: rose-wood
+   URL: https://www.fragrantica.com/perfume/ajmal/rose-wood-35894.html
+   TOP: Spicy Notes, Floral Notes
+   MID: Rose, Musk
+   BASE: Agarwood (oud), Woody Notes, Powdery Notes
 
 #69 | [AJMAL] AJMAL - AURUM (short: AURUM)
    MATCHED: True | REF: aurum
@@ -503,11 +503,11 @@
    BASE: Oud, Amber
 
 #73 | [AJMAL] AJMAL - MUKH. AL WAFA (short: MUKH. AL WAFA)
-   MATCHED: False | REF: None
-   URL: None
-   TOP: 
-   MID: 
-   BASE: 
+   MATCHED: True | REF: rouh-al-khaleej
+   URL: https://www.fragrantica.com/perfume/ajmal/rouh-al-khaleej-15095.html
+   TOP: Sea Water, Spices
+   MID: Floral Notes, Ambergris
+   BASE: Fruity Notes, Woodsy Notes
 
 #74 | [AJMAL] AJMAL - SHADOW (short: SHADOW)
    MATCHED: True | REF: shadow-for-her
@@ -531,10 +531,10 @@
    BASE: Amber, Woody Notes, Patchouli
 
 #77 | [AJMAL] AJMAL - AMBERWOOD NOIR (short: AMBERWOOD NOIR)
-   MATCHED: True | REF: Amber Wood by Ajmal
-   URL: https://www.fragrantica.com/perfume/Ajmal/Amber-Wood-26367.html
-   TOP: White Pepper, Cardamom, Apple, Lavender
-   MID: Orris, Cedarwood
+   MATCHED: True | REF: Amber Wood Noir by Ajmal
+   URL: https://www.fragrantica.com/perfume/Ajmal/Amber-Wood-Noir-62424.html
+   TOP: Cardamom, White Pepper, Apple
+   MID: Cedarwood, Orris, Floral Notes
    BASE: Amber, Woody Notes, Patchouli
 
 #78 | [AJMAL] AJMAL - WISHAL (short: WISHAL)
@@ -545,11 +545,11 @@
    BASE: Sandalwood, Musk
 
 #79 | [AJMAL] AJMAL - MUSK SAPHIRE (short: MUSK SAPHIRE)
-   MATCHED: False | REF: None
-   URL: None
-   TOP: 
-   MID: 
-   BASE: 
+   MATCHED: True | REF: cashmere-musk
+   URL: https://www.fragrantica.com/perfume/ajmal/cashmere-musk-55882.html
+   TOP: Musk, Saffron
+   MID: Musk, Ylang-ylang, Jasmine, Lily-of-the-valley
+   BASE: Musk, Cashmeran, Cedar, Patchouli
 
 #80 | [AJMAL] AJMAL - HATHKORA WOOD (short: HATHKORA WOOD)
    MATCHED: True | REF: Hathkora Wood by Ajmal
@@ -573,25 +573,25 @@
    BASE: Musk, Amber, Woody Notes
 
 #83 | [AJMAL] AJMAL - MUSK RAJALI (IND) (short: MUSK RAJALI (IND))
-   MATCHED: False | REF: None
-   URL: None
-   TOP: 
-   MID: 
-   BASE: 
+   MATCHED: True | REF: cashmere-musk
+   URL: https://www.fragrantica.com/perfume/ajmal/cashmere-musk-55882.html
+   TOP: Musk, Saffron
+   MID: Musk, Ylang-ylang, Jasmine, Lily-of-the-valley
+   BASE: Musk, Cashmeran, Cedar, Patchouli
 
 #84 | [AJMAL] AJMAL - MUSK RAJALI (SPR) (short: MUSK RAJALI (SPR))
-   MATCHED: False | REF: None
-   URL: None
-   TOP: 
-   MID: 
-   BASE: 
+   MATCHED: True | REF: cashmere-musk
+   URL: https://www.fragrantica.com/perfume/ajmal/cashmere-musk-55882.html
+   TOP: Musk, Saffron
+   MID: Musk, Ylang-ylang, Jasmine, Lily-of-the-valley
+   BASE: Musk, Cashmeran, Cedar, Patchouli
 
 #85 | [AJMAL] AJMAL - MUSK RAJALI (PREM) (short: MUSK RAJALI (PREM))
-   MATCHED: False | REF: None
-   URL: None
-   TOP: 
-   MID: 
-   BASE: 
+   MATCHED: True | REF: cashmere-musk
+   URL: https://www.fragrantica.com/perfume/ajmal/cashmere-musk-55882.html
+   TOP: Musk, Saffron
+   MID: Musk, Ylang-ylang, Jasmine, Lily-of-the-valley
+   BASE: Musk, Cashmeran, Cedar, Patchouli
 
 #86 | [AJMAL] AJMAL - GALAXY (short: GALAXY)
    MATCHED: False | REF: None
@@ -636,18 +636,18 @@
    BASE: Amber, Woodsy Notes
 
 #92 | [AJMAL] AJMAL – AMBER GOLD (short: AMBER GOLD)
-   MATCHED: True | REF: amber
-   URL: https://www.fragrantica.com/perfume/ajmal/amber-56388.html
-   TOP: Bergamot, Pepper
-   MID: Rose, Palisander Rosewood, Jasmine
-   BASE: Amber, Musk, Agarwood (oud), Sandalwood
+   MATCHED: True | REF: Amber Gold by Ajmal
+   URL: https://www.fragrantica.com/perfume/Ajmal/Amber-Gold-38932.html
+   TOP: Bergamot, Lemon
+   MID: Rose, Jasmine, Spices
+   BASE: Amber, Sandalwood, Musk
 
 #93 | [AJMAL] AJMAL - ROYAL ESCADA (short: ROYAL ESCADA)
-   MATCHED: False | REF: None
-   URL: None
-   TOP: 
-   MID: 
-   BASE: 
+   MATCHED: True | REF: 007-royal-patchouli
+   URL: https://www.fragrantica.com/perfume/ajmal/007-royal-patchouli-26873.html
+   TOP: Ylang-ylang, Jasmine, Neroli, Rose
+   MID: Patchouli
+   BASE: Vanilla, Amber, Musk
 
 #94 | [AJMAL] AJMAL - SACRED LOVE (short: SACRED LOVE)
    MATCHED: True | REF: Sacred Love by Ajmal
@@ -713,18 +713,18 @@
    BASE: Vanilla, Tonka Bean, Amber, Patchouli
 
 #103 | [AFNAN] AFNAN – DEHN AL OUDH ABIYAD (short: DEHN AL OUDH ABIYAD)
-   MATCHED: False | REF: None
-   URL: None
-   TOP: 
-   MID: 
-   BASE: 
+   MATCHED: True | REF: supremacy-in-oud
+   URL: https://www.fragrantica.com/perfume/afnan/supremacy-in-oud-68283.html
+   TOP: Saffron, Nutmeg, Lavender
+   MID: Agarwood (oud), Sweet Notes
+   BASE: Patchouli, Musk
 
 #104 | [AFNAN] AFNAN – GOLD WOOD (short: GOLD WOOD)
-   MATCHED: False | REF: None
-   URL: None
-   TOP: 
-   MID: 
-   BASE: 
+   MATCHED: True | REF: supremacy-gold
+   URL: https://www.fragrantica.com/perfume/afnan/supremacy-gold-27351.html
+   TOP: Nutmeg, Violet, Peach Blossom, Cumin
+   MID: Iris, Patchouli
+   BASE: Amber, Vanilla, Agarwood (oud), Benzoin
 
 #105 | [Panna Heera Originals] AZZARO CHROME (short: AZZARO CHROME)
    MATCHED: True | REF: Chrome by Azzaro
@@ -748,18 +748,18 @@
    BASE: Tonka Bean, Amberwood, Haitian Vetiver
 
 #108 | [AZZARO] AZZARO – MOST WANTED (short: MOST WANTED)
-   MATCHED: True | REF: wanted
-   URL: https://www.fragrantica.com/perfume/azzaro/wanted-38686.html
-   TOP: Lemon, Ginger, Lavender, Mint
-   MID: Apple, Juniper, Guatemalan Cardamom, Geranium
-   BASE: Tonka Bean, Amberwood, Haitian Vetiver
+   MATCHED: True | REF: the-most-wanted
+   URL: https://www.fragrantica.com/perfume/azzaro/the-most-wanted-66826.html
+   TOP: Cardamom
+   MID: Toffee
+   BASE: Amberwood
 
 #109 | [AZZARO] AZZARO – WANTED BY THE NIGHT (short: WANTED BY THE NIGHT)
-   MATCHED: True | REF: wanted
-   URL: https://www.fragrantica.com/perfume/azzaro/wanted-38686.html
-   TOP: Lemon, Ginger, Lavender, Mint
-   MID: Apple, Juniper, Guatemalan Cardamom, Geranium
-   BASE: Tonka Bean, Amberwood, Haitian Vetiver
+   MATCHED: True | REF: Wanted by Night
+   URL: https://www.fragrantica.com/perfume/Azzaro/Wanted by Night.html
+   TOP: Cinnamon, Mandarin Orange, Lavender, Lemon
+   MID: Fruity Notes, Incense, Red Cedar, Cumin
+   BASE: Tobacco, Vanilla, Cedar, Leather, Benzoin, Cypress, Iso E Super, Patchouli
 
 #110 | [AZZARO] AZZARO – VISIT FOR MEN (short: VISIT FOR MEN)
    MATCHED: True | REF: visit-for-men
@@ -797,11 +797,11 @@
    BASE: 
 
 #115 | [ADIDAS] ADIDAS - CHAMPION LEAGUE (short: CHAMPION LEAGUE)
-   MATCHED: False | REF: None
-   URL: None
-   TOP: 
-   MID: 
-   BASE: 
+   MATCHED: True | REF: uefa-champions-league-dare-edition
+   URL: https://www.fragrantica.com/perfume/adidas/uefa-champions-league-dare-edition-63047.html
+   TOP: Mint, Sicilian Bergamot, Elemi
+   MID: Cardamom, Lavender, African Geranium
+   BASE: Vetiver, Patchouli, Balsam Fir
 
 #116 | [AL HARMAIN] AL HARMAIN - MADINAH (short: MADINAH)
    MATCHED: True | REF: madinah
@@ -811,11 +811,11 @@
    BASE: Sandalwood, Musk, Floral Notes, Cedar, Amber, Cashmeran
 
 #117 | [AL HARMAIN] AL HARMAIN - AMBER OUDH (short: AMBER OUDH)
-   MATCHED: True | REF: amber
-   URL: https://www.fragrantica.com/perfume/al-haramain-perfumes/amber-21779.html
-   TOP: Spicy Notes, Saffron, Cloves, Geranium, Lemon, Lavender
-   MID: Sandalwood, Rose, Cedar, Orris, Artemisia
-   BASE: Amber, Patchouli, Labdanum, Guaiac Wood, Sandalwood, Musk, Amyris
+   MATCHED: True | REF: Amber Oud by Al Haramain
+   URL: https://www.fragrantica.com/perfume/Al-Haramain-Perfumes/Amber-Oud-51846.html
+   TOP: Rosemary, Cedar, Lemon, Bergamot
+   MID: Cedar, Spices, Guaiac Wood
+   BASE: Amber, Musk, Resins
 
 #118 | [AL HARMAIN] AL HARMAIN - MADINAH PREMIUM (short: MADINAH PREMIUM)
    MATCHED: True | REF: madinah
@@ -993,11 +993,11 @@
    BASE: Sugar, Woody Notes
 
 #143 | [BATH AND BODY] BATH AND BODY - BALI BLACK COCONUT SANDS (short: BALI BLACK COCONUT SANDS)
-   MATCHED: False | REF: None
-   URL: None
-   TOP: 
-   MID: 
-   BASE: 
+   MATCHED: True | REF: black-amethyst
+   URL: https://www.fragrantica.com/perfume/bath-body-works/black-amethyst-4565.html
+   TOP: Bergamot, Fruity Notes, Orange, Mandarin Orange, Melon, Tangerine
+   MID: Gardenia, Tuberose, Peony, Camelia, Magnolia, Lily-of-the-valley, Freesia
+   BASE: Patchouli, Vetiver, Sandalwood, Vanilla, Musk
 
 #144 | [BATH AND BODY WORKS] BATH AND BODY WORKS - PINK CHIFFON (short: PINK CHIFFON)
    MATCHED: True | REF: pink-chiffon
@@ -1140,11 +1140,11 @@
    BASE: Musk, Vanilla, Cashmeran, Woody Notes, Amber, Oakmoss, Patchouli
 
 #164 | [BURBERRY] BURBERRY - BURBERRY FOR MEN (short: BURBERRY FOR MEN)
-   MATCHED: True | REF: burberry-men
-   URL: https://www.fragrantica.com/perfume/burberry/burberry-men-817.html
-   TOP: Mint, Lavender, Bergamot, Thyme
-   MID: Cedar, Sandalwood, Geranium, Jasmine, Oakmoss
-   BASE: Musk, Vanilla, Amber
+   MATCHED: True | REF: burberry-brit-for-men
+   URL: https://www.fragrantica.com/perfume/burberry/burberry-brit-for-men-1115.html
+   TOP: Ginger, Cardamom, Bergamot, Green Mandarin
+   MID: Wild Rose, Nutmeg, Cedar, Spicy Notes
+   BASE: Tonka Bean, Gray Musk, Cedar, Oriental Woodsy Notes, Patchouli
 
 #165 | [BURBERRY] BURBERRY - ELEMENT (short: ELEMENT)
    MATCHED: True | REF: mr-burberry-element
@@ -1154,11 +1154,11 @@
    BASE: Mineral Notes, Ambergris, Oakmoss
 
 #166 | [BURBERRY] BURBERRY – LONDON WOMEN (short: LONDON WOMEN)
-   MATCHED: True | REF: london
-   URL: https://www.fragrantica.com/perfume/burberry/london-813.html
-   TOP: Honeysuckle, Tangerine, Rose
-   MID: Jasmine, Tiare Flower, Peony, Clementine
-   BASE: Musk, Sandalwood, Patchouli
+   MATCHED: True | REF: burberry-london-special-edition-for-women
+   URL: https://www.fragrantica.com/perfume/burberry/burberry-london-special-edition-for-women-4694.html
+   TOP: Peach, Grapefruit, Pepper
+   MID: Honeysuckle, Rose
+   BASE: Mahogany, Musk, Patchouli
 
 #167 | [BVLGARI] BVLGARI - EXTREME MEN (short: EXTREME MEN)
    MATCHED: True | REF: Bvlgari Pour Homme Extreme by Bvlgari
@@ -1231,11 +1231,11 @@
    BASE: Sandalwood
 
 #177 | [BOSS] BOSS - HUGO BOSS GREEN (short: HUGO BOSS GREEN)
-   MATCHED: True | REF: hugo
-   URL: https://www.fragrantica.com/perfume/hugo-boss/hugo-570.html
-   TOP: Green Apple, Mint, Lavender, Grapefruit, Basil
-   MID: Sage, Geranium, Carnation, Jasmine
-   BASE: Fir, Cedar, Patchouli
+   MATCHED: True | REF: boss-in-motion-green
+   URL: https://www.fragrantica.com/perfume/hugo-boss/boss-in-motion-green-568.html
+   TOP: Mandarin Orange, Clary Sage, Cognac
+   MID: Nutmeg, Cardamom, Pimento
+   BASE: Sandalwood, Patchouli, Cedar
 
 #178 | [BOSS] BOSS - DEEP RED (short: DEEP RED)
    MATCHED: True | REF: deep-red
@@ -1259,11 +1259,11 @@
    BASE: Woodsy Notes, Musk
 
 #181 | [BOSS] BOSS – BOSS BOTTLED OUDH (short: BOSS BOTTLED OUDH)
-   MATCHED: True | REF: boss-bottled
-   URL: https://www.fragrantica.com/perfume/hugo-boss/boss-bottled-383.html
-   TOP: Apple, Plum, Lemon, Bergamot, Oakmoss, Geranium
-   MID: Cinnamon, Mahogany, Carnation
-   BASE: Vanilla, Sandalwood, Cedar, Vetiver, Olive Tree
+   MATCHED: True | REF: Boss Bottled Oud by Hugo Boss
+   URL: https://www.fragrantica.com/perfume/Hugo-Boss/Boss-Bottled-Oud-30818.html
+   TOP: Apple, Citruses
+   MID: Cinnamon, Saffron, Clove, Labdanum
+   BASE: Agarwood (oud), Sandalwood, Cypriol Oil
 
 #182 | [BOSS] BOSS – BOTTLED ICED (short: BOTTLED ICED)
    MATCHED: True | REF: Boss Bottled Tonic / Iced by Hugo Boss
@@ -1287,11 +1287,11 @@
    BASE: Vanilla, Sandalwood, Coumarin, Cedar, Vetiver
 
 #185 | [BOSS] BOSS - BILL BOSS (short: BILL BOSS)
-   MATCHED: False | REF: None
-   URL: None
-   TOP: 
-   MID: 
-   BASE: 
+   MATCHED: True | REF: Boss Soul
+   URL: https://www.fragrantica.com/perfume/Hugo Boss/Boss Soul.html
+   TOP: Cardamom, Pepper, Anise, Mandarin Orange, Bergamot
+   MID: Cinnamon, Nutmeg, Lavender, Coriander
+   BASE: Vanilla, Tonka Bean, Amber, Vetiver, Musk
 
 #186 | [BOSS] BOSS - BOSS THE SCENT MEN (short: BOSS THE SCENT MEN)
    MATCHED: True | REF: boss-the-scent
@@ -1301,11 +1301,11 @@
    BASE: Leather, Woody Notes
 
 #187 | [BOSS] BOSS – BOSS THE SCENT WOMEN (short: BOSS THE SCENT WOMEN)
-   MATCHED: True | REF: boss-the-scent
-   URL: https://www.fragrantica.com/perfume/hugo-boss/boss-the-scent-31445.html
-   TOP: Ginger, Mandarin Orange, Bergamot
-   MID: Maninka, Lavender
-   BASE: Leather, Woody Notes
+   MATCHED: True | REF: boss-the-scent-for-her
+   URL: https://www.fragrantica.com/perfume/hugo-boss/boss-the-scent-for-her-38998.html
+   TOP: Peach, Freesia
+   MID: Osmanthus
+   BASE: Cacao
 
 #188 | [BOSS] BOSS - DARK BLUE (short: DARK BLUE)
    MATCHED: True | REF: hugo-dark-blue
@@ -1385,11 +1385,11 @@
    BASE: Papyrus, Amber
 
 #199 | [BENTLEY] BENTLEY - INTENSE MEN (short: INTENSE MEN)
-   MATCHED: True | REF: Bentley for Men Intense
-   URL: https://www.fragrantica.com/perfume/Bentley/Bentley for Men Intense.html
+   MATCHED: True | REF: bentley-for-men-intense
+   URL: https://www.fragrantica.com/perfume/bentley/bentley-for-men-intense-17666.html
    TOP: Black Pepper, Bay Leaf, Bergamot
    MID: Rum, Woody Notes, Cinnamon, Clary Sage, African Geranium
-   BASE: Incense, Leather, Benzoin, Patchouli, Cedar
+   BASE: Incense, Leather, Benzoin, Cedar, Patchouli
 
 #200 | [BLACK MUSHK] BLACK MUSHK – NEMAT G6 TYPE (short: NEMAT G6 TYPE)
    MATCHED: False | REF: None
@@ -1511,18 +1511,18 @@
    BASE: Powdery Notes, Honey
 
 #217 | [CHANEL] CHANEL - CHLOE (short: CHLOE)
-   MATCHED: False | REF: None
-   URL: None
-   TOP: 
-   MID: 
-   BASE: 
+   MATCHED: True | REF: Chloé Eau de Parfum by Chloé
+   URL: https://www.fragrantica.com/perfume/Chloe/Chloe-Eau-de-Parfum-1733.html
+   TOP: Peony, Litchi, Freesia
+   MID: Rose, Lily-of-the-valley, Magnolia
+   BASE: Virginia Cedar, Amber
 
 #218 | [CHANEL] CHANEL - ALLURE MEN (short: ALLURE MEN)
-   MATCHED: True | REF: allure
-   URL: https://www.fragrantica.com/perfume/chanel/allure-502.html
-   TOP: Lemon, Mandarin Orange, Peach, Passionfruit, Bergamot
-   MID: Honeysuckle, Jasmine, Magnolia, Freesia, Water Lily, Orange Blossom, Peony, May Rose
-   BASE: Vanilla, Sandalwood, Amber, Vetiver, Patchouli
+   MATCHED: True | REF: allure-homme
+   URL: https://www.fragrantica.com/perfume/chanel/allure-homme-523.html
+   TOP: Lemon, Peach, Ginger, Mandarin Orange, Lavender, Bergamot
+   MID: Pepper, Cedar, Patchouli, Vetiver, Brazilian Rosewood, Rose, Jasmine, Gardenia, Freesia, Anise
+   BASE: Vanilla, Tonka Bean, Sandalwood, Coconut, Amber, Benzoin, Musk, Leather, Oakmoss
 
 #219 | [CHANEL] CHANEL - ALLURE WOMEN (short: ALLURE WOMEN)
    MATCHED: True | REF: allure
@@ -1532,18 +1532,18 @@
    BASE: Vanilla, Sandalwood, Amber, Vetiver, Patchouli
 
 #220 | [CHANEL] CHANEL - ALLURE SPORTS (short: ALLURE SPORTS)
-   MATCHED: True | REF: allure
-   URL: https://www.fragrantica.com/perfume/chanel/allure-502.html
-   TOP: Lemon, Mandarin Orange, Peach, Passionfruit, Bergamot
-   MID: Honeysuckle, Jasmine, Magnolia, Freesia, Water Lily, Orange Blossom, Peony, May Rose
-   BASE: Vanilla, Sandalwood, Amber, Vetiver, Patchouli
+   MATCHED: True | REF: Allure Homme Sport by Chanel
+   URL: https://www.fragrantica.com/perfume/Chanel/Allure-Homme-Sport-607.html
+   TOP: Orange, Sea Notes, Aldehydes, Blood Mandarin
+   MID: Pepper, Neroli, Cedar
+   BASE: Tonka Bean, Vanilla, White Musk, Amber, Vetiver, Elemi Resin
 
 #221 | [CHANEL] CHANEL - CHANEL NO 5 (short: CHANEL NO 5)
-   MATCHED: True | REF: chanel-no-5-l-eau
-   URL: https://www.fragrantica.com/perfume/chanel/chanel-no-5-l-eau-38543.html
-   TOP: Aldehydes, Lemon, Neroli, Mandarin Orange, Bergamot, Orange, Lime
-   MID: Ylang-ylang, Jasmine, May Rose
-   BASE: White Musk, Orris Root, Cedar, Vanila
+   MATCHED: True | REF: chanel-no-5-parfum
+   URL: https://www.fragrantica.com/perfume/chanel/chanel-no-5-parfum-28711.html
+   TOP: Aldehydes, Ylang-ylang, Neroli, Bergamot, Lemon
+   MID: Iris, Jasmine, Rose, Orris Root, Lily-of-the-valley
+   BASE: Civet, Musk, Sandalwood, Amber, Moss, Vanilla, Vetiver, Patchouli
 
 #222 | [CHANEL] CHANEL - COCO CHANEL (short: COCO CHANEL)
    MATCHED: True | REF: Coco Eau de Parfum by Chanel
@@ -1588,10 +1588,10 @@
    BASE: Incense, Vetiver, Cedar, Sandalwood, Patchouli, Labdanum, White Musk
 
 #228 | [CHANEL] CHANEL - CHANEL GABRIELLE (short: CHANEL GABRIELLE)
-   MATCHED: True | REF: Gabrielle
-   URL: https://www.fragrantica.com/perfume/Chanel/Gabrielle.html
+   MATCHED: True | REF: gabrielle-chanel-hair-mist
+   URL: https://www.fragrantica.com/perfume/chanel/gabrielle-chanel-hair-mist-56250.html
    TOP: Grapefruit, Mandarin Orange, Black Currant
-   MID: Orange Blossom, Jasmine, Ylang-ylang, Tuberose, Lily-of-the-valley, Pear, Pink Pepper
+   MID: Orange Blossom, Tuberose, Jasmine, Pear, Pink Pepper, Lily-of-the-valley, Ylang-ylang
    BASE: Musk, Sandalwood, Cashmeran, Orris
 
 #229 | [CHANEL] CHANEL – EGOISTE PLATINUM (short: EGOISTE PLATINUM)
@@ -1609,11 +1609,11 @@
    BASE: Green Accord, Musk, Cedar, Sandalwood, Oakmoss, Green Tea, Amber
 
 #231 | [CK] CK - CK ONE SHOCK (short: CK ONE SHOCK)
-   MATCHED: True | REF: ck-one
-   URL: https://www.fragrantica.com/perfume/calvin-klein/ck-one-276.html
-   TOP: Lemon, Green Notes, Bergamot, Mandarin Orange, Pineapple, Cardamom, Papaya
-   MID: Lily-of-the-valley, Jasmine, Violet, Rose, Nutmeg, Orris Root, Freesia
-   BASE: Green Accord, Musk, Cedar, Sandalwood, Oakmoss, Green Tea, Amber
+   MATCHED: True | REF: CK One Shock For Him
+   URL: https://www.fragrantica.com/perfume/Calvin Klein/CK One Shock For Him.html
+   TOP: Lavender, Clementine, Cucumber
+   MID: Cardamom, Pepper, Basil, Osmanthus
+   BASE: Tobacco, Amber, Patchouli, Woodsy Notes, Musk
 
 #232 | [CK] CK - CK ONE SUMMER (short: CK ONE SUMMER)
    MATCHED: True | REF: ck-one-summer
@@ -1644,11 +1644,11 @@
    BASE: Amber, Suede, Brazilian Redwood, Patchouli
 
 #236 | [CK] CK - CK EUPHORIA WOMEN (short: CK EUPHORIA WOMEN)
-   MATCHED: True | REF: euphoria
-   URL: https://www.fragrantica.com/perfume/calvin-klein/euphoria-253.html
-   TOP: Pomegranate, Persimmon, Green Accord
-   MID: Black Orchid, Lotus, Champaca
-   BASE: Mahogany, Amber, Black Violet, Whipped Cream
+   MATCHED: True | REF: pure-gold-euphoria-women
+   URL: https://www.fragrantica.com/perfume/calvin-klein/pure-gold-euphoria-women-44223.html
+   TOP: Dates, Solar Notes, Neroli
+   MID: Almond, Ylang-ylang, Orange Blossom, Rose
+   BASE: Leather, Vanilla Absolute, Benzoin, Patchouli, Musk
 
 #237 | [CK] CK - CK ALL (short: CK ALL)
    MATCHED: True | REF: ck-all
@@ -1665,11 +1665,11 @@
    BASE: Oakmoss, Musk, Sandalwood, Amber, Vetiver, Cedar, Vanilla
 
 #239 | [CK] CK - CK OBSESSION MEN (short: CK OBSESSION MEN)
-   MATCHED: True | REF: obsession
-   URL: https://www.fragrantica.com/perfume/calvin-klein/obsession-248.html
-   TOP: Vanilla, Basil, Bergamot, Mandarin Orange, Green Notes, Peach, Lemon
-   MID: Spices, Sandalwood, Coriander, Oakmoss, Cedar, Orange Blossom, Jasmine, Rose
-   BASE: Amber, Incense, Vanilla, Civet, Musk, Vetiver
+   MATCHED: True | REF: obsession-for-men
+   URL: https://www.fragrantica.com/perfume/calvin-klein/obsession-for-men-249.html
+   TOP: Cinnamon, Lavender, Coriander, Mandarin Orange, Lime, Bergamot, Grapefruit
+   MID: Myrhh, Nutmeg, Carnation, Brazilian Rosewood, Pine Tree, Sage, Jasmine, Red Berries
+   BASE: Amber, Vanilla, Sandalwood, Musk, Patchouli, Vetiver
 
 #240 | [CK] CK – EVERYONE (short: EVERYONE)
    MATCHED: True | REF: ck-everyone-eau-de-parfum
@@ -1679,25 +1679,25 @@
    BASE: Haitian Vetiver
 
 #241 | [CK] CK – ETERNITY AIR (short: ETERNITY AIR)
-   MATCHED: True | REF: eternity
-   URL: https://www.fragrantica.com/perfume/calvin-klein/eternity-257.html
-   TOP: Green Notes, Freesia, Sage, Citruses, Mandarin Orange
-   MID: Carnation, Lily, Lily-of-the-valley, Narcissus, Marigold, Violet, Rose, Jasmine
-   BASE: Musk, Heliotrope, Sandalwood, Amber, Patchouli
+   MATCHED: True | REF: eternity-air-for-men
+   URL: https://www.fragrantica.com/perfume/calvin-klein/eternity-air-for-men-48717.html
+   TOP: Sea Notes, Ozonic Notes, Juniper Berries, Mandarin Orange
+   MID: Lavender, Green Apple, Violet Leaf
+   BASE: Seaweed, Ambergris, Patchouli
 
 #242 | [CK] CK - ETERNITY MEN (short: ETERNITY MEN)
-   MATCHED: True | REF: eternity
-   URL: https://www.fragrantica.com/perfume/calvin-klein/eternity-257.html
-   TOP: Green Notes, Freesia, Sage, Citruses, Mandarin Orange
-   MID: Carnation, Lily, Lily-of-the-valley, Narcissus, Marigold, Violet, Rose, Jasmine
-   BASE: Musk, Heliotrope, Sandalwood, Amber, Patchouli
+   MATCHED: True | REF: eternity-for-men
+   URL: https://www.fragrantica.com/perfume/calvin-klein/eternity-for-men-258.html
+   TOP: Lavender, Lemon, Bergamot, Mandarin Orange
+   MID: Sage, Juniper Berries, Basil, Geranium, Jasmine, Coriander, Orange Blossom, Lily-of-the-valley, Lily
+   BASE: Sandalwood, Musk, Vetiver, Brazilian Rosewood, Amber
 
 #243 | [CK] CK - ETERNITY WOMEN (short: ETERNITY WOMEN)
-   MATCHED: True | REF: eternity
-   URL: https://www.fragrantica.com/perfume/calvin-klein/eternity-257.html
-   TOP: Green Notes, Freesia, Sage, Citruses, Mandarin Orange
-   MID: Carnation, Lily, Lily-of-the-valley, Narcissus, Marigold, Violet, Rose, Jasmine
-   BASE: Musk, Heliotrope, Sandalwood, Amber, Patchouli
+   MATCHED: True | REF: eternity-now-for-women
+   URL: https://www.fragrantica.com/perfume/calvin-klein/eternity-now-for-women-31004.html
+   TOP: Quince, Sorbet, Litchi
+   MID: Peach Blossom, Peony, Neroli
+   BASE: Musk, Cashmere Wood, Ambroxan
 
 #244 | [CK] CK - ETERNITY MOMENT (short: ETERNITY MOMENT)
    MATCHED: True | REF: eternity-moment
@@ -1728,11 +1728,11 @@
    BASE: Cedar, White Musk, Vetiver
 
 #248 | [CREED] CREED - CREED AVENTUS ABSOLU (short: CREED AVENTUS ABSOLU)
-   MATCHED: True | REF: Aventus
-   URL: https://www.fragrantica.com/perfume/Creed/Aventus.html
-   TOP: Pineapple, Black Currant, Bergamot, Apple
-   MID: Birch, Patchouli, Moroccan Jasmine, Rose
-   BASE: Musk, Oak Moss, Ambergris, Vanille
+   MATCHED: True | REF: Absolu Aventus by Creed
+   URL: https://www.fragrantica.com/perfume/Creed/Absolu-Aventus-84724.html
+   TOP: Grapefruit, Bergamot, Black Currant
+   MID: Ginger, Cinnamon, Cardamom, Citron
+   BASE: Pink Pepper, Patchouli, Vetiver
 
 #249 | [CREED] CREED - AVENTUS FOR HER (short: AVENTUS FOR HER)
    MATCHED: True | REF: aventus-for-her
@@ -2071,18 +2071,18 @@
    BASE: Oakmoss, Leather, Cedar, Pine Tree Needles, Sandalwood, Vetiver, Patchouli, Amber, Resins
 
 #297 | [DYPTIQUE] DYPTIQUE - TAM DAO EDT (short: TAM DAO EDT)
-   MATCHED: True | REF: tam-dao-eau-de-toilette
-   URL: https://www.fragrantica.com/perfume/diptyque/tam-dao-eau-de-toilette-3956.html
-   TOP: Italian Cypress, Myrtle, Rose
+   MATCHED: True | REF: tam-dao-limited-edition
+   URL: https://www.fragrantica.com/perfume/diptyque/tam-dao-limited-edition-55612.html
+   TOP: Italian Cypress, Rose, Myrtle
    MID: Sandalwood, Cedar
-   BASE: Brazilian Rosewood, Spices, Amber, White Musk
+   BASE: Palisander Rosewood, Amber, White Musk, Spices
 
 #298 | [DYPTIQUE] DYPTIQUE - TAM DAO (short: TAM DAO)
-   MATCHED: True | REF: tam-dao-eau-de-toilette
-   URL: https://www.fragrantica.com/perfume/diptyque/tam-dao-eau-de-toilette-3956.html
-   TOP: Italian Cypress, Myrtle, Rose
+   MATCHED: True | REF: tam-dao-limited-edition
+   URL: https://www.fragrantica.com/perfume/diptyque/tam-dao-limited-edition-55612.html
+   TOP: Italian Cypress, Rose, Myrtle
    MID: Sandalwood, Cedar
-   BASE: Brazilian Rosewood, Spices, Amber, White Musk
+   BASE: Palisander Rosewood, Amber, White Musk, Spices
 
 #299 | [DYPTIQUE] DYPTIQUE - L'OMBRE DANS LEAU (short: L'OMBRE DANS LEAU)
    MATCHED: True | REF: l-ombre-dans-l-eau-limited-edition
@@ -2120,25 +2120,25 @@
    BASE: Oakmoss, Cedar
 
 #304 | [DAVIDOFF] DAVIDOFF - COOL WATER MEN (short: COOL WATER MEN)
-   MATCHED: True | REF: cool-water
-   URL: https://www.fragrantica.com/perfume/davidoff/cool-water-507.html
-   TOP: Sea Water, Lavender, Mint, Green Notes, Rosemary, Calone, Coriander
-   MID: Sandalwood, Neroli, Geranium, Jasmine
-   BASE: Musk, Oakmoss, Tobacco, Cedar, Ambergris
+   MATCHED: True | REF: davidoff-cool-water-men-ice-fresh
+   URL: https://www.fragrantica.com/perfume/davidoff/davidoff-cool-water-men-ice-fresh-7932.html
+   TOP: Grapefruit, Amalfi Lemon, Mandarin Orange
+   MID: Sage, Basil
+   BASE: Green Notes
 
 #305 | [DAVIDOFF] DAVIDOFF - COOL WATER MEN (PREM) (short: COOL WATER MEN (PREM))
-   MATCHED: True | REF: cool-water
-   URL: https://www.fragrantica.com/perfume/davidoff/cool-water-507.html
-   TOP: Sea Water, Lavender, Mint, Green Notes, Rosemary, Calone, Coriander
-   MID: Sandalwood, Neroli, Geranium, Jasmine
-   BASE: Musk, Oakmoss, Tobacco, Cedar, Ambergris
+   MATCHED: True | REF: davidoff-cool-water-men-ice-fresh
+   URL: https://www.fragrantica.com/perfume/davidoff/davidoff-cool-water-men-ice-fresh-7932.html
+   TOP: Grapefruit, Amalfi Lemon, Mandarin Orange
+   MID: Sage, Basil
+   BASE: Green Notes
 
 #306 | [DAVIDOFF] DAVIDOFF - COOL WATER WOMEN (short: COOL WATER WOMEN)
-   MATCHED: True | REF: cool-water
-   URL: https://www.fragrantica.com/perfume/davidoff/cool-water-508.html
-   TOP: Melon, Lotus, Lemon, Pineapple, Quince, Calone, Lily, Black Currant
-   MID: Lotus, Water Lily, Lily-of-the-valley, Jasmine, Honey, Hawthorn, Rose
-   BASE: Musk, Vetiver, Violet Root, Raspberry, Blackberry, Peach, Sandalwood, Vanilla
+   MATCHED: True | REF: davidoff-cool-water-women-ice-fresh
+   URL: https://www.fragrantica.com/perfume/davidoff/davidoff-cool-water-women-ice-fresh-7931.html
+   TOP: Mint, Melon, Pineapple
+   MID: Sea Water, Lotus, Violet
+   BASE: Woodsy Notes, Amber
 
 #307 | [DAVIDOFF] DAVIDOFF - COOL WATER INTENSE (short: COOL WATER INTENSE)
    MATCHED: True | REF: cool-water-intense
@@ -2155,11 +2155,11 @@
    BASE: Patchouli, Woodsy Notes
 
 #309 | [DAVIDOFF] DAVIDOFF - GAME (W) (short: GAME (W))
-   MATCHED: True | REF: cool-water
-   URL: https://www.fragrantica.com/perfume/davidoff/cool-water-508.html
-   TOP: Melon, Lotus, Lemon, Pineapple, Quince, Calone, Lily, Black Currant
-   MID: Lotus, Water Lily, Lily-of-the-valley, Jasmine, Honey, Hawthorn, Rose
-   BASE: Musk, Vetiver, Violet Root, Raspberry, Blackberry, Peach, Sandalwood, Vanilla
+   MATCHED: True | REF: cool-water-parfum-for-her
+   URL: https://www.fragrantica.com/perfume/davidoff/cool-water-parfum-for-her-66526.html
+   TOP: Rose
+   MID: Haitian Vetiver
+   BASE: Tonka Bean
 
 #310 | [DAVIDOFF] DAVIDOFF - ECHOMEN (short: ECHOMEN)
    MATCHED: True | REF: Echo by Davidoff
@@ -2190,11 +2190,11 @@
    BASE: Benzoin, Amber, Cinnamon, Oak Moss
 
 #314 | [DIOR] DIOR - J'ADORE L'OR -EDP (short: J'ADORE L'OR -EDP)
-   MATCHED: True | REF: j-adore
-   URL: https://www.fragrantica.com/perfume/dior/j-adore-210.html
-   TOP: Pear, Melon, Magnolia, Peach, Mandarin Orange, Bergamot
-   MID: Jasmine, Lily-of-the-valley, Tuberose, Freesia, Rose, Orchid, Plum, Violet
-   BASE: Musk, Vanilla, Blackberry, Cedar
+   MATCHED: True | REF: j-adore-l-or
+   URL: https://www.fragrantica.com/perfume/dior/j-adore-l-or-10371.html
+   TOP: Jasmine, Rose
+   MID: Vanille, Tonka Bean
+   BASE: Amber, French Labdanum, Patchouli
 
 #315 | [DIOR] DIOR - AMBRE NUIT (short: AMBRE NUIT)
    MATCHED: True | REF: ambre-nuit
@@ -2302,11 +2302,11 @@
    BASE: Lavender, Rosemary, Sandalwood
 
 #330 | [DIOR] DIOR - DIOR HOMME INTENSE (short: DIOR HOMME INTENSE)
-   MATCHED: True | REF: dior-dior
-   URL: https://www.fragrantica.com/perfume/dior/dior-dior-2607.html
-   TOP: Aldehydes, Lilac, Jasmine
-   MID: Narcissus, Lily-of-the-valley
-   BASE: Oak Moss, Woodsy Notes, Amber
+   MATCHED: True | REF: Dior Homme Intense by Dior
+   URL: https://www.fragrantica.com/perfume/Dior/Dior-Homme-Intense-2011-13016.html
+   TOP: Lavender
+   MID: Iris, Ambrette (musk Mallow), Pear
+   BASE: Virginia Cedar, Vetiver
 
 #331 | [DIOR] DIOR - OUD ISPAHAN (short: OUD ISPAHAN)
    MATCHED: True | REF: oud-ispahan
@@ -2316,11 +2316,11 @@
    BASE: Agarwood (oud), Sandalwood, Cedar
 
 #332 | [DIOR] DIOR - ADDICT DIOR (short: ADDICT DIOR)
-   MATCHED: True | REF: dior-dior
-   URL: https://www.fragrantica.com/perfume/dior/dior-dior-2607.html
-   TOP: Aldehydes, Lilac, Jasmine
-   MID: Narcissus, Lily-of-the-valley
-   BASE: Oak Moss, Woodsy Notes, Amber
+   MATCHED: True | REF: dior-addict
+   URL: https://www.fragrantica.com/perfume/dior/dior-addict-215.html
+   TOP: Blackberry, Mandarin Leaf, Silk Tree Blossom
+   MID: Jasmine, Orange Blossom, Night Blooming Cereus, Rose
+   BASE: Vanilla, Tonka Bean, Mysore Sandalwood
 
 #333 | [Panna Heera Originals] DENVER GREEN (short: DENVER GREEN)
    MATCHED: True | REF: Hamilton / Imperial by Denver
@@ -2393,11 +2393,11 @@
    BASE: Vanilla
 
 #343 | [D G G] D G G - LIGHT BLUE MEN (short: LIGHT BLUE MEN)
-   MATCHED: True | REF: light-blue
-   URL: https://www.fragrantica.com/perfume/dolce-gabbana/light-blue-485.html
-   TOP: Sicilian Lemon, Apple, Cedar, Bellflower
-   MID: Bamboo, Jasmine, White Rose
-   BASE: Cedar, Musk, Amber
+   MATCHED: True | REF: light-blue-pour-homme
+   URL: https://www.fragrantica.com/perfume/dolce-gabbana/light-blue-pour-homme-1068.html
+   TOP: Grapefruit, Bergamot, Sicilian Mandarin, Juniper
+   MID: Pepper, Rosemary, Brazilian Rosewood
+   BASE: Musk, Incense, Oakmoss
 
 #344 | [D G G] D G G - VELVET DESERT OUDH (short: VELVET DESERT OUDH)
    MATCHED: True | REF: Velvet Desert Oud by Dolce&Gabbana
@@ -2407,18 +2407,18 @@
    BASE: Musk
 
 #345 | [D G G] D G G - THE ONE MAN (short: THE ONE MAN)
-   MATCHED: True | REF: the-one
-   URL: https://www.fragrantica.com/perfume/dolce-gabbana/the-one-698.html
-   TOP: Peach, Litchi, Mandarin Orange, Bergamot
-   MID: Lily, Plum, Jasmine, Lily-of-the-valley
-   BASE: Vanilla, Amber, Musk, Vetiver
+   MATCHED: True | REF: the-one-grey
+   URL: https://www.fragrantica.com/perfume/dolce-gabbana/the-one-grey-50611.html
+   TOP: Grapefruit, Cardamom, Coriander, Basil
+   MID: Clary Sage, Lavender, Geranium
+   BASE: Vetiver, Tobacco, Patchouli, Labdanum
 
 #346 | [D G G] D G G - THE ONE WOMEN (short: THE ONE WOMEN)
-   MATCHED: True | REF: the-one
-   URL: https://www.fragrantica.com/perfume/dolce-gabbana/the-one-698.html
+   MATCHED: True | REF: the-one-collector-for-women
+   URL: https://www.fragrantica.com/perfume/dolce-gabbana/the-one-collector-for-women-27418.html
    TOP: Peach, Litchi, Mandarin Orange, Bergamot
-   MID: Lily, Plum, Jasmine, Lily-of-the-valley
-   BASE: Vanilla, Amber, Musk, Vetiver
+   MID: Lily
+   BASE: Vanilla, Amber, Musk
 
 #347 | [DGG] DGG - LIGHT BLUE WOMEN (short: LIGHT BLUE WOMEN)
    MATCHED: True | REF: light-blue
@@ -2498,11 +2498,11 @@
    BASE: Coconut, Musk, Sandalwood
 
 #358 | [ESCADA] ESCADA - KISS LAND (short: KISS LAND)
-   MATCHED: False | REF: None
-   URL: None
-   TOP: 
-   MID: 
-   BASE: 
+   MATCHED: True | REF: island-kiss
+   URL: https://www.fragrantica.com/perfume/escada/island-kiss-1355.html
+   TOP: Mango, Passionfruit, Raspberry, Passion Flower, Orange, Magnolia, White Flowers
+   MID: White Peach, Red Berries, Hibiscus, Rose Hip
+   BASE: Musk, Sandalwood, White Woods
 
 #359 | [Panna Heera Originals] ENGAGE BLUE DEO (short: ENGAGE BLUE DEO)
    MATCHED: True | REF: Engage Homme / Man by Engage
@@ -2667,10 +2667,10 @@
 
 #382 | [GISSAH] GISSAH - HUDSON VALLEY (short: HUDSON VALLEY)
    MATCHED: True | REF: Hudson Valley by Gissah
-   URL: https://www.fragrantica.com/perfume/Gissah/Hudson-Valley-63025.html
-   TOP: Rose, Bergamot, Black Currant
-   MID: White Amber, Rosemary
-   BASE: Patchouli, Musk
+   URL: https://www.fragrantica.com/perfume/Gissah/Hudson-Valley-72816.html
+   TOP: Grapefruit, Black Currant, Bergamot
+   MID: Rose, Patchouli, Pink Pepper
+   BASE: Amberwood, Cedar, Musk
 
 #383 | [GISSAH] GISSAH - IMPERIAL VALLEY PREMIUM (short: IMPERIAL VALLEY PREMIUM)
    MATCHED: True | REF: Imperial Valley by Gissah
@@ -2694,11 +2694,11 @@
    BASE: Leather, Amber, Oud
 
 #386 | [GUCCI] GUCCI - GUCCI FLORA GORGEOUS GARDENIA (short: GUCCI FLORA GORGEOUS GARDENIA)
-   MATCHED: True | REF: flora-gorgeous-gardenia
-   URL: https://www.fragrantica.com/perfume/gucci/flora-gorgeous-gardenia-68578.html
-   TOP: Pear Blossom, Red Berries, Italian Mandarin
-   MID: Gardenia, Jasmine, Frangipani
-   BASE: Brown Sugar, Patchouli
+   MATCHED: True | REF: flora-by-gucci-gorgeous-gardenia
+   URL: https://www.fragrantica.com/perfume/gucci/flora-by-gucci-gorgeous-gardenia-14395.html
+   TOP: Pear, Red Berries
+   MID: Gardenia, Frangipani
+   BASE: Patchouli
 
 #387 | [GUCCI] GUCCI - GUCCI FLORA GORGEOUS MANGOLIA (short: GUCCI FLORA GORGEOUS MANGOLIA)
    MATCHED: True | REF: flora-gorgeous-magnolia
@@ -2715,18 +2715,18 @@
    BASE: Patchouli, Natural Vanilla, Vetiver
 
 #389 | [GUCCI] GUCCI - FLORA (short: FLORA)
-   MATCHED: True | REF: a-floral-verse
-   URL: https://www.fragrantica.com/perfume/gucci/a-floral-verse-81511.html
-   TOP: Jasmine Sambac
-   MID: Black Tea
-   BASE: White Musk
+   MATCHED: True | REF: flora-gorgeous-orchid
+   URL: https://www.fragrantica.com/perfume/gucci/flora-gorgeous-orchid-94979.html
+   TOP: Vanilla
+   MID: Vanilla Orchid
+   BASE: Ozonic Notes
 
 #390 | [GUCCI] GUCCI - FLORA PREMIUM (short: FLORA PREMIUM)
-   MATCHED: True | REF: a-floral-verse
-   URL: https://www.fragrantica.com/perfume/gucci/a-floral-verse-81511.html
-   TOP: Jasmine Sambac
-   MID: Black Tea
-   BASE: White Musk
+   MATCHED: True | REF: flora-gorgeous-orchid
+   URL: https://www.fragrantica.com/perfume/gucci/flora-gorgeous-orchid-94979.html
+   TOP: Vanilla
+   MID: Vanilla Orchid
+   BASE: Ozonic Notes
 
 #391 | [GUCCI] GUCCI - GUILTY ABSOLU MEN (short: GUILTY ABSOLU MEN)
    MATCHED: True | REF: gucci-guilty-absolute
@@ -2841,11 +2841,11 @@
    BASE: Leather, Cedar, Vetiver
 
 #407 | [GUERLAIN] GUERLAIN - L’HOMME IDEAL EDP (short: L’HOMME IDEAL EDP)
-   MATCHED: True | REF: l-homme-ideal
-   URL: https://www.fragrantica.com/perfume/guerlain/l-homme-ideal-25780.html
-   TOP: Citruses, Orange Blossom, Rosemary, Bitter Orange
-   MID: Almond, Tonka Bean
-   BASE: Leather, Cedar, Vetiver
+   MATCHED: True | REF: L'Homme Idéal Eau de Parfum by Guerlain
+   URL: https://www.fragrantica.com/perfume/Guerlain/L-Homme-Ideal-Eau-de-Parfum-37735.html
+   TOP: Almond, Spices, Lavender, Thyme, Rosemary, Bergamot
+   MID: Cherry, Vanilla, Incense, Bulgarian Rose
+   BASE: Leather, Tonka Bean, Sandalwood
 
 #408 | [GUERLAIN] GUERLAIN - OUDH ESSENTIAL (short: OUDH ESSENTIAL)
    MATCHED: True | REF: Oud Essentiel by Guerlain
@@ -3079,11 +3079,11 @@
    BASE: Incense, Ebony Tree, Tonka Bean, Patchouli
 
 #441 | [ISSEYMIYAKE] ISSEYMIYAKE - WOOD G WOOD (short: WOOD G WOOD)
-   MATCHED: False | REF: None
-   URL: None
-   TOP: 
-   MID: 
-   BASE: 
+   MATCHED: True | REF: l-eau-d-issey-pour-homme-wood-wood
+   URL: https://www.fragrantica.com/perfume/issey-miyake/l-eau-d-issey-pour-homme-wood-wood-55797.html
+   TOP: Grapefruit, Cardamom, Elemi
+   MID: Apricot, Ambroxan, Virginian Cedar, Sandalwood
+   BASE: Woody Notes, Haitian Vetiver, Patchouli
 
 #442 | [ISSEYMIYAKE] ISSEYMIYAKE - LEAU MAJEURE (short: LEAU MAJEURE)
    MATCHED: True | REF: L'Eau Majeure d'Issey by Issey Miyake
@@ -3191,11 +3191,11 @@
    BASE: Barley, White Musk, Bran
 
 #457 | [JO MALONE] JO MALONE - TOBACCO G MANDARINE (short: TOBACCO G MANDARINE)
-   MATCHED: False | REF: None
-   URL: None
-   TOP: 
-   MID: 
-   BASE: 
+   MATCHED: True | REF: bitter-mandarin
+   URL: https://www.fragrantica.com/perfume/jo-malone-london/bitter-mandarin-72614.html
+   TOP: Mandarin Orange, Bergamot, Petitgrain
+   MID: Orange
+   BASE: Amber, Iris
 
 #458 | [JO MALONE] JO MALONE - PEONY G BLUSH LEATHER (short: PEONY G BLUSH LEATHER)
    MATCHED: True | REF: peony-blush-suede
@@ -3352,11 +3352,11 @@
    BASE: Vanilla, Tonka Bean, Amber, Sandalwood, Cedarwood
 
 #480 | [JPG] JPG - LEMALE ELIXIER (short: LEMALE ELIXIER)
-   MATCHED: True | REF: Le Male by Jean Paul Gaultier
-   URL: https://www.fragrantica.com/perfume/Jean-Paul-Gaultier/Le-Male-430.html
-   TOP: Lavender, Mint, Cardamom, Bergamot, Artemisia
-   MID: Cinnamon, Orange Blossom, Caraway
-   BASE: Vanilla, Tonka Bean, Amber, Sandalwood, Cedarwood
+   MATCHED: True | REF: Le Male Elixir by Jean Paul Gaultier
+   URL: https://www.fragrantica.com/perfume/Jean-Paul-Gaultier/Le-Male-Elixir-81642.html
+   TOP: Lavender, Mint
+   MID: Vanilla, Benzoin
+   BASE: Honey, Tonka Bean, Tobacco
 
 #481 | [Panna Heera Originals] JANNATUL FIRDAUS (short: JANNATUL FIRDAUS)
    MATCHED: True | REF: Jannet El Firdaus by Swiss Arabian
@@ -3394,11 +3394,11 @@
    BASE: White Musk
 
 #486 | [JOVAN MUSK] JOVAN MUSK - WHITE WOMEN (short: WHITE WOMEN)
-   MATCHED: False | REF: None
-   URL: None
-   TOP: 
-   MID: 
-   BASE: 
+   MATCHED: True | REF: satisfaction-for-women
+   URL: https://www.fragrantica.com/perfume/jovan/satisfaction-for-women-9411.html
+   TOP: Mango, Peach, Melon
+   MID: Frangipani, Tiare Flower, Ylang-ylang
+   BASE: Musk, Vanille, Sandalwood
 
 #487 | [JOVAN MUSK] JOVAN MUSK - BLACK (short: BLACK)
    MATCHED: False | REF: None
@@ -3702,11 +3702,11 @@
    BASE: 
 
 #530 | [LATTAFA] LATTAFA - OPULANT DUBAI (short: OPULANT DUBAI)
-   MATCHED: False | REF: None
-   URL: None
-   TOP: 
-   MID: 
-   BASE: 
+   MATCHED: True | REF: ajayeb-dubai
+   URL: https://www.fragrantica.com/perfume/lattafa-perfumes/ajayeb-dubai-84223.html
+   TOP: Pineapple, Saffron
+   MID: Coffee, Violet Leaves
+   BASE: Butterscotch, Vanilla, Sandalwood
 
 #531 | [LATTAFA] LATTAFA - ATHEERI (short: ATHEERI)
    MATCHED: False | REF: None
@@ -3723,11 +3723,11 @@
    BASE: Lactones, Vanilla, Tonka Bean
 
 #533 | [LATTAFA] LATTAFA - TERIAQ INTENSE (short: TERIAQ INTENSE)
-   MATCHED: True | REF: teriaq
-   URL: https://www.fragrantica.com/perfume/lattafa-perfumes/teriaq-89850.html
-   TOP: Caramel, Bitter Almond, Pink Pepper, Apricot
-   MID: Honey, Rhubarb, White Flowers, Rose
-   BASE: Leather, Vanilla, Musk, Vetiver, Labdanum
+   MATCHED: True | REF: Teriaq Intense by Lattafa Perfumes
+   URL: https://www.fragrantica.com/perfume/Lattafa-Perfumes/Teriaq-Intense-97305.html
+   TOP: Bergamot, Saffron
+   MID: Cinnamon, Plum, Liquor
+   BASE: Amber, Tonka Bean, Benzoin
 
 #534 | [LATTAFA] LATTAFA - TERIAQ (short: TERIAQ)
    MATCHED: True | REF: teriaq
@@ -3779,11 +3779,11 @@
    BASE: Tonka Bean, Musk, Amber
 
 #541 | [LATTAFA] LATTAFA - FAKHIR (short: FAKHIR)
-   MATCHED: False | REF: None
-   URL: None
-   TOP: 
-   MID: 
-   BASE: 
+   MATCHED: True | REF: Fakhar Black by Lattafa Perfumes
+   URL: https://www.fragrantica.com/perfume/Lattafa-Perfumes/Fakhar-Black-70388.html
+   TOP: Apple, Bergamot, Ginger
+   MID: Lavender, Sage, Juniper Berries, Geranium
+   BASE: Tonka Bean, Amberwood, Cedar, Vetiver
 
 #542 | [LATTAFA] LATTAFA - YARA (short: YARA)
    MATCHED: True | REF: Yara by Lattafa Perfumes
@@ -3821,11 +3821,11 @@
    BASE: Amber, Guaiac Wood, Vanilla, Musk, Cedar
 
 #547 | [LATTAFA] LATTAFA - HAYAAT AL MALIKI (short: HAYAAT AL MALIKI)
-   MATCHED: True | REF: haya
-   URL: https://www.fragrantica.com/perfume/lattafa-perfumes/haya-85031.html
-   TOP: Champagne, Strawberry, Tangerine, Blood Orange, Rose
-   MID: Gardenia, Jasmine, Vanilla Orchid
-   BASE: Amber, Sandalwood, Chestnut
+   MATCHED: True | REF: al-nashama
+   URL: https://www.fragrantica.com/perfume/lattafa-perfumes/al-nashama-89762.html
+   TOP: Bergamot, Sage, Pink Pepper
+   MID: Plum, Jasmine, Black Pepper
+   BASE: Saffiano Leather, Amber, Patchouli, Moss
 
 #548 | [LATTAFA] LATTAFA - RAGHBA MEN (short: RAGHBA MEN)
    MATCHED: True | REF: raghba-for-men
@@ -3849,11 +3849,11 @@
    BASE: Sandalwood, Vanilla Flower, Musk
 
 #551 | [LATTAFA] LATTAFA - MAAHIR BLACK (short: MAAHIR BLACK)
-   MATCHED: True | REF: maahir
-   URL: https://www.fragrantica.com/perfume/lattafa-perfumes/maahir-64950.html
-   TOP: Red Berries, Peach, Bergamot
-   MID: Jasmine, Peony, Red Lily
-   BASE: Sandalwood, Vanilla Flower, Musk
+   MATCHED: True | REF: Maahir Black Edition by Lattafa Perfumes
+   URL: https://www.fragrantica.com/perfume/Lattafa-Perfumes/Maahir-Black-Edition-65238.html
+   TOP: Black Pepper, Pink Pepper, Saffron
+   MID: Rhubarb, Cade Oil, Labdanum, Gurjan Balsam
+   BASE: Leather, Cedar, Patchouli, Guaiac Wood, Musk, Moss
 
 #552 | [LATTAFA] LATTAFA - ASAD (short: ASAD)
    MATCHED: True | REF: Asad by Lattafa Perfumes
@@ -4647,11 +4647,11 @@
    BASE: 
 
 #665 | [OUD] OUD - AMEER AL OUD (short: AMEER AL OUD)
-   MATCHED: False | REF: None
-   URL: None
-   TOP: 
-   MID: 
-   BASE: 
+   MATCHED: True | REF: Ameer Al Oudh Special Edition by Lattafa
+   URL: https://www.fragrantica.com/perfume/Lattafa-Perfumes/Ameer-Al-Oudh-Intense-Oud-64949.html
+   TOP: Woody Notes, Oud
+   MID: Vanilla, Sugar
+   BASE: Oud, Sandalwood, Herbal Notes
 
 #666 | [OUD] OUD - KASHMIRI OUD (short: KASHMIRI OUD)
    MATCHED: False | REF: None
@@ -4675,11 +4675,11 @@
    BASE: Agarwood (oud), Patchouli, Leatherwood
 
 #669 | [OUD] OUD - POLO OUD SUPREME (short: POLO OUD SUPREME)
-   MATCHED: False | REF: None
-   URL: None
-   TOP: 
-   MID: 
-   BASE: 
+   MATCHED: True | REF: Polo Supreme Oud by Ralph Lauren
+   URL: https://www.fragrantica.com/perfume/Ralph-Lauren/Polo-Supreme-Oud-29759.html
+   TOP: Cinnamon, Pink Pepper
+   MID: Indian Oud
+   BASE: Guaiac Wood, Vetiver
 
 #670 | [OUD] OUD - ARMANI OUD ROYALE (short: ARMANI OUD ROYALE)
    MATCHED: True | REF: Armani Privé Oud Royal by Giorgio Armani
@@ -5123,11 +5123,11 @@
    BASE: White Honey, Patchouli, Amber
 
 #733 | [PACO RABBANE] PACO RABBANE - OLYMPEA INTENSE (short: OLYMPEA INTENSE)
-   MATCHED: True | REF: olympea
-   URL: https://www.fragrantica.com/perfume/paco-rabanne/olympea-31666.html
-   TOP: Water Jasmine, Green Mandarin, Ginger Flower
-   MID: Vanilla, Salt
-   BASE: Ambergris, Cashmere Wood, Sandalwood
+   MATCHED: True | REF: Olympéa Intense by Paco Rabanne
+   URL: https://www.fragrantica.com/perfume/Paco-Rabanne/Olympea-Intense-41484.html
+   TOP: Salt, Vanilla
+   MID: Ambergris, Orange Blossom
+   BASE: White Amber, Cedar
 
 #734 | [PRADA] PRADA - INDUSION DE SANTAL CHAI (short: INDUSION DE SANTAL CHAI)
    MATCHED: True | REF: Infusion de Santal by Prada
@@ -5375,11 +5375,11 @@
    BASE: Musk, Sandalwood, Cedar, Guaiac Wood, Amber
 
 #769 | [RALPH LAUREN] RALPH LAUREN - POLO BLACK (short: POLO BLACK)
-   MATCHED: True | REF: polo
-   URL: https://www.fragrantica.com/perfume/ralph-lauren/polo-890.html
-   TOP: Juniper Berries, Basil, Artemisia, Caraway, Coriander, Bergamot
-   MID: Pine Tree Needles, Leather, Chamomile, Pepper, Carnation, Geranium, Jasmine, Rose
-   BASE: Tobacco, Oakmoss, Patchouli, Cedar, Vetiver, Musk, Amber
+   MATCHED: True | REF: Polo Black by Ralph Lauren
+   URL: https://www.fragrantica.com/perfume/Ralph-Lauren/Polo-Black-1198.html
+   TOP: Mango, Tangerine, Lemon
+   MID: Sage, Wormwood, Calone
+   BASE: Sandalwood, Patchouli, Tonka Bean
 
 #770 | [RALPH LAUREN] RALPH LAUREN - POLO BLUE (short: POLO BLUE)
    MATCHED: True | REF: polo-blue
@@ -5403,18 +5403,18 @@
    BASE: Tobacco, Oakmoss, Patchouli, Cedar, Vetiver, Musk, Amber
 
 #773 | [RALPH LAUREN] RALPH LAUREN - POLO SAFARI MEN (short: POLO SAFARI MEN)
-   MATCHED: True | REF: polo
-   URL: https://www.fragrantica.com/perfume/ralph-lauren/polo-890.html
-   TOP: Juniper Berries, Basil, Artemisia, Caraway, Coriander, Bergamot
-   MID: Pine Tree Needles, Leather, Chamomile, Pepper, Carnation, Geranium, Jasmine, Rose
-   BASE: Tobacco, Oakmoss, Patchouli, Cedar, Vetiver, Musk, Amber
+   MATCHED: True | REF: safari-for-men
+   URL: https://www.fragrantica.com/perfume/ralph-lauren/safari-for-men-896.html
+   TOP: Lavender, Bergamot, Aldehydes, Coriander, Artemisia, Green Notes, Neroli, Lemon
+   MID: Tarragon, Carnation, Cinnamon, Rose, Jasmine, Cyclamen
+   BASE: Leather, Oakmoss, Sandalwood, Cedar, Musk, Patchouli, Amber
 
 #774 | [RALPH LAUREN] RALPH LAUREN - POLO OUD SUPREME (short: POLO OUD SUPREME)
-   MATCHED: True | REF: polo
-   URL: https://www.fragrantica.com/perfume/ralph-lauren/polo-890.html
-   TOP: Juniper Berries, Basil, Artemisia, Caraway, Coriander, Bergamot
-   MID: Pine Tree Needles, Leather, Chamomile, Pepper, Carnation, Geranium, Jasmine, Rose
-   BASE: Tobacco, Oakmoss, Patchouli, Cedar, Vetiver, Musk, Amber
+   MATCHED: True | REF: Polo Supreme Oud by Ralph Lauren
+   URL: https://www.fragrantica.com/perfume/Ralph-Lauren/Polo-Supreme-Oud-29759.html
+   TOP: Cinnamon, Pink Pepper
+   MID: Indian Oud
+   BASE: Guaiac Wood, Vetiver
 
 #775 | [RASASI] RASASI - KHALTAT AL KHASA MA DAHN AL OUDH (short: KHALTAT AL KHASA MA DAHN AL OUDH)
    MATCHED: True | REF: khaltat-al-khasa
@@ -5620,18 +5620,18 @@
    BASE: Oud, Sandalwood, Musk
 
 #804 | [RASASI] RASASI - OUDH AL MUBAKHAR (short: OUDH AL MUBAKHAR)
-   MATCHED: True | REF: mukhallat-oudh-al-mubakhar
-   URL: https://www.fragrantica.com/perfume/rasasi/mukhallat-oudh-al-mubakhar-75045.html
-   TOP: Lime, Bergamot, Saffron
-   MID: Turkish Rose, Geranium, Violet, Musk
-   BASE: Sandalwood, Woodsy Notes, Cashmere Musk, Patchouli, Tonka Bean
+   MATCHED: True | REF: oud-al-mubakhar
+   URL: https://www.fragrantica.com/perfume/rasasi/oud-al-mubakhar-19523.html
+   TOP: Saffron, Bergamot
+   MID: Turkish Rose, Geranium, Violet
+   BASE: Musk, Sandalwood, Tonka Bean, Patchouli
 
 #805 | [RASASI] RASASI - OUDH AL MUBAKHAR (short: OUDH AL MUBAKHAR)
-   MATCHED: True | REF: mukhallat-oudh-al-mubakhar
-   URL: https://www.fragrantica.com/perfume/rasasi/mukhallat-oudh-al-mubakhar-75045.html
-   TOP: Lime, Bergamot, Saffron
-   MID: Turkish Rose, Geranium, Violet, Musk
-   BASE: Sandalwood, Woodsy Notes, Cashmere Musk, Patchouli, Tonka Bean
+   MATCHED: True | REF: oud-al-mubakhar
+   URL: https://www.fragrantica.com/perfume/rasasi/oud-al-mubakhar-19523.html
+   TOP: Saffron, Bergamot
+   MID: Turkish Rose, Geranium, Violet
+   BASE: Musk, Sandalwood, Tonka Bean, Patchouli
 
 #806 | [Panna Heera Originals] ROYAL PROFECY (short: ROYAL PROFECY)
    MATCHED: False | REF: None
@@ -5669,11 +5669,11 @@
    BASE: Leather, Agarwood (oud), Patchouli, Musk, Guaiac Wood, Vetiver, Sandalwood, Tonka Bean, Vanilla, Amber, Benzoin
 
 #811 | [SWISS] SWISS - AQUA OUDH (CREATION) (short: AQUA OUDH (CREATION))
-   MATCHED: False | REF: None
-   URL: None
-   TOP: 
-   MID: 
-   BASE: 
+   MATCHED: True | REF: shaghaf-oud
+   URL: https://www.fragrantica.com/perfume/swiss-arabian/shaghaf-oud-50582.html
+   TOP: Saffron
+   MID: Agarwood (oud), Rose
+   BASE: Agarwood (oud), Praline, Vanilla
 
 #812 | [SWISS] SWISS - PINK VANILLA (CREATION) (short: PINK VANILLA (CREATION))
    MATCHED: False | REF: None
@@ -5746,18 +5746,18 @@
    BASE: 
 
 #822 | [SWISS] SWISS - PINK ROSE (CREATION) (short: PINK ROSE (CREATION))
-   MATCHED: False | REF: None
-   URL: None
-   TOP: 
-   MID: 
-   BASE: 
+   MATCHED: True | REF: crystal-rose
+   URL: https://www.fragrantica.com/perfume/swiss-arabian/crystal-rose-53854.html
+   TOP: Water Notes, Lemon
+   MID: Rose, Caramel
+   BASE: Vanilla, White Musk, Cedar
 
 #823 | [SWISS] SWISS - PARIS OUDH (CREATION) (short: PARIS OUDH (CREATION))
-   MATCHED: False | REF: None
-   URL: None
-   TOP: 
-   MID: 
-   BASE: 
+   MATCHED: True | REF: shaghaf-oud
+   URL: https://www.fragrantica.com/perfume/swiss-arabian/shaghaf-oud-50582.html
+   TOP: Saffron
+   MID: Agarwood (oud), Rose
+   BASE: Agarwood (oud), Praline, Vanilla
 
 #824 | [SWISS] SWISS - BALMAN PARIS (CREATION) (short: BALMAN PARIS (CREATION))
    MATCHED: False | REF: None
@@ -5774,11 +5774,11 @@
    BASE: 
 
 #826 | [SWISS] SWISS - TITAN OUDH (CREATION) (short: TITAN OUDH (CREATION))
-   MATCHED: False | REF: None
-   URL: None
-   TOP: 
-   MID: 
-   BASE: 
+   MATCHED: True | REF: shaghaf-oud
+   URL: https://www.fragrantica.com/perfume/swiss-arabian/shaghaf-oud-50582.html
+   TOP: Saffron
+   MID: Agarwood (oud), Rose
+   BASE: Agarwood (oud), Praline, Vanilla
 
 #827 | [SWISS] SWISS - VAMPIRE BLOOD (CREATION) (short: VAMPIRE BLOOD (CREATION))
    MATCHED: False | REF: None
@@ -5823,11 +5823,11 @@
    BASE: 
 
 #833 | [SWISS] SWISS - BOIS D' AMBER (CREATION) (short: BOIS D' AMBER (CREATION))
-   MATCHED: False | REF: None
-   URL: None
-   TOP: 
-   MID: 
-   BASE: 
+   MATCHED: True | REF: amber-07
+   URL: https://www.fragrantica.com/perfume/swiss-arabian/amber-07-72628.html
+   TOP: Amber, Dates, Cinnamon
+   MID: Rose, Ylang-ylang, Orris
+   BASE: Sandalwood, Incense, Vanilla, Patchouli
 
 #834 | [SWISS] SWISS - BITCOIN (CREATION) (short: BITCOIN (CREATION))
    MATCHED: False | REF: None
@@ -5837,11 +5837,11 @@
    BASE: 
 
 #835 | [SWISS] SWISS - FROZEN ROSE (CREATION) (short: FROZEN ROSE (CREATION))
-   MATCHED: False | REF: None
-   URL: None
-   TOP: 
-   MID: 
-   BASE: 
+   MATCHED: True | REF: crystal-rose
+   URL: https://www.fragrantica.com/perfume/swiss-arabian/crystal-rose-53854.html
+   TOP: Water Notes, Lemon
+   MID: Rose, Caramel
+   BASE: Vanilla, White Musk, Cedar
 
 #836 | [SWISS] SWISS - FROZEN WATER (CREATION) (short: FROZEN WATER (CREATION))
    MATCHED: False | REF: None
@@ -5865,11 +5865,11 @@
    BASE: 
 
 #839 | [SWISS] SWISS - RED CRYSTAL (CREATION) (short: RED CRYSTAL (CREATION))
-   MATCHED: False | REF: None
-   URL: None
-   TOP: 
-   MID: 
-   BASE: 
+   MATCHED: True | REF: crystal-rose
+   URL: https://www.fragrantica.com/perfume/swiss-arabian/crystal-rose-53854.html
+   TOP: Water Notes, Lemon
+   MID: Rose, Caramel
+   BASE: Vanilla, White Musk, Cedar
 
 #840 | [SWISS] SWISS - SHUHRAH (CREATION) (short: SHUHRAH (CREATION))
    MATCHED: True | REF: Shuhrah Pour Homme by Rasasi
@@ -5900,11 +5900,11 @@
    BASE: 
 
 #844 | [SWISS] SWISS - AMBER MUSHK (CREATION) (short: AMBER MUSHK (CREATION))
-   MATCHED: False | REF: None
-   URL: None
-   TOP: 
-   MID: 
-   BASE: 
+   MATCHED: True | REF: amber-07
+   URL: https://www.fragrantica.com/perfume/swiss-arabian/amber-07-72628.html
+   TOP: Amber, Dates, Cinnamon
+   MID: Rose, Ylang-ylang, Orris
+   BASE: Sandalwood, Incense, Vanilla, Patchouli
 
 #845 | [SWISS] SWISS - INVITY(CREATION) (short: INVITY(CREATION))
    MATCHED: False | REF: None
@@ -5914,11 +5914,11 @@
    BASE: 
 
 #846 | [SWISS] SWISS - AL ZAHOOR (CREATION) (short: AL ZAHOOR (CREATION))
-   MATCHED: False | REF: None
-   URL: None
-   TOP: 
-   MID: 
-   BASE: 
+   MATCHED: True | REF: al-waseem
+   URL: https://www.fragrantica.com/perfume/swiss-arabian/al-waseem-10839.html
+   TOP: White Flowers, Lily-of-the-valley, Herbal Notes
+   MID: Rose, Hyacinth, Pepper, Cumin, Geranium
+   BASE: Agarwood (oud), Musk, Amber
 
 #847 | [SWISS] SWISS - BLEU HORIZON(CREATION) (short: BLEU HORIZON(CREATION))
    MATCHED: False | REF: None
@@ -5979,16 +5979,16 @@
 #855 | [SKINN] SKINN – RAW TITAN (short: RAW TITAN)
    MATCHED: True | REF: Raw by Skinn Titan
    URL: https://www.fragrantica.com/perfume/Titan/Raw-28956.html
-   TOP: Bergamot, Watery Notes, Mandarin Orange
-   MID: Violet Leaf, Carnation, Geranium
-   BASE: Patchouli, Cashmeran, Guaiac Wood
+   TOP: Watery Notes, Bergamot, Mandarin Orange
+   MID: Violet Leaves, Pomarose, Carnation, Geranium
+   BASE: Indonesian Patchouli, Cashmeran, Guaiac Wood, White Cedar Extract
 
 #856 | [SKINN] SKINN – AMALFI BLEU (short: AMALFI BLEU)
    MATCHED: True | REF: Amalfi Bleu by Skinn Titan
    URL: https://www.fragrantica.com/perfume/Titan/Amalfi-Bleu-64157.html
-   TOP: Citruses, Mandarin Orange, Green Apple
-   MID: Cardamom, Lavender, Violet Leaf
-   BASE: Amber, Musk, Woody Notes
+   TOP: Citruses, Apple
+   MID: Water Notes, Green Leaves
+   BASE: Amber, Musk
 
 #857 | [SKINN] SKINN - NUDE (short: NUDE)
    MATCHED: True | REF: Nude by Skinn Titan
@@ -6187,11 +6187,11 @@
    BASE: 
 
 #885 | [THIERRY MUGLER] THIERRY MUGLER - ALIEN W (short: ALIEN W)
-   MATCHED: True | REF: alien
-   URL: https://www.fragrantica.com/perfume/mugler/alien-707.html
-   TOP: Jasmine Sambac
-   MID: Cashmeran
-   BASE: Amber
+   MATCHED: True | REF: alien-we-are-all-alien-collector-edition
+   URL: https://www.fragrantica.com/perfume/mugler/alien-we-are-all-alien-collector-edition-51521.html
+   TOP: Mandarin Orange
+   MID: Jasmine, Orange Blossom
+   BASE: Amber, Woody Notes, Cashmeran, Vanilla
 
 #886 | [THOMAS KHOSALA] THOMAS KHOSALA - APRES L'AMOUR NO 4 (short: APRES L'AMOUR NO 4)
    MATCHED: True | REF: No 4 Après l’Amour by Thomas Kosmala
@@ -6362,11 +6362,11 @@
    BASE: Patchouli, Tonka Bean
 
 #910 | [TOMFORD] TOMFORD - TUBEROSE (short: TUBEROSE)
-   MATCHED: False | REF: None
-   URL: None
-   TOP: 
-   MID: 
-   BASE: 
+   MATCHED: True | REF: Tubéreuse Nue by Tom Ford
+   URL: https://www.fragrantica.com/perfume/Tom-Ford/Tubereuse-Nue-64747.html
+   TOP: Lily, Jasmine, Sichuan Pepper
+   MID: Tuberose, Suede, Styrax, Benzoin
+   BASE: White Suede, Musk, Tonka Bean, Agarwood (oud)
 
 #911 | [TOMFORD] TOMFORD - CAFÉ ROSE (short: CAFÉ ROSE)
    MATCHED: True | REF: Café Rose by Tom Ford
@@ -6411,11 +6411,11 @@
    BASE: Woody Notes, Vetiver
 
 #917 | [VALENTINO UOMO] VALENTINO UOMO - BORN IN ROMA INTENSE (short: BORN IN ROMA INTENSE)
-   MATCHED: True | REF: Valentino Uomo by Valentino
-   URL: https://www.fragrantica.com/perfume/Valentino/Valentino-Uomo-19158.html
-   TOP: Bergamot, Myrtle
-   MID: Hazelnut, Chocolate, Roasted Coffee Beans
-   BASE: Leather, Cedarwood
+   MATCHED: True | REF: Valentino Uomo Born In Roma Intense by Valentino
+   URL: https://www.fragrantica.com/perfume/Valentino/Valentino-Uomo-Born-in-Roma-Intense-78716.html
+   TOP: Vanilla, Bourbon Vanilla
+   MID: Lavender
+   BASE: Vetiver
 
 #918 | [VALENTINO UOMO] VALENTINO UOMO - BORN IN ROMA PREMIUM (short: BORN IN ROMA PREMIUM)
    MATCHED: True | REF: Valentino Uomo by Valentino
@@ -6467,10 +6467,10 @@
    BASE: Musk, White Woods, Styrax, Patchouli
 
 #925 | [VERSACE] VERSACE - DYLAN BLUE WOMEN (short: DYLAN BLUE WOMEN)
-   MATCHED: True | REF: Versace Pour Femme Dylan Blue
-   URL: https://www.fragrantica.com/perfume/Versace/Versace Pour Femme Dylan Blue.html
+   MATCHED: True | REF: versace-pour-femme-dylan-blue
+   URL: https://www.fragrantica.com/perfume/versace/versace-pour-femme-dylan-blue-47459.html
    TOP: Granny Smith Apple, Black Currant, Clover, Forget Me Not, Shiso
-   MID: Peach, Rose Hip, Petalia, Rose, Jasmine
+   MID: Peach, Petalia, Rose Hip, Rose, Jasmine
    BASE: Musk, White Woods, Styrax, Patchouli
 
 #926 | [VERSACE] VERSACE - CRYSTAL NOIR (short: CRYSTAL NOIR)
@@ -6495,11 +6495,11 @@
    BASE: Madagascar Vanilla, Virginian Cedar, Atlas Cedar, Vetiver, Oakmoss
 
 #929 | [VERSACE] VERSACE - EROS WOMEN (short: EROS WOMEN)
-   MATCHED: True | REF: eros
-   URL: https://www.fragrantica.com/perfume/versace/eros-16657.html
-   TOP: Mint, Green Apple, Lemon
-   MID: Tonka Bean, Ambroxan, Geranium
-   BASE: Madagascar Vanilla, Virginian Cedar, Atlas Cedar, Vetiver, Oakmoss
+   MATCHED: True | REF: eros-pour-femme
+   URL: https://www.fragrantica.com/perfume/versace/eros-pour-femme-28958.html
+   TOP: Sicilian Lemon, Pomegranate, Calabrian Bergamot
+   MID: Lemon Blossom, Jasmine Sambac, Jasmine, Peony
+   BASE: Musk, Ambroxan, Woodsy Notes, Sandalwood
 
 #930 | [VERSACE] VERSACE - EROS FLAME (short: EROS FLAME)
    MATCHED: True | REF: Eros Flame
@@ -6544,11 +6544,11 @@
    BASE: Caramel, Vanilla, Sandalwood
 
 #936 | [VICTORIA SECRET] VICTORIA SECRET - PINK SUGAR (short: PINK SUGAR)
-   MATCHED: False | REF: None
-   URL: None
-   TOP: 
-   MID: 
-   BASE: 
+   MATCHED: True | REF: pink-beach
+   URL: https://www.fragrantica.com/perfume/victoria-s-secret/pink-beach-1993.html
+   TOP: Litchi, Melon, Kiwi
+   MID: Raspberry, Rose
+   BASE: Vanilla, Musk, Amber
 
 #937 | [VICTORIA SECRET] VICTORIA SECRET - BARE VANILLA FROASTED (short: BARE VANILLA FROASTED)
    MATCHED: True | REF: Bare Vanilla Frosted by Victoria's Secret
@@ -6565,11 +6565,11 @@
    BASE: Amber, Vanilla
 
 #939 | [VICTORIA SECRET] VICTORIA SECRET - SECRET PINK WARM G COZY (short: SECRET PINK WARM G COZY)
-   MATCHED: False | REF: None
-   URL: None
-   TOP: 
-   MID: 
-   BASE: 
+   MATCHED: True | REF: victoria-s-secret-pink-warm-cozy
+   URL: https://www.fragrantica.com/perfume/victoria-s-secret/victoria-s-secret-pink-warm-cozy-20400.html
+   TOP: Raspberry
+   MID: Peony
+   BASE: Vanilla
 
 #940 | [VICTORIA SEC] VICTORIA SEC - SECRET BLUSH (short: SECRET BLUSH)
    MATCHED: True | REF: Secret Charm by Victoria's Secret
@@ -6607,11 +6607,11 @@
    BASE: Musk, Woody Notes, Oakmoss
 
 #945 | [VICTORIA SEC] VICTORIA SEC - BOMBSHELL OUDH (short: BOMBSHELL OUDH)
-   MATCHED: True | REF: Bombshell
-   URL: https://www.fragrantica.com/perfume/Victoria's Secret/Bombshell.html
-   TOP: Passionfruit, Grapefruit, Pineapple, Tangerine, Big Strawberry
-   MID: Peony, Vanilla Orchid, Red Berries, Jasmine, Lily-of-the-valley
-   BASE: Musk, Woody Notes, Oakmoss
+   MATCHED: True | REF: Bombshell Oud by Victoria's Secret
+   URL: https://www.fragrantica.com/perfume/Victoria-s-Secret/Bombshell-Oud-66633.html
+   TOP: Saffron, Mandarin Orange, Violet Leaf
+   MID: White Suede, Peony
+   BASE: Agarwood (oud), Ambroxan
 
 #946 | [VICTORIA SEC] VICTORIA SEC - BOMBSHELL NGT (short: BOMBSHELL NGT)
    MATCHED: True | REF: Bombshell
@@ -6761,11 +6761,11 @@
    BASE: Vanilla, Patchouli, Cashmere Wood, Cedar
 
 #967 | [YSL] YSL - BABY CAT (short: BABY CAT)
-   MATCHED: True | REF: y
-   URL: https://www.fragrantica.com/perfume/yves-saint-laurent/y-100.html
-   TOP: Aldehydes, Green Notes, Galbanum, Honeysuckle, Peach, Gardenia, Mirabelle Plum
-   MID: Hiacynth, Orris Root, Ylang-ylang, Jasmine, Bulgarian Rose, Tuberose
-   BASE: Oakmoss, Civet, Vetiver, Patchouli, Sandalwood, Benzoin, Styrax, Amber
+   MATCHED: True | REF: black-opium-baby-cat-collector
+   URL: https://www.fragrantica.com/perfume/yves-saint-laurent/black-opium-baby-cat-collector-63448.html
+   TOP: Pear, Orange Blossom, Pink Pepper
+   MID: Coffee, Bitter Almond, Licorice, Jasmine
+   BASE: Patchouli, Vanilla, Cashmere Wood, Cedar
 
 #968 | [YSL] YSL - OPIUM BLACK OVER RED (short: OPIUM BLACK OVER RED)
    MATCHED: True | REF: Black Opium Over Red by Yves Saint Laurent
@@ -6824,11 +6824,11 @@
    BASE: Madagascar Vanilla, Musk, Cedarwood, Ambergris
 
 #976 | [YSL] YSL - LIBRE INTENSE (short: LIBRE INTENSE)
-   MATCHED: True | REF: Libre by Yves Saint Laurent
-   URL: https://www.fragrantica.com/perfume/Yves-Saint-Laurent/Libre-56077.html
-   TOP: Lavender, Mandarin Orange, Black Currant, Petitgrain
-   MID: Lavender, Orange Blossom, Jasmine
-   BASE: Madagascar Vanilla, Musk, Cedarwood, Ambergris
+   MATCHED: True | REF: Libre Intense by Yves Saint Laurent
+   URL: https://www.fragrantica.com/perfume/Yves-Saint-Laurent/Libre-Intense-62310.html
+   TOP: Lavender, Mandarin Orange, Bergamot
+   MID: Lavender, Tunisian Orange Blossom, Jasmine Sambac, Orchid
+   BASE: Madagascar Vanilla, Tonka Bean, Ambergris, Vetiver
 
 #977 | [YSL] YSL - TUXEDO (short: TUXEDO)
    MATCHED: True | REF: tuxedo
@@ -6887,18 +6887,18 @@
    BASE: Cashmere Wood
 
 #985 | [ZARA] ZARA - G.0 (short: G.0)
-   MATCHED: False | REF: None
-   URL: None
-   TOP: 
-   MID: 
-   BASE: 
+   MATCHED: True | REF: 6-0-zara
+   URL: https://www.fragrantica.com/perfume/zara/6-0-zara-49330.html
+   TOP: Citruses, Coriander
+   MID: Cashmeran, Cedar
+   BASE: Amber, Sandalwood
 
 #986 | [ZARA] ZARA - TOBACCO INTENSE (short: TOBACCO INTENSE)
-   MATCHED: True | REF: intense
-   URL: https://www.fragrantica.com/perfume/zara/intense-16571.html
-   TOP: Bergamot, Mandarin Orange
-   MID: Marigold, Jasmine
-   BASE: Vanilla
+   MATCHED: True | REF: Tobacco Collection Intense Dark Exclusive by Zara
+   URL: https://www.fragrantica.com/perfume/Zara/Tobacco-Collection-Intense-Dark-Exclusive-41258.html
+   TOP: Apple
+   MID: Black Pepper, Mint
+   BASE: Tobacco, Tonka Bean, Cedar
 
 #987 | [ZARA] ZARA - WARM BLACK (short: WARM BLACK)
    MATCHED: True | REF: Warm Black
@@ -6957,11 +6957,11 @@
    BASE: Leather
 
 #995 | [ZARA] ZARA - WOMEN GOLD (short: WOMEN GOLD)
-   MATCHED: True | REF: gold
-   URL: https://www.fragrantica.com/perfume/zara/gold-65900.html
-   TOP: Praline
-   MID: Cinnamon
-   BASE: Cardamom, Woody Notes
+   MATCHED: True | REF: gold-oddity
+   URL: https://www.fragrantica.com/perfume/zara/gold-oddity-89149.html
+   TOP: Mineral Notes
+   MID: Spicy Notes
+   BASE: Leather
 
 #996 | [ZARA] ZARA - VIBRANT LEATHER BOGOSS (short: VIBRANT LEATHER BOGOSS)
    MATCHED: True | REF: vibrant-leather-bogoss

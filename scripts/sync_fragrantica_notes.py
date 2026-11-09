@@ -314,7 +314,13 @@ TITLE_REPLACEMENTS = {
     'voice of the snake': 'the voice of the snake',
     'ultramale': 'ultra male',
     'lemale': 'le male',
-    'lemale elixier': 'le male elixir'
+    'lemale elixier': 'le male elixir',
+    'allure sports': 'allure homme sport',
+    'allure sport': 'allure homme sport',
+    'aventus absolu': 'absolu aventus',
+    'boss bottled oudh': 'boss bottled oud',
+    'boss bottled oud': 'boss bottled oud',
+    'oudh': 'oud'
 }
 
 def clean_brand(b):
@@ -526,38 +532,36 @@ def main():
                         found = rec
                         break
 
-                # 2B: Substring match within brand
+                # 2B: Smart Specificity & Token Match within brand
                 if not found and s_clean:
-                    sub_candidates = [
-                        rec for rec in brand_candidates 
-                        if s_clean in rec['clean_perfume'] or rec['clean_perfume'] in s_clean
-                    ]
-                    if sub_candidates:
-                        # Prefer men's if title has (m) or men; prefer women's if (w) or women
-                        is_men = '(m)' in full_title_raw.lower() or ' men' in full_title_raw.lower() or ' man' in full_title_raw.lower()
-                        is_women = '(w)' in full_title_raw.lower() or ' women' in full_title_raw.lower() or ' woman' in full_title_raw.lower() or ' pour femme' in full_title_raw.lower()
-                        
-                        if is_men:
-                            gender_matched = [c for c in sub_candidates if c.get('gender') == 'men']
-                            if gender_matched:
-                                sub_candidates = gender_matched
-                        elif is_women:
-                            gender_matched = [c for c in sub_candidates if c.get('gender') == 'women']
-                            if gender_matched:
-                                sub_candidates = gender_matched
+                    is_men = '(m)' in full_title_raw.lower() or ' men' in full_title_raw.lower() or ' man' in full_title_raw.lower()
+                    is_women = '(w)' in full_title_raw.lower() or ' women' in full_title_raw.lower() or ' woman' in full_title_raw.lower() or ' pour femme' in full_title_raw.lower()
 
-                        sub_candidates.sort(key=lambda x: len(x['clean_perfume']))
-                        found = sub_candidates[0]
+                    scored = []
+                    for cand in brand_candidates:
+                        c_words = cand['words']
+                        c_perf = cand['clean_perfume']
+                        overlap = len(s_words.intersection(c_words))
+                        if overlap > 0 or s_clean in c_perf or c_perf in s_clean:
+                            jaccard = overlap / len(s_words.union(c_words)) if s_words.union(c_words) else 0
+                            exact_bonus = 3 if s_clean == c_perf else (1 if s_clean in c_perf else 0)
+                            
+                            gender_bonus = 0
+                            if is_men and cand.get('gender') == 'men':
+                                gender_bonus = 2
+                            elif is_women and cand.get('gender') == 'women':
+                                gender_bonus = 2
+                            elif is_men and cand.get('gender') == 'women':
+                                gender_bonus = -2
+                            elif is_women and cand.get('gender') == 'men':
+                                gender_bonus = -2
 
-                # 2C: Token subset within brand
-                if not found and s_words:
-                    token_candidates = [
-                        rec for rec in brand_candidates 
-                        if s_words.issubset(rec['words']) or rec['words'].issubset(s_words)
-                    ]
-                    if token_candidates:
-                        token_candidates.sort(key=lambda x: len(x['clean_perfume']))
-                        found = token_candidates[0]
+                            length_diff = -abs(len(c_perf) - len(s_clean))
+                            scored.append((overlap, exact_bonus, gender_bonus, jaccard, length_diff, cand))
+
+                    if scored:
+                        scored.sort(key=lambda x: (x[0], x[1], x[2], x[3], x[4]), reverse=True)
+                        found = scored[0][5]
 
         # -------------------------------------------------------------
         # ASSIGN NOTES OR CLEAR
