@@ -42,7 +42,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Fir",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cedarwood.png"
         },
         {
           "name": "Lemon",
@@ -54,7 +54,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Petitgrain",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Cardamom",
@@ -72,7 +72,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Jasmine",
@@ -84,7 +84,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         }
       ],
       "base": [
@@ -270,7 +270,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Calone",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/sea-notes.png"
         },
         {
           "name": "Peach",
@@ -278,7 +278,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/freesia.png"
         },
         {
           "name": "Rosemary",
@@ -286,11 +286,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Hyacinth",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Cyclamen",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Violet",
@@ -298,11 +298,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         },
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         },
         {
           "name": "Rose",
@@ -389,13 +389,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Calone",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/sea-notes.png"
         }
       ],
       "middle": [
         {
           "name": "Basil",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/basil.png"
         },
         {
           "name": "Floral Notes",
@@ -407,13 +407,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         }
       ],
       "base": [
         {
           "name": "Pepper",
-          "image": "assets/images/notes/mint.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Cedar",
@@ -429,11 +429,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         },
         {
           "name": "Clary Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         },
         {
           "name": "Amber",
@@ -504,11 +504,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         }
       ],
       "base": [
@@ -595,11 +595,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Brown Sugar",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Labdanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/labdanum.png"
         }
       ]
     },
@@ -656,7 +656,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Pear",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/pear.png"
         },
         {
           "name": "Apple",
@@ -682,7 +682,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         }
       ],
       "base": [
@@ -700,11 +700,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Amberwood",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/amberwood.png"
         },
         {
           "name": "Labdanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/labdanum.png"
         }
       ]
     },
@@ -753,15 +753,15 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Galbanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/galbanum.png"
         },
         {
           "name": "Marigold",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Aldehydes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/aldehydes.png"
         },
         {
           "name": "Pineapple",
@@ -779,7 +779,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Narcissus",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Orris Root",
@@ -787,7 +787,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Tuberose",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/tuberose.png"
         },
         {
           "name": "Rose",
@@ -799,15 +799,15 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Cyclamen",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Lily-of-the-valley",
           "image": "assets/images/notes/jasmine.png"
         },
         {
+          "name": "Lily-of-the-valley",
+          "image": "assets/images/notes/lily-of-the-valley.png"
+        },
+        {
           "name": "Orchid",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/jasmine.png"
         }
       ],
       "base": [
@@ -817,7 +817,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         },
         {
           "name": "Cedar",
@@ -886,7 +886,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Pear",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/pear.png"
         },
         {
           "name": "Black Currant",
@@ -930,7 +930,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Amberwood",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/amberwood.png"
         },
         {
           "name": "Patchouli",
@@ -983,11 +983,11 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Pear",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/pear.png"
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Bergamot",
@@ -997,7 +997,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Tuberose",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/tuberose.png"
         },
         {
           "name": "Jasmine",
@@ -1068,7 +1068,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Bergamot",
@@ -1078,7 +1078,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Tuberose",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/tuberose.png"
         },
         {
           "name": "Indian Jasmine",
@@ -1155,7 +1155,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Star Anise",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/star-anise.png"
         },
         {
           "name": "Olive Blossom",
@@ -1250,7 +1250,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         },
         {
           "name": "Guaiac Wood",
@@ -1321,7 +1321,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ginger Flower",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/juniper-berries.png"
         }
       ],
       "base": [
@@ -1392,13 +1392,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Green Mandarin",
-          "image": "assets/images/notes/orange.png"
+          "image": "assets/images/notes/mandarin.png"
         }
       ],
       "middle": [
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         },
         {
           "name": "Lavender",
@@ -1406,7 +1406,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         }
       ],
       "base": [
@@ -1487,17 +1487,17 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Ginger",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/ginger.png"
         }
       ],
       "base": [
         {
           "name": "Honey",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/honey.png"
         },
         {
           "name": "Vanilla",
@@ -1576,7 +1576,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         },
         {
           "name": "Melon",
@@ -1598,7 +1598,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Chestnut",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/almond.png"
         },
         {
           "name": "Cedar",
@@ -1606,7 +1606,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Amberwood",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/amberwood.png"
         },
         {
           "name": "Guaiac Wood",
@@ -1659,7 +1659,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Black Pepper",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Pink Pepper",
@@ -1671,11 +1671,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         },
         {
           "name": "Elemi",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/elemi.png"
         }
       ],
       "middle": [
@@ -1685,11 +1685,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Chili Pepper",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Chestnut",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/almond.png"
         },
         {
           "name": "Cinnamon Leaf",
@@ -1711,7 +1711,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         }
       ]
     },
@@ -1944,7 +1944,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Oriental Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cardamom.png"
         },
         {
           "name": "Spices",
@@ -2029,11 +2029,11 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Lilac",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         }
       ],
       "base": [
@@ -2132,7 +2132,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         },
         {
           "name": "Patchouli",
@@ -2209,7 +2209,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ginger",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/ginger.png"
         }
       ],
       "middle": [
@@ -2229,7 +2229,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Ambroxan",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambroxan.png"
         },
         {
           "name": "Musk",
@@ -2330,7 +2330,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         },
         {
           "name": "Patchouli",
@@ -2395,17 +2395,17 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         }
       ],
       "middle": [
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         },
         {
           "name": "Pepper",
-          "image": "assets/images/notes/mint.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Violet",
@@ -2413,7 +2413,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Caraway",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/caraway.png"
         }
       ],
       "base": [
@@ -2498,7 +2498,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Ginger",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/ginger.png"
         },
         {
           "name": "Mint",
@@ -2510,7 +2510,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         }
       ],
       "base": [
@@ -2581,7 +2581,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Pear",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/pear.png"
         },
         {
           "name": "Lemon",
@@ -2595,7 +2595,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Lily",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Neroli",
@@ -2603,7 +2603,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Honeysuckle",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/honey.png"
         },
         {
           "name": "Rose",
@@ -2678,7 +2678,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Litchi",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/litchi.png"
         },
         {
           "name": "Bergamot",
@@ -2700,7 +2700,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         }
       ],
       "base": [
@@ -2763,15 +2763,15 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Spicy Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cardamom.png"
         },
         {
           "name": "Caraway",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/caraway.png"
         },
         {
           "name": "Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         },
         {
           "name": "Bergamot",
@@ -2781,7 +2781,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Black Pepper",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Cedar",
@@ -2878,13 +2878,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Spicy Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cardamom.png"
         }
       ],
       "base": [
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         },
         {
           "name": "Sandalwood",
@@ -2941,7 +2941,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Green Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ],
       "middle": [
@@ -3010,7 +3010,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Green Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ],
       "middle": [
@@ -3085,7 +3085,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Juniper",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/juniper-berries.png"
         },
         {
           "name": "Cinnamon",
@@ -3166,7 +3166,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Green Tea",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/tea.png"
         },
         {
           "name": "Black Currant",
@@ -3233,7 +3233,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Green Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ],
       "middle": [
@@ -3306,7 +3306,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Tea",
-          "image": "assets/images/notes/cedarwood.png"
+          "image": "assets/images/notes/tea.png"
         },
         {
           "name": "Lemon",
@@ -3316,15 +3316,15 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Rhubarb",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/rhubarb.png"
         },
         {
           "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         },
         {
           "name": "Licorice",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/star-anise.png"
         }
       ],
       "base": [
@@ -3391,7 +3391,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Basil",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/basil.png"
         },
         {
           "name": "Amber",
@@ -3401,11 +3401,11 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Lily Of The Valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         },
         {
           "name": "Jasmine",
@@ -3431,11 +3431,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         }
       ]
     },
@@ -3488,7 +3488,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Green Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ],
       "middle": [
@@ -3553,7 +3553,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Caramel",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Citruses",
@@ -3571,7 +3571,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orchid",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/jasmine.png"
         }
       ],
       "base": [
@@ -3634,7 +3634,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Herbal Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Spices",
@@ -3648,7 +3648,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Resins",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/styrax.png"
         }
       ],
       "base": [
@@ -3731,7 +3731,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Caramel",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Vanilla",
@@ -3946,7 +3946,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Green Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Night Blooming Cereus",
@@ -3964,7 +3964,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/freesia.png"
         },
         {
           "name": "Rose",
@@ -3972,7 +3972,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Milk",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/vanilla.png"
         }
       ],
       "base": [
@@ -4047,7 +4047,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/freesia.png"
         }
       ],
       "middle": [
@@ -4061,7 +4061,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         }
       ],
       "base": [
@@ -4170,7 +4170,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Herbal Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Citruses",
@@ -4180,7 +4180,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Spicy Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cardamom.png"
         }
       ],
       "base": [
@@ -4378,7 +4378,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Tangerine",
-          "image": "assets/images/notes/orange.png"
+          "image": "assets/images/notes/mandarin.png"
         }
       ],
       "middle": [
@@ -4388,11 +4388,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/freesia.png"
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         }
       ],
       "base": [
@@ -4477,7 +4477,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Vanilla",
@@ -4548,7 +4548,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Grapes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/raspberry.png"
         },
         {
           "name": "Black Currant",
@@ -4558,7 +4558,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Tuberose",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/tuberose.png"
         },
         {
           "name": "Jasmine",
@@ -4756,7 +4756,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         }
       ],
       "middle": [
@@ -5033,7 +5033,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Lily",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Jasmine",
@@ -5116,7 +5116,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Oak Moss",
-          "image": "assets/images/notes/oakmoss.png"
+          "image": "assets/images/notes/cedarwood.png"
         },
         {
           "name": "Lavender",
@@ -5130,11 +5130,11 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Sugar",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Bakhoor",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/oud.png"
         },
         {
           "name": "Jasmine",
@@ -5142,7 +5142,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orchid",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Violet",
@@ -5168,7 +5168,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ambroxan",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambroxan.png"
         }
       ]
     },
@@ -5235,7 +5235,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         }
       ],
       "base": [
@@ -5245,7 +5245,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Powdery Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/iris.png"
         }
       ]
     },
@@ -5300,7 +5300,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         },
         {
           "name": "Sandalwood",
@@ -5385,7 +5385,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ylang-ylang.png"
         },
         {
           "name": "Jasmine",
@@ -5393,7 +5393,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         }
       ],
       "base": [
@@ -5557,7 +5557,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         }
       ]
     },
@@ -5698,7 +5698,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Spicy Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cardamom.png"
         },
         {
           "name": "Floral Notes",
@@ -5726,7 +5726,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Powdery Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/iris.png"
         }
       ]
     },
@@ -5793,7 +5793,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Jasmine",
@@ -5801,13 +5801,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Spicy Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cardamom.png"
         }
       ],
       "base": [
         {
           "name": "Powdery Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/iris.png"
         },
         {
           "name": "Vanilla",
@@ -5872,11 +5872,11 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Smoky Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/smoke.png"
         },
         {
           "name": "Spicy Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cardamom.png"
         }
       ],
       "middle": [
@@ -5945,11 +5945,11 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Smoky Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/smoke.png"
         },
         {
           "name": "Spicy Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cardamom.png"
         }
       ],
       "middle": [
@@ -6097,7 +6097,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         }
       ],
       "base": [
@@ -6160,7 +6160,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Nectarine",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/peach.png"
         },
         {
           "name": "Brazilian Rosewood",
@@ -6174,7 +6174,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orchid",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/jasmine.png"
         }
       ],
       "base": [
@@ -6184,7 +6184,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         }
       ]
     },
@@ -6239,7 +6239,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         },
         {
           "name": "Sandalwood",
@@ -6318,7 +6318,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "White Pepper",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Lavender",
@@ -6399,7 +6399,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "White Pepper",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Apple",
@@ -6563,7 +6563,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ylang-ylang.png"
         },
         {
           "name": "Jasmine",
@@ -6571,7 +6571,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         }
       ],
       "base": [
@@ -6652,7 +6652,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Ginger",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/ginger.png"
         },
         {
           "name": "Saffron",
@@ -6664,7 +6664,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Plum",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/plum.png"
         }
       ],
       "base": [
@@ -6741,7 +6741,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Spicy Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cardamom.png"
         }
       ],
       "base": [
@@ -6814,7 +6814,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Spicy Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cardamom.png"
         }
       ],
       "base": [
@@ -6891,7 +6891,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ylang-ylang.png"
         },
         {
           "name": "Jasmine",
@@ -6899,7 +6899,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         }
       ],
       "base": [
@@ -6980,7 +6980,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ylang-ylang.png"
         },
         {
           "name": "Jasmine",
@@ -6988,7 +6988,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         }
       ],
       "base": [
@@ -7069,7 +7069,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ylang-ylang.png"
         },
         {
           "name": "Jasmine",
@@ -7077,7 +7077,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         }
       ],
       "base": [
@@ -7194,7 +7194,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Pepper",
-          "image": "assets/images/notes/mint.png"
+          "image": "assets/images/notes/black-pepper.png"
         }
       ],
       "middle": [
@@ -7208,7 +7208,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         }
       ],
       "base": [
@@ -7271,7 +7271,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Tagetes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Bergamot",
@@ -7458,7 +7458,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Spicy Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cardamom.png"
         },
         {
           "name": "Floral Notes",
@@ -7602,7 +7602,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ylang-ylang.png"
         },
         {
           "name": "Jasmine",
@@ -7693,7 +7693,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Water Lily",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Jasmine",
@@ -7707,7 +7707,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         },
         {
           "name": "Sandalwood",
@@ -7814,7 +7814,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Juniper",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/juniper-berries.png"
         }
       ],
       "middle": [
@@ -7824,7 +7824,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         }
       ],
       "base": [
@@ -7993,11 +7993,11 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         }
       ],
       "base": [
@@ -8082,11 +8082,11 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         }
       ],
       "base": [
@@ -8181,11 +8181,11 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         },
         {
           "name": "Caramel",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Dry Wood",
@@ -8260,11 +8260,11 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         }
       ],
       "base": [
@@ -8335,7 +8335,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         },
         {
           "name": "Lavender",
@@ -8349,7 +8349,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Sweet Notes",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         }
       ],
       "base": [
@@ -8408,7 +8408,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         },
         {
           "name": "Violet",
@@ -8420,7 +8420,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Cumin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cumin.png"
         }
       ],
       "middle": [
@@ -8448,7 +8448,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         }
       ]
     },
@@ -8523,7 +8523,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Cyclamen",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Oakmoss",
@@ -8531,7 +8531,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         }
       ],
       "base": [
@@ -8610,7 +8610,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Tea",
-          "image": "assets/images/notes/cedarwood.png"
+          "image": "assets/images/notes/tea.png"
         },
         {
           "name": "Bitter Orange",
@@ -8695,7 +8695,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ginger",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/ginger.png"
         },
         {
           "name": "Lavender",
@@ -8713,7 +8713,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Juniper",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/juniper-berries.png"
         },
         {
           "name": "Guatemalan Cardamom",
@@ -8721,7 +8721,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         }
       ],
       "base": [
@@ -8731,7 +8731,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Amberwood",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/amberwood.png"
         },
         {
           "name": "Haitian Vetiver",
@@ -8790,13 +8790,13 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Toffee",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/caramel.png"
         }
       ],
       "base": [
         {
           "name": "Amberwood",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/amberwood.png"
         }
       ]
     },
@@ -8875,7 +8875,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Cumin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cumin.png"
         }
       ],
       "base": [
@@ -8897,7 +8897,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         },
         {
           "name": "Cypress",
@@ -8905,7 +8905,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Iso E Super",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cedarwood.png"
         },
         {
           "name": "Patchouli",
@@ -8958,7 +8958,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         },
         {
           "name": "Pink Pepper",
@@ -8970,7 +8970,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ginger",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/ginger.png"
         },
         {
           "name": "Bergamot",
@@ -8992,7 +8992,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Labdanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/labdanum.png"
         }
       ],
       "base": [
@@ -9002,7 +9002,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         }
       ]
     },
@@ -9059,11 +9059,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Caraway",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/caraway.png"
         },
         {
           "name": "Basil",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/basil.png"
         },
         {
           "name": "Bergamot",
@@ -9071,7 +9071,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Clary Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         },
         {
           "name": "Iris",
@@ -9079,7 +9079,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Star Anise",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/star-anise.png"
         }
       ],
       "middle": [
@@ -9101,7 +9101,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Juniper Berries",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/juniper-berries.png"
         },
         {
           "name": "Cardamom",
@@ -9180,11 +9180,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Aldehydes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/aldehydes.png"
         },
         {
           "name": "Licorice",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/star-anise.png"
         }
       ],
       "middle": [
@@ -9357,7 +9357,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Elemi",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/elemi.png"
         }
       ],
       "middle": [
@@ -9371,7 +9371,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "African Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         }
       ],
       "base": [
@@ -9385,7 +9385,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Balsam Fir",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cedarwood.png"
         }
       ]
     },
@@ -9438,11 +9438,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         },
         {
           "name": "Davana",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Orange",
@@ -9468,7 +9468,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orchid",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Jasmine",
@@ -9480,7 +9480,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Cloves",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/clove.png"
         }
       ],
       "base": [
@@ -9595,7 +9595,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Resins",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/styrax.png"
         }
       ]
     },
@@ -9648,11 +9648,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         },
         {
           "name": "Davana",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Orange",
@@ -9678,7 +9678,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orchid",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Jasmine",
@@ -9690,7 +9690,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Cloves",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/clove.png"
         }
       ],
       "base": [
@@ -9811,7 +9811,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         },
         {
           "name": "Cypress",
@@ -9823,7 +9823,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Tarragon",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Lemon",
@@ -9837,7 +9837,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         },
         {
           "name": "Cinnamon",
@@ -9849,7 +9849,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Lotus",
@@ -9924,7 +9924,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Dark Chocolate",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/cacao.png"
         },
         {
           "name": "Mandarin Orange",
@@ -9954,7 +9954,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ylang-ylang.png"
         }
       ],
       "base": [
@@ -10029,13 +10029,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Honeysuckle",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/honey.png"
         }
       ],
       "middle": [
         {
           "name": "Tuberose",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/tuberose.png"
         },
         {
           "name": "Jasmine",
@@ -10240,11 +10240,11 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Oregano",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/oregano.png"
         },
         {
           "name": "Pimento",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/pimento.png"
         },
         {
           "name": "Bergamot",
@@ -10254,7 +10254,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Opoponax",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/opoponax.png"
         },
         {
           "name": "Incense",
@@ -10266,13 +10266,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Labdanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/labdanum.png"
         }
       ],
       "base": [
         {
           "name": "Smoke",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/smoke.png"
         },
         {
           "name": "Leather",
@@ -10337,7 +10337,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Cloves",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/clove.png"
         },
         {
           "name": "Cypress",
@@ -10349,7 +10349,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         },
         {
           "name": "Lemon",
@@ -10363,7 +10363,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         },
         {
           "name": "Cedar",
@@ -10442,7 +10442,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Petitgrain",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         }
       ],
       "middle": [
@@ -10460,7 +10460,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ylang-ylang.png"
         }
       ],
       "base": [
@@ -10527,7 +10527,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Blackberry",
-          "image": "assets/images/notes/raspberry.png"
+          "image": "assets/images/notes/black-currant.png"
         },
         {
           "name": "Olibanum",
@@ -10539,21 +10539,21 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Labdanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/labdanum.png"
         },
         {
           "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         },
         {
           "name": "Tarragon",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ],
       "middle": [
         {
           "name": "Honey",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/honey.png"
         },
         {
           "name": "Guaiac Wood",
@@ -10565,11 +10565,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Bay Leaf",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Clove",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/clove.png"
         },
         {
           "name": "Rose",
@@ -10577,17 +10577,17 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orchid",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Celery Seeds",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         }
       ],
       "base": [
         {
           "name": "Opoponax",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/opoponax.png"
         },
         {
           "name": "Agarwood (oud)",
@@ -10607,7 +10607,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         },
         {
           "name": "Musk",
@@ -10682,7 +10682,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Sugar",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         }
       ],
       "base": [
@@ -10696,7 +10696,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Herbal Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ]
     },
@@ -10759,7 +10759,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Sugar",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         }
       ],
       "base": [
@@ -10773,7 +10773,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Herbal Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ]
     },
@@ -10914,29 +10914,29 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "White Lily",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Hyacinth",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Honeysuckle",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/honey.png"
         },
         {
           "name": "Galbanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/galbanum.png"
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         }
       ],
       "middle": [
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Jasmine",
@@ -11041,7 +11041,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Clary Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         }
       ],
       "base": [
@@ -11108,25 +11108,25 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Red Litchi",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/litchi.png"
         },
         {
           "name": "Quince",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/pear.png"
         }
       ],
       "middle": [
         {
           "name": "White Chocolate",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/cacao.png"
         },
         {
           "name": "Cupcake",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Orchid",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Jasmine",
@@ -11193,7 +11193,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Sugar",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Red Berries",
@@ -11294,7 +11294,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Cassis",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/black-currant.png"
         }
       ],
       "middle": [
@@ -11308,7 +11308,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Lily",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         }
       ],
       "base": [
@@ -11381,7 +11381,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Marigold",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/orange-blossom.png"
         }
       ],
       "base": [
@@ -11436,7 +11436,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Dark Berries",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/black-currant.png"
         }
       ],
       "middle": [
@@ -11497,11 +11497,11 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Nectarine",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/peach.png"
         },
         {
           "name": "Italian Mandarin",
-          "image": "assets/images/notes/orange.png"
+          "image": "assets/images/notes/mandarin.png"
         },
         {
           "name": "Pomelo",
@@ -11523,7 +11523,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Magnolia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/magnolia.png"
         }
       ],
       "base": [
@@ -11600,13 +11600,13 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Red Wine Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/rum.png"
         }
       ],
       "base": [
         {
           "name": "Sugar",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Woody Notes",
@@ -11679,7 +11679,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Tangerine",
-          "image": "assets/images/notes/orange.png"
+          "image": "assets/images/notes/mandarin.png"
         }
       ],
       "middle": [
@@ -11689,7 +11689,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Tuberose",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/tuberose.png"
         },
         {
           "name": "Peony",
@@ -11701,15 +11701,15 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Magnolia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/magnolia.png"
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/freesia.png"
         }
       ],
       "base": [
@@ -11784,7 +11784,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Pear",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/pear.png"
         },
         {
           "name": "Peach",
@@ -11810,7 +11810,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Water Lily",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         }
       ],
       "base": [
@@ -11820,11 +11820,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Coconut",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coconut.png"
         },
         {
           "name": "Orchid",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Musk",
@@ -11885,7 +11885,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Sparkling Champagne",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/rum.png"
         },
         {
           "name": "Star Fruit",
@@ -11893,7 +11893,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Quince",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/pear.png"
         }
       ],
       "middle": [
@@ -11903,7 +11903,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/freesia.png"
         }
       ],
       "base": [
@@ -11913,11 +11913,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Almond Creme",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/almond.png"
         },
         {
           "name": "Sugar",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Sandalwood",
@@ -11974,7 +11974,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Pomegranate",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/pomegranate.png"
         },
         {
           "name": "Peach",
@@ -11996,7 +11996,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Marigold",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/orange-blossom.png"
         }
       ],
       "base": [
@@ -12006,15 +12006,15 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Rum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/rum.png"
         },
         {
           "name": "Marshamallow",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Oak",
-          "image": "assets/images/notes/oakmoss.png"
+          "image": "assets/images/notes/cedarwood.png"
         }
       ]
     },
@@ -12063,11 +12063,11 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Pistachio",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/almond.png"
         },
         {
           "name": "Almond",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/almond.png"
         }
       ],
       "middle": [
@@ -12083,7 +12083,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Caramel",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Vanilla",
@@ -12152,11 +12152,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Cacao",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cacao.png"
         },
         {
           "name": "Ginger",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/ginger.png"
         }
       ],
       "middle": [
@@ -12217,7 +12217,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Pomegranate",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/pomegranate.png"
         },
         {
           "name": "Lemon",
@@ -12235,13 +12235,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         }
       ],
       "base": [
         {
           "name": "Wisteria",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Jasmine",
@@ -12302,7 +12302,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/freesia.png"
         }
       ],
       "middle": [
@@ -12330,7 +12330,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Vanille",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/vanilla.png"
         },
         {
           "name": "Amber",
@@ -12383,7 +12383,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Ginger",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/ginger.png"
         },
         {
           "name": "Grapefruit",
@@ -12391,7 +12391,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Wheat",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/tea.png"
         }
       ],
       "middle": [
@@ -12401,7 +12401,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Juniper Berries",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/juniper-berries.png"
         }
       ],
       "base": [
@@ -12490,7 +12490,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Ivy",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Oakmoss",
@@ -12504,7 +12504,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Honey",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/honey.png"
         },
         {
           "name": "Musk",
@@ -12569,17 +12569,17 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         }
       ],
       "middle": [
         {
           "name": "Nectarine",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/peach.png"
         },
         {
           "name": "Blue Hyacinth",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Peach Blossom",
@@ -12595,7 +12595,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Red Cyclamen",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Violet Root",
@@ -12662,7 +12662,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Almond",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/almond.png"
         },
         {
           "name": "Lime",
@@ -12670,17 +12670,17 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Pear",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/pear.png"
         }
       ],
       "middle": [
         {
           "name": "Candied Almond",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/almond.png"
         },
         {
           "name": "Sugar",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Peony",
@@ -12702,7 +12702,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Mahogany",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cedarwood.png"
         }
       ]
     },
@@ -12769,7 +12769,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Tea",
-          "image": "assets/images/notes/cedarwood.png"
+          "image": "assets/images/notes/tea.png"
         },
         {
           "name": "Iris",
@@ -12840,7 +12840,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Sweet Pea",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Bergamot",
@@ -12862,15 +12862,15 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Quince",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/pear.png"
         },
         {
           "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/freesia.png"
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         },
         {
           "name": "Peach",
@@ -12878,7 +12878,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Green Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Gardenia",
@@ -12961,7 +12961,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Sweet Pea",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Bergamot",
@@ -12983,15 +12983,15 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Quince",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/pear.png"
         },
         {
           "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/freesia.png"
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         },
         {
           "name": "Peach",
@@ -12999,7 +12999,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Green Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Gardenia",
@@ -13090,7 +13090,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Tarragon",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Mint",
@@ -13104,11 +13104,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Birch Leaf",
-          "image": "assets/images/notes/cedarwood.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         },
         {
           "name": "Lavender",
@@ -13130,11 +13130,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         },
         {
           "name": "Amberwood",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/amberwood.png"
         },
         {
           "name": "Oakmoss",
@@ -13217,15 +13217,15 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         },
         {
           "name": "Tea",
-          "image": "assets/images/notes/cedarwood.png"
+          "image": "assets/images/notes/tea.png"
         },
         {
           "name": "Hedione",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         }
       ],
       "base": [
@@ -13235,7 +13235,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Iso E Super",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cedarwood.png"
         },
         {
           "name": "Amber",
@@ -13288,23 +13288,23 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Green Almond",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/almond.png"
         }
       ],
       "middle": [
         {
           "name": "Juniper",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/juniper-berries.png"
         }
       ],
       "base": [
         {
           "name": "Mineral Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/aldehydes.png"
         },
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         },
         {
           "name": "Oakmoss",
@@ -13371,7 +13371,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "White Pepper",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Cedar",
@@ -13379,7 +13379,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         }
       ],
       "base": [
@@ -13448,11 +13448,11 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Juniper",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/juniper-berries.png"
         },
         {
           "name": "Black Pepper",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/black-pepper.png"
         }
       ],
       "base": [
@@ -13523,7 +13523,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Blackberry",
-          "image": "assets/images/notes/raspberry.png"
+          "image": "assets/images/notes/black-currant.png"
         },
         {
           "name": "Sour Cherry",
@@ -13628,7 +13628,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Ginger",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/ginger.png"
         },
         {
           "name": "Cardamom",
@@ -13640,7 +13640,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Green Mandarin",
-          "image": "assets/images/notes/orange.png"
+          "image": "assets/images/notes/mandarin.png"
         }
       ],
       "middle": [
@@ -13650,7 +13650,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         },
         {
           "name": "Cedar",
@@ -13658,7 +13658,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Spicy Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cardamom.png"
         }
       ],
       "base": [
@@ -13729,23 +13729,23 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Green Almond",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/almond.png"
         }
       ],
       "middle": [
         {
           "name": "Juniper",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/juniper-berries.png"
         }
       ],
       "base": [
         {
           "name": "Mineral Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/aldehydes.png"
         },
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         },
         {
           "name": "Oakmoss",
@@ -13806,13 +13806,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Pepper",
-          "image": "assets/images/notes/mint.png"
+          "image": "assets/images/notes/black-pepper.png"
         }
       ],
       "middle": [
         {
           "name": "Honeysuckle",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/honey.png"
         },
         {
           "name": "Rose",
@@ -13822,7 +13822,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Mahogany",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cedarwood.png"
         },
         {
           "name": "Musk",
@@ -13879,7 +13879,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Tea",
-          "image": "assets/images/notes/cedarwood.png"
+          "image": "assets/images/notes/tea.png"
         },
         {
           "name": "Grapefruit",
@@ -13895,11 +13895,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Petitgrain",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         },
         {
           "name": "Lavender",
@@ -13907,17 +13907,17 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Galbanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/galbanum.png"
         }
       ],
       "middle": [
         {
           "name": "Balsam Fir",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cedarwood.png"
         },
         {
           "name": "Pepper",
-          "image": "assets/images/notes/mint.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Guaiac Wood",
@@ -13929,7 +13929,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         },
         {
           "name": "Cardamom",
@@ -14012,7 +14012,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Petitgrain",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         }
       ],
       "middle": [
@@ -14044,7 +14044,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Clary Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         },
         {
           "name": "Amber",
@@ -14097,7 +14097,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Green Tea",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/tea.png"
         },
         {
           "name": "Bergamot",
@@ -14194,7 +14194,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Rum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/rum.png"
         },
         {
           "name": "Tobacco",
@@ -14212,7 +14212,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Tuberose",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/tuberose.png"
         }
       ],
       "base": [
@@ -14226,7 +14226,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         }
       ]
     },
@@ -14283,7 +14283,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Coriander Leaf",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         }
       ],
       "middle": [
@@ -14303,7 +14303,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         }
       ]
     },
@@ -14352,7 +14352,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Ginger",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/ginger.png"
         },
         {
           "name": "Saffron",
@@ -14431,17 +14431,17 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Ginger",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/ginger.png"
         },
         {
           "name": "Ambrette",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/musk.png"
         }
       ],
       "base": [
         {
           "name": "Ambroxan",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambroxan.png"
         },
         {
           "name": "Musk",
@@ -14514,7 +14514,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         }
       ],
       "middle": [
@@ -14524,7 +14524,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         },
         {
           "name": "Apple",
@@ -14546,7 +14546,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         }
       ]
     },
@@ -14603,7 +14603,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Pomegranate",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/pomegranate.png"
         },
         {
           "name": "Bergamot",
@@ -14692,7 +14692,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Red Pimento",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/pimento.png"
         }
       ],
       "middle": [
@@ -14757,17 +14757,17 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Clary Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         },
         {
           "name": "Cognac",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/rum.png"
         }
       ],
       "middle": [
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         },
         {
           "name": "Cardamom",
@@ -14775,7 +14775,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Pimento",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/pimento.png"
         }
       ],
       "base": [
@@ -14846,11 +14846,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Clementine",
-          "image": "assets/images/notes/orange.png"
+          "image": "assets/images/notes/mandarin.png"
         },
         {
           "name": "Pear",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/pear.png"
         },
         {
           "name": "Mandarin Orange",
@@ -14860,23 +14860,23 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Ginger",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/ginger.png"
         },
         {
           "name": "Ginger Flower",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/juniper-berries.png"
         },
         {
           "name": "Tuberose",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/tuberose.png"
         },
         {
           "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/freesia.png"
         },
         {
           "name": "Hibiscus Seed",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/rose.png"
         }
       ],
       "base": [
@@ -14947,7 +14947,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Plum",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/plum.png"
         },
         {
           "name": "Lemon",
@@ -14963,7 +14963,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         }
       ],
       "middle": [
@@ -14973,7 +14973,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Mahogany",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cedarwood.png"
         },
         {
           "name": "Carnation",
@@ -15135,11 +15135,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Clove",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/clove.png"
         },
         {
           "name": "Labdanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/labdanum.png"
         }
       ],
       "base": [
@@ -15153,7 +15153,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Cypriol Oil",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ]
     },
@@ -15206,7 +15206,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Tea",
-          "image": "assets/images/notes/cedarwood.png"
+          "image": "assets/images/notes/tea.png"
         }
       ],
       "middle": [
@@ -15216,7 +15216,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Juniper",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/juniper-berries.png"
         }
       ],
       "base": [
@@ -15289,7 +15289,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Ginger",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/ginger.png"
         },
         {
           "name": "Cinnamon",
@@ -15297,11 +15297,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         },
         {
           "name": "Cloves",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/clove.png"
         }
       ],
       "base": [
@@ -15364,7 +15364,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Bergamot",
@@ -15378,11 +15378,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Cloves",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/clove.png"
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         },
         {
           "name": "Cardamom",
@@ -15404,7 +15404,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Coumarin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/tonka-bean.png"
         },
         {
           "name": "Cedar",
@@ -15465,11 +15465,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Pepper",
-          "image": "assets/images/notes/mint.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Anise",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/star-anise.png"
         },
         {
           "name": "Mandarin Orange",
@@ -15487,7 +15487,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         },
         {
           "name": "Lavender",
@@ -15495,7 +15495,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         }
       ],
       "base": [
@@ -15566,7 +15566,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Ginger",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/ginger.png"
         },
         {
           "name": "Mandarin Orange",
@@ -15647,7 +15647,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/freesia.png"
         }
       ],
       "middle": [
@@ -15659,7 +15659,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Cacao",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cacao.png"
         }
       ]
     },
@@ -15708,7 +15708,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Ginger",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/ginger.png"
         },
         {
           "name": "Grapefruit",
@@ -15734,7 +15734,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Mahogany",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cedarwood.png"
         },
         {
           "name": "Cardamom",
@@ -15742,11 +15742,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         },
         {
           "name": "Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         }
       ],
       "base": [
@@ -15760,7 +15760,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         },
         {
           "name": "Vetiver",
@@ -15823,7 +15823,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "African Orange Flower",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "White Flowers",
@@ -15906,17 +15906,17 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Basil",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/basil.png"
         }
       ],
       "middle": [
         {
           "name": "Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         },
         {
           "name": "Carnation",
@@ -15930,7 +15930,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Fir",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cedarwood.png"
         },
         {
           "name": "Cedar",
@@ -15995,7 +15995,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         },
         {
           "name": "Mandarin Orange",
@@ -16072,7 +16072,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Plum",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/plum.png"
         },
         {
           "name": "Saffron",
@@ -16108,7 +16108,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "White Honey",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/honey.png"
         },
         {
           "name": "Vetiver",
@@ -16169,11 +16169,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Cassis",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/black-currant.png"
         },
         {
           "name": "Thyme",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/thyme.png"
         }
       ],
       "middle": [
@@ -16213,7 +16213,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Caramel",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         }
       ]
     },
@@ -16262,7 +16262,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Cumin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cumin.png"
         },
         {
           "name": "Mandarin Orange",
@@ -16270,7 +16270,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         }
       ],
       "middle": [
@@ -16284,7 +16284,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Labdanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/labdanum.png"
         }
       ],
       "base": [
@@ -16351,7 +16351,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Juniper Berries",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/juniper-berries.png"
         },
         {
           "name": "Chinese Grapefruit",
@@ -16432,7 +16432,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Tagetes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Black Currant",
@@ -16444,7 +16444,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "African Orange Flower",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         }
       ],
       "middle": [
@@ -16454,7 +16454,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Cyclamen",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Jasmine",
@@ -16535,7 +16535,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Magnolia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/magnolia.png"
         },
         {
           "name": "Violet",
@@ -16549,7 +16549,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         },
         {
           "name": "Cedar",
@@ -16622,7 +16622,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Papyrus",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Amber",
@@ -16675,11 +16675,11 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Black Pepper",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Bay Leaf",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Bergamot",
@@ -16689,7 +16689,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Rum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/rum.png"
         },
         {
           "name": "Woody Notes",
@@ -16701,11 +16701,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Clary Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         },
         {
           "name": "African Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         }
       ],
       "base": [
@@ -16719,7 +16719,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         },
         {
           "name": "Cedar",
@@ -16918,13 +16918,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Green Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ],
       "middle": [
         {
           "name": "Resins",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/styrax.png"
         },
         {
           "name": "Woody Notes",
@@ -17045,7 +17045,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Anise",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/star-anise.png"
         },
         {
           "name": "Bergamot",
@@ -17053,11 +17053,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Basil",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/basil.png"
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Lemon",
@@ -17067,11 +17067,11 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ylang-ylang.png"
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         },
         {
           "name": "Jasmine",
@@ -17296,11 +17296,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Juniper",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/juniper-berries.png"
         },
         {
           "name": "Anise",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/star-anise.png"
         },
         {
           "name": "Rose",
@@ -17308,7 +17308,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Basil",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/basil.png"
         }
       ],
       "middle": [
@@ -17647,7 +17647,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Pear",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/pear.png"
         },
         {
           "name": "Bitter Orange",
@@ -17665,13 +17665,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Cactus Flower",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ],
       "base": [
         {
           "name": "Ambroxan",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambroxan.png"
         },
         {
           "name": "Woody Notes",
@@ -17724,23 +17724,23 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Narcissus",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         }
       ],
       "middle": [
         {
           "name": "Green Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ],
       "base": [
         {
           "name": "Powdery Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/iris.png"
         },
         {
           "name": "Honey",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/honey.png"
         }
       ]
     },
@@ -17793,11 +17793,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Litchi",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/litchi.png"
         },
         {
           "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/freesia.png"
         }
       ],
       "middle": [
@@ -17807,11 +17807,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Magnolia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/magnolia.png"
         }
       ],
       "base": [
@@ -17878,7 +17878,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ginger",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/ginger.png"
         },
         {
           "name": "Mandarin Orange",
@@ -17896,7 +17896,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Pepper",
-          "image": "assets/images/notes/mint.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Cedar",
@@ -17928,11 +17928,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/freesia.png"
         },
         {
           "name": "Anise",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/star-anise.png"
         }
       ],
       "base": [
@@ -17950,7 +17950,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Coconut",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coconut.png"
         },
         {
           "name": "Amber",
@@ -17958,7 +17958,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         },
         {
           "name": "Musk",
@@ -18041,7 +18041,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Honeysuckle",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/honey.png"
         },
         {
           "name": "Jasmine",
@@ -18049,19 +18049,19 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Magnolia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/magnolia.png"
         },
         {
           "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/freesia.png"
         },
         {
           "name": "Water Lily",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Peony",
@@ -18148,17 +18148,17 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Aldehydes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/aldehydes.png"
         },
         {
           "name": "Blood Mandarin",
-          "image": "assets/images/notes/orange.png"
+          "image": "assets/images/notes/mandarin.png"
         }
       ],
       "middle": [
         {
           "name": "Pepper",
-          "image": "assets/images/notes/mint.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Neroli",
@@ -18192,7 +18192,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Elemi Resin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/elemi.png"
         }
       ]
     },
@@ -18241,11 +18241,11 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Aldehydes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/aldehydes.png"
         },
         {
           "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ylang-ylang.png"
         },
         {
           "name": "Neroli",
@@ -18279,13 +18279,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         }
       ],
       "base": [
         {
           "name": "Civet",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/musk.png"
         },
         {
           "name": "Musk",
@@ -18366,7 +18366,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         },
         {
           "name": "Peach",
@@ -18384,7 +18384,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Cloves",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/clove.png"
         },
         {
           "name": "Rose",
@@ -18392,11 +18392,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Mimosa",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         }
       ],
       "base": [
@@ -18414,7 +18414,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Opoponax",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/opoponax.png"
         },
         {
           "name": "Vanilla",
@@ -18422,7 +18422,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Labdanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/labdanum.png"
         }
       ]
     },
@@ -18489,7 +18489,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         },
         {
           "name": "Jasmine",
@@ -18497,7 +18497,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Narcissus",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Peach",
@@ -18523,7 +18523,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Vanille",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/vanilla.png"
         },
         {
           "name": "White Musk",
@@ -18531,11 +18531,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Cloves",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/clove.png"
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         }
       ]
     },
@@ -18596,7 +18596,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         }
       ],
       "middle": [
@@ -18610,11 +18610,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Mimosa",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ylang-ylang.png"
         }
       ],
       "base": [
@@ -18640,7 +18640,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Opoponax",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/opoponax.png"
         }
       ]
     },
@@ -18780,11 +18780,11 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Ginger",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/ginger.png"
         },
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         },
         {
           "name": "Jasmine",
@@ -18792,7 +18792,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Iso E Super",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cedarwood.png"
         }
       ],
       "base": [
@@ -18818,7 +18818,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Labdanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/labdanum.png"
         },
         {
           "name": "White Musk",
@@ -18889,11 +18889,11 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Ginger",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/ginger.png"
         },
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         },
         {
           "name": "Jasmine",
@@ -18901,7 +18901,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Iso E Super",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cedarwood.png"
         }
       ],
       "base": [
@@ -18927,7 +18927,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Labdanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/labdanum.png"
         },
         {
           "name": "White Musk",
@@ -18994,11 +18994,11 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Tuberose",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/tuberose.png"
         },
         {
           "name": "Jasmine",
@@ -19006,7 +19006,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Pear",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/pear.png"
         },
         {
           "name": "Pink Pepper",
@@ -19014,11 +19014,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ylang-ylang.png"
         }
       ],
       "base": [
@@ -19097,21 +19097,21 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Petitgrain",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         }
       ],
       "middle": [
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         },
         {
           "name": "Clary Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         },
         {
           "name": "Galbanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/galbanum.png"
         },
         {
           "name": "Jasmine",
@@ -19190,7 +19190,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Green Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Bergamot",
@@ -19210,13 +19210,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Papaya",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/mango.png"
         }
       ],
       "middle": [
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Jasmine",
@@ -19232,7 +19232,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         },
         {
           "name": "Orris Root",
@@ -19240,13 +19240,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/freesia.png"
         }
       ],
       "base": [
         {
           "name": "Green Accord",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Musk",
@@ -19266,7 +19266,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Green Tea",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/tea.png"
         },
         {
           "name": "Amber",
@@ -19323,11 +19323,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Clementine",
-          "image": "assets/images/notes/orange.png"
+          "image": "assets/images/notes/mandarin.png"
         },
         {
           "name": "Cucumber",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ],
       "middle": [
@@ -19337,11 +19337,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Pepper",
-          "image": "assets/images/notes/mint.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Basil",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/basil.png"
         },
         {
           "name": "Osmanthus",
@@ -19426,15 +19426,15 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Cactus",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Blueberry Leaf",
-          "image": "assets/images/notes/raspberry.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         }
       ],
       "base": [
@@ -19497,7 +19497,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Green Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Bergamot",
@@ -19509,7 +19509,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Juniper",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/juniper-berries.png"
         },
         {
           "name": "Mandarin Orange",
@@ -19519,7 +19519,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Green Grass",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Peach",
@@ -19531,15 +19531,15 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/freesia.png"
         },
         {
           "name": "Magnolia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/magnolia.png"
         },
         {
           "name": "Orchid",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/jasmine.png"
         }
       ],
       "base": [
@@ -19565,7 +19565,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Opoponax",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/opoponax.png"
         }
       ]
     },
@@ -19614,11 +19614,11 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Juniper Berries",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/juniper-berries.png"
         },
         {
           "name": "Star Anise",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/star-anise.png"
         },
         {
           "name": "Wormwood",
@@ -19654,7 +19654,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Oak",
-          "image": "assets/images/notes/oakmoss.png"
+          "image": "assets/images/notes/cedarwood.png"
         },
         {
           "name": "Patchouli",
@@ -19711,21 +19711,21 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Ginger",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/ginger.png"
         },
         {
           "name": "Pepper",
-          "image": "assets/images/notes/mint.png"
+          "image": "assets/images/notes/black-pepper.png"
         }
       ],
       "middle": [
         {
           "name": "Black Basil",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/basil.png"
         },
         {
           "name": "Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         },
         {
           "name": "Cedar",
@@ -19796,11 +19796,11 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Dates",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Solar Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/aldehydes.png"
         },
         {
           "name": "Neroli",
@@ -19810,15 +19810,15 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Almond",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/almond.png"
         },
         {
           "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ylang-ylang.png"
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Rose",
@@ -19836,7 +19836,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         },
         {
           "name": "Patchouli",
@@ -19911,15 +19911,15 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Rhubarb",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/rhubarb.png"
         },
         {
           "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/freesia.png"
         },
         {
           "name": "Lily",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         }
       ],
       "base": [
@@ -19986,19 +19986,19 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Chamomile",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Marigold",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Tagetes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Hiacynth",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Apricot",
@@ -20014,7 +20014,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         },
         {
           "name": "Mandarin Orange",
@@ -20022,11 +20022,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ylang-ylang.png"
         },
         {
           "name": "Litchi",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/litchi.png"
         },
         {
           "name": "Black Currant",
@@ -20044,7 +20044,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Carnation",
@@ -20060,7 +20060,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Cloves",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/clove.png"
         }
       ],
       "base": [
@@ -20147,7 +20147,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         },
         {
           "name": "Mandarin Orange",
@@ -20169,11 +20169,11 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Myrhh",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/incense.png"
         },
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         },
         {
           "name": "Carnation",
@@ -20189,7 +20189,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         },
         {
           "name": "Jasmine",
@@ -20278,7 +20278,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Black Tea",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/tea.png"
         }
       ],
       "base": [
@@ -20337,11 +20337,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ozonic Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/aldehydes.png"
         },
         {
           "name": "Juniper Berries",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/juniper-berries.png"
         },
         {
           "name": "Mandarin Orange",
@@ -20369,7 +20369,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         },
         {
           "name": "Patchouli",
@@ -20440,19 +20440,19 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         },
         {
           "name": "Juniper Berries",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/juniper-berries.png"
         },
         {
           "name": "Basil",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/basil.png"
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         },
         {
           "name": "Jasmine",
@@ -20460,19 +20460,19 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Lily",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         }
       ],
       "base": [
@@ -20543,7 +20543,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Quince",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/pear.png"
         },
         {
           "name": "Sorbet",
@@ -20551,7 +20551,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Litchi",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/litchi.png"
         }
       ],
       "middle": [
@@ -20579,7 +20579,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ambroxan",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambroxan.png"
         }
       ]
     },
@@ -20628,7 +20628,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Litchi",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/litchi.png"
         },
         {
           "name": "Raspberry",
@@ -20640,7 +20640,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Guava",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/pear.png"
         }
       ],
       "middle": [
@@ -20654,7 +20654,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Water Lily",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Passion Flower",
@@ -20729,11 +20729,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Juniper Berries",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/juniper-berries.png"
         },
         {
           "name": "Chamomile",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Cedarwood",
@@ -20743,7 +20743,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         },
         {
           "name": "Violet Leaf",
@@ -20751,7 +20751,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Star Anise",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/star-anise.png"
         }
       ],
       "base": [
@@ -20822,17 +20822,17 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Red Currant Leaf",
-          "image": "assets/images/notes/raspberry.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ],
       "middle": [
         {
           "name": "Cactus",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Orchid",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/jasmine.png"
         }
       ],
       "base": [
@@ -20899,13 +20899,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Tomato Leaf",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ],
       "middle": [
         {
           "name": "Cacao Pod",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cacao.png"
         }
       ],
       "base": [
@@ -20982,7 +20982,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Ginger",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/ginger.png"
         },
         {
           "name": "Cinnamon",
@@ -21095,7 +21095,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Styrax",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/styrax.png"
         }
       ],
       "base": [
@@ -21113,11 +21113,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Lilac",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ylang-ylang.png"
         }
       ]
     },
@@ -21259,7 +21259,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Magnolia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/magnolia.png"
         }
       ],
       "middle": [
@@ -21269,7 +21269,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Tuberose",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/tuberose.png"
         },
         {
           "name": "Patchouli",
@@ -21287,7 +21287,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ambroxan",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambroxan.png"
         },
         {
           "name": "Myrrh",
@@ -21352,7 +21352,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Black Cherry",
-          "image": "assets/images/notes/raspberry.png"
+          "image": "assets/images/notes/sour-cherry.png"
         },
         {
           "name": "Saffron",
@@ -21388,11 +21388,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ambroxan",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambroxan.png"
         },
         {
           "name": "Myrhh",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/incense.png"
         },
         {
           "name": "Frankincense",
@@ -21485,15 +21485,15 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Oak Moss",
-          "image": "assets/images/notes/oakmoss.png"
+          "image": "assets/images/notes/cedarwood.png"
         },
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         },
         {
           "name": "Vanille",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/vanilla.png"
         }
       ]
     },
@@ -21582,15 +21582,15 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Oak Moss",
-          "image": "assets/images/notes/oakmoss.png"
+          "image": "assets/images/notes/cedarwood.png"
         },
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         },
         {
           "name": "Vanille",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/vanilla.png"
         }
       ]
     },
@@ -21679,15 +21679,15 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Oak Moss",
-          "image": "assets/images/notes/oakmoss.png"
+          "image": "assets/images/notes/cedarwood.png"
         },
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         },
         {
           "name": "Vanille",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/vanilla.png"
         }
       ]
     },
@@ -21746,7 +21746,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Green Tea",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/tea.png"
         },
         {
           "name": "Black Currant",
@@ -21764,11 +21764,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Petitgrain",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Galbanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/galbanum.png"
         }
       ]
     },
@@ -21835,15 +21835,15 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Basil",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/basil.png"
         },
         {
           "name": "Allspice",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/pimento.png"
         },
         {
           "name": "Cumin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cumin.png"
         }
       ],
       "base": [
@@ -21924,7 +21924,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Galbanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/galbanum.png"
         }
       ],
       "base": [
@@ -22003,7 +22003,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Absinthe",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/wormwood.png"
         },
         {
           "name": "Orange",
@@ -22021,11 +22021,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Clove",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/clove.png"
         },
         {
           "name": "Allspice",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/pimento.png"
         },
         {
           "name": "Orris Root",
@@ -22116,7 +22116,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         },
         {
           "name": "Sandalwood",
@@ -22169,7 +22169,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Almond",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/almond.png"
         },
         {
           "name": "Coffee",
@@ -22187,7 +22187,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Tuberose",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/tuberose.png"
         },
         {
           "name": "Jasmine Sambac",
@@ -22195,7 +22195,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Orris",
@@ -22221,7 +22221,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Praline",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Sandalwood",
@@ -22298,7 +22298,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Green Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Grapefruit",
@@ -22318,13 +22318,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Petitgrain",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         }
       ],
       "middle": [
         {
           "name": "Ginger",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/ginger.png"
         },
         {
           "name": "Violet",
@@ -22336,7 +22336,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         }
       ],
       "base": [
@@ -22362,7 +22362,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Labdanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/labdanum.png"
         }
       ]
     },
@@ -22419,13 +22419,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Green Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ],
       "middle": [
         {
           "name": "Pepper",
-          "image": "assets/images/notes/mint.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Flowers",
@@ -22512,21 +22512,21 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Pepper",
-          "image": "assets/images/notes/mint.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Ginger",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/ginger.png"
         }
       ],
       "middle": [
         {
           "name": "Vodka",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/rum.png"
         },
         {
           "name": "Gin",
-          "image": "assets/images/notes/cedarwood.png"
+          "image": "assets/images/notes/juniper-berries.png"
         },
         {
           "name": "Mint",
@@ -22597,7 +22597,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Green Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Spices",
@@ -22609,7 +22609,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Petitgrain",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Grapefruit",
@@ -22627,7 +22627,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         },
         {
           "name": "Gardenia",
@@ -22635,7 +22635,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ginger",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/ginger.png"
         }
       ],
       "base": [
@@ -22653,7 +22653,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Labdanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/labdanum.png"
         },
         {
           "name": "Sandalwood",
@@ -22710,15 +22710,15 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Absinthe",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/wormwood.png"
         },
         {
           "name": "Anise",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/star-anise.png"
         },
         {
           "name": "Fennel",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/star-anise.png"
         }
       ],
       "middle": [
@@ -22783,15 +22783,15 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Absinthe",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/wormwood.png"
         },
         {
           "name": "Anise",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/star-anise.png"
         },
         {
           "name": "Fennel",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/star-anise.png"
         }
       ],
       "middle": [
@@ -22856,7 +22856,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Champagne Rosé",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/rum.png"
         },
         {
           "name": "Pink Pepper",
@@ -22929,7 +22929,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Almond",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/almond.png"
         },
         {
           "name": "Coffee",
@@ -22947,7 +22947,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Tuberose",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/tuberose.png"
         },
         {
           "name": "Jasmine Sambac",
@@ -22959,7 +22959,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Bulgarian Rose",
@@ -22973,7 +22973,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Cacao",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cacao.png"
         },
         {
           "name": "Vanilla",
@@ -22981,7 +22981,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Praline",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Sandalwood",
@@ -23058,7 +23058,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Whiskey",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/rum.png"
         },
         {
           "name": "Grapefruit",
@@ -23080,11 +23080,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         },
         {
           "name": "Red Thyme",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/thyme.png"
         }
       ],
       "base": [
@@ -23102,7 +23102,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         }
       ]
     },
@@ -23151,11 +23151,11 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "White Pepper",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Black Pepper",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Bergamot",
@@ -23165,7 +23165,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         },
         {
           "name": "Cedar",
@@ -23179,11 +23179,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Cacao",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cacao.png"
         },
         {
           "name": "Amberwood",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/amberwood.png"
         }
       ]
     },
@@ -23232,7 +23232,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Almond",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/almond.png"
         },
         {
           "name": "Coffee",
@@ -23250,7 +23250,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Tuberose",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/tuberose.png"
         },
         {
           "name": "Jasmine Sambac",
@@ -23262,7 +23262,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Bulgarian Rose",
@@ -23276,7 +23276,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Cacao",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cacao.png"
         },
         {
           "name": "Vanilla",
@@ -23284,7 +23284,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Praline",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Sandalwood",
@@ -23365,7 +23365,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Caraway",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/caraway.png"
         },
         {
           "name": "Birch",
@@ -23377,7 +23377,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         },
         {
           "name": "Mandarin Orange",
@@ -23399,11 +23399,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Pepper",
-          "image": "assets/images/notes/mint.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Ginger",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/ginger.png"
         },
         {
           "name": "Iris",
@@ -23411,7 +23411,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Juniper",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/juniper-berries.png"
         },
         {
           "name": "Cinnamon",
@@ -23433,7 +23433,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Tea",
-          "image": "assets/images/notes/cedarwood.png"
+          "image": "assets/images/notes/tea.png"
         },
         {
           "name": "Cedar",
@@ -23506,11 +23506,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Caraway",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/caraway.png"
         },
         {
           "name": "Anise",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/star-anise.png"
         },
         {
           "name": "Mandarin Orange",
@@ -23520,7 +23520,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         },
         {
           "name": "Brazilian Rosewood",
@@ -23542,7 +23542,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Labdanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/labdanum.png"
         }
       ]
     },
@@ -23599,7 +23599,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "African Orange Flower",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         }
       ],
       "middle": [
@@ -23609,7 +23609,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         }
       ],
       "base": [
@@ -23623,7 +23623,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Pepper",
-          "image": "assets/images/notes/mint.png"
+          "image": "assets/images/notes/black-pepper.png"
         }
       ]
     },
@@ -23708,7 +23708,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         }
       ]
     },
@@ -23793,7 +23793,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         }
       ]
     },
@@ -23846,7 +23846,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Clary Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         },
         {
           "name": "Cardamom",
@@ -23858,7 +23858,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Cumin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cumin.png"
         }
       ],
       "middle": [
@@ -24200,11 +24200,11 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Hyacinth",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Galbanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/galbanum.png"
         },
         {
           "name": "Bellflower",
@@ -24222,7 +24222,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Jasmine",
@@ -24675,7 +24675,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Plum",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/plum.png"
         },
         {
           "name": "Pineapple",
@@ -24687,7 +24687,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Pear",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/pear.png"
         },
         {
           "name": "Amalfi Lemon",
@@ -24697,15 +24697,15 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Bay Leaf",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Marigold",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         },
         {
           "name": "Jasmine",
@@ -24988,7 +24988,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Basil",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/basil.png"
         },
         {
           "name": "Artemisia",
@@ -24998,11 +24998,11 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Juniper",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/juniper-berries.png"
         },
         {
           "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         },
         {
           "name": "Cinnamon",
@@ -25060,7 +25060,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Resins",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/styrax.png"
         }
       ]
     },
@@ -25117,7 +25117,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Myrtle",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ],
       "middle": [
@@ -25202,7 +25202,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Myrtle",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ],
       "middle": [
@@ -25279,7 +25279,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Cassis",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/black-currant.png"
         },
         {
           "name": "Bergamot",
@@ -25293,7 +25293,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Black Currant Leaf",
-          "image": "assets/images/notes/raspberry.png"
+          "image": "assets/images/notes/black-currant.png"
         },
         {
           "name": "Rose",
@@ -25311,7 +25311,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         }
       ]
     },
@@ -25443,11 +25443,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Clary Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         }
       ],
       "base": [
@@ -25514,7 +25514,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Pepper",
-          "image": "assets/images/notes/mint.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Lemon",
@@ -25526,21 +25526,21 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Tea Leaf",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/tea.png"
         },
         {
           "name": "Mate",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/tea.png"
         }
       ],
       "middle": [
         {
           "name": "Pimento",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/pimento.png"
         },
         {
           "name": "Sesame",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/almond.png"
         }
       ],
       "base": [
@@ -25613,11 +25613,11 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Clary Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         },
         {
           "name": "Galbanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/galbanum.png"
         }
       ],
       "base": [
@@ -25690,17 +25690,17 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         },
         {
           "name": "Basil",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/basil.png"
         }
       ],
       "base": [
         {
           "name": "Green Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ]
     },
@@ -25763,17 +25763,17 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         },
         {
           "name": "Basil",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/basil.png"
         }
       ],
       "base": [
         {
           "name": "Green Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ]
     },
@@ -25903,13 +25903,13 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Green Mandarin",
-          "image": "assets/images/notes/orange.png"
+          "image": "assets/images/notes/mandarin.png"
         }
       ],
       "middle": [
         {
           "name": "Coconut Nectar",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coconut.png"
         }
       ],
       "base": [
@@ -25976,7 +25976,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Basil",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/basil.png"
         }
       ],
       "middle": [
@@ -26120,11 +26120,11 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         },
         {
           "name": "Black Pepper",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Cardamom",
@@ -26199,7 +26199,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Basil",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/basil.png"
         }
       ],
       "middle": [
@@ -26215,11 +26215,11 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         },
         {
           "name": "Styrax",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/styrax.png"
         }
       ]
     },
@@ -26282,11 +26282,11 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Basil",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/basil.png"
         },
         {
           "name": "Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         }
       ],
       "base": [
@@ -26353,7 +26353,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         },
         {
           "name": "Virginia Cedar",
@@ -26367,7 +26367,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Clove",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/clove.png"
         },
         {
           "name": "Patchouli",
@@ -26377,7 +26377,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         },
         {
           "name": "Amber",
@@ -26389,7 +26389,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Oak Moss",
-          "image": "assets/images/notes/oakmoss.png"
+          "image": "assets/images/notes/cedarwood.png"
         }
       ]
     },
@@ -26448,7 +26448,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Vanille",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/vanilla.png"
         },
         {
           "name": "Tonka Bean",
@@ -26462,7 +26462,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "French Labdanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/labdanum.png"
         },
         {
           "name": "Patchouli",
@@ -26535,7 +26535,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         },
         {
           "name": "Cedar",
@@ -26618,7 +26618,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Cassis",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/black-currant.png"
         }
       ],
       "base": [
@@ -26640,7 +26640,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         }
       ]
     },
@@ -26689,7 +26689,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Aldehydes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/aldehydes.png"
         }
       ],
       "middle": [
@@ -26750,7 +26750,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Plum",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/plum.png"
         },
         {
           "name": "Wild Berries",
@@ -26758,11 +26758,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         },
         {
           "name": "Anise",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/star-anise.png"
         },
         {
           "name": "Brazilian Rosewood",
@@ -26772,7 +26772,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Tuberose",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/tuberose.png"
         },
         {
           "name": "Incense",
@@ -26780,7 +26780,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "White Honey",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/honey.png"
         },
         {
           "name": "Cinnamon",
@@ -26788,7 +26788,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Opoponax",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/opoponax.png"
         },
         {
           "name": "Carnation",
@@ -26800,7 +26800,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "African Orange Flower",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Rose",
@@ -26810,7 +26810,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Vanille",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/vanilla.png"
         },
         {
           "name": "Amber",
@@ -26901,7 +26901,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         }
       ],
       "base": [
@@ -26911,7 +26911,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Almond",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/almond.png"
         },
         {
           "name": "Tonka Bean",
@@ -26919,7 +26919,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Tolu Balsam",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/styrax.png"
         },
         {
           "name": "Sandalwood",
@@ -26988,7 +26988,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Basil",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/basil.png"
         },
         {
           "name": "Rosemary",
@@ -26996,7 +26996,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Caraway",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/caraway.png"
         },
         {
           "name": "Fruity Notes",
@@ -27010,7 +27010,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         },
         {
           "name": "Carnation",
@@ -27038,7 +27038,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Hedione",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         }
       ],
       "base": [
@@ -27109,13 +27109,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Pepper",
-          "image": "assets/images/notes/mint.png"
+          "image": "assets/images/notes/black-pepper.png"
         }
       ],
       "middle": [
         {
           "name": "Sichuan Pepper",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Lavender",
@@ -27135,17 +27135,17 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         },
         {
           "name": "Elemi",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/elemi.png"
         }
       ],
       "base": [
         {
           "name": "Ambroxan",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambroxan.png"
         },
         {
           "name": "Cedar",
@@ -27153,7 +27153,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Labdanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/labdanum.png"
         }
       ]
     },
@@ -27206,13 +27206,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Pepper",
-          "image": "assets/images/notes/mint.png"
+          "image": "assets/images/notes/black-pepper.png"
         }
       ],
       "middle": [
         {
           "name": "Sichuan Pepper",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Lavender",
@@ -27232,17 +27232,17 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         },
         {
           "name": "Elemi",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/elemi.png"
         }
       ],
       "base": [
         {
           "name": "Ambroxan",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambroxan.png"
         },
         {
           "name": "Cedar",
@@ -27250,7 +27250,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Labdanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/labdanum.png"
         }
       ]
     },
@@ -27299,7 +27299,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         },
         {
           "name": "Cinnamon",
@@ -27323,7 +27323,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Licorice",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/star-anise.png"
         },
         {
           "name": "Sandalwood",
@@ -27388,11 +27388,11 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Coconut",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coconut.png"
         },
         {
           "name": "Plum",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/plum.png"
         },
         {
           "name": "Apricot",
@@ -27410,11 +27410,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Caraway",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/caraway.png"
         },
         {
           "name": "Tuberose",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/tuberose.png"
         },
         {
           "name": "Rose",
@@ -27422,7 +27422,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         }
       ],
       "base": [
@@ -27432,7 +27432,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Almond",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/almond.png"
         },
         {
           "name": "Sandalwood",
@@ -27489,7 +27489,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Pear",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/pear.png"
         },
         {
           "name": "Melon",
@@ -27497,7 +27497,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Magnolia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/magnolia.png"
         },
         {
           "name": "Peach",
@@ -27519,15 +27519,15 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Tuberose",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/tuberose.png"
         },
         {
           "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/freesia.png"
         },
         {
           "name": "Rose",
@@ -27535,11 +27535,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orchid",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Plum",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/plum.png"
         },
         {
           "name": "Violet",
@@ -27557,7 +27557,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Blackberry",
-          "image": "assets/images/notes/raspberry.png"
+          "image": "assets/images/notes/black-currant.png"
         },
         {
           "name": "Cedar",
@@ -27610,7 +27610,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Nutmeg Flower",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/nutmeg.png"
         },
         {
           "name": "Lavender",
@@ -27626,11 +27626,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Chamomile",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Hawthorn",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Bergamot",
@@ -27648,7 +27648,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         },
         {
           "name": "Cedar",
@@ -27664,7 +27664,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Honeysuckle",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/honey.png"
         },
         {
           "name": "Jasmine",
@@ -27672,7 +27672,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         }
       ],
       "base": [
@@ -27747,15 +27747,15 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Aldehydes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/aldehydes.png"
         },
         {
           "name": "Galbanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/galbanum.png"
         },
         {
           "name": "Clary Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         },
         {
           "name": "Gardenia",
@@ -27769,7 +27769,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Narcissus",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Iris",
@@ -27785,7 +27785,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Jasmine",
@@ -27819,7 +27819,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Labdanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/labdanum.png"
         },
         {
           "name": "Sandalwood",
@@ -27884,7 +27884,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         }
       ],
       "middle": [
@@ -27894,7 +27894,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Cacao",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cacao.png"
         },
         {
           "name": "Amber",
@@ -27973,13 +27973,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Elemi Resin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/elemi.png"
         }
       ],
       "middle": [
         {
           "name": "Ginger",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/ginger.png"
         },
         {
           "name": "Vetiver",
@@ -28064,7 +28064,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Pear",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/pear.png"
         }
       ],
       "base": [
@@ -28123,7 +28123,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Labdanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/labdanum.png"
         }
       ],
       "middle": [
@@ -28200,11 +28200,11 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Blackberry",
-          "image": "assets/images/notes/raspberry.png"
+          "image": "assets/images/notes/black-currant.png"
         },
         {
           "name": "Mandarin Leaf",
-          "image": "assets/images/notes/orange.png"
+          "image": "assets/images/notes/mandarin.png"
         },
         {
           "name": "Silk Tree Blossom",
@@ -28218,7 +28218,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Night Blooming Cereus",
@@ -28289,7 +28289,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Green Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Bergamot",
@@ -28378,7 +28378,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         }
       ],
       "middle": [
@@ -28451,7 +28451,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Litchi",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/litchi.png"
         },
         {
           "name": "Mandarin Orange",
@@ -28491,7 +28491,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         },
         {
           "name": "Amber",
@@ -28544,7 +28544,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Black Pepper",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Bergamot",
@@ -28637,17 +28637,17 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Black Pepper",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Petitgrain",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         }
       ],
       "middle": [
         {
           "name": "Black Pepper",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Lavender",
@@ -28659,11 +28659,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Juniper Berries",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/juniper-berries.png"
         },
         {
           "name": "Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         }
       ],
       "base": [
@@ -28734,7 +28734,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Cucumber",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Grapefruit",
@@ -28742,7 +28742,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Magnolia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/magnolia.png"
         }
       ],
       "middle": [
@@ -28752,11 +28752,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Tuberose",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/tuberose.png"
         },
         {
           "name": "Violet",
@@ -28873,7 +28873,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Juniper Berries",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/juniper-berries.png"
         },
         {
           "name": "Citrus",
@@ -28891,11 +28891,11 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Pimento",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/pimento.png"
         },
         {
           "name": "Clary Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         },
         {
           "name": "Lavender",
@@ -28903,7 +28903,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         }
       ],
       "base": [
@@ -28980,7 +28980,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Cherry",
-          "image": "assets/images/notes/raspberry.png"
+          "image": "assets/images/notes/sour-cherry.png"
         },
         {
           "name": "Heliotrope",
@@ -29049,7 +29049,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Pannacotta",
@@ -29057,7 +29057,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Rum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/rum.png"
         }
       ],
       "base": [
@@ -29120,17 +29120,17 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Sicilian Mandarin",
-          "image": "assets/images/notes/orange.png"
+          "image": "assets/images/notes/mandarin.png"
         },
         {
           "name": "Juniper",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/juniper-berries.png"
         }
       ],
       "middle": [
         {
           "name": "Pepper",
-          "image": "assets/images/notes/mint.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Rosemary",
@@ -29274,17 +29274,17 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         },
         {
           "name": "Basil",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/basil.png"
         }
       ],
       "middle": [
         {
           "name": "Clary Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         },
         {
           "name": "Lavender",
@@ -29292,7 +29292,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         }
       ],
       "base": [
@@ -29310,7 +29310,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Labdanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/labdanum.png"
         }
       ]
     },
@@ -29363,7 +29363,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Litchi",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/litchi.png"
         },
         {
           "name": "Mandarin Orange",
@@ -29377,7 +29377,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Lily",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         }
       ],
       "base": [
@@ -29458,7 +29458,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Bamboo",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Jasmine",
@@ -29529,7 +29529,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Litchi",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/litchi.png"
         },
         {
           "name": "Bergamot",
@@ -29547,7 +29547,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Jasmine",
@@ -29618,7 +29618,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Pear",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/pear.png"
         },
         {
           "name": "Bergamot",
@@ -29630,13 +29630,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ginger",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/ginger.png"
         }
       ],
       "middle": [
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Georgywood",
@@ -29646,7 +29646,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Ambrofix",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambroxan.png"
         },
         {
           "name": "Musk",
@@ -29703,7 +29703,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Grapefruit",
@@ -29725,7 +29725,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         },
         {
           "name": "Teak Wood",
@@ -29733,7 +29733,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         },
         {
           "name": "Guaiac Wood",
@@ -29846,7 +29846,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "African Orange Flower",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         }
       ],
       "middle": [
@@ -29856,13 +29856,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Grandiflorum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/rum.png"
         }
       ],
       "base": [
         {
           "name": "White Honey",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/honey.png"
         },
         {
           "name": "Patchouli",
@@ -29923,7 +29923,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Mango",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/mango.png"
         },
         {
           "name": "Passionfruit",
@@ -29943,7 +29943,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Magnolia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/magnolia.png"
         },
         {
           "name": "White Flowers",
@@ -29961,7 +29961,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Hibiscus",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/rose.png"
         },
         {
           "name": "Rose Hip",
@@ -30044,7 +30044,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Cassis",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/black-currant.png"
         }
       ],
       "middle": [
@@ -30058,11 +30058,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Lily",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         }
       ],
       "base": [
@@ -30143,11 +30143,11 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Sweet Pea",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/freesia.png"
         },
         {
           "name": "Jasmine",
@@ -30238,7 +30238,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Cassis",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/black-currant.png"
         }
       ],
       "middle": [
@@ -30252,11 +30252,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Lily",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         }
       ],
       "base": [
@@ -30319,11 +30319,11 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Mango",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/mango.png"
         },
         {
           "name": "Nectarine",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/peach.png"
         },
         {
           "name": "Blood Orange",
@@ -30341,7 +30341,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Water Lily",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Lotus",
@@ -30351,7 +30351,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Coconut",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coconut.png"
         },
         {
           "name": "Musk",
@@ -30408,7 +30408,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Mango",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/mango.png"
         },
         {
           "name": "Passionfruit",
@@ -30428,7 +30428,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Magnolia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/magnolia.png"
         },
         {
           "name": "White Flowers",
@@ -30446,7 +30446,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Hibiscus",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/rose.png"
         },
         {
           "name": "Rose Hip",
@@ -30624,11 +30624,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ylang-ylang.png"
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Jasmine",
@@ -30715,7 +30715,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Rhubarb",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/rhubarb.png"
         }
       ],
       "middle": [
@@ -30733,7 +30733,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Fennel",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/star-anise.png"
         },
         {
           "name": "Carnation",
@@ -30747,7 +30747,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Green Tea",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/tea.png"
         },
         {
           "name": "Jasmine",
@@ -30763,15 +30763,15 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Celery Seeds",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         },
         {
           "name": "Caraway",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/caraway.png"
         },
         {
           "name": "Cloves",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/clove.png"
         },
         {
           "name": "Amber",
@@ -30828,15 +30828,15 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Lilac",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Magnolia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/magnolia.png"
         },
         {
           "name": "Bergamot",
@@ -30854,11 +30854,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Tuberose",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/tuberose.png"
         },
         {
           "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ylang-ylang.png"
         },
         {
           "name": "Peach",
@@ -30878,7 +30878,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         }
       ],
       "base": [
@@ -30904,7 +30904,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Cloves",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/clove.png"
         }
       ]
     },
@@ -30957,11 +30957,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Plum",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/plum.png"
         },
         {
           "name": "Violet",
@@ -30973,13 +30973,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Anise",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/star-anise.png"
         }
       ],
       "middle": [
         {
           "name": "Honey",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/honey.png"
         },
         {
           "name": "Carnation",
@@ -30991,11 +30991,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Tuberose",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/tuberose.png"
         },
         {
           "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ylang-ylang.png"
         },
         {
           "name": "Jasmine",
@@ -31003,19 +31003,19 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Lily",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/freesia.png"
         },
         {
           "name": "Orchid",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/jasmine.png"
         }
       ],
       "base": [
@@ -31029,7 +31029,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         },
         {
           "name": "Musk",
@@ -31098,7 +31098,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Clove",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/clove.png"
         },
         {
           "name": "Raspberry",
@@ -31134,7 +31134,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         },
         {
           "name": "Amber",
@@ -31433,11 +31433,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Petitgrain",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Galbanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/galbanum.png"
         }
       ],
       "middle": [
@@ -31447,7 +31447,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         },
         {
           "name": "Orris",
@@ -31455,7 +31455,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         }
       ],
       "base": [
@@ -31526,7 +31526,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Plum",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/plum.png"
         },
         {
           "name": "Lime",
@@ -31863,7 +31863,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Jasmine",
@@ -31930,7 +31930,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Bergamot",
@@ -31938,7 +31938,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Pear",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/pear.png"
         }
       ],
       "middle": [
@@ -31948,7 +31948,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Tuberose",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/tuberose.png"
         },
         {
           "name": "White Flowers",
@@ -32185,7 +32185,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Amberwood",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/amberwood.png"
         },
         {
           "name": "Cedar",
@@ -32242,7 +32242,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Davana",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Italian Bergamot",
@@ -32331,7 +32331,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Davana",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Italian Bergamot",
@@ -32442,7 +32442,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Smoky Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/smoke.png"
         }
       ],
       "base": [
@@ -32505,7 +32505,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Pear",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/pear.png"
         },
         {
           "name": "Red Berries",
@@ -32519,7 +32519,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Frangipani",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         }
       ],
       "base": [
@@ -32574,17 +32574,17 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Dewberry",
-          "image": "assets/images/notes/raspberry.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Coconut",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coconut.png"
         }
       ],
       "middle": [
         {
           "name": "Magnolia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/magnolia.png"
         },
         {
           "name": "Jasmine Sambac",
@@ -32592,7 +32592,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Clary Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         }
       ],
       "base": [
@@ -32663,13 +32663,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "African Freesia Petals",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/freesia.png"
         }
       ],
       "middle": [
         {
           "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         },
         {
           "name": "Damask Rose",
@@ -32752,7 +32752,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Ozonic Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/aldehydes.png"
         }
       ]
     },
@@ -32813,7 +32813,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Ozonic Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/aldehydes.png"
         }
       ]
     },
@@ -32945,11 +32945,11 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Fig",
-          "image": "assets/images/notes/raspberry.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Juniper Berries",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/juniper-berries.png"
         },
         {
           "name": "Cardamom",
@@ -32959,7 +32959,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Vetyver",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/vetiver.png"
         },
         {
           "name": "Patchouli",
@@ -33026,7 +33026,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "African Orange Flower",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         }
       ],
       "base": [
@@ -33103,7 +33103,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Lilac",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Peach",
@@ -33111,7 +33111,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         },
         {
           "name": "Jasmine",
@@ -33253,15 +33253,15 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Casablanca Lily",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ylang-ylang.png"
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         }
       ],
       "base": [
@@ -33328,7 +33328,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Pear",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/pear.png"
         },
         {
           "name": "Saffron",
@@ -33342,7 +33342,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         }
       ],
       "base": [
@@ -33492,7 +33492,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Tuberose",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/tuberose.png"
         }
       ],
       "base": [
@@ -33553,7 +33553,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Tuberose",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/tuberose.png"
         }
       ],
       "base": [
@@ -33614,7 +33614,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Tuberose",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/tuberose.png"
         }
       ],
       "base": [
@@ -33669,7 +33669,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Pear",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/pear.png"
         },
         {
           "name": "Bergamot",
@@ -33679,11 +33679,11 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Tuberose",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/tuberose.png"
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Jasmine Sambac",
@@ -33701,7 +33701,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ambroxan",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambroxan.png"
         },
         {
           "name": "Vetiver",
@@ -33754,7 +33754,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Black Pepper",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Lavender",
@@ -33772,7 +33772,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Cloves",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/clove.png"
         },
         {
           "name": "Cinnamon",
@@ -33786,7 +33786,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Tolu Balsam",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/styrax.png"
         },
         {
           "name": "Tonka Bean",
@@ -33794,7 +33794,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         },
         {
           "name": "Patchouli",
@@ -33855,7 +33855,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         },
         {
           "name": "Violet",
@@ -33879,7 +33879,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Labdanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/labdanum.png"
         }
       ]
     },
@@ -33932,7 +33932,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Egyptian Balsam",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/styrax.png"
         },
         {
           "name": "Damask Rose",
@@ -33946,7 +33946,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Honeysuckle",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/honey.png"
         },
         {
           "name": "Fruity Notes",
@@ -33964,7 +33964,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Resins",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/styrax.png"
         },
         {
           "name": "Amber",
@@ -34021,7 +34021,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Rosemary",
@@ -34035,7 +34035,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Almond",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/almond.png"
         },
         {
           "name": "Tonka Bean",
@@ -34102,7 +34102,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Almond",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/almond.png"
         },
         {
           "name": "Spices",
@@ -34114,7 +34114,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Thyme",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/thyme.png"
         },
         {
           "name": "Rosemary",
@@ -34128,7 +34128,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Cherry",
-          "image": "assets/images/notes/raspberry.png"
+          "image": "assets/images/notes/sour-cherry.png"
         },
         {
           "name": "Vanilla",
@@ -34207,7 +34207,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Pelargonium",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/geranium.png"
         }
       ],
       "middle": [
@@ -34302,7 +34302,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ylang-ylang.png"
         },
         {
           "name": "Bulgarian Rose",
@@ -34320,7 +34320,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         }
       ]
     },
@@ -34369,11 +34369,11 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Aldehydes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/aldehydes.png"
         },
         {
           "name": "Green Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Bergamot",
@@ -34391,7 +34391,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         }
       ],
       "base": [
@@ -34474,13 +34474,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Green Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ],
       "middle": [
         {
           "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/freesia.png"
         },
         {
           "name": "Jasmine",
@@ -34488,7 +34488,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Rose",
@@ -34611,7 +34611,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Juniper Berries",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/juniper-berries.png"
         },
         {
           "name": "Timur",
@@ -34625,7 +34625,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Mineral Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/aldehydes.png"
         }
       ]
     },
@@ -34684,11 +34684,11 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Pepper",
-          "image": "assets/images/notes/mint.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Pelargonium",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/geranium.png"
         },
         {
           "name": "Flint",
@@ -34710,7 +34710,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         }
       ]
     },
@@ -34759,13 +34759,13 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Clary Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         }
       ],
       "middle": [
         {
           "name": "Narcissus",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Rosewood",
@@ -35144,7 +35144,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Juniper Berries",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/juniper-berries.png"
         },
         {
           "name": "Pink Pepper",
@@ -35152,7 +35152,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Clary Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         }
       ],
       "middle": [
@@ -35166,7 +35166,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Mate",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/tea.png"
         }
       ],
       "base": [
@@ -35279,7 +35279,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Rum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/rum.png"
         },
         {
           "name": "Cinnamon",
@@ -35289,7 +35289,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Cloves",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/clove.png"
         },
         {
           "name": "Cacao / Cocoa",
@@ -35364,7 +35364,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Black Pepper",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Bergamot",
@@ -35374,7 +35374,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Whiskey",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/rum.png"
         },
         {
           "name": "Spices",
@@ -35449,7 +35449,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Spicy Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cardamom.png"
         }
       ],
       "middle": [
@@ -35594,13 +35594,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         }
       ],
       "base": [
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         },
         {
           "name": "Musk",
@@ -35703,7 +35703,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Cherry",
-          "image": "assets/images/notes/raspberry.png"
+          "image": "assets/images/notes/sour-cherry.png"
         },
         {
           "name": "Pink Pepper",
@@ -35711,17 +35711,17 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Black Pepper",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/black-pepper.png"
         }
       ],
       "middle": [
         {
           "name": "Cognac",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/rum.png"
         },
         {
           "name": "Hedione",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         }
       ],
       "base": [
@@ -35784,7 +35784,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         },
         {
           "name": "Lavender",
@@ -35940,7 +35940,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "White Magnolia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/magnolia.png"
         },
         {
           "name": "Black Currant",
@@ -35958,7 +35958,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Hedione",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         }
       ]
     },
@@ -36088,23 +36088,23 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Magnolia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/magnolia.png"
         }
       ],
       "middle": [
         {
           "name": "Almond",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/almond.png"
         },
         {
           "name": "Hedione",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         }
       ],
       "base": [
         {
           "name": "Solar Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/aldehydes.png"
         },
         {
           "name": "Heliotrope",
@@ -36207,7 +36207,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ginger",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/ginger.png"
         }
       ],
       "middle": [
@@ -36296,19 +36296,19 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Calone",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/sea-notes.png"
         },
         {
           "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         },
         {
           "name": "Tarragon",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         }
       ],
       "middle": [
@@ -36318,11 +36318,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Saffron",
@@ -36330,7 +36330,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Bourbon Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         },
         {
           "name": "Cinnamon",
@@ -36421,7 +36421,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/freesia.png"
         },
         {
           "name": "Rose Water",
@@ -36433,21 +36433,21 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Calone",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/sea-notes.png"
         },
         {
           "name": "Cyclamen",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         }
       ],
       "middle": [
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Lily",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Water Peony",
@@ -36465,7 +36465,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Tuberose",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/tuberose.png"
         },
         {
           "name": "Exotic Woods",
@@ -36602,7 +36602,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Black Pepper",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Vetiver",
@@ -36681,7 +36681,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Elemi",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/elemi.png"
         }
       ],
       "middle": [
@@ -36691,7 +36691,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ambroxan",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambroxan.png"
         },
         {
           "name": "Virginian Cedar",
@@ -36784,7 +36784,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Hedione",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         }
       ],
       "base": [
@@ -36802,7 +36802,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Amberwood",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/amberwood.png"
         }
       ]
     },
@@ -36861,7 +36861,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Rose",
@@ -36869,7 +36869,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         }
       ],
       "base": [
@@ -36940,7 +36940,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Lemon",
@@ -36958,11 +36958,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         },
         {
           "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         },
         {
           "name": "Rosemary",
@@ -36970,13 +36970,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         }
       ],
       "base": [
         {
           "name": "Litchi",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/litchi.png"
         },
         {
           "name": "Tonka Bean",
@@ -37037,7 +37037,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Basil",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/basil.png"
         },
         {
           "name": "Bergamot",
@@ -37049,11 +37049,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Galbanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/galbanum.png"
         },
         {
           "name": "Caraway",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/caraway.png"
         },
         {
           "name": "Brazilian Rosewood",
@@ -37071,7 +37071,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         },
         {
           "name": "Patchouli",
@@ -37087,11 +37087,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         },
         {
           "name": "Labdanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/labdanum.png"
         },
         {
           "name": "Rose",
@@ -37121,11 +37121,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Styrax",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/styrax.png"
         },
         {
           "name": "Castoreum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/musk.png"
         },
         {
           "name": "Amber",
@@ -37141,7 +37141,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Coconut",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coconut.png"
         }
       ]
     },
@@ -37190,7 +37190,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Cloves",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/clove.png"
         }
       ],
       "middle": [
@@ -37206,7 +37206,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Praline",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         }
       ]
     },
@@ -37265,13 +37265,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Mineral Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/aldehydes.png"
         }
       ],
       "base": [
         {
           "name": "Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         }
       ]
     },
@@ -37320,7 +37320,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Pear",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/pear.png"
         },
         {
           "name": "Melon",
@@ -37330,7 +37330,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/freesia.png"
         },
         {
           "name": "Rose",
@@ -37348,7 +37348,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Rhuburb",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/rhubarb.png"
         },
         {
           "name": "Amber",
@@ -37401,13 +37401,13 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Davana",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ],
       "middle": [
         {
           "name": "Honeysuckle",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/honey.png"
         },
         {
           "name": "Rose",
@@ -37480,11 +37480,11 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Basil",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/basil.png"
         },
         {
           "name": "Thyme",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/thyme.png"
         },
         {
           "name": "Iris",
@@ -37492,7 +37492,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Lilac",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         }
       ],
       "base": [
@@ -37557,7 +37557,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Mimosa",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         }
       ],
       "base": [
@@ -37632,7 +37632,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Almond",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/almond.png"
         }
       ]
     },
@@ -37681,7 +37681,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Green Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Black Currant",
@@ -37689,13 +37689,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Petitgrain",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         }
       ],
       "middle": [
         {
           "name": "Nectarine",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/peach.png"
         },
         {
           "name": "Black Locust",
@@ -37709,7 +37709,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Plum",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/plum.png"
         },
         {
           "name": "Vetiver",
@@ -37762,21 +37762,21 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Tangerine Blossom",
-          "image": "assets/images/notes/orange.png"
+          "image": "assets/images/notes/mandarin.png"
         }
       ],
       "middle": [
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Lilac",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Water Lily",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         }
       ],
       "base": [
@@ -37835,15 +37835,15 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Pomegranate",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/pomegranate.png"
         },
         {
           "name": "Rhuburb",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/rhubarb.png"
         },
         {
           "name": "Plum",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/plum.png"
         },
         {
           "name": "Raspberry",
@@ -37857,7 +37857,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Clove",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/clove.png"
         },
         {
           "name": "Pink Pepper",
@@ -37873,7 +37873,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Opoponax",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/opoponax.png"
         },
         {
           "name": "Rose",
@@ -37885,7 +37885,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         }
       ],
       "base": [
@@ -37952,7 +37952,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Fig",
-          "image": "assets/images/notes/raspberry.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Violet",
@@ -37966,11 +37966,11 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Powdery Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/iris.png"
         },
         {
           "name": "Wheat",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/tea.png"
         },
         {
           "name": "Poppy",
@@ -38045,7 +38045,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Petitgrain",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         }
       ],
       "middle": [
@@ -38436,21 +38436,21 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         },
         {
           "name": "Anise",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/star-anise.png"
         },
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         }
       ],
       "middle": [
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         },
         {
           "name": "Carnation",
@@ -38639,7 +38639,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Tea",
-          "image": "assets/images/notes/cedarwood.png"
+          "image": "assets/images/notes/tea.png"
         },
         {
           "name": "Sea Water",
@@ -38647,11 +38647,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         },
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         },
         {
           "name": "Cardamom",
@@ -38744,7 +38744,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Tea",
-          "image": "assets/images/notes/cedarwood.png"
+          "image": "assets/images/notes/tea.png"
         },
         {
           "name": "Sea Water",
@@ -38752,11 +38752,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         },
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         },
         {
           "name": "Cardamom",
@@ -38835,11 +38835,11 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Star Anise",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/star-anise.png"
         },
         {
           "name": "Juniper Berries",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/juniper-berries.png"
         },
         {
           "name": "Mandarin Orange",
@@ -38859,17 +38859,17 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Basil",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/basil.png"
         }
       ],
       "middle": [
         {
           "name": "Ginger",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/ginger.png"
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Lotus",
@@ -38887,7 +38887,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         }
       ]
     },
@@ -39009,7 +39009,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Green Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Watery Notes",
@@ -39021,17 +39021,17 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ginger",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/ginger.png"
         }
       ],
       "middle": [
         {
           "name": "Coconut",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coconut.png"
         },
         {
           "name": "Fig",
-          "image": "assets/images/notes/raspberry.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Salt",
@@ -39094,7 +39094,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Pear",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/pear.png"
         }
       ],
       "middle": [
@@ -39169,11 +39169,11 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Lily",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ylang-ylang.png"
         },
         {
           "name": "Jasmine",
@@ -39270,11 +39270,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Caraway",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/caraway.png"
         }
       ],
       "base": [
@@ -39401,7 +39401,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Honey",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/honey.png"
         },
         {
           "name": "Gardenia",
@@ -39409,7 +39409,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Jasmine",
@@ -39423,7 +39423,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Beeswax",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/honey.png"
         },
         {
           "name": "Patchouli",
@@ -39431,11 +39431,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Caramel",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Licorice",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/star-anise.png"
         }
       ]
     },
@@ -39489,11 +39489,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Tuberose",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/tuberose.png"
         },
         {
           "name": "Milk",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/vanilla.png"
         },
         {
           "name": "Jasmine Sambac",
@@ -39501,7 +39501,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         }
       ],
       "base": []
@@ -39551,7 +39551,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Pear",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/pear.png"
         },
         {
           "name": "Lavender",
@@ -39577,11 +39577,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Clary Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         },
         {
           "name": "Caraway",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/caraway.png"
         }
       ],
       "base": [
@@ -39656,7 +39656,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ginger",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/ginger.png"
         },
         {
           "name": "Cypress",
@@ -39666,7 +39666,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Coconut",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coconut.png"
         },
         {
           "name": "Woodsy Notes",
@@ -39688,7 +39688,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         }
       ]
     },
@@ -39763,11 +39763,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Caraway",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/caraway.png"
         }
       ],
       "base": [
@@ -39852,13 +39852,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         }
       ],
       "base": [
         {
           "name": "Honey",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/honey.png"
         },
         {
           "name": "Tonka Bean",
@@ -39929,7 +39929,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Grass",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Woody Notes",
@@ -39937,13 +39937,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Masala Chai",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/tea.png"
         }
       ],
       "base": [
         {
           "name": "Herbal Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Rose",
@@ -40010,7 +40010,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Grass",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Woody Notes",
@@ -40018,13 +40018,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Masala Chai",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/tea.png"
         }
       ],
       "base": [
         {
           "name": "Herbal Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Rose",
@@ -40077,7 +40077,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Aldehydes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/aldehydes.png"
         },
         {
           "name": "Bergamot",
@@ -40091,7 +40091,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         },
         {
           "name": "Jasmine",
@@ -40228,17 +40228,17 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Thyme",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/thyme.png"
         }
       ],
       "middle": [
         {
           "name": "Cloves",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/clove.png"
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         }
       ],
       "base": [
@@ -40293,7 +40293,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Mango",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/mango.png"
         },
         {
           "name": "Peach",
@@ -40307,7 +40307,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Frangipani",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Tiare Flower",
@@ -40315,7 +40315,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ylang-ylang.png"
         }
       ],
       "base": [
@@ -40325,7 +40325,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Vanille",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/vanilla.png"
         },
         {
           "name": "Sandalwood",
@@ -40428,7 +40428,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Herbal Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ],
       "middle": [
@@ -40603,7 +40603,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Spicy Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cardamom.png"
         },
         {
           "name": "Lavender",
@@ -40674,7 +40674,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Hawthorn",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Black Currant",
@@ -40696,7 +40696,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Opoponax",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/opoponax.png"
         },
         {
           "name": "Jasmine",
@@ -41003,7 +41003,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Brown Sugar",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Tonka Bean",
@@ -41017,7 +41017,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Amberwood",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/amberwood.png"
         },
         {
           "name": "Musk",
@@ -41084,7 +41084,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ylang-ylang.png"
         },
         {
           "name": "Banana",
@@ -41094,7 +41094,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Coconut Milk",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coconut.png"
         }
       ]
     },
@@ -41147,13 +41147,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Pear",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/pear.png"
         }
       ],
       "middle": [
         {
           "name": "Coconut",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coconut.png"
         },
         {
           "name": "Jasmine",
@@ -41216,11 +41216,11 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Pistachio",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/almond.png"
         },
         {
           "name": "Ice Cream",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/vanilla.png"
         },
         {
           "name": "Bergamot",
@@ -41228,11 +41228,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Hazelnut",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/almond.png"
         },
         {
           "name": "Rum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/rum.png"
         },
         {
           "name": "Cardamom",
@@ -41242,15 +41242,15 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Pear",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/pear.png"
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         },
         {
           "name": "Jasmine",
@@ -41268,15 +41268,15 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Whipped Cream",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/vanilla.png"
         },
         {
           "name": "Marshmallow",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Cotton Candy",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Tonka Bean",
@@ -41357,7 +41357,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Litchi",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/litchi.png"
         }
       ],
       "middle": [
@@ -41381,7 +41381,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Sugar",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Vanilla",
@@ -41450,15 +41450,15 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Pear",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/pear.png"
         },
         {
           "name": "Marshmallow",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Rum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/rum.png"
         },
         {
           "name": "Violet Leaves",
@@ -41466,13 +41466,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ylang-ylang.png"
         }
       ],
       "middle": [
         {
           "name": "Bubble Gum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/styrax.png"
         },
         {
           "name": "Jellybean",
@@ -41480,7 +41480,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Caramel",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Jasmine",
@@ -41488,13 +41488,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Labdanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/labdanum.png"
         }
       ],
       "base": [
         {
           "name": "Sugar",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Patchouli",
@@ -41502,7 +41502,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Tonka",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/tonka-bean.png"
         },
         {
           "name": "Cashmere Wood",
@@ -41563,7 +41563,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Litchi",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/litchi.png"
         },
         {
           "name": "Black Currant",
@@ -41595,7 +41595,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Sugar",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Vanilla Absolute",
@@ -41664,11 +41664,11 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Pistachio",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/almond.png"
         },
         {
           "name": "Ice Cream",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/vanilla.png"
         },
         {
           "name": "Bergamot",
@@ -41676,11 +41676,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Hazelnut",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/almond.png"
         },
         {
           "name": "Rum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/rum.png"
         },
         {
           "name": "Cardamom",
@@ -41690,11 +41690,11 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Pear",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/pear.png"
         },
         {
           "name": "Jasmine",
@@ -41706,7 +41706,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         },
         {
           "name": "Raspberry",
@@ -41720,15 +41720,15 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Whipped Cream",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/vanilla.png"
         },
         {
           "name": "Marshmallow",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Cotton Candy",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Tonka Bean",
@@ -41744,7 +41744,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Cacao",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cacao.png"
         },
         {
           "name": "Cedar",
@@ -41797,25 +41797,25 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         },
         {
           "name": "Aldehydes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/aldehydes.png"
         },
         {
           "name": "Cardamon",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cardamom.png"
         }
       ],
       "middle": [
         {
           "name": "Rhubarb",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/rhubarb.png"
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Pink Rose",
@@ -41825,11 +41825,11 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Ambroxan",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambroxan.png"
         },
         {
           "name": "Oak Moss",
-          "image": "assets/images/notes/oakmoss.png"
+          "image": "assets/images/notes/cedarwood.png"
         },
         {
           "name": "Sandalwood",
@@ -41882,7 +41882,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Cognac",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/rum.png"
         }
       ],
       "middle": [
@@ -41896,13 +41896,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Oak",
-          "image": "assets/images/notes/oakmoss.png"
+          "image": "assets/images/notes/cedarwood.png"
         }
       ],
       "base": [
         {
           "name": "Praline",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Vanilla",
@@ -41959,7 +41959,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Rum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/rum.png"
         },
         {
           "name": "Dried Fruits",
@@ -41973,7 +41973,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         },
         {
           "name": "Jasmine",
@@ -42050,7 +42050,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         },
         {
           "name": "Cinnamon",
@@ -42068,7 +42068,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Caramel",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Mocha",
@@ -42122,15 +42122,15 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Dark Chocolate",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/cacao.png"
         },
         {
           "name": "Rum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/rum.png"
         },
         {
           "name": "Caramel",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Coffee",
@@ -42138,11 +42138,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Sugar Cane",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Almond",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/almond.png"
         },
         {
           "name": "Sandalwood",
@@ -42214,11 +42214,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Rum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/rum.png"
         },
         {
           "name": "Brandy",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/rum.png"
         },
         {
           "name": "Pineapple",
@@ -42236,7 +42236,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Ambroxan",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambroxan.png"
         },
         {
           "name": "Cedar",
@@ -42303,11 +42303,11 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Indian Tuberose",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/tuberose.png"
         },
         {
           "name": "Narcissus",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         }
       ],
       "base": [
@@ -42550,7 +42550,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Narcissus",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Datura",
@@ -42562,7 +42562,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Plum",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/plum.png"
         },
         {
           "name": "Himalayan Poppy",
@@ -42582,13 +42582,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Green Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ],
       "middle": [
         {
           "name": "Mimosa",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Vanilla Flower",
@@ -42596,15 +42596,15 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Tuberose",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/tuberose.png"
         },
         {
           "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ylang-ylang.png"
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Jasmine",
@@ -42612,7 +42612,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/freesia.png"
         },
         {
           "name": "Heliotrope",
@@ -42634,7 +42634,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Amber",
@@ -42709,7 +42709,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Praline",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         }
       ],
       "base": [
@@ -42772,7 +42772,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Pear",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/pear.png"
         }
       ],
       "middle": [
@@ -42786,13 +42786,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         }
       ],
       "base": [
         {
           "name": "Praline",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Vanilla",
@@ -42867,11 +42867,11 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ylang-ylang.png"
         },
         {
           "name": "Tuberose",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/tuberose.png"
         }
       ],
       "base": [
@@ -42952,11 +42952,11 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ylang-ylang.png"
         },
         {
           "name": "Tuberose",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/tuberose.png"
         }
       ],
       "base": [
@@ -43041,7 +43041,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         },
         {
           "name": "Camphor",
@@ -43049,7 +43049,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Clove",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/clove.png"
         }
       ],
       "base": [
@@ -43063,7 +43063,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Coumarin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/tonka-bean.png"
         }
       ]
     },
@@ -43208,7 +43208,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         },
         {
           "name": "Bergamot",
@@ -43218,15 +43218,15 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Dates",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Praline",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Tuberose",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/tuberose.png"
         },
         {
           "name": "Mahonial",
@@ -43244,11 +43244,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         },
         {
           "name": "Amberwood",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/amberwood.png"
         },
         {
           "name": "Myrrh",
@@ -43509,7 +43509,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Butterscotch",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Vanilla",
@@ -43612,11 +43612,11 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Pistachio",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/almond.png"
         },
         {
           "name": "Hazelnut",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/almond.png"
         },
         {
           "name": "Black Currant",
@@ -43638,7 +43638,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Lily Of The Valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         }
       ],
       "base": [
@@ -43715,11 +43715,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Plum",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/plum.png"
         },
         {
           "name": "Liquor",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/rum.png"
         }
       ],
       "base": [
@@ -43733,7 +43733,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         }
       ]
     },
@@ -43782,11 +43782,11 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Caramel",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Bitter Almond",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/almond.png"
         },
         {
           "name": "Pink Pepper",
@@ -43800,11 +43800,11 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Honey",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/honey.png"
         },
         {
           "name": "Rhubarb",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/rhubarb.png"
         },
         {
           "name": "White Flowers",
@@ -43834,7 +43834,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Labdanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/labdanum.png"
         }
       ]
     },
@@ -43883,21 +43883,21 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Caramel",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Sugar",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Milk",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/vanilla.png"
         }
       ],
       "middle": [
         {
           "name": "Honey",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/honey.png"
         },
         {
           "name": "White Flowers",
@@ -43911,7 +43911,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Praline",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Musk",
@@ -43968,11 +43968,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orchid",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Tangerine",
-          "image": "assets/images/notes/orange.png"
+          "image": "assets/images/notes/mandarin.png"
         }
       ],
       "middle": [
@@ -44049,11 +44049,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orchid",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Tangerine",
-          "image": "assets/images/notes/orange.png"
+          "image": "assets/images/notes/mandarin.png"
         }
       ],
       "middle": [
@@ -44126,7 +44126,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Black Pepper",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Tobacco",
@@ -44166,11 +44166,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         },
         {
           "name": "Labdanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/labdanum.png"
         }
       ]
     },
@@ -44219,7 +44219,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Black Pepper",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Tobacco",
@@ -44259,11 +44259,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         },
         {
           "name": "Labdanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/labdanum.png"
         }
       ]
     },
@@ -44397,7 +44397,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ginger",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/ginger.png"
         }
       ],
       "middle": [
@@ -44407,15 +44407,15 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         },
         {
           "name": "Juniper Berries",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/juniper-berries.png"
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         }
       ],
       "base": [
@@ -44425,7 +44425,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Amberwood",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/amberwood.png"
         },
         {
           "name": "Cedar",
@@ -44486,11 +44486,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orchid",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Tangerine",
-          "image": "assets/images/notes/orange.png"
+          "image": "assets/images/notes/mandarin.png"
         }
       ],
       "middle": [
@@ -44577,7 +44577,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Balsam Fir",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cedarwood.png"
         }
       ],
       "base": [
@@ -44648,7 +44648,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Pear",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/pear.png"
         },
         {
           "name": "Sweet Orange",
@@ -44670,7 +44670,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         }
       ],
       "base": [
@@ -44745,7 +44745,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Pimento",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/pimento.png"
         }
       ],
       "middle": [
@@ -44755,7 +44755,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Caramel",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Floral Notes",
@@ -44773,7 +44773,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Resins",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/styrax.png"
         },
         {
           "name": "Amber",
@@ -44842,7 +44842,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         }
       ],
       "middle": [
@@ -44927,7 +44927,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         },
         {
           "name": "Pink Pepper",
@@ -44937,7 +44937,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Plum",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/plum.png"
         },
         {
           "name": "Jasmine",
@@ -44945,7 +44945,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Black Pepper",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/black-pepper.png"
         }
       ],
       "base": [
@@ -45036,7 +45036,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         },
         {
           "name": "Leather",
@@ -45101,7 +45101,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Sugar",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         }
       ],
       "middle": [
@@ -45192,7 +45192,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Red Lily",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         }
       ],
       "base": [
@@ -45255,7 +45255,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Black Pepper",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Pink Pepper",
@@ -45269,19 +45269,19 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Rhubarb",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/rhubarb.png"
         },
         {
           "name": "Cade Oil",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/smoke.png"
         },
         {
           "name": "Labdanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/labdanum.png"
         },
         {
           "name": "Gurjan Balsam",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/styrax.png"
         }
       ],
       "base": [
@@ -45356,7 +45356,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Black Pepper",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Tobacco",
@@ -45396,11 +45396,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         },
         {
           "name": "Labdanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/labdanum.png"
         }
       ]
     },
@@ -45453,7 +45453,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         },
         {
           "name": "Lavender",
@@ -45625,7 +45625,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Pear",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/pear.png"
         }
       ],
       "base": [
@@ -45728,7 +45728,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         },
         {
           "name": "Vanilla",
@@ -45785,7 +45785,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         },
         {
           "name": "Bergamot",
@@ -45795,15 +45795,15 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Dates",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Praline",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Tuberose",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/tuberose.png"
         },
         {
           "name": "Mahonial",
@@ -45821,11 +45821,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         },
         {
           "name": "Amberwood",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/amberwood.png"
         },
         {
           "name": "Myrrh",
@@ -45886,7 +45886,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         },
         {
           "name": "Bergamot",
@@ -45896,15 +45896,15 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Dates",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Praline",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Tuberose",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/tuberose.png"
         },
         {
           "name": "Mahonial",
@@ -45922,11 +45922,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         },
         {
           "name": "Amberwood",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/amberwood.png"
         },
         {
           "name": "Myrrh",
@@ -46088,7 +46088,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Honey",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/honey.png"
         },
         {
           "name": "Cinnamon",
@@ -46106,7 +46106,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         }
       ],
       "base": [
@@ -46116,7 +46116,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ambroxan",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambroxan.png"
         },
         {
           "name": "Ambrette (musk Mallow)",
@@ -46173,17 +46173,17 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Galbanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/galbanum.png"
         }
       ],
       "middle": [
         {
           "name": "Ginger",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/ginger.png"
         },
         {
           "name": "Solar Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/aldehydes.png"
         }
       ],
       "base": [
@@ -46256,11 +46256,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Cyclamen",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Narcissus",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Jasmine Sambac",
@@ -46282,7 +46282,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         }
       ]
     },
@@ -46331,7 +46331,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         }
       ],
       "middle": [
@@ -46416,7 +46416,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         }
       ],
       "middle": [
@@ -46426,11 +46426,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Basil",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/basil.png"
         },
         {
           "name": "Carrot Seeds",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         },
         {
           "name": "May Rose",
@@ -46440,15 +46440,15 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Fig",
-          "image": "assets/images/notes/raspberry.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Dates",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Ambrette",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/musk.png"
         }
       ]
     },
@@ -46501,7 +46501,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Green Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Black Currant",
@@ -46537,7 +46537,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Pepper",
-          "image": "assets/images/notes/mint.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Orris Root",
@@ -46598,7 +46598,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ginger",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/ginger.png"
         },
         {
           "name": "Bergamot",
@@ -46612,7 +46612,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         },
         {
           "name": "Rosemary",
@@ -46620,13 +46620,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         }
       ],
       "base": [
         {
           "name": "Ambroxan",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambroxan.png"
         },
         {
           "name": "Amber",
@@ -46634,7 +46634,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Labdanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/labdanum.png"
         }
       ]
     },
@@ -46711,15 +46711,15 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         },
         {
           "name": "Amberwood",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/amberwood.png"
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         }
       ]
     },
@@ -46796,15 +46796,15 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         },
         {
           "name": "Amberwood",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/amberwood.png"
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         }
       ]
     },
@@ -46875,11 +46875,11 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Green Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Jasmine Sambac",
@@ -46891,7 +46891,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Magnolia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/magnolia.png"
         },
         {
           "name": "Peony",
@@ -46909,7 +46909,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Iso E Super",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cedarwood.png"
         },
         {
           "name": "Vanillin",
@@ -46974,7 +46974,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Blood Mandarin",
-          "image": "assets/images/notes/orange.png"
+          "image": "assets/images/notes/mandarin.png"
         },
         {
           "name": "Bergamot",
@@ -46994,7 +46994,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Powdery Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/iris.png"
         },
         {
           "name": "Musk",
@@ -47051,11 +47051,11 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Pear",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/pear.png"
         },
         {
           "name": "Cascalone",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/sea-notes.png"
         },
         {
           "name": "Ambrette (musk Mallow)",
@@ -47069,11 +47069,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Narcissus",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ylang-ylang.png"
         }
       ],
       "base": [
@@ -47150,7 +47150,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Nigerian Ginger",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/juniper-berries.png"
         },
         {
           "name": "Ceylon Cinnamon",
@@ -47160,11 +47160,11 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Chinese Black Tea",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/tea.png"
         },
         {
           "name": "Ambroxan",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambroxan.png"
         },
         {
           "name": "Guaiac Wood",
@@ -47227,11 +47227,11 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Pear",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/pear.png"
         },
         {
           "name": "Ambrette",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/musk.png"
         }
       ],
       "base": [
@@ -47241,7 +47241,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         }
       ]
     },
@@ -47304,13 +47304,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         }
       ],
       "base": [
         {
           "name": "Black Pepper",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Saffron",
@@ -47371,7 +47371,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Papyrus",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ],
       "middle": [
@@ -47444,7 +47444,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Juniper Berries",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/juniper-berries.png"
         },
         {
           "name": "Pink Pepper",
@@ -47458,11 +47458,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Mate",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/tea.png"
         },
         {
           "name": "Clary Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         }
       ],
       "base": [
@@ -47575,11 +47575,11 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Hibiscus",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/rose.png"
         },
         {
           "name": "Cassis",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/black-currant.png"
         },
         {
           "name": "Mint",
@@ -47962,15 +47962,15 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Oak Moss",
-          "image": "assets/images/notes/oakmoss.png"
+          "image": "assets/images/notes/cedarwood.png"
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         },
         {
           "name": "Coumarin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/tonka-bean.png"
         },
         {
           "name": "Rose",
@@ -48051,11 +48051,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Clary Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         },
         {
           "name": "Juniper Berries",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/juniper-berries.png"
         }
       ],
       "base": [
@@ -48065,7 +48065,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Mahogany",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cedarwood.png"
         },
         {
           "name": "Tonka Bean",
@@ -48130,7 +48130,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Juniper Berries",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/juniper-berries.png"
         },
         {
           "name": "Mint",
@@ -48150,13 +48150,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         }
       ],
       "middle": [
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Violet",
@@ -48168,7 +48168,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         }
       ],
       "base": [
@@ -48186,7 +48186,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Dark Chocolate",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/cacao.png"
         },
         {
           "name": "Musk",
@@ -48255,7 +48255,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Bamboo",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Bergamot",
@@ -48283,15 +48283,15 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Ginger",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/ginger.png"
         },
         {
           "name": "Fir Resin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/styrax.png"
         },
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         },
         {
           "name": "Amber",
@@ -48352,7 +48352,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Clary Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         }
       ],
       "middle": [
@@ -48368,7 +48368,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Ambroxan",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambroxan.png"
         },
         {
           "name": "Akigalawood",
@@ -48380,7 +48380,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Cacao Pod",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cacao.png"
         }
       ]
     },
@@ -48429,7 +48429,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Clary Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         },
         {
           "name": "Grapefruit",
@@ -48524,7 +48524,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Pomegranate",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/pomegranate.png"
         }
       ],
       "base": [
@@ -49224,7 +49224,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Italian Mandarin",
-          "image": "assets/images/notes/orange.png"
+          "image": "assets/images/notes/mandarin.png"
         },
         {
           "name": "Saffron",
@@ -49252,7 +49252,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Mineral Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/aldehydes.png"
         },
         {
           "name": "Suede",
@@ -49337,7 +49337,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Powdery Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/iris.png"
         },
         {
           "name": "Amber",
@@ -49487,7 +49487,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Sugar Cane",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Amber",
@@ -49552,11 +49552,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Fig",
-          "image": "assets/images/notes/raspberry.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Pear",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/pear.png"
         },
         {
           "name": "Sicilian Orange",
@@ -49584,7 +49584,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Grapes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/raspberry.png"
         },
         {
           "name": "Madagascar Vanilla",
@@ -49655,7 +49655,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "French Labdanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/labdanum.png"
         },
         {
           "name": "Patchouli",
@@ -49799,7 +49799,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Vanila",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/vanilla.png"
         },
         {
           "name": "White Musk",
@@ -49949,7 +49949,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Honey",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/honey.png"
         },
         {
           "name": "Oud",
@@ -50034,7 +50034,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         }
       ],
       "middle": [
@@ -50107,15 +50107,15 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Pear",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/pear.png"
         },
         {
           "name": "Indonesian Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         },
         {
           "name": "Elemi",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/elemi.png"
         },
         {
           "name": "Bergamot",
@@ -50129,11 +50129,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Clove",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/clove.png"
         },
         {
           "name": "Magnolia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/magnolia.png"
         },
         {
           "name": "Flax",
@@ -50418,7 +50418,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         }
       ],
       "base": [
@@ -50436,7 +50436,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Labdanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/labdanum.png"
         },
         {
           "name": "Vanilla",
@@ -50489,7 +50489,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Cloves",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/clove.png"
         },
         {
           "name": "Pink Pepper",
@@ -50497,13 +50497,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         }
       ],
       "middle": [
         {
           "name": "Chestnut",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/almond.png"
         },
         {
           "name": "Guaiac Wood",
@@ -50511,7 +50511,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Juniper",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/juniper-berries.png"
         }
       ],
       "base": [
@@ -50521,7 +50521,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Peru Balsam",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/styrax.png"
         },
         {
           "name": "Cashmeran",
@@ -50596,7 +50596,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Magnolia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/magnolia.png"
         }
       ],
       "base": [
@@ -50672,7 +50672,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         },
         {
           "name": "Violet",
@@ -50731,7 +50731,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Siam Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         },
         {
           "name": "Vanilla",
@@ -50743,7 +50743,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Spanish Labdanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/labdanum.png"
         }
       ],
       "base": []
@@ -50803,17 +50803,17 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Amberwood",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/amberwood.png"
         },
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         }
       ],
       "base": [
         {
           "name": "Fir Resin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/styrax.png"
         },
         {
           "name": "Cedar",
@@ -50876,17 +50876,17 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Amberwood",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/amberwood.png"
         },
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         }
       ],
       "base": [
         {
           "name": "Fir Resin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/styrax.png"
         },
         {
           "name": "Cedar",
@@ -50943,11 +50943,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ginger",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/ginger.png"
         },
         {
           "name": "Sicilian Mandarin",
-          "image": "assets/images/notes/orange.png"
+          "image": "assets/images/notes/mandarin.png"
         },
         {
           "name": "Sicilian Bergamot",
@@ -50957,7 +50957,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Amberwood",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/amberwood.png"
         },
         {
           "name": "Moroccan Rose",
@@ -51050,7 +51050,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Sugar",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         }
       ],
       "base": [
@@ -51060,7 +51060,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Sugar",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "White Musk",
@@ -51125,7 +51125,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Coconut",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coconut.png"
         },
         {
           "name": "Calabrian Bergamot",
@@ -51214,7 +51214,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Spicy Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cardamom.png"
         }
       ],
       "middle": [
@@ -51311,17 +51311,17 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Tangerine",
-          "image": "assets/images/notes/orange.png"
+          "image": "assets/images/notes/mandarin.png"
         },
         {
           "name": "Wild Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         }
       ],
       "middle": [
         {
           "name": "Black Pepper",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Damask Rose",
@@ -51347,11 +51347,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         },
         {
           "name": "Labdanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/labdanum.png"
         }
       ]
     },
@@ -51416,7 +51416,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         },
         {
           "name": "Green Apple",
@@ -51424,7 +51424,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "White Pear",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/pear.png"
         }
       ],
       "middle": [
@@ -51809,7 +51809,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         },
         {
           "name": "Woodsy Notes",
@@ -51817,7 +51817,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ambroxan",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambroxan.png"
         }
       ]
     },
@@ -52096,7 +52096,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Ginger",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/ginger.png"
         },
         {
           "name": "Bergamot",
@@ -52108,7 +52108,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Green Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ],
       "middle": [
@@ -52136,7 +52136,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         },
         {
           "name": "Cedar",
@@ -52148,7 +52148,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         },
         {
           "name": "Musk",
@@ -52201,7 +52201,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Grapes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/raspberry.png"
         },
         {
           "name": "Pineapple",
@@ -52209,7 +52209,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Herbal Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ],
       "middle": [
@@ -52290,7 +52290,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Anise",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/star-anise.png"
         },
         {
           "name": "Bergamot",
@@ -52298,7 +52298,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Pepper",
-          "image": "assets/images/notes/mint.png"
+          "image": "assets/images/notes/black-pepper.png"
         }
       ],
       "middle": [
@@ -52533,7 +52533,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "African Orange Flower",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Osmanthus",
@@ -52561,7 +52561,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Vanille",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/vanilla.png"
         },
         {
           "name": "Patchouli",
@@ -52618,7 +52618,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         }
       ],
       "middle": [
@@ -52695,7 +52695,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Green Leaves",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ],
       "middle": [
@@ -52705,7 +52705,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Mimosa",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         }
       ],
       "base": [
@@ -52776,7 +52776,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Green Leaves",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ],
       "middle": [
@@ -52786,7 +52786,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Mimosa",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         }
       ],
       "base": [
@@ -52867,11 +52867,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Calone",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/sea-notes.png"
         },
         {
           "name": "Hedione",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         }
       ],
       "base": [
@@ -52881,7 +52881,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ambroxan",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambroxan.png"
         },
         {
           "name": "Cedar",
@@ -53362,7 +53362,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Sugar",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         }
       ],
       "base": [
@@ -53376,7 +53376,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Herbal Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ]
     },
@@ -53517,7 +53517,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Black Pepper",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Bitter Orange",
@@ -53840,7 +53840,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         },
         {
           "name": "Lavender",
@@ -53917,7 +53917,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Labdanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/labdanum.png"
         }
       ],
       "middle": [
@@ -54048,7 +54048,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Pimento",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/pimento.png"
         }
       ],
       "middle": [
@@ -54058,7 +54058,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Caramel",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Floral Notes",
@@ -54072,7 +54072,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Resins",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/styrax.png"
         },
         {
           "name": "Amber",
@@ -54147,7 +54147,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Spicy Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cardamom.png"
         },
         {
           "name": "Amber",
@@ -54981,7 +54981,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Anise",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/star-anise.png"
         }
       ],
       "middle": [
@@ -55005,7 +55005,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Honey",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/honey.png"
         },
         {
           "name": "Musk",
@@ -55242,7 +55242,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Spicy Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cardamom.png"
         },
         {
           "name": "Bergamot",
@@ -55250,7 +55250,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         }
       ],
       "middle": [
@@ -55264,7 +55264,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Black Pepper",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/black-pepper.png"
         }
       ],
       "base": [
@@ -56095,7 +56095,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Black Pepper",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Neroli",
@@ -56119,7 +56119,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Vanille",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/vanilla.png"
         },
         {
           "name": "Cashmere Wood",
@@ -56172,7 +56172,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Mango",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/mango.png"
         },
         {
           "name": "Bergamot",
@@ -56245,7 +56245,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Blood Mandarin",
-          "image": "assets/images/notes/orange.png"
+          "image": "assets/images/notes/mandarin.png"
         },
         {
           "name": "Grapefruit",
@@ -56263,7 +56263,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Spicy Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cardamom.png"
         },
         {
           "name": "Rose",
@@ -56338,7 +56338,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Davana",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ],
       "middle": [
@@ -56415,11 +56415,11 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         },
         {
           "name": "Black Pepper",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Saffron",
@@ -56437,7 +56437,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Gurjan Balsam",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/styrax.png"
         },
         {
           "name": "Cedarwood",
@@ -56445,7 +56445,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Labdanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/labdanum.png"
         }
       ],
       "base": [
@@ -56512,11 +56512,11 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Plum",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/plum.png"
         },
         {
           "name": "Ozonic Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/aldehydes.png"
         },
         {
           "name": "Grapefruit",
@@ -56530,11 +56530,11 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Hazelnut",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/almond.png"
         },
         {
           "name": "Honey",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/honey.png"
         },
         {
           "name": "Cedarwood",
@@ -56550,13 +56550,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         }
       ],
       "base": [
         {
           "name": "Amberwood",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/amberwood.png"
         },
         {
           "name": "Patchouli",
@@ -56621,7 +56621,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Blood Mandarin",
-          "image": "assets/images/notes/orange.png"
+          "image": "assets/images/notes/mandarin.png"
         }
       ],
       "middle": [
@@ -56694,7 +56694,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Tangerine",
-          "image": "assets/images/notes/orange.png"
+          "image": "assets/images/notes/mandarin.png"
         },
         {
           "name": "Bergamot",
@@ -56708,7 +56708,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         },
         {
           "name": "Violet Leaf",
@@ -56718,7 +56718,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         },
         {
           "name": "Cedarwood",
@@ -56779,7 +56779,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Pine",
-          "image": "assets/images/notes/pineapple.png"
+          "image": "assets/images/notes/cedarwood.png"
         },
         {
           "name": "Mandarin Orange",
@@ -56787,13 +56787,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         }
       ],
       "middle": [
         {
           "name": "Tea",
-          "image": "assets/images/notes/cedarwood.png"
+          "image": "assets/images/notes/tea.png"
         },
         {
           "name": "Lavender",
@@ -56805,7 +56805,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Cyclamen",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         }
       ],
       "base": [
@@ -56886,7 +56886,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Bay Leaf",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Jasmine",
@@ -56896,7 +56896,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         },
         {
           "name": "Guaiac Wood",
@@ -56957,7 +56957,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Absinthe",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/wormwood.png"
         },
         {
           "name": "Grapefruit",
@@ -57038,7 +57038,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Black Pepper",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/black-pepper.png"
         }
       ],
       "middle": [
@@ -57131,11 +57131,11 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         },
         {
           "name": "Amberwood",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/amberwood.png"
         },
         {
           "name": "Guaiac Wood",
@@ -57188,7 +57188,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Plum",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/plum.png"
         },
         {
           "name": "Apricot",
@@ -57206,7 +57206,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ginger Flower",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/juniper-berries.png"
         }
       ],
       "base": [
@@ -57224,7 +57224,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Sand",
-          "image": "assets/images/notes/sandalwood.png"
+          "image": "assets/images/notes/amber.png"
         }
       ]
     },
@@ -57368,7 +57368,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Earthy Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/vetiver.png"
         },
         {
           "name": "Apple",
@@ -57376,7 +57376,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Smoke",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/smoke.png"
         },
         {
           "name": "Patchouli",
@@ -57447,13 +57447,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         }
       ],
       "middle": [
         {
           "name": "Praline",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Cinnamon",
@@ -57461,7 +57461,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Tolu Balsam",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/styrax.png"
         },
         {
           "name": "Black Cardamom",
@@ -57546,7 +57546,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "African Orange Flower",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Gardenia",
@@ -57556,7 +57556,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "White Honey",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/honey.png"
         },
         {
           "name": "Patchouli",
@@ -57623,11 +57623,11 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         }
       ],
       "base": [
@@ -57751,11 +57751,11 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Pear",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/pear.png"
         },
         {
           "name": "Tangerine",
-          "image": "assets/images/notes/orange.png"
+          "image": "assets/images/notes/mandarin.png"
         },
         {
           "name": "Calabrian Bergamot",
@@ -57765,7 +57765,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Neroli Essence",
@@ -57795,7 +57795,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         }
       ]
     },
@@ -57848,7 +57848,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Black Pepper",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Cardamom",
@@ -57856,7 +57856,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Carrot Seeds",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         }
       ],
       "middle": [
@@ -57870,11 +57870,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         },
         {
           "name": "Mate",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/tea.png"
         }
       ],
       "base": [
@@ -57941,7 +57941,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Frangipani",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Mandarin Orange",
@@ -57951,11 +57951,11 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Tuberose",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/tuberose.png"
         },
         {
           "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ylang-ylang.png"
         }
       ],
       "base": [
@@ -58010,13 +58010,13 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Caramel",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         }
       ],
       "middle": [
         {
           "name": "Powdery Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/iris.png"
         },
         {
           "name": "Musk",
@@ -58026,7 +58026,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         },
         {
           "name": "Vanilla",
@@ -58079,11 +58079,11 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Juniper Berries",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/juniper-berries.png"
         },
         {
           "name": "Ginger",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/ginger.png"
         }
       ],
       "middle": [
@@ -58162,7 +58162,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Clary Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         }
       ],
       "base": [
@@ -58172,7 +58172,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ambroxan",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambroxan.png"
         }
       ]
     },
@@ -58233,7 +58233,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Labdanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/labdanum.png"
         }
       ]
     },
@@ -58547,7 +58547,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Aldehydes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/aldehydes.png"
         },
         {
           "name": "White Peach",
@@ -58565,7 +58565,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Petalia",
@@ -58573,7 +58573,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Vetiver",
@@ -58595,7 +58595,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ambroxan",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambroxan.png"
         },
         {
           "name": "Akigalawood",
@@ -58660,7 +58660,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Bergamot",
@@ -58674,13 +58674,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Elemi",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/elemi.png"
         }
       ],
       "base": [
         {
           "name": "Praline",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Musk",
@@ -58688,7 +58688,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ambroxan",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambroxan.png"
         },
         {
           "name": "Guaiac Wood",
@@ -58759,11 +58759,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Green Mandarin",
-          "image": "assets/images/notes/orange.png"
+          "image": "assets/images/notes/mandarin.png"
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         }
       ],
       "base": [
@@ -58773,7 +58773,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         },
         {
           "name": "Cashmere Wood",
@@ -58826,11 +58826,11 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Litchi",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/litchi.png"
         },
         {
           "name": "Rhubarb",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/rhubarb.png"
         },
         {
           "name": "Bergamot",
@@ -58838,7 +58838,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         }
       ],
       "middle": [
@@ -58927,11 +58927,11 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Litchi",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/litchi.png"
         },
         {
           "name": "Pear",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/pear.png"
         },
         {
           "name": "Bergamot",
@@ -59030,7 +59030,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         },
         {
           "name": "Violet",
@@ -59056,7 +59056,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Pepper",
-          "image": "assets/images/notes/mint.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Patchouli",
@@ -59117,7 +59117,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Pepper",
-          "image": "assets/images/notes/mint.png"
+          "image": "assets/images/notes/black-pepper.png"
         }
       ],
       "middle": [
@@ -59135,7 +59135,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Labdanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/labdanum.png"
         }
       ],
       "base": [
@@ -59145,7 +59145,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Iso E Super",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cedarwood.png"
         },
         {
           "name": "Musk",
@@ -59157,7 +59157,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Cypriol Oil Or Nagarmotha",
-          "image": "assets/images/notes/oud.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Vetiver",
@@ -59222,13 +59222,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         }
       ],
       "middle": [
         {
           "name": "Hedione",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Violet",
@@ -59240,7 +59240,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         },
         {
           "name": "Cinnamon",
@@ -59250,11 +59250,11 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Ambroxan",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambroxan.png"
         },
         {
           "name": "Amberwood",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/amberwood.png"
         },
         {
           "name": "Musk",
@@ -59262,7 +59262,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Balsam Fir",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cedarwood.png"
         },
         {
           "name": "Clearwood",
@@ -59319,7 +59319,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Cumin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cumin.png"
         },
         {
           "name": "Bergamot",
@@ -59329,7 +59329,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Bitter Almond",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/almond.png"
         },
         {
           "name": "Lavender",
@@ -59430,7 +59430,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         },
         {
           "name": "Olibanum",
@@ -59440,7 +59440,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Ambroxan",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambroxan.png"
         },
         {
           "name": "Sandalowood",
@@ -59517,11 +59517,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Mate",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/tea.png"
         },
         {
           "name": "Thyme",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/thyme.png"
         },
         {
           "name": "Cypress",
@@ -59529,7 +59529,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Green Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ],
       "middle": [
@@ -59569,7 +59569,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Vanille",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/vanilla.png"
         }
       ]
     },
@@ -59648,7 +59648,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         },
         {
           "name": "Jasmine",
@@ -59873,7 +59873,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Plum",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/plum.png"
         },
         {
           "name": "Peach",
@@ -59881,11 +59881,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Mirabelle",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/plum.png"
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Raspberry",
@@ -59895,7 +59895,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Honey",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/honey.png"
         },
         {
           "name": "Carnation",
@@ -59903,11 +59903,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Tuberose",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/tuberose.png"
         },
         {
           "name": "Marigold",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Jasmine",
@@ -59933,7 +59933,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         },
         {
           "name": "Sandalwood",
@@ -59998,7 +59998,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Green Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ],
       "middle": [
@@ -60145,7 +60145,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Thyme",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/thyme.png"
         },
         {
           "name": "Artemisia",
@@ -60153,7 +60153,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Galbanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/galbanum.png"
         }
       ],
       "middle": [
@@ -60163,7 +60163,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Juniper Berries",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/juniper-berries.png"
         },
         {
           "name": "Black Currant",
@@ -60183,11 +60183,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Cypriol Oil",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Rose",
@@ -60201,7 +60201,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         },
         {
           "name": "Leather",
@@ -60213,11 +60213,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         },
         {
           "name": "Labdanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/labdanum.png"
         }
       ]
     },
@@ -60288,7 +60288,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ylang-ylang.png"
         },
         {
           "name": "Jasmine",
@@ -60296,7 +60296,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         }
       ],
       "base": [
@@ -60314,7 +60314,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         },
         {
           "name": "Sandalwood",
@@ -60379,7 +60379,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         },
         {
           "name": "Bergamot",
@@ -60389,7 +60389,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Cacao",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cacao.png"
         },
         {
           "name": "Rose",
@@ -60415,15 +60415,15 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Coumarin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/tonka-bean.png"
         },
         {
           "name": "Labdanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/labdanum.png"
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         },
         {
           "name": "Cedar",
@@ -60476,7 +60476,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Aldehydes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/aldehydes.png"
         },
         {
           "name": "Mint",
@@ -60510,15 +60510,15 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Seagrass",
-          "image": "assets/images/notes/sea-notes.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Ginger",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/ginger.png"
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         },
         {
           "name": "Jasmine",
@@ -60526,7 +60526,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Cyclamen",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Brazilian Rosewood",
@@ -60605,11 +60605,11 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Mango",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/mango.png"
         },
         {
           "name": "Tangerine",
-          "image": "assets/images/notes/orange.png"
+          "image": "assets/images/notes/mandarin.png"
         },
         {
           "name": "Lemon",
@@ -60619,7 +60619,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         },
         {
           "name": "Wormwood",
@@ -60627,7 +60627,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Calone",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/sea-notes.png"
         }
       ],
       "base": [
@@ -60690,7 +60690,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Cucumber",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Melon",
@@ -60704,15 +60704,15 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Basil",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/basil.png"
         },
         {
           "name": "Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         }
       ],
       "base": [
@@ -60793,7 +60793,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         }
       ],
       "base": [
@@ -60856,11 +60856,11 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Juniper Berries",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/juniper-berries.png"
         },
         {
           "name": "Basil",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/basil.png"
         },
         {
           "name": "Artemisia",
@@ -60868,11 +60868,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Caraway",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/caraway.png"
         },
         {
           "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         },
         {
           "name": "Bergamot",
@@ -60890,11 +60890,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Chamomile",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Pepper",
-          "image": "assets/images/notes/mint.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Carnation",
@@ -60902,7 +60902,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         },
         {
           "name": "Jasmine",
@@ -60997,11 +60997,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Aldehydes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/aldehydes.png"
         },
         {
           "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         },
         {
           "name": "Artemisia",
@@ -61009,7 +61009,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Green Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Neroli",
@@ -61023,7 +61023,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Tarragon",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Carnation",
@@ -61043,7 +61043,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Cyclamen",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         }
       ],
       "base": [
@@ -61191,7 +61191,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Spicy Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cardamom.png"
         },
         {
           "name": "Bergamot",
@@ -61286,7 +61286,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         },
         {
           "name": "Jasmine",
@@ -61369,11 +61369,11 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Tomato Leaf",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/freesia.png"
         },
         {
           "name": "Rose",
@@ -61476,11 +61476,11 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Galbanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/galbanum.png"
         },
         {
           "name": "Black Currant Leaf",
-          "image": "assets/images/notes/raspberry.png"
+          "image": "assets/images/notes/black-currant.png"
         },
         {
           "name": "Rose",
@@ -61547,7 +61547,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         },
         {
           "name": "Lavender",
@@ -61565,7 +61565,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Clary Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         },
         {
           "name": "Cedar",
@@ -61636,15 +61636,15 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Tuberose",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/tuberose.png"
         },
         {
           "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ylang-ylang.png"
         },
         {
           "name": "African Orange Flower",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Violet Leaf",
@@ -61658,11 +61658,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Plum",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/plum.png"
         },
         {
           "name": "Narcissus",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Peach",
@@ -61676,7 +61676,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Vanille",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/vanilla.png"
         },
         {
           "name": "Musk",
@@ -61688,7 +61688,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Vetyver",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/vetiver.png"
         }
       ]
     },
@@ -61747,7 +61747,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Pepper",
-          "image": "assets/images/notes/mint.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Jasmine",
@@ -61759,11 +61759,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         }
       ],
       "base": [
@@ -61844,7 +61844,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Water Lily",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Kiwi",
@@ -61856,7 +61856,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/freesia.png"
         },
         {
           "name": "Black Currant",
@@ -61870,7 +61870,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Vanille",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/vanilla.png"
         },
         {
           "name": "Virginia Cedar",
@@ -61949,11 +61949,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Plum",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/plum.png"
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Cardamom",
@@ -61963,7 +61963,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         },
         {
           "name": "Musk",
@@ -62056,7 +62056,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         },
         {
           "name": "Woody Notes",
@@ -62131,21 +62131,21 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Plum",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/plum.png"
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Cardamon",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cardamom.png"
         }
       ],
       "base": [
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         },
         {
           "name": "Musk",
@@ -62228,21 +62228,21 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Plum",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/plum.png"
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Cardamon",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cardamom.png"
         }
       ],
       "base": [
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         },
         {
           "name": "Musk",
@@ -62325,21 +62325,21 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Plum",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/plum.png"
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Cardamon",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cardamom.png"
         }
       ],
       "base": [
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         },
         {
           "name": "Musk",
@@ -62422,21 +62422,21 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Plum",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/plum.png"
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Cardamon",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cardamom.png"
         }
       ],
       "base": [
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         },
         {
           "name": "Musk",
@@ -62519,21 +62519,21 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Plum",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/plum.png"
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Cardamon",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cardamom.png"
         }
       ],
       "base": [
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         },
         {
           "name": "Musk",
@@ -62606,17 +62606,17 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Star Anise",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/star-anise.png"
         }
       ],
       "middle": [
         {
           "name": "Plum",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/plum.png"
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Cardamom",
@@ -62745,7 +62745,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Galbanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/galbanum.png"
         }
       ],
       "middle": [
@@ -62838,7 +62838,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Green Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Amalfi Lemon",
@@ -62852,7 +62852,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "African Orange Flower",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Rose",
@@ -62911,15 +62911,15 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Hyacinth",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ylang-ylang.png"
         },
         {
           "name": "Galbanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/galbanum.png"
         },
         {
           "name": "Raspberry",
@@ -62947,7 +62947,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Powdery Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/iris.png"
         },
         {
           "name": "Sandalwood",
@@ -63016,7 +63016,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Green Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Saffron",
@@ -63026,7 +63026,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ylang-ylang.png"
         },
         {
           "name": "Rose",
@@ -63105,11 +63105,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ylang-ylang.png"
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         },
         {
           "name": "Rose",
@@ -63127,11 +63127,11 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Civet",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/musk.png"
         },
         {
           "name": "Castoreum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/musk.png"
         },
         {
           "name": "Olibanum",
@@ -63202,7 +63202,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Cumin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cumin.png"
         },
         {
           "name": "Cardamom",
@@ -63394,7 +63394,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         }
       ],
       "base": [
@@ -63404,7 +63404,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         },
         {
           "name": "Amber",
@@ -63519,7 +63519,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Praline",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Vanilla",
@@ -63655,7 +63655,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Spicy Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cardamom.png"
         },
         {
           "name": "Amber",
@@ -63736,7 +63736,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         },
         {
           "name": "Violet",
@@ -63821,7 +63821,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         },
         {
           "name": "Violet",
@@ -63992,7 +63992,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Clary Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         }
       ],
       "middle": [
@@ -64006,7 +64006,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         }
       ],
       "base": [
@@ -64016,7 +64016,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Earthy Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/vetiver.png"
         },
         {
           "name": "Oakmoss",
@@ -64079,7 +64079,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Spicy Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cardamom.png"
         }
       ],
       "base": [
@@ -64146,7 +64146,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         },
         {
           "name": "Bergamot",
@@ -64166,7 +64166,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Styrax",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/styrax.png"
         },
         {
           "name": "Cinnamon",
@@ -64192,7 +64192,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         },
         {
           "name": "Cedar",
@@ -64204,7 +64204,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Labdanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/labdanum.png"
         },
         {
           "name": "Cashmeran",
@@ -64216,7 +64216,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Floral Notes",
@@ -64266,7 +64266,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         }
       ]
     },
@@ -64335,7 +64335,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Praline",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Vanilla",
@@ -64594,21 +64594,21 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Plum",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/plum.png"
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Cardamon",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cardamom.png"
         }
       ],
       "base": [
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         },
         {
           "name": "Musk",
@@ -64673,17 +64673,17 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Myrtle",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ],
       "middle": [
         {
           "name": "Hazelnut",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/almond.png"
         },
         {
           "name": "Chocolate",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/cacao.png"
         },
         {
           "name": "Roasted Coffee Beans",
@@ -64754,11 +64754,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Caraway",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/caraway.png"
         },
         {
           "name": "Anise",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/star-anise.png"
         },
         {
           "name": "Mandarin Orange",
@@ -64768,7 +64768,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         },
         {
           "name": "Brazilian Rosewood",
@@ -64790,7 +64790,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Labdanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/labdanum.png"
         }
       ]
     },
@@ -64991,7 +64991,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Caramel",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         }
       ],
       "base": [
@@ -65074,7 +65074,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Praline",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Vanilla",
@@ -65239,7 +65239,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Praline",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Vanilla",
@@ -65572,7 +65572,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Dates",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Cinnamon",
@@ -65586,7 +65586,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ylang-ylang.png"
         },
         {
           "name": "Orris",
@@ -65717,7 +65717,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Caramel",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         }
       ],
       "base": [
@@ -65932,7 +65932,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Caramel",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         }
       ],
       "base": [
@@ -65995,11 +65995,11 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Tomato Leaf",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/freesia.png"
         },
         {
           "name": "Rose",
@@ -66234,7 +66234,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Dates",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Cinnamon",
@@ -66248,7 +66248,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ylang-ylang.png"
         },
         {
           "name": "Orris",
@@ -66369,11 +66369,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Herbal Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ],
       "middle": [
@@ -66383,19 +66383,19 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Hyacinth",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Pepper",
-          "image": "assets/images/notes/mint.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Cumin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cumin.png"
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         }
       ],
       "base": [
@@ -66738,7 +66738,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Hyacinth",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         }
       ],
       "middle": [
@@ -66774,7 +66774,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Vanille",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/vanilla.png"
         }
       ]
     },
@@ -66926,7 +66926,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         }
       ],
       "base": [
@@ -67007,7 +67007,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Green Leaves",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ],
       "base": [
@@ -67066,7 +67066,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Lychee",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/litchi.png"
         },
         {
           "name": "Raspberry",
@@ -67159,7 +67159,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Mahogany",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cedarwood.png"
         },
         {
           "name": "Spearmint",
@@ -67764,7 +67764,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Honey",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/honey.png"
         },
         {
           "name": "Orange",
@@ -67778,7 +67778,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Lily",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Rose",
@@ -67849,17 +67849,17 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Green Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ],
       "middle": [
         {
           "name": "Aldehydes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/aldehydes.png"
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Jasmine",
@@ -67974,7 +67974,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         },
         {
           "name": "Cedar",
@@ -68468,7 +68468,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Honeysuckle",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/honey.png"
         },
         {
           "name": "Rose",
@@ -68480,7 +68480,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Lily",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Mint",
@@ -68494,7 +68494,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Magnolia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/magnolia.png"
         },
         {
           "name": "Jasmine",
@@ -68595,7 +68595,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Cactus",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Amber",
@@ -68750,7 +68750,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         }
       ],
       "base": [
@@ -68898,7 +68898,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Pear",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/pear.png"
         },
         {
           "name": "Raspberry",
@@ -68906,17 +68906,17 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Cassis",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/black-currant.png"
         },
         {
           "name": "Sand",
-          "image": "assets/images/notes/sandalwood.png"
+          "image": "assets/images/notes/amber.png"
         }
       ],
       "middle": [
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         }
       ],
       "base": [
@@ -68995,7 +68995,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Caraway",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/caraway.png"
         },
         {
           "name": "Fenugreek",
@@ -69003,13 +69003,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Carrot Seeds",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         }
       ],
       "middle": [
         {
           "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ylang-ylang.png"
         },
         {
           "name": "Jasmine",
@@ -69027,7 +69027,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         },
         {
           "name": "Virginia Cedar",
@@ -69106,17 +69106,17 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Mineral Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/aldehydes.png"
         },
         {
           "name": "Pine",
-          "image": "assets/images/notes/pineapple.png"
+          "image": "assets/images/notes/cedarwood.png"
         }
       ],
       "base": [
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         },
         {
           "name": "Musk",
@@ -69124,7 +69124,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Styrax",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/styrax.png"
         }
       ]
     },
@@ -69201,7 +69201,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Smoke",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/smoke.png"
         },
         {
           "name": "Woody Notes",
@@ -69209,7 +69209,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Cypriol Oil Or Nagarmotha",
-          "image": "assets/images/notes/oud.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ]
     },
@@ -69258,7 +69258,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Pistachio",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/almond.png"
         },
         {
           "name": "Bergamot",
@@ -69276,11 +69276,11 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Tuberose",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/tuberose.png"
         },
         {
           "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ylang-ylang.png"
         },
         {
           "name": "Jasmine",
@@ -69290,7 +69290,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Coconut",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coconut.png"
         },
         {
           "name": "Amber",
@@ -69302,7 +69302,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         }
       ]
     },
@@ -69351,7 +69351,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Bitter Almond",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/almond.png"
         }
       ],
       "middle": [
@@ -69440,7 +69440,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Celery Seeds",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         },
         {
           "name": "Ambrette (musk Mallow)",
@@ -69462,11 +69462,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Juniper",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/juniper-berries.png"
         },
         {
           "name": "Yellow Mandarin",
-          "image": "assets/images/notes/orange.png"
+          "image": "assets/images/notes/mandarin.png"
         },
         {
           "name": "Artemisia",
@@ -69474,7 +69474,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Myrtle",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ],
       "base": [
@@ -69484,7 +69484,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Oak",
-          "image": "assets/images/notes/oakmoss.png"
+          "image": "assets/images/notes/cedarwood.png"
         },
         {
           "name": "Olibanum",
@@ -69567,15 +69567,15 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Rum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/rum.png"
         },
         {
           "name": "Cognac",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/rum.png"
         },
         {
           "name": "Davana",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Jasmine",
@@ -69601,7 +69601,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         },
         {
           "name": "Cashmeran",
@@ -69609,11 +69609,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Styrax",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/styrax.png"
         },
         {
           "name": "Labdanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/labdanum.png"
         },
         {
           "name": "Vetiver",
@@ -69670,7 +69670,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         },
         {
           "name": "Peony",
@@ -69777,11 +69777,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Basil",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/basil.png"
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         }
       ],
       "base": [
@@ -69840,7 +69840,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Clary Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         },
         {
           "name": "Lavender",
@@ -69850,7 +69850,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Bitter Almond",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/almond.png"
         },
         {
           "name": "Leather",
@@ -69933,7 +69933,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Truffle",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/vetiver.png"
         },
         {
           "name": "Gardenia",
@@ -69945,7 +69945,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ylang-ylang.png"
         },
         {
           "name": "Jasmine",
@@ -69967,7 +69967,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Orchid",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Spices",
@@ -69983,7 +69983,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ylang-ylang.png"
         },
         {
           "name": "Jasmine",
@@ -69997,7 +69997,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Mexican Chocolate",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/cacao.png"
         },
         {
           "name": "Patchouli",
@@ -70005,7 +70005,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Vanille",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/vanilla.png"
         },
         {
           "name": "Incense",
@@ -70074,11 +70074,11 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Rum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/rum.png"
         },
         {
           "name": "Honey",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/honey.png"
         },
         {
           "name": "Mandarin Orange",
@@ -70096,7 +70096,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orchid",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Jasmine",
@@ -70108,7 +70108,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Hyacinth",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Rose Oil",
@@ -70116,15 +70116,15 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Narcissus",
-          "image": "assets/images/notes/amber.png"
-        },
-        {
-          "name": "Magnolia",
           "image": "assets/images/notes/jasmine.png"
         },
         {
+          "name": "Magnolia",
+          "image": "assets/images/notes/magnolia.png"
+        },
+        {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         }
       ],
       "base": [
@@ -70146,11 +70146,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Peru Balsam",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/styrax.png"
         },
         {
           "name": "Labdanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/labdanum.png"
         }
       ]
     },
@@ -70207,7 +70207,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Caraway",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/caraway.png"
         },
         {
           "name": "Bergamot",
@@ -70229,19 +70229,19 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Black Pepper",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         },
         {
           "name": "Clary Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         }
       ],
       "base": [
@@ -70259,7 +70259,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Civet",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/musk.png"
         },
         {
           "name": "Leather",
@@ -70267,11 +70267,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Opoponax",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/opoponax.png"
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         },
         {
           "name": "Vetiver",
@@ -70279,7 +70279,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Styrax",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/styrax.png"
         }
       ]
     },
@@ -70338,7 +70338,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Truffle",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/vetiver.png"
         },
         {
           "name": "Floral Notes",
@@ -70498,7 +70498,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Spicy Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cardamom.png"
         }
       ],
       "middle": [
@@ -70508,7 +70508,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Cacao",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cacao.png"
         },
         {
           "name": "Tonka Bean",
@@ -70575,13 +70575,13 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Whiskey",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/rum.png"
         }
       ],
       "middle": [
         {
           "name": "Spicy Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cardamom.png"
         },
         {
           "name": "Cinnamon",
@@ -70589,7 +70589,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         }
       ],
       "base": [
@@ -70615,7 +70615,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         },
         {
           "name": "Vanilla",
@@ -70680,7 +70680,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Thyme",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/thyme.png"
         }
       ],
       "middle": [
@@ -70834,11 +70834,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Bitter Almond",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/almond.png"
         },
         {
           "name": "Liquor",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/rum.png"
         }
       ],
       "middle": [
@@ -70848,7 +70848,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Plum",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/plum.png"
         },
         {
           "name": "Turkish Rose",
@@ -70870,11 +70870,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Peru Balsam",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/styrax.png"
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         },
         {
           "name": "Cinnamon",
@@ -70890,7 +70890,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Cloves",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/clove.png"
         },
         {
           "name": "Vetiver",
@@ -70951,17 +70951,17 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         }
       ],
       "middle": [
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         },
         {
           "name": "Orris Root",
@@ -70969,7 +70969,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Pimento",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/pimento.png"
         }
       ],
       "base": [
@@ -71036,7 +71036,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Sichuan Pepper",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Turmeric",
@@ -71113,7 +71113,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Lily",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Jasmine",
@@ -71121,13 +71121,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Sichuan Pepper",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/black-pepper.png"
         }
       ],
       "middle": [
         {
           "name": "Tuberose",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/tuberose.png"
         },
         {
           "name": "Suede",
@@ -71135,11 +71135,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Styrax",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/styrax.png"
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         }
       ],
       "base": [
@@ -71210,7 +71210,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Black Pepper",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Rose",
@@ -71299,7 +71299,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         }
       ],
       "middle": [
@@ -71317,7 +71317,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ylang-ylang.png"
         }
       ],
       "base": [
@@ -71408,13 +71408,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Myrtle",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ],
       "middle": [
         {
           "name": "African Orange Flower",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Neroli",
@@ -71426,7 +71426,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Pitosporum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/rum.png"
         }
       ],
       "base": [
@@ -71539,17 +71539,17 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Myrtle",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ],
       "middle": [
         {
           "name": "Hazelnut",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/almond.png"
         },
         {
           "name": "Chocolate",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/cacao.png"
         },
         {
           "name": "Roasted Coffee Beans",
@@ -71612,7 +71612,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Mineral Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/aldehydes.png"
         },
         {
           "name": "Violet Leaf",
@@ -71626,11 +71626,11 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Ginger",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/ginger.png"
         },
         {
           "name": "Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         }
       ],
       "base": [
@@ -71758,17 +71758,17 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Myrtle",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ],
       "middle": [
         {
           "name": "Hazelnut",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/almond.png"
         },
         {
           "name": "Chocolate",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/cacao.png"
         },
         {
           "name": "Roasted Coffee Beans",
@@ -71885,11 +71885,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Juniper",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/juniper-berries.png"
         },
         {
           "name": "Anise",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/star-anise.png"
         },
         {
           "name": "Rose",
@@ -71897,7 +71897,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Basil",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/basil.png"
         }
       ],
       "middle": [
@@ -72024,7 +72024,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Hyacinth",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Cedar",
@@ -72032,11 +72032,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Clary Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         }
       ],
       "base": [
@@ -72103,7 +72103,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Pomegranate",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/pomegranate.png"
         },
         {
           "name": "Ice",
@@ -72121,7 +72121,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Magnolia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/magnolia.png"
         }
       ],
       "base": [
@@ -72131,7 +72131,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Mahogany",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cedarwood.png"
         },
         {
           "name": "Amber",
@@ -72196,17 +72196,17 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Fig Leaf",
-          "image": "assets/images/notes/raspberry.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ],
       "middle": [
         {
           "name": "Ambroxan",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambroxan.png"
         },
         {
           "name": "Black Pepper",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Patchouli",
@@ -72218,7 +72218,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Papyrus",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ],
       "base": [
@@ -72293,7 +72293,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Clover",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/clove.png"
         },
         {
           "name": "Forget Me Not",
@@ -72301,7 +72301,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Shiso",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ],
       "middle": [
@@ -72337,7 +72337,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Styrax",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/styrax.png"
         },
         {
           "name": "Patchouli",
@@ -72398,7 +72398,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Clover",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/clove.png"
         },
         {
           "name": "Forget Me Not",
@@ -72406,7 +72406,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Shiso",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ],
       "middle": [
@@ -72442,7 +72442,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Styrax",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/styrax.png"
         },
         {
           "name": "Patchouli",
@@ -72495,11 +72495,11 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Pepper",
-          "image": "assets/images/notes/mint.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Ginger",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/ginger.png"
         },
         {
           "name": "Cardamom",
@@ -72509,7 +72509,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Coconut",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coconut.png"
         },
         {
           "name": "Gardenia",
@@ -72517,7 +72517,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Peony",
@@ -72602,11 +72602,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ambroxan",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambroxan.png"
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         }
       ],
       "base": [
@@ -72695,11 +72695,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ambroxan",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambroxan.png"
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         }
       ],
       "base": [
@@ -72774,7 +72774,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Pomegranate",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/pomegranate.png"
         },
         {
           "name": "Calabrian Bergamot",
@@ -72806,7 +72806,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ambroxan",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambroxan.png"
         },
         {
           "name": "Woodsy Notes",
@@ -72867,7 +72867,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Black Pepper",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Chinotto",
@@ -72885,11 +72885,11 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Pepper",
-          "image": "assets/images/notes/mint.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         },
         {
           "name": "Rose",
@@ -72994,15 +72994,15 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Tarragon",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         },
         {
           "name": "Pepper",
-          "image": "assets/images/notes/mint.png"
+          "image": "assets/images/notes/black-pepper.png"
         }
       ],
       "base": [
@@ -73073,7 +73073,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Black Pepper",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Bitter Orange",
@@ -73168,7 +73168,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/freesia.png"
         }
       ],
       "base": [
@@ -73231,7 +73231,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Pear",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/pear.png"
         },
         {
           "name": "Bergamot",
@@ -73245,19 +73245,19 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Mimosa",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/freesia.png"
         },
         {
           "name": "Water Lily",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "African Orange Flower",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         }
       ],
       "base": [
@@ -73328,13 +73328,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Water Lily",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         }
       ],
       "middle": [
         {
           "name": "Honeysuckle",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/honey.png"
         },
         {
           "name": "Gardenia",
@@ -73348,7 +73348,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Caramel",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Vanilla",
@@ -73405,7 +73405,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Litchi",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/litchi.png"
         },
         {
           "name": "Melon",
@@ -73486,7 +73486,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Sugar",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Mint",
@@ -73500,7 +73500,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orchid",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/jasmine.png"
         }
       ],
       "base": [
@@ -73563,7 +73563,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Black Pear",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/pear.png"
         }
       ],
       "middle": [
@@ -73689,7 +73689,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Honeysuckle",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/honey.png"
         }
       ],
       "middle": [
@@ -73701,11 +73701,11 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Chamomile",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Aloe Vera",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ]
     },
@@ -73758,13 +73758,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Aloe Vera",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ],
       "middle": [
         {
           "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/freesia.png"
         },
         {
           "name": "Daisy",
@@ -73774,11 +73774,11 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Sweet Notes",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Chamomile",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         }
       ]
     },
@@ -73833,13 +73833,13 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "White Lily",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         }
       ],
       "base": [
         {
           "name": "Rum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/rum.png"
         }
       ]
     },
@@ -73892,7 +73892,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Cherry Blossom",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/sour-cherry.png"
         },
         {
           "name": "Red Apple",
@@ -73902,7 +73902,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Lilac",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Jasmine",
@@ -73910,7 +73910,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         }
       ],
       "base": [
@@ -73985,7 +73985,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Tangerine",
-          "image": "assets/images/notes/orange.png"
+          "image": "assets/images/notes/mandarin.png"
         },
         {
           "name": "Big Strawberry",
@@ -74011,7 +74011,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         }
       ],
       "base": [
@@ -74102,7 +74102,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ambroxan",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambroxan.png"
         }
       ]
     },
@@ -74163,7 +74163,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Tangerine",
-          "image": "assets/images/notes/orange.png"
+          "image": "assets/images/notes/mandarin.png"
         },
         {
           "name": "Big Strawberry",
@@ -74189,7 +74189,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         }
       ],
       "base": [
@@ -74252,7 +74252,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Litchi",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/litchi.png"
         }
       ],
       "middle": [
@@ -74268,7 +74268,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Sugar",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Woody Notes",
@@ -74327,7 +74327,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Pink Lily",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         }
       ],
       "base": [
@@ -74337,7 +74337,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Chamomile",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         }
       ]
     },
@@ -74432,23 +74432,23 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Red Plum",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/plum.png"
         }
       ],
       "middle": [
         {
           "name": "Sweet Freesia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/freesia.png"
         }
       ],
       "base": [
         {
           "name": "Chamomile",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Sugar",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         }
       ]
     },
@@ -74543,7 +74543,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Honeysuckle",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/honey.png"
         }
       ],
       "middle": [
@@ -74555,11 +74555,11 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Chamomile",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Aloe Vera",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         }
       ]
     },
@@ -74612,7 +74612,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Elemi",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/elemi.png"
         },
         {
           "name": "Bergamot",
@@ -74697,7 +74697,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Tea",
-          "image": "assets/images/notes/cedarwood.png"
+          "image": "assets/images/notes/tea.png"
         },
         {
           "name": "Bergamot",
@@ -74711,7 +74711,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Orchid",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Jasmine",
@@ -74723,11 +74723,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/freesia.png"
         },
         {
           "name": "African Orange Flower",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         }
       ],
       "base": [
@@ -75022,7 +75022,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Black Pepper",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Neroli",
@@ -75044,7 +75044,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Caramel",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         }
       ]
     },
@@ -75107,7 +75107,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         },
         {
           "name": "Woody Notes",
@@ -75117,11 +75117,11 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Labdanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/labdanum.png"
         },
         {
           "name": "Oriental Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cardamom.png"
         },
         {
           "name": "Olibanum",
@@ -75174,11 +75174,11 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         },
         {
           "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ylang-ylang.png"
         },
         {
           "name": "Cedar",
@@ -75196,13 +75196,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Gurjan Balsam",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/styrax.png"
         }
       ],
       "base": [
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         },
         {
           "name": "Vanilla",
@@ -75210,7 +75210,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Opoponax",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/opoponax.png"
         },
         {
           "name": "Sandalwood",
@@ -75279,7 +75279,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Ambrofix",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambroxan.png"
         },
         {
           "name": "Patchouli",
@@ -75332,19 +75332,19 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Aldehydes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/aldehydes.png"
         },
         {
           "name": "Green Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Galbanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/galbanum.png"
         },
         {
           "name": "Honeysuckle",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/honey.png"
         },
         {
           "name": "Peach",
@@ -75356,13 +75356,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Mirabelle Plum",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/plum.png"
         }
       ],
       "middle": [
         {
           "name": "Hiacynth",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Orris Root",
@@ -75370,7 +75370,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ylang-ylang.png"
         },
         {
           "name": "Jasmine",
@@ -75382,7 +75382,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Tuberose",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/tuberose.png"
         }
       ],
       "base": [
@@ -75392,7 +75392,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Civet",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/musk.png"
         },
         {
           "name": "Vetiver",
@@ -75408,11 +75408,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         },
         {
           "name": "Styrax",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/styrax.png"
         },
         {
           "name": "Amber",
@@ -75465,15 +75465,15 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Cloves",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/clove.png"
         },
         {
           "name": "Pepper",
-          "image": "assets/images/notes/mint.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         },
         {
           "name": "West Indian Bay",
@@ -75481,7 +75481,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Plum",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/plum.png"
         },
         {
           "name": "Jasmine",
@@ -75531,7 +75531,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         }
       ],
       "base": [
@@ -75549,7 +75549,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Tolu Balsam",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/styrax.png"
         },
         {
           "name": "Amber",
@@ -75557,15 +75557,15 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Opoponax",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/opoponax.png"
         },
         {
           "name": "Benzoin",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/benzoin.png"
         },
         {
           "name": "Labdanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/labdanum.png"
         },
         {
           "name": "Vanilla",
@@ -75577,7 +75577,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Castoreum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/musk.png"
         },
         {
           "name": "Cedar",
@@ -75589,7 +75589,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Coconut",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coconut.png"
         }
       ]
     },
@@ -75638,7 +75638,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Pear",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/pear.png"
         },
         {
           "name": "Pink Pepper",
@@ -75646,7 +75646,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         }
       ],
       "middle": [
@@ -75660,11 +75660,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Bitter Almond",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/almond.png"
         },
         {
           "name": "Licorice",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/star-anise.png"
         }
       ],
       "base": [
@@ -75731,11 +75731,11 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Pear",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/pear.png"
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Pink Pepper",
@@ -75749,11 +75749,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Bitter Almond",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/almond.png"
         },
         {
           "name": "Licorice",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/star-anise.png"
         },
         {
           "name": "Jasmine",
@@ -75824,17 +75824,17 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Cherry",
-          "image": "assets/images/notes/raspberry.png"
+          "image": "assets/images/notes/sour-cherry.png"
         },
         {
           "name": "Green Mandarin",
-          "image": "assets/images/notes/orange.png"
+          "image": "assets/images/notes/mandarin.png"
         }
       ],
       "middle": [
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Jasmine",
@@ -75842,7 +75842,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Black Tea",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/tea.png"
         }
       ],
       "base": [
@@ -75905,7 +75905,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Ginger",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/ginger.png"
         },
         {
           "name": "Bergamot",
@@ -75927,11 +75927,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "White Pepper",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Basil",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/basil.png"
         }
       ],
       "base": [
@@ -76002,13 +76002,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Aldehydes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/aldehydes.png"
         }
       ],
       "middle": [
         {
           "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         },
         {
           "name": "Woody Notes",
@@ -76095,7 +76095,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Caraway",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/caraway.png"
         }
       ]
     },
@@ -76148,19 +76148,19 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Mimosa",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Hiacynth",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Geranium",
-          "image": "assets/images/notes/rose.png"
+          "image": "assets/images/notes/geranium.png"
         },
         {
           "name": "Green Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Nasturtium",
@@ -76168,11 +76168,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Hawthorn",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Cassia",
@@ -76194,7 +76194,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Lily",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Lime Blossom",
@@ -76202,11 +76202,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ylang-ylang",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ylang-ylang.png"
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         },
         {
           "name": "Jasmine",
@@ -76301,7 +76301,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Pear",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/pear.png"
         },
         {
           "name": "Orange",
@@ -76309,7 +76309,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Tangerine",
-          "image": "assets/images/notes/orange.png"
+          "image": "assets/images/notes/mandarin.png"
         },
         {
           "name": "Calabrian Bergamot",
@@ -76317,7 +76317,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Calone",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/sea-notes.png"
         }
       ],
       "middle": [
@@ -76339,7 +76339,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         }
       ],
       "base": [
@@ -76357,11 +76357,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Vanila",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/vanilla.png"
         },
         {
           "name": "Ambroxan",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambroxan.png"
         },
         {
           "name": "Moss",
@@ -76424,7 +76424,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Sage",
-          "image": "assets/images/notes/wormwood.png"
+          "image": "assets/images/notes/clary-sage.png"
         }
       ],
       "base": [
@@ -76495,7 +76495,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Petitgrain",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         }
       ],
       "middle": [
@@ -76505,7 +76505,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Jasmine",
@@ -76527,7 +76527,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         }
       ]
     },
@@ -76602,7 +76602,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Orchid",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/jasmine.png"
         }
       ],
       "base": [
@@ -76616,7 +76616,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         },
         {
           "name": "Vetiver",
@@ -76673,7 +76673,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         },
         {
           "name": "Bergamot",
@@ -76687,11 +76687,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Black Pepper",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         }
       ],
       "base": [
@@ -76701,7 +76701,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Ambergris",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/ambergris.png"
         },
         {
           "name": "Bourbon Vanilla",
@@ -76774,7 +76774,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "French Labdanum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/labdanum.png"
         }
       ]
     },
@@ -77053,7 +77053,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Pear Blossom",
-          "image": "assets/images/notes/peach.png"
+          "image": "assets/images/notes/pear.png"
         }
       ],
       "middle": [
@@ -77118,7 +77118,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         }
       ],
       "middle": [
@@ -77193,7 +77193,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Black Pepper",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/black-pepper.png"
         },
         {
           "name": "Mint",
@@ -77260,7 +77260,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Ginger",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/ginger.png"
         }
       ],
       "middle": [
@@ -77321,7 +77321,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Tagetes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/orange-blossom.png"
         }
       ],
       "middle": [
@@ -77443,7 +77443,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Praline",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         }
       ],
       "middle": [
@@ -77569,7 +77569,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Rum",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/rum.png"
         }
       ],
       "middle": [
@@ -77634,7 +77634,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Tangerine",
-          "image": "assets/images/notes/orange.png"
+          "image": "assets/images/notes/mandarin.png"
         }
       ],
       "middle": [
@@ -77705,7 +77705,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Nutmeg",
-          "image": "assets/images/notes/cardamom.png"
+          "image": "assets/images/notes/nutmeg.png"
         }
       ],
       "base": [
@@ -77760,13 +77760,13 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Mineral Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/aldehydes.png"
         }
       ],
       "middle": [
         {
           "name": "Spicy Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/cardamom.png"
         }
       ],
       "base": [
@@ -77904,11 +77904,11 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Tuberose",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/tuberose.png"
         },
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Jasmine",
@@ -77981,7 +77981,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         }
       ],
       "base": [
@@ -78048,13 +78048,13 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Coriander",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/coriander.png"
         }
       ],
       "middle": [
         {
           "name": "Praline",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Jasmine",
@@ -78135,7 +78135,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Orchid",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/jasmine.png"
         },
         {
           "name": "Peach",
@@ -78143,7 +78143,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         }
       ],
       "base": [
@@ -78212,7 +78212,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         },
         {
           "name": "Jasmine",
@@ -78354,7 +78354,7 @@ const PRODUCTS_DATA = [
       "middle": [
         {
           "name": "Pepper",
-          "image": "assets/images/notes/mint.png"
+          "image": "assets/images/notes/black-pepper.png"
         }
       ],
       "base": [
@@ -78409,7 +78409,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Praline",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         }
       ],
       "middle": [
@@ -78478,7 +78478,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Tangerine",
-          "image": "assets/images/notes/orange.png"
+          "image": "assets/images/notes/mandarin.png"
         },
         {
           "name": "Pink Pepper",
@@ -78636,7 +78636,7 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Tangerine",
-          "image": "assets/images/notes/orange.png"
+          "image": "assets/images/notes/mandarin.png"
         },
         {
           "name": "Red Currant",
@@ -78650,11 +78650,11 @@ const PRODUCTS_DATA = [
         },
         {
           "name": "Green Notes",
-          "image": "assets/images/notes/amber.png"
+          "image": "assets/images/notes/green-notes.png"
         },
         {
           "name": "Lily-of-the-valley",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/lily-of-the-valley.png"
         }
       ],
       "base": [
@@ -78794,7 +78794,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Orange Blossom",
-          "image": "assets/images/notes/neroli.png"
+          "image": "assets/images/notes/orange-blossom.png"
         }
       ],
       "middle": [
@@ -78855,7 +78855,7 @@ const PRODUCTS_DATA = [
       "top": [
         {
           "name": "Freesia",
-          "image": "assets/images/notes/jasmine.png"
+          "image": "assets/images/notes/freesia.png"
         },
         {
           "name": "Bergamot",
@@ -78879,7 +78879,7 @@ const PRODUCTS_DATA = [
       "base": [
         {
           "name": "Caramel",
-          "image": "assets/images/notes/vanilla.png"
+          "image": "assets/images/notes/caramel.png"
         },
         {
           "name": "Patchouli",

@@ -19,51 +19,120 @@ from benchmark_fragrantica_pyramids import BENCHMARK_PYRAMIDS
 with open(NOTES_LIB_PATH, 'r', encoding='utf-8') as f:
     notes_lib = json.load(f)
 
-NOTE_IMG_MAP = {n['name'].lower(): n['image'] for n in notes_lib}
+NOTE_IMG_MAP = {}
+for n in notes_lib:
+    NOTE_IMG_MAP[n['name'].lower()] = n['image']
+    NOTE_IMG_MAP[n['id'].lower()] = n['image']
+    NOTE_IMG_MAP[n['id'].replace('-', ' ').lower()] = n['image']
 NOTE_IMG_MAP['tobacco'] = 'assets/images/notes/tobacco.png'
 NOTE_IMG_MAP['tobacco leaf'] = 'assets/images/notes/tobacco.png'
 
 SYNONYMS = {
+    # Citrus
     'sicilian lemon': 'lemon', 'italian lemon': 'lemon', 'lemon zest': 'lemon', 'lime': 'lemon', 'yuzu': 'lemon', 'citron': 'lemon', 'citruses': 'lemon', 'amalfi lemon': 'lemon', 'candied lemon': 'lemon',
     'calabrian bergamot': 'bergamot', 'bergamot orange': 'bergamot', 'sicilian bergamot': 'bergamot', 'bergamotto': 'bergamot', 'italian bergamot': 'bergamot',
     'grapefruit': 'grapefruit', 'pink grapefruit': 'grapefruit', 'blood grapefruit': 'grapefruit',
     'blood orange': 'orange', 'bitter orange': 'orange', 'orange peel': 'orange', 'orange': 'orange', 'sweet orange': 'orange', 'brazilian orange': 'orange', 'california orange': 'orange',
     'mandarin': 'mandarin', 'mandarin orange': 'mandarin', 'green mandarin': 'mandarin', 'tangerine': 'mandarin', 'clementine': 'mandarin', 'blood mandarin': 'mandarin', 'italian mandarin': 'mandarin', 'sicilian mandarin': 'mandarin',
-    'cassis': 'black-currant', 'black currant': 'black-currant', 'black-currant': 'black-currant', 'blackberry': 'black-currant',
+    'petitgrain': 'orange-blossom', 'african orange flower': 'orange-blossom', 'orange blossom': 'orange-blossom', 'orange flower': 'orange-blossom', 'neroli': 'neroli',
+    
+    # Berries & Fruits
+    'cassis': 'black-currant', 'black currant': 'black-currant', 'black-currant': 'black-currant', 'blackberry': 'black-currant', 'dark berries': 'black-currant',
     'black cherry': 'sour-cherry', 'sour cherry': 'sour-cherry', 'cherry': 'sour-cherry',
     'wild berries': 'raspberry', 'red berries': 'raspberry', 'raspberry': 'raspberry', 'strawberry': 'raspberry', 'cranberry': 'raspberry', 'red fruits': 'raspberry', 'fruity notes': 'raspberry',
-    'grasse rose': 'rose', 'damask rose': 'rose', 'turkish rose': 'rose', 'bulgarian rose': 'rose', 'may rose': 'rose', 'taif rose': 'rose', 'rose': 'rose', 'rosa': 'rose', 'centifolia rose': 'rose', 'moroccan rose': 'rose', 'rose de mai': 'rose', 'rose petals': 'rose', 'black rose': 'rose',
-    'sambac jasmine': 'jasmine', 'white jasmine': 'jasmine', 'jasmine': 'jasmine', 'jasmine sambac': 'jasmine', 'water jasmine': 'jasmine', 'egyptian jasmine': 'jasmine', 'white flowers': 'jasmine', 'floral notes': 'jasmine', 'jasmine petals': 'jasmine',
-    'french lavender': 'lavender', 'lavender': 'lavender', 'wild lavender': 'lavender',
-    'bourbon vanilla': 'vanilla', 'madagascar vanilla': 'vanilla', 'vanilla': 'vanilla', 'vanilla orchid': 'vanilla', 'vanilla caviar': 'vanilla', 'black vanilla husk': 'vanilla', 'whipped vanilla': 'vanilla', 'vanilla absolute': 'vanilla',
-    'virginian cedar': 'cedarwood', 'atlas cedar': 'cedarwood', 'cedar': 'cedarwood', 'cedarwood': 'cedarwood', 'virginia cedar': 'cedarwood', 'white woods': 'cedarwood', 'woodsy notes': 'cedarwood', 'woody notes': 'cedarwood', 'teak wood': 'cedarwood', 'guaiac wood': 'cedarwood', 'cashmere wood': 'cedarwood', 'white cedar extract': 'cedarwood', 'driftwood': 'cedarwood',
-    'mysore sandalwood': 'sandalwood', 'sandalwood': 'sandalwood', 'natural sandalwood': 'sandalwood',
-    'haitian vetiver': 'vetiver', 'vetiver': 'vetiver', 'bourbon vetiver': 'vetiver', 'java vetiver': 'vetiver', 'sand vetiver': 'vetiver', 'tahitian vetiver': 'vetiver',
-    'white musk': 'musk', 'crystal musk': 'musk', 'musk': 'musk', 'cashmeran': 'musk', 'ambroxan': 'amber', 'ambrofix': 'amber',
-    'ambergris': 'amber', 'amberwood': 'amber', 'amber': 'amber', 'benzoin': 'amber', 'labdanum': 'amber', 'amber xtreme': 'amber', 'white amber': 'amber', 'resins': 'amber', 'black amber': 'amber',
-    'agarwood': 'oud', 'cambodian oud': 'oud', 'agarwood (oud)': 'oud', 'oud': 'oud', 'laotian oud': 'oud', 'assam oud': 'oud', 'indian oud': 'oud',
-    'cardamom': 'cardamom', 'green cardamom': 'cardamom', 'guatemalan cardamom': 'cardamom',
-    'cinnamon': 'cinnamon', 'ceylon cinnamon': 'cinnamon', 'cinnamon bark': 'cinnamon',
-    'pink pepper': 'pink-pepper', 'pink-pepper': 'pink-pepper', 'black pepper': 'pink-pepper', 'sichuan pepper': 'pink-pepper', 'pepper': 'pink-pepper', 'white pepper': 'pink-pepper', 'spices': 'pink-pepper', 'spicy notes': 'pink-pepper', 'pimento': 'pink-pepper',
-    'saffron': 'saffron', 'red saffron': 'saffron',
-    'tobacco': 'tobacco', 'tobacco leaf': 'tobacco', 'cured tobacco': 'tobacco', 'white tobacco': 'tobacco', 'tobacco blossom': 'tobacco',
-    'coffee': 'coffee', 'roasted coffee': 'coffee', 'espresso': 'coffee', 'coffee beans': 'coffee', 'roasted coffee beans': 'coffee',
-    'cacao': 'cacao', 'cocoa': 'cacao', 'chocolate': 'cacao', 'dark chocolate': 'cacao', 'praline': 'cacao', 'milk chocolate': 'cacao', 'hazelnut': 'cacao',
-    'tonka': 'tonka-bean', 'tonka bean': 'tonka-bean', 'coumarin': 'tonka-bean',
-    'sea notes': 'sea-notes', 'marine notes': 'sea-notes', 'aquatic notes': 'sea-notes', 'ocean notes': 'sea-notes', 'sea salt': 'sea-notes', 'water notes': 'sea-notes', 'calone': 'sea-notes', 'sea water': 'sea-notes', 'watery notes': 'sea-notes', 'seaweed': 'sea-notes',
-    'oakmoss': 'oakmoss', 'moss': 'oakmoss', 'tree moss': 'oakmoss',
-    'patchouli': 'patchouli', 'indonesian patchouli': 'patchouli', 'patchouli leaf': 'patchouli',
-    'mint': 'mint', 'spearmint': 'mint', 'peppermint': 'mint',
     'apple': 'apple', 'green apple': 'apple', 'red apple': 'apple', 'granny smith apple': 'apple',
-    'pineapple': 'pineapple', 'peach': 'peach', 'white peach': 'peach', 'pear': 'peach', 'plum': 'peach', 'apricot': 'peach', 'melon': 'peach', 'lychee': 'peach', 'dates': 'peach',
+    'pineapple': 'pineapple', 'peach': 'peach', 'white peach': 'peach', 'apricot': 'peach', 'nectarine': 'peach', 'melon': 'peach',
+    'pear': 'pear', 'green pear': 'pear', 'nashi pear': 'pear', 'anjou pear': 'pear', 'quince': 'pear', 'guava': 'pear',
+    'plum': 'plum', 'damson plum': 'plum', 'mirabelle': 'plum', 'prune': 'plum',
+    'litchi': 'litchi', 'lychee': 'litchi', 'red litchi': 'litchi',
+    'mango': 'mango', 'green mango': 'mango', 'alphonso mango': 'mango', 'papaya': 'mango',
+    'pomegranate': 'pomegranate',
+    'coconut': 'coconut', 'coconut milk': 'coconut', 'coconut water': 'coconut', 'coconut nectar': 'coconut',
+    'rhubarb': 'rhubarb', 'rhuburb': 'rhubarb',
+    'fig': 'green-notes', 'fig leaf': 'green-notes', 'dates': 'caramel',
+    
+    # Herbs & Green
+    'oregano': 'oregano', 'wild oregano': 'oregano',
+    'basil': 'basil', 'sweet basil': 'basil', 'holy basil': 'basil', 'black basil': 'basil',
+    'thyme': 'thyme', 'red thyme': 'thyme', 'wild thyme': 'thyme',
     'rosemary': 'rosemary',
-    'incense': 'incense', 'frankincense': 'incense', 'olibanum': 'incense', 'myrrh': 'incense',
-    'iris': 'iris', 'orris': 'iris', 'orris root': 'iris',
+    'mint': 'mint', 'spearmint': 'mint', 'peppermint': 'mint',
+    'clary sage': 'clary-sage', 'sage': 'clary-sage', 'salvia': 'clary-sage',
+    'green notes': 'green-notes', 'green leaves': 'green-notes', 'green accord': 'green-notes', 'green grass': 'green-notes', 'ivy': 'green-notes', 'dew': 'green-notes', 'foliage': 'green-notes', 'herbal notes': 'green-notes', 'herbs': 'green-notes', 'tomato leaf': 'green-notes', 'shiso': 'green-notes', 'bamboo': 'green-notes', 'cypriol oil': 'green-notes', 'nagarmotha': 'green-notes', 'papyrus': 'green-notes', 'bay leaf': 'green-notes', 'artemisia': 'wormwood', 'wormwood': 'wormwood', 'absinthe': 'wormwood', 'davana': 'green-notes', 'myrtle': 'green-notes', 'tarragon': 'green-notes', 'cactus': 'green-notes', 'aloe vera': 'green-notes', 'cucumber': 'green-notes',
+    'tea': 'tea', 'green tea': 'tea', 'black tea': 'tea', 'tea leaf': 'tea', 'mate': 'tea', 'earl grey': 'tea', 'masala chai': 'tea', 'wheat': 'tea',
+    'juniper berries': 'juniper-berries', 'juniper': 'juniper-berries', 'juniper berry': 'juniper-berries', 'gin': 'juniper-berries',
+    
+    # Florals
+    'grasse rose': 'rose', 'damask rose': 'rose', 'turkish rose': 'rose', 'bulgarian rose': 'rose', 'may rose': 'rose', 'taif rose': 'rose', 'rose': 'rose', 'rosa': 'rose', 'centifolia rose': 'rose', 'moroccan rose': 'rose', 'rose de mai': 'rose', 'rose petals': 'rose', 'black rose': 'rose',
+    'sambac jasmine': 'jasmine', 'white jasmine': 'jasmine', 'jasmine': 'jasmine', 'jasmine sambac': 'jasmine', 'water jasmine': 'jasmine', 'egyptian jasmine': 'jasmine', 'white flowers': 'jasmine', 'floral notes': 'jasmine', 'jasmine petals': 'jasmine', 'gardenia': 'jasmine',
+    'french lavender': 'lavender', 'lavender': 'lavender', 'wild lavender': 'lavender',
+    'iris': 'iris', 'orris': 'iris', 'orris root': 'iris', 'powdery notes': 'iris',
     'violet': 'violet', 'violet leaf': 'violet', 'violet leaves': 'violet', 'parma violet': 'violet',
-    'leather': 'leather', 'suede': 'leather', 'tuscan leather': 'leather', 'white suede': 'leather',
-    'wormwood': 'wormwood', 'artemisia': 'wormwood', 'clary sage': 'wormwood', 'sage': 'wormwood',
-    'neroli': 'neroli', 'orange blossom': 'neroli', 'african orange flower': 'neroli', 'petitgrain': 'neroli',
-    'tuberose': 'jasmine', 'gardenia': 'jasmine', 'magnolia': 'jasmine', 'lily': 'jasmine', 'lily-of-the-valley': 'jasmine', 'freesia': 'jasmine', 'carnation': 'rose', 'geranium': 'rose', 'lotus': 'jasmine', 'peony': 'rose', 'osmanthus': 'jasmine', 'heliotrope': 'jasmine'
+    'tuberose': 'tuberose', 'indian tuberose': 'tuberose',
+    'lily-of-the-valley': 'lily-of-the-valley', 'lily of the valley': 'lily-of-the-valley', 'muguet': 'lily-of-the-valley', 'lily': 'lily-of-the-valley',
+    'geranium': 'geranium', 'rose geranium': 'geranium', 'bourbon geranium': 'geranium', 'pelargonium': 'geranium',
+    'magnolia': 'magnolia',
+    'freesia': 'freesia', 'white freesia': 'freesia',
+    'ylang-ylang': 'ylang-ylang', 'ylang ylang': 'ylang-ylang', 'cananga': 'ylang-ylang',
+    'peony': 'rose', 'carnation': 'rose', 'lotus': 'jasmine', 'osmanthus': 'jasmine', 'heliotrope': 'jasmine', 'narcissus': 'jasmine', 'hyacinth': 'jasmine', 'blue hyacinth': 'jasmine', 'hiacynth': 'jasmine', 'cyclamen': 'jasmine', 'red cyclamen': 'jasmine', 'mimosa': 'jasmine', 'lilac': 'jasmine', 'chamomile': 'jasmine', 'frangipani': 'jasmine', 'hibiscus': 'rose', 'wisteria': 'jasmine', 'marigold': 'orange-blossom', 'tagetes': 'orange-blossom', 'hawthorn': 'jasmine',
+    
+    # Spices
+    'pimento': 'pimento', 'allspice': 'pimento', 'jamaican pepper': 'pimento', 'red pimento': 'pimento',
+    'cardamom': 'cardamom', 'green cardamom': 'cardamom', 'guatemalan cardamom': 'cardamom', 'cardamon': 'cardamom',
+    'cinnamon': 'cinnamon', 'ceylon cinnamon': 'cinnamon', 'cinnamon bark': 'cinnamon',
+    'black pepper': 'black-pepper', 'pepper': 'black-pepper', 'sichuan pepper': 'black-pepper', 'white pepper': 'black-pepper', 'peppercorn': 'black-pepper',
+    'pink pepper': 'pink-pepper', 'pink-pepper': 'pink-pepper', 'red pepper': 'pink-pepper',
+    'saffron': 'saffron', 'red saffron': 'saffron',
+    'ginger': 'ginger', 'fresh ginger': 'ginger', 'ginger root': 'ginger', 'blue ginger': 'ginger',
+    'nutmeg': 'nutmeg', 'mace': 'nutmeg',
+    'coriander': 'coriander', 'coriander seeds': 'coriander', 'coriander leaf': 'coriander', 'cilantro': 'coriander', 'celery seeds': 'coriander', 'carrot seeds': 'coriander',
+    'star anise': 'star-anise', 'anise': 'star-anise', 'aniseed': 'star-anise', 'licorice': 'star-anise', 'liquorice': 'star-anise', 'fennel': 'star-anise',
+    'clove': 'clove', 'cloves': 'clove', 'clove leaf': 'clove', 'clove bud': 'clove',
+    'caraway': 'caraway', 'caraway seeds': 'caraway',
+    'cumin': 'cumin', 'black cumin': 'cumin',
+    'spices': 'cardamom', 'spicy notes': 'cardamom', 'oriental notes': 'cardamom',
+    
+    # Woods & Earth
+    'virginian cedar': 'cedarwood', 'atlas cedar': 'cedarwood', 'cedar': 'cedarwood', 'cedarwood': 'cedarwood', 'virginia cedar': 'cedarwood', 'white woods': 'cedarwood', 'woodsy notes': 'cedarwood', 'woody notes': 'cedarwood', 'teak wood': 'cedarwood', 'guaiac wood': 'cedarwood', 'cashmere wood': 'cedarwood', 'white cedar extract': 'cedarwood', 'driftwood': 'cedarwood', 'pine': 'cedarwood', 'cypress': 'cedarwood', 'fir': 'cedarwood', 'balsam fir': 'cedarwood', 'mahogany': 'cedarwood', 'oak': 'cedarwood',
+    'mysore sandalwood': 'sandalwood', 'sandalwood': 'sandalwood', 'natural sandalwood': 'sandalwood',
+    'agarwood': 'oud', 'cambodian oud': 'oud', 'agarwood (oud)': 'oud', 'oud': 'oud', 'laotian oud': 'oud', 'assam oud': 'oud', 'indian oud': 'oud', 'bakhoor': 'oud',
+    'haitian vetiver': 'vetiver', 'vetiver': 'vetiver', 'bourbon vetiver': 'vetiver', 'java vetiver': 'vetiver', 'sand vetiver': 'vetiver', 'tahitian vetiver': 'vetiver', 'vetyver': 'vetiver', 'truffle': 'vetiver', 'earthy notes': 'vetiver',
+    'patchouli': 'patchouli', 'indonesian patchouli': 'patchouli', 'patchouli leaf': 'patchouli',
+    'oakmoss': 'oakmoss', 'moss': 'oakmoss', 'tree moss': 'oakmoss',
+    'amberwood': 'amberwood', 'amber wood': 'amberwood',
+    
+    # Resins, Smoke, Balsams
+    'smoke': 'smoke', 'smoky notes': 'smoke', 'birch tar': 'smoke', 'incense smoke': 'smoke', 'cade oil': 'smoke',
+    'opoponax': 'opoponax', 'sweet myrrh': 'opoponax',
+    'labdanum': 'labdanum', 'cistus': 'labdanum', 'rockrose': 'labdanum', 'french labdanum': 'labdanum',
+    'benzoin': 'benzoin', 'siam benzoin': 'benzoin',
+    'incense': 'incense', 'frankincense': 'incense', 'olibanum': 'incense', 'myrrh': 'incense', 'myrhh': 'incense',
+    'elemi': 'elemi', 'elemi resin': 'elemi',
+    'styrax': 'styrax', 'storax': 'styrax', 'tolu balsam': 'styrax', 'peru balsam': 'styrax', 'gurjan balsam': 'styrax', 'fir resin': 'styrax', 'resins': 'styrax',
+    'galbanum': 'galbanum', 'galbanum resin': 'galbanum',
+    
+    # Musks & Animals
+    'white musk': 'musk', 'crystal musk': 'musk', 'musk': 'musk', 'cashmeran': 'musk', 'ambrette': 'musk', 'ambrette (musk mallow)': 'musk', 'civet': 'musk', 'castoreum': 'musk',
+    'ambergris': 'ambergris', 'grey amber': 'ambergris', 'ambre gris': 'ambergris',
+    'ambroxan': 'ambroxan', 'ambrox': 'ambroxan', 'cetalox': 'ambroxan', 'ambrofix': 'ambroxan',
+    'amber': 'amber', 'black amber': 'amber', 'white amber': 'amber', 'amber xtreme': 'amber',
+    
+    # Gourmand, Sweet, Booze
+    'bourbon vanilla': 'vanilla', 'madagascar vanilla': 'vanilla', 'vanilla': 'vanilla', 'vanilla orchid': 'vanilla', 'vanilla caviar': 'vanilla', 'black vanilla husk': 'vanilla', 'whipped vanilla': 'vanilla', 'vanilla absolute': 'vanilla', 'vanille': 'vanilla', 'vanila': 'vanilla', 'milk': 'vanilla', 'whipped cream': 'vanilla', 'ice cream': 'vanilla',
+    'tonka': 'tonka-bean', 'tonka bean': 'tonka-bean', 'coumarin': 'tonka-bean',
+    'cacao': 'cacao', 'cocoa': 'cacao', 'chocolate': 'cacao', 'dark chocolate': 'cacao', 'cacao pod': 'cacao',
+    'coffee': 'coffee', 'roasted coffee': 'coffee', 'espresso': 'coffee', 'coffee beans': 'coffee', 'roasted coffee beans': 'coffee',
+    'tobacco': 'tobacco', 'tobacco leaf': 'tobacco', 'cured tobacco': 'tobacco', 'white tobacco': 'tobacco', 'tobacco blossom': 'tobacco',
+    'almond': 'almond', 'bitter almond': 'almond', 'sweet almond': 'almond', 'green almond': 'almond', 'candied almond': 'almond', 'almond creme': 'almond', 'pistachio': 'almond', 'hazelnut': 'almond', 'chestnut': 'almond', 'sesame': 'almond',
+    'honey': 'honey', 'honeycomb': 'honey', 'white honey': 'honey', 'beeswax': 'honey',
+    'caramel': 'caramel', 'toffee': 'caramel', 'dulce de leche': 'caramel', 'praline': 'caramel', 'butterscotch': 'caramel', 'marshmallow': 'caramel', 'marshamallow': 'caramel', 'cotton candy': 'caramel', 'sugar': 'caramel', 'brown sugar': 'caramel', 'cupcake': 'caramel',
+    'rum': 'rum', 'cognac': 'rum', 'whiskey': 'rum', 'brandy': 'rum', 'bourbon': 'rum', 'liquor': 'rum', 'champagne': 'rum', 'sparkling champagne': 'rum', 'champagne rosé': 'rum', 'vodka': 'rum', 'wine': 'rum', 'red wine notes': 'rum', 'grapes': 'raspberry',
+    
+    # Marine, Clean, Molecules
+    'sea notes': 'sea-notes', 'marine notes': 'sea-notes', 'aquatic notes': 'sea-notes', 'ocean notes': 'sea-notes', 'sea salt': 'sea-notes', 'water notes': 'sea-notes', 'calone': 'sea-notes', 'sea water': 'sea-notes', 'watery notes': 'sea-notes', 'seaweed': 'sea-notes',
+    'mineral notes': 'aldehydes', 'ozonic notes': 'aldehydes', 'solar notes': 'aldehydes', 'aldehydes': 'aldehydes',
+    'iso e super': 'cedarwood', 'hedione': 'jasmine',
+    'leather': 'leather', 'suede': 'leather', 'tuscan leather': 'leather', 'white suede': 'leather'
 }
 
 def resolve_note(note_name):
@@ -71,38 +140,54 @@ def resolve_note(note_name):
     disp_name = ' '.join(w.capitalize() for w in clean.split())
     low = clean.lower()
     
+    # 1. Direct match in NOTE_IMG_MAP
     if low in NOTE_IMG_MAP:
         return {'name': disp_name, 'image': NOTE_IMG_MAP[low]}
         
+    # 2. Exact match in SYNONYMS
     if low in SYNONYMS:
-        syn = SYNONYMS[low]
-        if syn.lower() in NOTE_IMG_MAP:
-            return {'name': disp_name, 'image': NOTE_IMG_MAP[syn.lower()]}
+        target = SYNONYMS[low]
+        if target in NOTE_IMG_MAP:
+            return {'name': disp_name, 'image': NOTE_IMG_MAP[target]}
             
-    for k, syn in SYNONYMS.items():
-        if k in low or low in k:
-            if syn.lower() in NOTE_IMG_MAP:
-                return {'name': disp_name, 'image': NOTE_IMG_MAP[syn.lower()]}
+    # 3. Substring match in SYNONYMS
+    for k, target in SYNONYMS.items():
+        if k == low or k in low:
+            if target in NOTE_IMG_MAP:
+                return {'name': disp_name, 'image': NOTE_IMG_MAP[target]}
                 
-    if any(w in low for w in ['citrus', 'lime', 'yuzu', 'lemon']):
+    # 4. Keyword family fallbacks
+    if any(w in low for w in ['citrus', 'lime', 'yuzu', 'lemon', 'citron']):
         return {'name': disp_name, 'image': 'assets/images/notes/lemon.png'}
     elif any(w in low for w in ['orange', 'mandarin', 'tangerine', 'clementine']):
         return {'name': disp_name, 'image': 'assets/images/notes/orange.png'}
-    elif any(w in low for w in ['flower', 'blossom', 'petal', 'flora', 'lily', 'freesia', 'orchid', 'jasmine', 'gardenia', 'tuberose', 'lotus']):
+    elif any(w in low for w in ['herb', 'leaf', 'leaves', 'grass', 'green']):
+        return {'name': disp_name, 'image': 'assets/images/notes/green-notes.png'}
+    elif any(w in low for w in ['flower', 'blossom', 'petal', 'flora', 'lily', 'freesia', 'orchid', 'jasmine', 'gardenia', 'lotus']):
         return {'name': disp_name, 'image': 'assets/images/notes/jasmine.png'}
-    elif any(w in low for w in ['rose', 'peony', 'carnation', 'geranium']):
+    elif any(w in low for w in ['rose', 'peony', 'carnation']):
         return {'name': disp_name, 'image': 'assets/images/notes/rose.png'}
-    elif any(w in low for w in ['berry', 'cherry', 'fruit', 'plum', 'fig', 'currant', 'raspberry', 'apple', 'peach', 'pear']):
+    elif any(w in low for w in ['berry', 'cherry', 'fruit', 'plum', 'currant', 'raspberry', 'apple', 'peach', 'pear', 'grape']):
         return {'name': disp_name, 'image': 'assets/images/notes/raspberry.png'}
+    elif any(w in low for w in ['pepper']):
+        return {'name': disp_name, 'image': 'assets/images/notes/black-pepper.png'}
     elif any(w in low for w in ['wood', 'tree', 'pine', 'cypress', 'birch', 'cedar']):
         return {'name': disp_name, 'image': 'assets/images/notes/cedarwood.png'}
     elif any(w in low for w in ['sandal']):
         return {'name': disp_name, 'image': 'assets/images/notes/sandalwood.png'}
     elif any(w in low for w in ['oud', 'agar']):
         return {'name': disp_name, 'image': 'assets/images/notes/oud.png'}
-    elif any(w in low for w in ['sweet', 'sugar', 'honey', 'caramel', 'chocolate', 'vanilla', 'praline', 'cocoa']):
+    elif any(w in low for w in ['smoke']):
+        return {'name': disp_name, 'image': 'assets/images/notes/smoke.png'}
+    elif any(w in low for w in ['resin', 'balsam', 'gum']):
+        return {'name': disp_name, 'image': 'assets/images/notes/styrax.png'}
+    elif any(w in low for w in ['sweet', 'sugar', 'caramel', 'honey', 'candy']):
+        return {'name': disp_name, 'image': 'assets/images/notes/caramel.png'}
+    elif any(w in low for w in ['vanilla']):
         return {'name': disp_name, 'image': 'assets/images/notes/vanilla.png'}
-    elif any(w in low for w in ['spice', 'ginger', 'nutmeg', 'clove', 'pepper', 'cardamom', 'cinnamon']):
+    elif any(w in low for w in ['chocolate', 'cacao', 'cocoa']):
+        return {'name': disp_name, 'image': 'assets/images/notes/cacao.png'}
+    elif any(w in low for w in ['spice', 'seed']):
         return {'name': disp_name, 'image': 'assets/images/notes/cardamom.png'}
     elif any(w in low for w in ['water', 'sea', 'marine', 'ocean', 'aqua', 'salt']):
         return {'name': disp_name, 'image': 'assets/images/notes/sea-notes.png'}
