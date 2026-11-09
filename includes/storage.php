@@ -200,7 +200,7 @@ function getAdminUser() {
     }
     return [
         'username' => 'admin',
-        'password' => password_hash('admin123', PASSWORD_DEFAULT)
+        'password' => password_hash('pannaheera@#2026', PASSWORD_DEFAULT)
     ];
 }
 
@@ -212,12 +212,6 @@ function loginAdmin($username, $password) {
         $_SESSION['admin_username'] = $admin['username'];
         return true;
     }
-    // Also allow raw check for first run fallback
-    if ($username === 'admin' && $password === 'admin123') {
-        $_SESSION['admin_logged_in'] = true;
-        $_SESSION['admin_username'] = 'admin';
-        return true;
-    }
     return false;
 }
 
@@ -226,6 +220,10 @@ function changeAdminPassword($newPassword, $newUsername = 'admin') {
         'username' => $newUsername,
         'password' => password_hash($newPassword, PASSWORD_DEFAULT)
     ];
+    $tmpAdmin = sys_get_temp_dir() . '/panna_admin_user.json';
+    if (file_exists($tmpAdmin)) {
+        @file_put_contents($tmpAdmin, json_encode($updated, JSON_PRETTY_PRINT));
+    }
     return file_put_contents(ADMIN_USER_FILE, json_encode($updated, JSON_PRETTY_PRINT));
 }
 
