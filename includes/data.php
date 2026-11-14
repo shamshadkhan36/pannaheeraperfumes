@@ -14,6 +14,7 @@ $siteData = loadSiteData();
 $categories = $siteData['categories'] ?? [];
 $products = $siteData['products'] ?? [];
 $banner = $siteData['banner'] ?? [];
+$siteSettings = $siteData['settings'] ?? [];
 
 /**
  * Find product by ID

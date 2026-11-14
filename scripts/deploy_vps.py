@@ -35,15 +35,24 @@ def main():
     print("SFTP session opened.")
 
     files_to_upload = [
-        ('data/site_data.json', f'{REMOTE_BASE}/data/site_data.json'),
-        ('data/notes_library.json', f'{REMOTE_BASE}/data/notes_library.json'),
-        ('assets/js/products-data.js', f'{REMOTE_BASE}/assets/js/products-data.js'),
-        ('assets/images/categories/fragrance-oils.jpg', f'{REMOTE_BASE}/assets/images/categories/fragrance-oils.jpg'),
+        ('config.php', f'{REMOTE_BASE}/config.php'),
+        ('contact.php', f'{REMOTE_BASE}/contact.php'),
         ('index.php', f'{REMOTE_BASE}/index.php'),
         ('product-detail.php', f'{REMOTE_BASE}/product-detail.php'),
         ('fragrances.php', f'{REMOTE_BASE}/fragrances.php'),
         ('products.php', f'{REMOTE_BASE}/products.php'),
+        ('includes/data.php', f'{REMOTE_BASE}/includes/data.php'),
+        ('includes/header.php', f'{REMOTE_BASE}/includes/header.php'),
         ('includes/footer.php', f'{REMOTE_BASE}/includes/footer.php'),
+        ('includes/modals.php', f'{REMOTE_BASE}/includes/modals.php'),
+        ('includes/storage.php', f'{REMOTE_BASE}/includes/storage.php'),
+        ('data/site_data.json', f'{REMOTE_BASE}/data/site_data.json'),
+        ('data/notes_library.json', f'{REMOTE_BASE}/data/notes_library.json'),
+        ('assets/js/products-data.js', f'{REMOTE_BASE}/assets/js/products-data.js'),
+        ('assets/js/main.js', f'{REMOTE_BASE}/assets/js/main.js'),
+        ('assets/images/whatsapp-icon.svg', f'{REMOTE_BASE}/assets/images/whatsapp-icon.svg'),
+        ('assets/images/whatsapp-color.svg', f'{REMOTE_BASE}/assets/images/whatsapp-color.svg'),
+        ('assets/images/categories/fragrance-oils.jpg', f'{REMOTE_BASE}/assets/images/categories/fragrance-oils.jpg'),
     ]
 
     # Add all 40 note images

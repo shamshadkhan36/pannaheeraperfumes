@@ -28,7 +28,7 @@ if (!defined('PHONE_NUMBER')) define('PHONE_NUMBER', '+91 98765 43210');
 if (!defined('PHONE_RAW')) define('PHONE_RAW', '+919876543210');
 if (!defined('WHATSAPP_NUMBER')) define('WHATSAPP_NUMBER', '919876543210');
 if (!defined('CONTACT_EMAIL')) define('CONTACT_EMAIL', 'sales@pannaheeraparfums.com');
-if (!defined('COMPANY_ADDRESS')) define('COMPANY_ADDRESS', 'Industrial Fragrance Zone, Mumbai, Maharashtra 400001, India');
+if (!defined('COMPANY_ADDRESS')) define('COMPANY_ADDRESS', '14, Masjid Street, Opp. Mandvi Post Office, Bhendi Bazar, Mumbai - 400003');
 if (!defined('BUSINESS_HOURS')) define('BUSINESS_HOURS', 'Mon - Sat: 9:30 AM - 7:00 PM IST');
 
 // Currency & Commerce
