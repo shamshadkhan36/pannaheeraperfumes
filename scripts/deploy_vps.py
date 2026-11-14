@@ -37,6 +37,7 @@ def main():
     files_to_upload = [
         ('config.php', f'{REMOTE_BASE}/config.php'),
         ('contact.php', f'{REMOTE_BASE}/contact.php'),
+        ('about.php', f'{REMOTE_BASE}/about.php'),
         ('index.php', f'{REMOTE_BASE}/index.php'),
         ('product-detail.php', f'{REMOTE_BASE}/product-detail.php'),
         ('fragrances.php', f'{REMOTE_BASE}/fragrances.php'),
@@ -76,6 +77,7 @@ def main():
 
     # Fix permissions and reload services
     commands = [
+        f"rm -rf {REMOTE_BASE}/assets/docs",
         f"chown -R www-data:www-data {REMOTE_BASE}/",
         "chmod -R 755 /var/www/html/assets /var/www/html/data",
         "systemctl reload php8.3-fpm nginx || systemctl restart php8.3-fpm nginx"

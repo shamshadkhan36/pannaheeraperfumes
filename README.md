@@ -29,7 +29,7 @@ A responsive, high-converting luxury website built in **PHP** for **Panna Heera 
    - Olfactory Family filter pills: *Designer Fragrances*, *Oriental & Arabic*, *Niche Luxury*, *Fruits*, and *Floral*.
    - Live tiered wholesale pricing across **1 KG**, **100 GM**, and **25 GM** packs.
    - Instant 1-click **"Order on WhatsApp"** pre-formatted with exact perfume name and size.
-   - Direct 1-click **"Download PDF Price List"** button linking to `assets/docs/panna-heera-price-list.pdf`.
+   - Direct 1-click **"Explore 1,040 Fragrances"** button linking to `fragrances.php`.
    - Dual view modes: Tabular Rate List View & Luxury Product Cards View with instant client-side search.
 5. **Featured Fragrance Spotlight Grid**:
    - 24 iconic bestselling perfume oils featured directly on the homepage and catalog with pack size modal selector.

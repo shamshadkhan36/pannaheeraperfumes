@@ -38,9 +38,7 @@ include_once __DIR__ . '/includes/header.php';
           <a href="fragrances.php" class="bg-black text-white hover:bg-neutral-800 px-6 py-3 rounded-full text-xs font-bold tracking-wide transition shadow-md">
             Explore 1,040 Fragrance Rate List
           </a>
-          <a href="assets/docs/panna-heera-price-list.pdf" download class="border border-neutral-300 hover:border-black text-neutral-900 px-6 py-3 rounded-full text-xs font-bold tracking-wide transition">
-            Download PDF Rate List
-          </a>
+          <a href="contact.php" class="border border-neutral-300 hover:border-black text-neutral-900 px-6 py-3 rounded-full text-xs font-bold tracking-wide transition">Contact Wholesale Sales</a>
         </div>
       </div>
 

@@ -80,7 +80,7 @@
           <h4 class="text-xs font-bold uppercase tracking-widest text-white mb-4">B2B Solutions</h4>
           <ul class="space-y-2.5 text-xs">
             <li><a href="fragrances.php" class="text-amber-400 font-bold hover:underline">Fragrance Oils (1,040 Catalog)</a></li>
-            <li><a href="assets/docs/panna-heera-price-list.pdf" download class="hover:text-gold transition">Download PDF Rate List</a></li>
+            <li><a href="contact.php" class="hover:text-gold transition">Request Wholesale Pricing</a></li>
             <li><a href="about.php" class="hover:text-gold transition">Our Scent Heritage</a></li>
             <li><a href="about.php#capabilities" class="hover:text-gold transition">100% Pure & Alcohol-Free</a></li>
             <li><a href="contact.php" class="hover:text-gold transition">100 GM Production Lots</a></li>
